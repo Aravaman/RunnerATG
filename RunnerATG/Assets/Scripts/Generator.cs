@@ -85,7 +85,9 @@ public class Generator : MonoBehaviour
                 {
                     int tileX = (int)(((float)x / (planeWidth - 1)) * (Width - 1));
                     int tileY = (int)(((float)y / (planeHeight - 1)) * (Height - 1));
-                    vertices[index].y = Tiles[tileX, tileY].HeightValue * 10;
+                    float targetHeight = Tiles[tileX, tileY].HeightValue * 10;
+                    float smoothHeight = Mathf.Lerp(vertices[index].y, targetHeight, 10f);
+                    vertices[index].y = smoothHeight;
                 }
             }
         }
@@ -109,8 +111,8 @@ public class Generator : MonoBehaviour
                 float dx = x2 - x1;
                 float dy = y2 - y1;
 
-                float s = x / (float)Width;
-                float t = y / (float)Height;
+                float s = (x + offset.x * 7) / (float)Width;
+                float t = (y + offset.y) / (float)Height;
 
                 float nx = x1 + Mathf.Cos(s * 2 * Mathf.PI) * dx / (2 * Mathf.PI);
                 float ny = y1 + Mathf.Cos(t * 2 * Mathf.PI) * dy / (2 * Mathf.PI);
