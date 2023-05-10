@@ -61,7 +61,7 @@ public class Generator : MonoBehaviour
 
     private void Initialize()
     {
-        // Initialize the HeightMap Generator
+        // »нициализаци€ генератора карты высот
         HeightMap = new FastNoiseLite(UnityEngine.Random.Range(0, int.MaxValue));
         HeightMap.SetNoiseType(FastNoiseLite.NoiseType.OpenSimplex2S);
         HeightMap.SetFractalType(FastNoiseLite.FractalType.FBm);
@@ -71,6 +71,7 @@ public class Generator : MonoBehaviour
 
     private void UpdateMesh()
     {
+        // ќбновление вершин сетки исход€ из высоты
         Vector3[] vertices = originalMesh.vertices;
 
         int planeWidth = (int)Mathf.Sqrt(vertices.Length);
@@ -96,12 +97,12 @@ public class Generator : MonoBehaviour
         originalMesh.RecalculateNormals();
     }
 
-    // Extract data from a noise generator
+    // ѕолучение данных из генератора шума
     private void GetData(FastNoiseLite generator, ref MapData mapData)
     {
         mapData = new MapData(Width, Height);
 
-        // loop through each x, y point - get height value
+        // ÷икл по каждой координате x и y и получение значени€ высоты
         for (var x = 0; x < Width; x++)
         {
             for (var y = 0; y < Height; y++)
@@ -128,7 +129,7 @@ public class Generator : MonoBehaviour
         }
     }
 
-    // Build a Tile array from our data
+    // —оздание массива плиток из наших данных
     private void LoadTiles()
     {
         Tiles = new Tile[Width, Height];
@@ -153,6 +154,7 @@ public class Generator : MonoBehaviour
 
     private void UpdateNeighbors()
     {
+        // ќбновление соседних плиток дл€ каждой плитки
         for (var x = 0; x < Width; x++)
         {
             for (var y = 0; y < Height; y++)

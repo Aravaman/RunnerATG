@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -26,6 +25,7 @@ public class RoadGenerator : MonoBehaviour
     void Update()
     {
         if (speed == 0) return;
+        // Перемещение дорог на основе текущей скорости
         foreach (GameObject road in roads)
         {
             road.transform.position -= new Vector3(0, 0, speed * Time.deltaTime);
@@ -35,15 +35,19 @@ public class RoadGenerator : MonoBehaviour
                 road.transform.position -= new Vector3(speed * Time.deltaTime, 0, 0);
         }
 
+        // Создание новой дороги, когда первая дорога выходит за пределы области видимости
         if (roads[0].transform.position.z < -110)
             CreatNextRoad();
 
+        // Увеличение максимальной скорости постепенно, если startSpeedBust активен
         if (startSpeedBust)
+            if (startSpeedBust)
             maxSpeed += 0.1f * Time.deltaTime;
     }
 
     private void CreatNextRoad()
     {
+        // Создание новой дороги в определенной позиции
         Vector3 pos = Vector3.zero;
         if (roads.Count > 0)
         {
@@ -56,7 +60,7 @@ public class RoadGenerator : MonoBehaviour
             GameObject newRoad = Instantiate(RoadPrefab[Random.Range(0, RoadPrefab.Length)], roadPos, Quaternion.identity, transform);
             roads.Add(newRoad);
         }
-
+        // Удаление дорог, когда их количество превышает заданное значение
         if (roads.Count > maxRoadCount * delRoadCount)
         {
             for (int i = 0; i < delRoadCount; i++)
@@ -67,12 +71,14 @@ public class RoadGenerator : MonoBehaviour
         }
     }
 
+    // Начало уровня с заданной скоростью
     public void StartLevel()
     {
         speed = maxSpeed;
         startSpeedBust = true;
     }
 
+    // Сброс уровня и удаление существующих дорог
     public void ReseLevel()
     {
         speed = 0;
