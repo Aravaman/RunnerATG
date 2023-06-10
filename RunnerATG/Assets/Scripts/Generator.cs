@@ -24,9 +24,11 @@ public class Generator : MonoBehaviour
     MeshRenderer HeightMapRenderer;
     Vector2 offset = Vector2.zero;
 
+    public Material[] materials;
+
     void Start()
     {
-        HeightMapRenderer = GetComponent<MeshRenderer>();
+        HeightMapRenderer = transform.GetComponent<MeshRenderer>();
         meshFilter = GetComponent<MeshFilter>();
 
         originalMesh = meshFilter.mesh;
@@ -36,6 +38,8 @@ public class Generator : MonoBehaviour
         LoadTiles();
 
         UpdateNeighbors();
+
+        HeightMapRenderer.sharedMaterial = materials[Random.Range(0, materials.Length)];
 
         HeightMapRenderer.materials[0].mainTexture = TextureGenerator.GetTexture(Width, Height, Tiles);
     }
@@ -62,11 +66,12 @@ public class Generator : MonoBehaviour
     private void Initialize()
     {
         // Инициализация генератора карты высот
-        HeightMap = new FastNoiseLite(UnityEngine.Random.Range(0, int.MaxValue));
-        HeightMap.SetNoiseType(FastNoiseLite.NoiseType.OpenSimplex2S);
+        HeightMap = new FastNoiseLite();
         HeightMap.SetFractalType(FastNoiseLite.FractalType.FBm);
+        HeightMap.SetNoiseType(FastNoiseLite.NoiseType.Perlin);
         HeightMap.SetFractalOctaves(TerrainOctaves);
-        HeightMap.SetFractalLacunarity((float)TerrainFrequency);
+        HeightMap.SetFrequency((float)TerrainFrequency);
+        HeightMap.SetSeed(UnityEngine.Random.Range(0, int.MaxValue));
     }
 
     private void UpdateMesh()
@@ -113,13 +118,13 @@ public class Generator : MonoBehaviour
                 float dy = y2 - y1;
 
                 float s = (x + offset.x * 7) / (float)Width;
-                float t = (y + offset.y) / (float)Height;
+                float t = (y + offset.y * 10) / (float)Height;
 
                 float nx = x1 + Mathf.Cos(s * 2 * Mathf.PI) * dx / (2 * Mathf.PI);
-                float ny = y1 + Mathf.Cos(t * 2 * Mathf.PI) * dy / (2 * Mathf.PI);
-                float nz = x1 + Mathf.Sin(s * 2 * Mathf.PI) * dx / (2 * Mathf.PI);
+                float ny = y1 + Mathf.Sin(t * 2 * Mathf.PI) * dy / (2 * Mathf.PI);
+                float nz = t;
 
-                float heightValue = (float)HeightMap.GetNoise(nx, ny, nz);
+                float heightValue = (float)HeightMap.GetNoise(nx, ny);
 
                 if (heightValue > mapData.Max) mapData.Max = heightValue;
                 if (heightValue < mapData.Min) mapData.Min = heightValue;
