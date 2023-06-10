@@ -58,9 +58,13 @@ extern void Particle_set_startSize_mBBEBF7365A4E68FF2044E2ECEACC562376EA4A1F (vo
 extern void Particle_set_rotation3D_mC0B19BFEBA780F95C763DE14C80B29764E519D62 (void);
 // 0x00000017 System.Void UnityEngine.ParticleSystem/Particle::set_angularVelocity3D(UnityEngine.Vector3)
 extern void Particle_set_angularVelocity3D_m56AE22FE7AFB178DD206EA2A7E0DA64B360D7EA8 (void);
-// 0x00000018 System.Int32 UnityEngine.ParticleSystemRenderer::GetMeshes(UnityEngine.Mesh[])
+// 0x00000018 System.Int32 UnityEngine.ParticlePhysicsExtensions::GetCollisionEvents(UnityEngine.ParticleSystem,UnityEngine.GameObject,System.Collections.Generic.List`1<UnityEngine.ParticleCollisionEvent>)
+extern void ParticlePhysicsExtensions_GetCollisionEvents_mD44421A4CC66ECB3D6FD5D9012FE6131D3DB74B7 (void);
+// 0x00000019 System.Int32 UnityEngine.ParticleSystemRenderer::GetMeshes(UnityEngine.Mesh[])
 extern void ParticleSystemRenderer_GetMeshes_m3CA9AA8947C7F0468F6C0B7F1344D747EA43D440 (void);
-static Il2CppMethodPointer s_methodPointers[24] = 
+// 0x0000001A System.Int32 UnityEngine.ParticleSystemExtensionsImpl::GetCollisionEvents(UnityEngine.ParticleSystem,UnityEngine.GameObject,System.Collections.Generic.List`1<UnityEngine.ParticleCollisionEvent>)
+extern void ParticleSystemExtensionsImpl_GetCollisionEvents_mEEDB71C2FE85835660149E03178CFD1F503E15E3 (void);
+static Il2CppMethodPointer s_methodPointers[26] = 
 {
 	ParticleSystem_Emit_m27ED2FE38DEE11C9C98F7D30392BB5B39B6A16ED,
 	ParticleSystem_Emit_m329091E7F55C972CE85A100CA624192AD8442688,
@@ -85,7 +89,9 @@ static Il2CppMethodPointer s_methodPointers[24] =
 	Particle_set_startSize_mBBEBF7365A4E68FF2044E2ECEACC562376EA4A1F,
 	Particle_set_rotation3D_mC0B19BFEBA780F95C763DE14C80B29764E519D62,
 	Particle_set_angularVelocity3D_m56AE22FE7AFB178DD206EA2A7E0DA64B360D7EA8,
+	ParticlePhysicsExtensions_GetCollisionEvents_mD44421A4CC66ECB3D6FD5D9012FE6131D3DB74B7,
 	ParticleSystemRenderer_GetMeshes_m3CA9AA8947C7F0468F6C0B7F1344D747EA43D440,
+	ParticleSystemExtensionsImpl_GetCollisionEvents_mEEDB71C2FE85835660149E03178CFD1F503E15E3,
 };
 extern void ShapeModule__ctor_m951B06AF6BDA194E8111B2B72C104562F41CB0AD_AdjustorThunk (void);
 extern void ShapeModule_get_meshRenderer_m5D9ED8C01FF6A25113E0A29BBCDA2480EAD3CA2F_AdjustorThunk (void);
@@ -116,38 +122,40 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[13] =
 	{ 0x06000016, Particle_set_rotation3D_mC0B19BFEBA780F95C763DE14C80B29764E519D62_AdjustorThunk },
 	{ 0x06000017, Particle_set_angularVelocity3D_m56AE22FE7AFB178DD206EA2A7E0DA64B360D7EA8_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[24] = 
+static const int32_t s_InvokerIndices[26] = 
 {
-	337,
-	3358,
-	3236,
-	3236,
-	1821,
-	3180,
-	3997,
-	1409,
-	3255,
-	3884,
-	3255,
-	5700,
-	5431,
-	3286,
-	3330,
-	3330,
-	3286,
-	3286,
-	3193,
-	3326,
-	3286,
-	3330,
-	3330,
-	2717,
+	373,
+	3945,
+	3813,
+	3813,
+	2183,
+	3750,
+	4732,
+	1716,
+	3834,
+	4610,
+	3834,
+	6587,
+	6287,
+	3868,
+	3912,
+	3912,
+	3868,
+	3868,
+	3763,
+	3908,
+	3868,
+	3912,
+	3912,
+	5658,
+	3213,
+	5658,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_ParticleSystemModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_ParticleSystemModule_CodeGenModule = 
 {
 	"UnityEngine.ParticleSystemModule.dll",
-	24,
+	26,
 	s_methodPointers,
 	13,
 	s_adjustorThunks,

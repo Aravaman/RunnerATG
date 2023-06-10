@@ -576,2395 +576,2392 @@ extern void HandleUtility_GetActiveElementPosition_mAA3D44FA15DBCC6154E350326A86
 // 0x00000129 UnityEngine.Vector3 UnityEngine.ProBuilder.HandleUtility::GetActiveElementPosition(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void HandleUtility_GetActiveElementPosition_mC7CDDF13CF7D794AF585021BD1339DA2A8FB1E1D (void);
 // 0x0000012A System.Void UnityEngine.ProBuilder.IHasDefault::SetDefaultValues()
-// 0x0000012B T[] UnityEngine.ProBuilder.InternalUtility::GetComponents(System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject>)
-// 0x0000012C T[] UnityEngine.ProBuilder.InternalUtility::GetComponents(UnityEngine.GameObject)
-// 0x0000012D T[] UnityEngine.ProBuilder.InternalUtility::GetComponents(System.Collections.Generic.IEnumerable`1<UnityEngine.Transform>)
-// 0x0000012E UnityEngine.GameObject UnityEngine.ProBuilder.InternalUtility::EmptyGameObjectWithTransform(UnityEngine.Transform)
+// 0x0000012B T[] UnityEngine.ProBuilder.InternalUtility::GetComponents(UnityEngine.GameObject)
+// 0x0000012C T[] UnityEngine.ProBuilder.InternalUtility::GetComponents(System.Collections.Generic.IEnumerable`1<UnityEngine.Transform>)
+// 0x0000012D UnityEngine.GameObject UnityEngine.ProBuilder.InternalUtility::EmptyGameObjectWithTransform(UnityEngine.Transform)
 extern void InternalUtility_EmptyGameObjectWithTransform_mD09D2FA5108AEA98BEF49A5FBCD779A404FCA5E6 (void);
-// 0x0000012F UnityEngine.GameObject UnityEngine.ProBuilder.InternalUtility::MeshGameObjectWithTransform(System.String,UnityEngine.Transform,UnityEngine.Mesh,UnityEngine.Material,System.Boolean)
+// 0x0000012E UnityEngine.GameObject UnityEngine.ProBuilder.InternalUtility::MeshGameObjectWithTransform(System.String,UnityEngine.Transform,UnityEngine.Mesh,UnityEngine.Material,System.Boolean)
 extern void InternalUtility_MeshGameObjectWithTransform_m766A1282E2F87FC8634745097F58E29613E0987E (void);
-// 0x00000130 T UnityEngine.ProBuilder.InternalUtility::NextEnumValue(T)
-// 0x00000131 System.String UnityEngine.ProBuilder.InternalUtility::ControlKeyString(System.Char)
+// 0x0000012F T UnityEngine.ProBuilder.InternalUtility::NextEnumValue(T)
+// 0x00000130 System.String UnityEngine.ProBuilder.InternalUtility::ControlKeyString(System.Char)
 extern void InternalUtility_ControlKeyString_m5DEB2C2F1FAA73C6D63DA0EEDEF2A43E6203E919 (void);
-// 0x00000132 System.Boolean UnityEngine.ProBuilder.InternalUtility::TryParseColor(System.String,UnityEngine.Color&)
+// 0x00000131 System.Boolean UnityEngine.ProBuilder.InternalUtility::TryParseColor(System.String,UnityEngine.Color&)
 extern void InternalUtility_TryParseColor_m8446054B6BE8E74435C1EB9C3BDAD19F5B395170 (void);
-// 0x00000133 UnityEngine.Vector3[] UnityEngine.ProBuilder.InternalUtility::StringToVector3Array(System.String)
-extern void InternalUtility_StringToVector3Array_mC3D87D249522D2CF9B46DC195D9EB5756869CE3B (void);
-// 0x00000134 T UnityEngine.ProBuilder.InternalUtility::DemandComponent(UnityEngine.Component)
-// 0x00000135 T UnityEngine.ProBuilder.InternalUtility::DemandComponent(UnityEngine.GameObject)
-// 0x00000136 System.Void UnityEngine.ProBuilder.InternalUtility/<>c__DisplayClass7_0::.ctor()
-extern void U3CU3Ec__DisplayClass7_0__ctor_m2D67A706749D68623D53E900C988A66132561DB5 (void);
-// 0x00000137 System.Boolean UnityEngine.ProBuilder.InternalUtility/<>c__DisplayClass7_0::<TryParseColor>b__0(System.Char)
-extern void U3CU3Ec__DisplayClass7_0_U3CTryParseColorU3Eb__0_m862F4FE82E27C463E888FF126298D599240D023D (void);
-// 0x00000138 System.Single UnityEngine.ProBuilder.IntVec2::get_x()
+// 0x00000132 T UnityEngine.ProBuilder.InternalUtility::DemandComponent(UnityEngine.Component)
+// 0x00000133 T UnityEngine.ProBuilder.InternalUtility::DemandComponent(UnityEngine.GameObject)
+// 0x00000134 System.Void UnityEngine.ProBuilder.InternalUtility/<>c__DisplayClass6_0::.ctor()
+extern void U3CU3Ec__DisplayClass6_0__ctor_m96579B97C8F85B3AB1C930C6466245B90C58C9D3 (void);
+// 0x00000135 System.Boolean UnityEngine.ProBuilder.InternalUtility/<>c__DisplayClass6_0::<TryParseColor>b__0(System.Char)
+extern void U3CU3Ec__DisplayClass6_0_U3CTryParseColorU3Eb__0_m7E59514A3AC5F3A03356BF94065E97AB309BF2D8 (void);
+// 0x00000136 System.Single UnityEngine.ProBuilder.IntVec2::get_x()
 extern void IntVec2_get_x_m79581DDC7A013BDD1CD9394A499F7405FC306FB7 (void);
-// 0x00000139 System.Single UnityEngine.ProBuilder.IntVec2::get_y()
+// 0x00000137 System.Single UnityEngine.ProBuilder.IntVec2::get_y()
 extern void IntVec2_get_y_mBD67CADAAA249E7EBC359499220C81DE15D06737 (void);
-// 0x0000013A System.Void UnityEngine.ProBuilder.IntVec2::.ctor(UnityEngine.Vector2)
+// 0x00000138 System.Void UnityEngine.ProBuilder.IntVec2::.ctor(UnityEngine.Vector2)
 extern void IntVec2__ctor_mCB5D4292D4EF0DA45B4B61E1C7D16C08A813D85E (void);
-// 0x0000013B System.String UnityEngine.ProBuilder.IntVec2::ToString()
+// 0x00000139 System.String UnityEngine.ProBuilder.IntVec2::ToString()
 extern void IntVec2_ToString_mBB72FE4972F8D1AE9E656C8EDE169C15E1F1546A (void);
-// 0x0000013C System.Boolean UnityEngine.ProBuilder.IntVec2::op_Equality(UnityEngine.ProBuilder.IntVec2,UnityEngine.ProBuilder.IntVec2)
+// 0x0000013A System.Boolean UnityEngine.ProBuilder.IntVec2::op_Equality(UnityEngine.ProBuilder.IntVec2,UnityEngine.ProBuilder.IntVec2)
 extern void IntVec2_op_Equality_mE752BC6F25F5BCF201A00E5B6BC0C47AFEE7D524 (void);
-// 0x0000013D System.Boolean UnityEngine.ProBuilder.IntVec2::op_Inequality(UnityEngine.ProBuilder.IntVec2,UnityEngine.ProBuilder.IntVec2)
+// 0x0000013B System.Boolean UnityEngine.ProBuilder.IntVec2::op_Inequality(UnityEngine.ProBuilder.IntVec2,UnityEngine.ProBuilder.IntVec2)
 extern void IntVec2_op_Inequality_mE40EA9467819A043FDCA1BE14CA09BA34AD3E8AD (void);
-// 0x0000013E System.Boolean UnityEngine.ProBuilder.IntVec2::Equals(UnityEngine.ProBuilder.IntVec2)
+// 0x0000013C System.Boolean UnityEngine.ProBuilder.IntVec2::Equals(UnityEngine.ProBuilder.IntVec2)
 extern void IntVec2_Equals_m1BC65C9305EC7C56693192464FCE6C9F2D8CF1CC (void);
-// 0x0000013F System.Boolean UnityEngine.ProBuilder.IntVec2::Equals(UnityEngine.Vector2)
+// 0x0000013D System.Boolean UnityEngine.ProBuilder.IntVec2::Equals(UnityEngine.Vector2)
 extern void IntVec2_Equals_m8F0B662B957850BBE6B13D65436C50BDDE2D5BF7 (void);
-// 0x00000140 System.Boolean UnityEngine.ProBuilder.IntVec2::Equals(System.Object)
+// 0x0000013E System.Boolean UnityEngine.ProBuilder.IntVec2::Equals(System.Object)
 extern void IntVec2_Equals_mD058BC9F9DF39F334379AB23B9CF41C659778D20 (void);
-// 0x00000141 System.Int32 UnityEngine.ProBuilder.IntVec2::GetHashCode()
+// 0x0000013F System.Int32 UnityEngine.ProBuilder.IntVec2::GetHashCode()
 extern void IntVec2_GetHashCode_m51666461CA34C1B128C25041F435DCA6A13AF11D (void);
-// 0x00000142 System.Int32 UnityEngine.ProBuilder.IntVec2::round(System.Single)
+// 0x00000140 System.Int32 UnityEngine.ProBuilder.IntVec2::round(System.Single)
 extern void IntVec2_round_m6A70C5BC773348E9355E0D330F77B060A09ED8F9 (void);
-// 0x00000143 UnityEngine.Vector2 UnityEngine.ProBuilder.IntVec2::op_Implicit(UnityEngine.ProBuilder.IntVec2)
+// 0x00000141 UnityEngine.Vector2 UnityEngine.ProBuilder.IntVec2::op_Implicit(UnityEngine.ProBuilder.IntVec2)
 extern void IntVec2_op_Implicit_mAA03E449590411D2B1AF6AB3D64D45131E91E4F0 (void);
-// 0x00000144 UnityEngine.ProBuilder.IntVec2 UnityEngine.ProBuilder.IntVec2::op_Implicit(UnityEngine.Vector2)
+// 0x00000142 UnityEngine.ProBuilder.IntVec2 UnityEngine.ProBuilder.IntVec2::op_Implicit(UnityEngine.Vector2)
 extern void IntVec2_op_Implicit_m7E927AE0FBA1346C50E6184E960515F53433305E (void);
-// 0x00000145 System.Single UnityEngine.ProBuilder.IntVec3::get_x()
+// 0x00000143 System.Single UnityEngine.ProBuilder.IntVec3::get_x()
 extern void IntVec3_get_x_m2C949AD63ECCE822DB77D68CB17504A3D3DCBE62 (void);
-// 0x00000146 System.Single UnityEngine.ProBuilder.IntVec3::get_y()
+// 0x00000144 System.Single UnityEngine.ProBuilder.IntVec3::get_y()
 extern void IntVec3_get_y_m62A7A2D520B1F812AA0E62DAC3E11790BBC05B12 (void);
-// 0x00000147 System.Single UnityEngine.ProBuilder.IntVec3::get_z()
+// 0x00000145 System.Single UnityEngine.ProBuilder.IntVec3::get_z()
 extern void IntVec3_get_z_m2661B9BEADBF05B0135B7C41644FC1A20657A230 (void);
-// 0x00000148 System.Void UnityEngine.ProBuilder.IntVec3::.ctor(UnityEngine.Vector3)
+// 0x00000146 System.Void UnityEngine.ProBuilder.IntVec3::.ctor(UnityEngine.Vector3)
 extern void IntVec3__ctor_mDA453337AB52841AE90BCFABBB23B3E5FCC51610 (void);
-// 0x00000149 System.String UnityEngine.ProBuilder.IntVec3::ToString()
+// 0x00000147 System.String UnityEngine.ProBuilder.IntVec3::ToString()
 extern void IntVec3_ToString_mAB15BA3CBBB6F4B63869DBF719492990A2D35193 (void);
-// 0x0000014A System.Boolean UnityEngine.ProBuilder.IntVec3::op_Equality(UnityEngine.ProBuilder.IntVec3,UnityEngine.ProBuilder.IntVec3)
+// 0x00000148 System.Boolean UnityEngine.ProBuilder.IntVec3::op_Equality(UnityEngine.ProBuilder.IntVec3,UnityEngine.ProBuilder.IntVec3)
 extern void IntVec3_op_Equality_mB3928C15E4300C241B1E4270D8FF91F8B02EF764 (void);
-// 0x0000014B System.Boolean UnityEngine.ProBuilder.IntVec3::op_Inequality(UnityEngine.ProBuilder.IntVec3,UnityEngine.ProBuilder.IntVec3)
+// 0x00000149 System.Boolean UnityEngine.ProBuilder.IntVec3::op_Inequality(UnityEngine.ProBuilder.IntVec3,UnityEngine.ProBuilder.IntVec3)
 extern void IntVec3_op_Inequality_mC2853AB5DD8793E535C29612B0FB3E54D1A023F7 (void);
-// 0x0000014C System.Boolean UnityEngine.ProBuilder.IntVec3::Equals(UnityEngine.ProBuilder.IntVec3)
+// 0x0000014A System.Boolean UnityEngine.ProBuilder.IntVec3::Equals(UnityEngine.ProBuilder.IntVec3)
 extern void IntVec3_Equals_mAF7F74B4BAD904872AD2C1ED19C20F7232AA0664 (void);
-// 0x0000014D System.Boolean UnityEngine.ProBuilder.IntVec3::Equals(UnityEngine.Vector3)
+// 0x0000014B System.Boolean UnityEngine.ProBuilder.IntVec3::Equals(UnityEngine.Vector3)
 extern void IntVec3_Equals_mAB470F8176D9F99EFC7A64C03E06530857C10A2D (void);
-// 0x0000014E System.Boolean UnityEngine.ProBuilder.IntVec3::Equals(System.Object)
+// 0x0000014C System.Boolean UnityEngine.ProBuilder.IntVec3::Equals(System.Object)
 extern void IntVec3_Equals_m3A72301F6F81A01A0474E9FBCF7397698B670BA1 (void);
-// 0x0000014F System.Int32 UnityEngine.ProBuilder.IntVec3::GetHashCode()
+// 0x0000014D System.Int32 UnityEngine.ProBuilder.IntVec3::GetHashCode()
 extern void IntVec3_GetHashCode_m89C25171D84306179F2250A21E4DF9A6CBC820DC (void);
-// 0x00000150 System.Int32 UnityEngine.ProBuilder.IntVec3::round(System.Single)
+// 0x0000014E System.Int32 UnityEngine.ProBuilder.IntVec3::round(System.Single)
 extern void IntVec3_round_mC96FB800F34BFDF9B6110EDF01B1CE0C39E8C777 (void);
-// 0x00000151 UnityEngine.Vector3 UnityEngine.ProBuilder.IntVec3::op_Implicit(UnityEngine.ProBuilder.IntVec3)
+// 0x0000014F UnityEngine.Vector3 UnityEngine.ProBuilder.IntVec3::op_Implicit(UnityEngine.ProBuilder.IntVec3)
 extern void IntVec3_op_Implicit_mDCAF3B4BEDD998C4AC805451161D2B1865D15264 (void);
-// 0x00000152 UnityEngine.ProBuilder.IntVec3 UnityEngine.ProBuilder.IntVec3::op_Implicit(UnityEngine.Vector3)
+// 0x00000150 UnityEngine.ProBuilder.IntVec3 UnityEngine.ProBuilder.IntVec3::op_Implicit(UnityEngine.Vector3)
 extern void IntVec3_op_Implicit_mBA4285432A187EC8FB008A2FE25FC46566637484 (void);
-// 0x00000153 System.Single UnityEngine.ProBuilder.IntVec4::get_x()
+// 0x00000151 System.Single UnityEngine.ProBuilder.IntVec4::get_x()
 extern void IntVec4_get_x_m8D7822F797641BEB2B9535B12DA6AAAC010A7FE4 (void);
-// 0x00000154 System.Single UnityEngine.ProBuilder.IntVec4::get_y()
+// 0x00000152 System.Single UnityEngine.ProBuilder.IntVec4::get_y()
 extern void IntVec4_get_y_m06CEE03B15ECD0BD1ED3FF604E50B4E65D080912 (void);
-// 0x00000155 System.Single UnityEngine.ProBuilder.IntVec4::get_z()
+// 0x00000153 System.Single UnityEngine.ProBuilder.IntVec4::get_z()
 extern void IntVec4_get_z_mD2AFC4ADA8B8944C76477535B492CFDA1664E395 (void);
-// 0x00000156 System.Single UnityEngine.ProBuilder.IntVec4::get_w()
+// 0x00000154 System.Single UnityEngine.ProBuilder.IntVec4::get_w()
 extern void IntVec4_get_w_m9D4372A202E650815E1A7588B8A3382C6A40980C (void);
-// 0x00000157 System.Void UnityEngine.ProBuilder.IntVec4::.ctor(UnityEngine.Vector4)
+// 0x00000155 System.Void UnityEngine.ProBuilder.IntVec4::.ctor(UnityEngine.Vector4)
 extern void IntVec4__ctor_mE3A830E253E9363DCC32E8D6B103E166FFD735A5 (void);
-// 0x00000158 System.String UnityEngine.ProBuilder.IntVec4::ToString()
+// 0x00000156 System.String UnityEngine.ProBuilder.IntVec4::ToString()
 extern void IntVec4_ToString_m6C4D2A91287B241EFEFA3B7130049A364E8289E1 (void);
-// 0x00000159 System.Boolean UnityEngine.ProBuilder.IntVec4::op_Equality(UnityEngine.ProBuilder.IntVec4,UnityEngine.ProBuilder.IntVec4)
+// 0x00000157 System.Boolean UnityEngine.ProBuilder.IntVec4::op_Equality(UnityEngine.ProBuilder.IntVec4,UnityEngine.ProBuilder.IntVec4)
 extern void IntVec4_op_Equality_m34F6570F1B7B572027F0952D7F21BC374654948E (void);
-// 0x0000015A System.Boolean UnityEngine.ProBuilder.IntVec4::op_Inequality(UnityEngine.ProBuilder.IntVec4,UnityEngine.ProBuilder.IntVec4)
+// 0x00000158 System.Boolean UnityEngine.ProBuilder.IntVec4::op_Inequality(UnityEngine.ProBuilder.IntVec4,UnityEngine.ProBuilder.IntVec4)
 extern void IntVec4_op_Inequality_m0EA844B094D3EE76B0AD2F2C8A7716FFD5EC9BDA (void);
-// 0x0000015B System.Boolean UnityEngine.ProBuilder.IntVec4::Equals(UnityEngine.ProBuilder.IntVec4)
+// 0x00000159 System.Boolean UnityEngine.ProBuilder.IntVec4::Equals(UnityEngine.ProBuilder.IntVec4)
 extern void IntVec4_Equals_mD46D2E243CB68ABC24E0C73A144866676D5B041B (void);
-// 0x0000015C System.Boolean UnityEngine.ProBuilder.IntVec4::Equals(UnityEngine.Vector4)
+// 0x0000015A System.Boolean UnityEngine.ProBuilder.IntVec4::Equals(UnityEngine.Vector4)
 extern void IntVec4_Equals_mFF28097E54D1E90E8F9387265CD9020CE081AA75 (void);
-// 0x0000015D System.Boolean UnityEngine.ProBuilder.IntVec4::Equals(System.Object)
+// 0x0000015B System.Boolean UnityEngine.ProBuilder.IntVec4::Equals(System.Object)
 extern void IntVec4_Equals_mA26655B2514A6C084A8A7A17DFF9495B7DAAD52D (void);
-// 0x0000015E System.Int32 UnityEngine.ProBuilder.IntVec4::GetHashCode()
+// 0x0000015C System.Int32 UnityEngine.ProBuilder.IntVec4::GetHashCode()
 extern void IntVec4_GetHashCode_m4A9C0C7033244EFD9865A50EC848ADE274F2A633 (void);
-// 0x0000015F System.Int32 UnityEngine.ProBuilder.IntVec4::round(System.Single)
+// 0x0000015D System.Int32 UnityEngine.ProBuilder.IntVec4::round(System.Single)
 extern void IntVec4_round_m9725D4A78C59D51857FA6BCF64362AC04836ED1F (void);
-// 0x00000160 UnityEngine.Vector4 UnityEngine.ProBuilder.IntVec4::op_Implicit(UnityEngine.ProBuilder.IntVec4)
+// 0x0000015E UnityEngine.Vector4 UnityEngine.ProBuilder.IntVec4::op_Implicit(UnityEngine.ProBuilder.IntVec4)
 extern void IntVec4_op_Implicit_mF70B1229C33B0B0E0A6AA7659E6992AA7C010749 (void);
-// 0x00000161 UnityEngine.ProBuilder.IntVec4 UnityEngine.ProBuilder.IntVec4::op_Implicit(UnityEngine.Vector4)
+// 0x0000015F UnityEngine.ProBuilder.IntVec4 UnityEngine.ProBuilder.IntVec4::op_Implicit(UnityEngine.Vector4)
 extern void IntVec4_op_Implicit_m25D690FBF9816791BECA0302E44795DDC0CC6F89 (void);
-// 0x00000162 System.Void UnityEngine.ProBuilder.Log::PushLogLevel(UnityEngine.ProBuilder.LogLevel)
+// 0x00000160 System.Void UnityEngine.ProBuilder.Log::PushLogLevel(UnityEngine.ProBuilder.LogLevel)
 extern void Log_PushLogLevel_m26D7C7B394897D717B0BBE607711444E4F708EA7 (void);
-// 0x00000163 System.Void UnityEngine.ProBuilder.Log::PopLogLevel()
+// 0x00000161 System.Void UnityEngine.ProBuilder.Log::PopLogLevel()
 extern void Log_PopLogLevel_m2209BD50FBE6F340E67FF1E8238BCA7A6CD3F2D1 (void);
-// 0x00000164 System.Void UnityEngine.ProBuilder.Log::SetLogLevel(UnityEngine.ProBuilder.LogLevel)
+// 0x00000162 System.Void UnityEngine.ProBuilder.Log::SetLogLevel(UnityEngine.ProBuilder.LogLevel)
 extern void Log_SetLogLevel_m8BF559703CB488BACBC64197D7D878B38394DC0F (void);
-// 0x00000165 System.Void UnityEngine.ProBuilder.Log::SetOutput(UnityEngine.ProBuilder.LogOutput)
+// 0x00000163 System.Void UnityEngine.ProBuilder.Log::SetOutput(UnityEngine.ProBuilder.LogOutput)
 extern void Log_SetOutput_mF20C0A3BA4C8E0AB68D0B01538986B2D5E0F1047 (void);
-// 0x00000166 System.Void UnityEngine.ProBuilder.Log::SetLogFile(System.String)
+// 0x00000164 System.Void UnityEngine.ProBuilder.Log::SetLogFile(System.String)
 extern void Log_SetLogFile_mF8F04CBA539B91D539E09B4AC2F42A103B19F516 (void);
-// 0x00000167 System.Void UnityEngine.ProBuilder.Log::Debug(T)
-// 0x00000168 System.Void UnityEngine.ProBuilder.Log::Debug(System.String)
+// 0x00000165 System.Void UnityEngine.ProBuilder.Log::Debug(T)
+// 0x00000166 System.Void UnityEngine.ProBuilder.Log::Debug(System.String)
 extern void Log_Debug_mC72408A9C63B3084355DEB9ACB9EDD19A4A8FDB4 (void);
-// 0x00000169 System.Void UnityEngine.ProBuilder.Log::Debug(System.String,System.Object[])
+// 0x00000167 System.Void UnityEngine.ProBuilder.Log::Debug(System.String,System.Object[])
 extern void Log_Debug_m8FB3A99135D0BC3C80E992AC10FA7EFF6C0ACFDF (void);
-// 0x0000016A System.Void UnityEngine.ProBuilder.Log::Info(System.String,System.Object[])
+// 0x00000168 System.Void UnityEngine.ProBuilder.Log::Info(System.String,System.Object[])
 extern void Log_Info_m3E54E8D6BCDA017944117BD3EC1547706400A519 (void);
-// 0x0000016B System.Void UnityEngine.ProBuilder.Log::Info(System.String)
+// 0x00000169 System.Void UnityEngine.ProBuilder.Log::Info(System.String)
 extern void Log_Info_m17946A17B913BFF0404B947F2E7A230147C14944 (void);
-// 0x0000016C System.Void UnityEngine.ProBuilder.Log::Warning(System.String,System.Object[])
+// 0x0000016A System.Void UnityEngine.ProBuilder.Log::Warning(System.String,System.Object[])
 extern void Log_Warning_m62EB59CC987B41765A0FB2A283240781420E9930 (void);
-// 0x0000016D System.Void UnityEngine.ProBuilder.Log::Warning(System.String)
+// 0x0000016B System.Void UnityEngine.ProBuilder.Log::Warning(System.String)
 extern void Log_Warning_m9A497377D46C2589CFE2A62E6E5E03483612BE3B (void);
-// 0x0000016E System.Void UnityEngine.ProBuilder.Log::Error(System.String,System.Object[])
+// 0x0000016C System.Void UnityEngine.ProBuilder.Log::Error(System.String,System.Object[])
 extern void Log_Error_mD58B72A1BBE548DFCBF70AA6DAA4D214F0C5C6E6 (void);
-// 0x0000016F System.Void UnityEngine.ProBuilder.Log::Error(System.String)
+// 0x0000016D System.Void UnityEngine.ProBuilder.Log::Error(System.String)
 extern void Log_Error_m0F89D32453AE794D7CC38979096C6AD28DE62058 (void);
-// 0x00000170 System.Void UnityEngine.ProBuilder.Log::Watch(T,K)
-// 0x00000171 System.Void UnityEngine.ProBuilder.Log::DoPrint(System.String,UnityEngine.LogType)
+// 0x0000016E System.Void UnityEngine.ProBuilder.Log::Watch(T,K)
+// 0x0000016F System.Void UnityEngine.ProBuilder.Log::DoPrint(System.String,UnityEngine.LogType)
 extern void Log_DoPrint_m843671CBF5F91476E77817FF5E0CE5EEF29629A9 (void);
-// 0x00000172 System.Void UnityEngine.ProBuilder.Log::PrintToFile(System.String,System.String)
+// 0x00000170 System.Void UnityEngine.ProBuilder.Log::PrintToFile(System.String,System.String)
 extern void Log_PrintToFile_m8EA790301D747846628906D4D3F3AB03500B41C5 (void);
-// 0x00000173 System.Void UnityEngine.ProBuilder.Log::ClearLogFile()
+// 0x00000171 System.Void UnityEngine.ProBuilder.Log::ClearLogFile()
 extern void Log_ClearLogFile_m6937D8F64A3BB8A368353D670F1FCAB847340946 (void);
-// 0x00000174 System.Void UnityEngine.ProBuilder.Log::PrintToConsole(System.String,UnityEngine.LogType)
+// 0x00000172 System.Void UnityEngine.ProBuilder.Log::PrintToConsole(System.String,UnityEngine.LogType)
 extern void Log_PrintToConsole_m9AD0CED70B9DD56D122987AAEDC3D81C6DB2FDFE (void);
-// 0x00000175 System.Void UnityEngine.ProBuilder.Log::NotNull(T,System.String)
-// 0x00000176 System.Void UnityEngine.ProBuilder.Log::.cctor()
+// 0x00000173 System.Void UnityEngine.ProBuilder.Log::NotNull(T,System.String)
+// 0x00000174 System.Void UnityEngine.ProBuilder.Log::.cctor()
 extern void Log__cctor_m97C0E01B4BEB31120E1D0CF63FF036D3EF5046D0 (void);
-// 0x00000177 System.Int32 UnityEngine.ProBuilder.MaterialUtility::GetMaterialCount(UnityEngine.Renderer)
+// 0x00000175 System.Int32 UnityEngine.ProBuilder.MaterialUtility::GetMaterialCount(UnityEngine.Renderer)
 extern void MaterialUtility_GetMaterialCount_m10574176DD313D6E0CB3E84114A2CFA1E5BAA8C9 (void);
-// 0x00000178 UnityEngine.Material UnityEngine.ProBuilder.MaterialUtility::GetSharedMaterial(UnityEngine.Renderer,System.Int32)
+// 0x00000176 UnityEngine.Material UnityEngine.ProBuilder.MaterialUtility::GetSharedMaterial(UnityEngine.Renderer,System.Int32)
 extern void MaterialUtility_GetSharedMaterial_m7EB12007F59B1253EAADF4EC28D42D3F52D19C71 (void);
-// 0x00000179 System.Void UnityEngine.ProBuilder.MaterialUtility::.cctor()
+// 0x00000177 System.Void UnityEngine.ProBuilder.MaterialUtility::.cctor()
 extern void MaterialUtility__cctor_mB04E3136ABC6F057A4F95FA74E970BFB22E36AFD (void);
-// 0x0000017A UnityEngine.Vector2 UnityEngine.ProBuilder.Math::PointInCircumference(System.Single,System.Single,UnityEngine.Vector2)
+// 0x00000178 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::PointInCircumference(System.Single,System.Single,UnityEngine.Vector2)
 extern void Math_PointInCircumference_m48574A91340D15450AD9662C2F74EEF21A6413BA (void);
-// 0x0000017B UnityEngine.Vector2 UnityEngine.ProBuilder.Math::PointInEllipseCircumference(System.Single,System.Single,System.Single,UnityEngine.Vector2,UnityEngine.Vector2&)
+// 0x00000179 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::PointInEllipseCircumference(System.Single,System.Single,System.Single,UnityEngine.Vector2,UnityEngine.Vector2&)
 extern void Math_PointInEllipseCircumference_m2FBB434A2C7F5A6188D802AA0EA2ADA801751502 (void);
-// 0x0000017C UnityEngine.Vector2 UnityEngine.ProBuilder.Math::PointInEllipseCircumferenceWithConstantAngle(System.Single,System.Single,System.Single,UnityEngine.Vector2,UnityEngine.Vector2&)
+// 0x0000017A UnityEngine.Vector2 UnityEngine.ProBuilder.Math::PointInEllipseCircumferenceWithConstantAngle(System.Single,System.Single,System.Single,UnityEngine.Vector2,UnityEngine.Vector2&)
 extern void Math_PointInEllipseCircumferenceWithConstantAngle_mC8D9E1539AA7A021E3214101A287CF1EAFE9AF69 (void);
-// 0x0000017D UnityEngine.Vector3 UnityEngine.ProBuilder.Math::PointInSphere(System.Single,System.Single,System.Single)
+// 0x0000017B UnityEngine.Vector3 UnityEngine.ProBuilder.Math::PointInSphere(System.Single,System.Single,System.Single)
 extern void Math_PointInSphere_m52AEEB3A3A8791336E0AB84FB5E1E8F1F7AA76EB (void);
-// 0x0000017E System.Single UnityEngine.ProBuilder.Math::SignedAngle(UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x0000017C System.Single UnityEngine.ProBuilder.Math::SignedAngle(UnityEngine.Vector2,UnityEngine.Vector2)
 extern void Math_SignedAngle_m24265549AEDBB8586D69631E7A467038685241F8 (void);
-// 0x0000017F System.Single UnityEngine.ProBuilder.Math::SqrDistance(UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x0000017D System.Single UnityEngine.ProBuilder.Math::SqrDistance(UnityEngine.Vector3,UnityEngine.Vector3)
 extern void Math_SqrDistance_mB2A420EA01EB82A4218CC5CFFA8289CB6952148B (void);
-// 0x00000180 System.Single UnityEngine.ProBuilder.Math::TriangleArea(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x0000017E System.Single UnityEngine.ProBuilder.Math::TriangleArea(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
 extern void Math_TriangleArea_m65F051FEA1C3C8A3B1EB043AE99867B73A474038 (void);
-// 0x00000181 System.Single UnityEngine.ProBuilder.Math::PolygonArea(UnityEngine.Vector3[],System.Int32[])
+// 0x0000017F System.Single UnityEngine.ProBuilder.Math::PolygonArea(UnityEngine.Vector3[],System.Int32[])
 extern void Math_PolygonArea_m0A13DC38DB3BBA8AFBF24319E6FE7F6376A15DC1 (void);
-// 0x00000182 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::RotateAroundPoint(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+// 0x00000180 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::RotateAroundPoint(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
 extern void Math_RotateAroundPoint_mCA353D8DF2F42C75931A225E431065FF2BC9313A (void);
-// 0x00000183 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::ScaleAroundPoint(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x00000181 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::ScaleAroundPoint(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
 extern void Math_ScaleAroundPoint_m27D7E259C0D45B91B02E261C9433AF40EE421364 (void);
-// 0x00000184 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::Perpendicular(UnityEngine.Vector2)
+// 0x00000182 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::Perpendicular(UnityEngine.Vector2)
 extern void Math_Perpendicular_m1A6C911C994578A964E37C8557F91A61115BDE17 (void);
-// 0x00000185 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::ReflectPoint(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x00000183 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::ReflectPoint(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
 extern void Math_ReflectPoint_mB960FA6974D3DE2129340858EC00DE491D20E2B5 (void);
-// 0x00000186 System.Single UnityEngine.ProBuilder.Math::SqrDistanceRayPoint(UnityEngine.Ray,UnityEngine.Vector3)
+// 0x00000184 System.Single UnityEngine.ProBuilder.Math::SqrDistanceRayPoint(UnityEngine.Ray,UnityEngine.Vector3)
 extern void Math_SqrDistanceRayPoint_m2349D26334AE2540D5627DA8EC5AD9446A8960FE (void);
-// 0x00000187 System.Single UnityEngine.ProBuilder.Math::DistancePointLineSegment(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x00000185 System.Single UnityEngine.ProBuilder.Math::DistancePointLineSegment(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
 extern void Math_DistancePointLineSegment_m81A7CA8BAC7FD5AE36AA504E25BF44C52666DB60 (void);
-// 0x00000188 System.Single UnityEngine.ProBuilder.Math::DistancePointLineSegment(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x00000186 System.Single UnityEngine.ProBuilder.Math::DistancePointLineSegment(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
 extern void Math_DistancePointLineSegment_m0067EBAA5A0FE827F442DD386DD04D0E075BCBEE (void);
-// 0x00000189 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::GetNearestPointRayRay(UnityEngine.Ray,UnityEngine.Ray)
+// 0x00000187 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::GetNearestPointRayRay(UnityEngine.Ray,UnityEngine.Ray)
 extern void Math_GetNearestPointRayRay_mCBE09E14386B69F74839F777ABF0D3D534C4660C (void);
-// 0x0000018A UnityEngine.Vector3 UnityEngine.ProBuilder.Math::GetNearestPointRayRay(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x00000188 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::GetNearestPointRayRay(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
 extern void Math_GetNearestPointRayRay_mE6D1B2C5126A6980E2B1AEFBFEBB04FB150D68E1 (void);
-// 0x0000018B System.Boolean UnityEngine.ProBuilder.Math::GetLineSegmentIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2&)
+// 0x00000189 System.Boolean UnityEngine.ProBuilder.Math::GetLineSegmentIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2&)
 extern void Math_GetLineSegmentIntersect_m4C1E0E36A2E0F94EDB80C54A38C9EF280C471B40 (void);
-// 0x0000018C System.Boolean UnityEngine.ProBuilder.Math::GetLineSegmentIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x0000018A System.Boolean UnityEngine.ProBuilder.Math::GetLineSegmentIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
 extern void Math_GetLineSegmentIntersect_m630EDFE94931ED977A23D3FA36C6E7976957DFBD (void);
-// 0x0000018D System.Boolean UnityEngine.ProBuilder.Math::PointInPolygon(UnityEngine.Vector2[],UnityEngine.Vector2,System.Int32[])
+// 0x0000018B System.Boolean UnityEngine.ProBuilder.Math::PointInPolygon(UnityEngine.Vector2[],UnityEngine.Vector2,System.Int32[])
 extern void Math_PointInPolygon_mE805BF2AB0E9998D02784A093BB0FAF69B825332 (void);
-// 0x0000018E System.Boolean UnityEngine.ProBuilder.Math::PointInPolygon(UnityEngine.Vector2[],UnityEngine.ProBuilder.Bounds2D,UnityEngine.ProBuilder.Edge[],UnityEngine.Vector2)
+// 0x0000018C System.Boolean UnityEngine.ProBuilder.Math::PointInPolygon(UnityEngine.Vector2[],UnityEngine.ProBuilder.Bounds2D,UnityEngine.ProBuilder.Edge[],UnityEngine.Vector2)
 extern void Math_PointInPolygon_m04E13806163B921B46F01B1F9DCE3E5CC584145D (void);
-// 0x0000018F System.Boolean UnityEngine.ProBuilder.Math::PointInPolygon(UnityEngine.Vector3[],UnityEngine.ProBuilder.Bounds2D,UnityEngine.ProBuilder.Edge[],UnityEngine.Vector2)
+// 0x0000018D System.Boolean UnityEngine.ProBuilder.Math::PointInPolygon(UnityEngine.Vector3[],UnityEngine.ProBuilder.Bounds2D,UnityEngine.ProBuilder.Edge[],UnityEngine.Vector2)
 extern void Math_PointInPolygon_m5A1118D40E0A1A64D11FEADDA6921DD36A2E2238 (void);
-// 0x00000190 System.Boolean UnityEngine.ProBuilder.Math::RectIntersectsLineSegment(UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x0000018E System.Boolean UnityEngine.ProBuilder.Math::RectIntersectsLineSegment(UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Vector2)
 extern void Math_RectIntersectsLineSegment_m0FDAD16C32B9C4177AA457805DE29B6578F92BAD (void);
-// 0x00000191 System.Boolean UnityEngine.ProBuilder.Math::RectIntersectsLineSegment(UnityEngine.Rect,UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x0000018F System.Boolean UnityEngine.ProBuilder.Math::RectIntersectsLineSegment(UnityEngine.Rect,UnityEngine.Vector3,UnityEngine.Vector3)
 extern void Math_RectIntersectsLineSegment_m71777107907B561830450736CDD782036D80FFDB (void);
-// 0x00000192 System.Boolean UnityEngine.ProBuilder.Math::RayIntersectsTriangle(UnityEngine.Ray,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single&,UnityEngine.Vector3&)
+// 0x00000190 System.Boolean UnityEngine.ProBuilder.Math::RayIntersectsTriangle(UnityEngine.Ray,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single&,UnityEngine.Vector3&)
 extern void Math_RayIntersectsTriangle_mE52B2BB8F4F55C8471D6DCFDE2E4D220838C85E5 (void);
-// 0x00000193 System.Boolean UnityEngine.ProBuilder.Math::RayIntersectsTriangle2(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single&,UnityEngine.Vector3&)
+// 0x00000191 System.Boolean UnityEngine.ProBuilder.Math::RayIntersectsTriangle2(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single&,UnityEngine.Vector3&)
 extern void Math_RayIntersectsTriangle2_m1BA6E325BD36BD2ED82107FF97CDEFE13C43527C (void);
-// 0x00000194 System.Single UnityEngine.ProBuilder.Math::Secant(System.Single)
+// 0x00000192 System.Single UnityEngine.ProBuilder.Math::Secant(System.Single)
 extern void Math_Secant_mA935343DB8B80AC7EC6F301B02FBFBEAF755ABF3 (void);
-// 0x00000195 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::Normal(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x00000193 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::Normal(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
 extern void Math_Normal_mA926AA2286B72E76541E8DD7665A13E41CBA960F (void);
-// 0x00000196 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::Normal(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.IList`1<System.Int32>)
+// 0x00000194 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::Normal(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.IList`1<System.Int32>)
 extern void Math_Normal_mA515195BE8C2838E8179D12A5C33B334495E01BF (void);
-// 0x00000197 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::Normal(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
+// 0x00000195 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::Normal(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
 extern void Math_Normal_m704496638C9B9F996D17143D671C43B6CA7B3E00 (void);
-// 0x00000198 UnityEngine.ProBuilder.Normal UnityEngine.ProBuilder.Math::NormalTangentBitangent(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
+// 0x00000196 UnityEngine.ProBuilder.Normal UnityEngine.ProBuilder.Math::NormalTangentBitangent(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
 extern void Math_NormalTangentBitangent_m6592480797D6AA62EAA1DD5E834F815CC833BF60 (void);
-// 0x00000199 System.Boolean UnityEngine.ProBuilder.Math::IsCardinalAxis(UnityEngine.Vector3,System.Single)
+// 0x00000197 System.Boolean UnityEngine.ProBuilder.Math::IsCardinalAxis(UnityEngine.Vector3,System.Single)
 extern void Math_IsCardinalAxis_mAF10194518D19415C75FE2EBD9937A2FA6227FA3 (void);
-// 0x0000019A UnityEngine.Vector2 UnityEngine.ProBuilder.Math::DivideBy(UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x00000198 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::DivideBy(UnityEngine.Vector2,UnityEngine.Vector2)
 extern void Math_DivideBy_mA1D48665CC675D3CFA8CA4A6A2D09300E501E20D (void);
-// 0x0000019B UnityEngine.Vector3 UnityEngine.ProBuilder.Math::DivideBy(UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x00000199 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::DivideBy(UnityEngine.Vector3,UnityEngine.Vector3)
 extern void Math_DivideBy_mC0C7C2C40DEAA201BFD11078ABF8C2F7FC1D20EB (void);
-// 0x0000019C T UnityEngine.ProBuilder.Math::Max(T[])
-// 0x0000019D T UnityEngine.ProBuilder.Math::Min(T[])
-// 0x0000019E System.Single UnityEngine.ProBuilder.Math::LargestValue(UnityEngine.Vector3)
+// 0x0000019A T UnityEngine.ProBuilder.Math::Max(T[])
+// 0x0000019B T UnityEngine.ProBuilder.Math::Min(T[])
+// 0x0000019C System.Single UnityEngine.ProBuilder.Math::LargestValue(UnityEngine.Vector3)
 extern void Math_LargestValue_m9D3E38486FB5EEAC8D0DE36F82FDF858B2B55329 (void);
-// 0x0000019F System.Single UnityEngine.ProBuilder.Math::LargestValue(UnityEngine.Vector2)
+// 0x0000019D System.Single UnityEngine.ProBuilder.Math::LargestValue(UnityEngine.Vector2)
 extern void Math_LargestValue_mE2110C732398BFC673C0A6C8E80FEE54130F0E20 (void);
-// 0x000001A0 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::SmallestVector2(UnityEngine.Vector2[])
+// 0x0000019E UnityEngine.Vector2 UnityEngine.ProBuilder.Math::SmallestVector2(UnityEngine.Vector2[])
 extern void Math_SmallestVector2_m2E28FB2D287AE2E8314E9428805B5577A91AE1A9 (void);
-// 0x000001A1 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::SmallestVector2(UnityEngine.Vector2[],System.Collections.Generic.IList`1<System.Int32>)
+// 0x0000019F UnityEngine.Vector2 UnityEngine.ProBuilder.Math::SmallestVector2(UnityEngine.Vector2[],System.Collections.Generic.IList`1<System.Int32>)
 extern void Math_SmallestVector2_mD60B4B8DF30B3AF9DE5EBEEC177385CB84E7CF32 (void);
-// 0x000001A2 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::LargestVector2(UnityEngine.Vector2[])
+// 0x000001A0 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::LargestVector2(UnityEngine.Vector2[])
 extern void Math_LargestVector2_m063824348C49E2D726FB4F318E2475C84A65302A (void);
-// 0x000001A3 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::LargestVector2(UnityEngine.Vector2[],System.Collections.Generic.IList`1<System.Int32>)
+// 0x000001A1 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::LargestVector2(UnityEngine.Vector2[],System.Collections.Generic.IList`1<System.Int32>)
 extern void Math_LargestVector2_mB2D023F82F61C782A33DFC86961653BF4B22D4E4 (void);
-// 0x000001A4 UnityEngine.Bounds UnityEngine.ProBuilder.Math::GetBounds(UnityEngine.Vector3[],System.Collections.Generic.IList`1<System.Int32>)
+// 0x000001A2 UnityEngine.Bounds UnityEngine.ProBuilder.Math::GetBounds(UnityEngine.Vector3[],System.Collections.Generic.IList`1<System.Int32>)
 extern void Math_GetBounds_m58F45084EEF1336D607ABEB7AB9E415D73CF05DE (void);
-// 0x000001A5 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::Average(System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.IList`1<System.Int32>)
+// 0x000001A3 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::Average(System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.IList`1<System.Int32>)
 extern void Math_Average_m9C029406E21A1F8EB5EFA52C9D71D905A5832989 (void);
-// 0x000001A6 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::Average(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>)
+// 0x000001A4 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::Average(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>)
 extern void Math_Average_mE3D3E90A23D3DF9A9F03C5377E205403BE3CB920 (void);
-// 0x000001A7 UnityEngine.Vector4 UnityEngine.ProBuilder.Math::Average(System.Collections.Generic.IList`1<UnityEngine.Vector4>,System.Collections.Generic.IList`1<System.Int32>)
+// 0x000001A5 UnityEngine.Vector4 UnityEngine.ProBuilder.Math::Average(System.Collections.Generic.IList`1<UnityEngine.Vector4>,System.Collections.Generic.IList`1<System.Int32>)
 extern void Math_Average_m3DD48BCA90B062F7D134459BFF6DD836E662EBDA (void);
-// 0x000001A8 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::InvertScaleVector(UnityEngine.Vector3)
+// 0x000001A6 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::InvertScaleVector(UnityEngine.Vector3)
 extern void Math_InvertScaleVector_m949B01BC8F6DB39E1965C04F920B9D63B3B0C76B (void);
-// 0x000001A9 System.Boolean UnityEngine.ProBuilder.Math::Approx2(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+// 0x000001A7 System.Boolean UnityEngine.ProBuilder.Math::Approx2(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
 extern void Math_Approx2_mDCCF52C7B15661AC8A9B8851ED44B0CCE5ED7A79 (void);
-// 0x000001AA System.Boolean UnityEngine.ProBuilder.Math::Approx3(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+// 0x000001A8 System.Boolean UnityEngine.ProBuilder.Math::Approx3(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
 extern void Math_Approx3_m884F0F0808F0DD38B9BFFC638ED1A16C91C2104C (void);
-// 0x000001AB System.Boolean UnityEngine.ProBuilder.Math::Approx4(UnityEngine.Vector4,UnityEngine.Vector4,System.Single)
+// 0x000001A9 System.Boolean UnityEngine.ProBuilder.Math::Approx4(UnityEngine.Vector4,UnityEngine.Vector4,System.Single)
 extern void Math_Approx4_mD7FFC8FE3134D182DAD6D52842722A5019FBEE5A (void);
-// 0x000001AC System.Boolean UnityEngine.ProBuilder.Math::ApproxC(UnityEngine.Color,UnityEngine.Color,System.Single)
+// 0x000001AA System.Boolean UnityEngine.ProBuilder.Math::ApproxC(UnityEngine.Color,UnityEngine.Color,System.Single)
 extern void Math_ApproxC_mD2A132408E891B3D745401A4F180C32B290C406D (void);
-// 0x000001AD System.Boolean UnityEngine.ProBuilder.Math::Approx(System.Single,System.Single,System.Single)
+// 0x000001AB System.Boolean UnityEngine.ProBuilder.Math::Approx(System.Single,System.Single,System.Single)
 extern void Math_Approx_m6CFA0522152BF60F14CB45E25D2D76C97E6551E9 (void);
-// 0x000001AE System.Int32 UnityEngine.ProBuilder.Math::Clamp(System.Int32,System.Int32,System.Int32)
+// 0x000001AC System.Int32 UnityEngine.ProBuilder.Math::Clamp(System.Int32,System.Int32,System.Int32)
 extern void Math_Clamp_m1FBD312F1AA8F8A1991092B6775BB7EEC784F44C (void);
-// 0x000001AF UnityEngine.Vector3 UnityEngine.ProBuilder.Math::Abs(UnityEngine.Vector3)
+// 0x000001AD UnityEngine.Vector3 UnityEngine.ProBuilder.Math::Abs(UnityEngine.Vector3)
 extern void Math_Abs_m5C35B00D9694968F76F08EFD11F97D727E1DC4CA (void);
-// 0x000001B0 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::Sign(UnityEngine.Vector3)
+// 0x000001AE UnityEngine.Vector3 UnityEngine.ProBuilder.Math::Sign(UnityEngine.Vector3)
 extern void Math_Sign_m5C4359006E4EEB7BF5CC9F93870F4E564CB19397 (void);
-// 0x000001B1 System.Single UnityEngine.ProBuilder.Math::Sum(UnityEngine.Vector3)
+// 0x000001AF System.Single UnityEngine.ProBuilder.Math::Sum(UnityEngine.Vector3)
 extern void Math_Sum_mB0F9FCD657D6ED4A59ABCB78C318A2FC20A9A9E8 (void);
-// 0x000001B2 System.Void UnityEngine.ProBuilder.Math::Cross(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3&)
+// 0x000001B0 System.Void UnityEngine.ProBuilder.Math::Cross(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3&)
 extern void Math_Cross_m7EB2717971CEFC39421753DD898B79FB89097873 (void);
-// 0x000001B3 System.Void UnityEngine.ProBuilder.Math::Subtract(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3&)
+// 0x000001B1 System.Void UnityEngine.ProBuilder.Math::Subtract(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3&)
 extern void Math_Subtract_m7F1F441945B9E3DAEB440069BC1F546B8AF42AA6 (void);
-// 0x000001B4 System.Boolean UnityEngine.ProBuilder.Math::IsNumber(System.Single)
+// 0x000001B2 System.Boolean UnityEngine.ProBuilder.Math::IsNumber(System.Single)
 extern void Math_IsNumber_m7222DA5720AA4E0D0EF08CC09210C456AAA8AFE7 (void);
-// 0x000001B5 System.Boolean UnityEngine.ProBuilder.Math::IsNumber(UnityEngine.Vector2)
+// 0x000001B3 System.Boolean UnityEngine.ProBuilder.Math::IsNumber(UnityEngine.Vector2)
 extern void Math_IsNumber_mB21586F0BD2C8418C949AB3812D4CD4753A67785 (void);
-// 0x000001B6 System.Boolean UnityEngine.ProBuilder.Math::IsNumber(UnityEngine.Vector3)
+// 0x000001B4 System.Boolean UnityEngine.ProBuilder.Math::IsNumber(UnityEngine.Vector3)
 extern void Math_IsNumber_m4B0E700EBF2E49DE7F069B6ACCD692CCDE531D41 (void);
-// 0x000001B7 System.Boolean UnityEngine.ProBuilder.Math::IsNumber(UnityEngine.Vector4)
+// 0x000001B5 System.Boolean UnityEngine.ProBuilder.Math::IsNumber(UnityEngine.Vector4)
 extern void Math_IsNumber_mB338657ED003C0D75BAD931572EE4CC6F2113F10 (void);
-// 0x000001B8 System.Single UnityEngine.ProBuilder.Math::MakeNonZero(System.Single,System.Single)
+// 0x000001B6 System.Single UnityEngine.ProBuilder.Math::MakeNonZero(System.Single,System.Single)
 extern void Math_MakeNonZero_mF870738DDE006766E5F312C07D4EC7BC371EA1F8 (void);
-// 0x000001B9 UnityEngine.Vector4 UnityEngine.ProBuilder.Math::FixNaN(UnityEngine.Vector4)
+// 0x000001B7 UnityEngine.Vector4 UnityEngine.ProBuilder.Math::FixNaN(UnityEngine.Vector4)
 extern void Math_FixNaN_mEE065E4DEE6044090A452B45EED3848269730064 (void);
-// 0x000001BA UnityEngine.Vector2 UnityEngine.ProBuilder.Math::EnsureUnitVector(UnityEngine.Vector2)
+// 0x000001B8 UnityEngine.Vector2 UnityEngine.ProBuilder.Math::EnsureUnitVector(UnityEngine.Vector2)
 extern void Math_EnsureUnitVector_m4348EA4B8D0E941CBF4308AAE5FF3D2372B3A0EC (void);
-// 0x000001BB UnityEngine.Vector3 UnityEngine.ProBuilder.Math::EnsureUnitVector(UnityEngine.Vector3)
+// 0x000001B9 UnityEngine.Vector3 UnityEngine.ProBuilder.Math::EnsureUnitVector(UnityEngine.Vector3)
 extern void Math_EnsureUnitVector_m0EAD3770F6218CE73DECC95A15FF5A4E47DF7058 (void);
-// 0x000001BC UnityEngine.Vector4 UnityEngine.ProBuilder.Math::EnsureUnitVector(UnityEngine.Vector4)
+// 0x000001BA UnityEngine.Vector4 UnityEngine.ProBuilder.Math::EnsureUnitVector(UnityEngine.Vector4)
 extern void Math_EnsureUnitVector_mA5A0CCDD9C50E1543C7F4AD43470912F3B0F1D81 (void);
-// 0x000001BD UnityEngine.Mesh UnityEngine.ProBuilder.MeshHandle::get_mesh()
+// 0x000001BB UnityEngine.Mesh UnityEngine.ProBuilder.MeshHandle::get_mesh()
 extern void MeshHandle_get_mesh_mD0673CA674A2031021A9B4EFC0B7BABCA4CEF051 (void);
-// 0x000001BE System.Void UnityEngine.ProBuilder.MeshHandle::.ctor(UnityEngine.Transform,UnityEngine.Mesh)
+// 0x000001BC System.Void UnityEngine.ProBuilder.MeshHandle::.ctor(UnityEngine.Transform,UnityEngine.Mesh)
 extern void MeshHandle__ctor_m08F620EC5F6C2D443DED4ECBFFA83EF730A3558B (void);
-// 0x000001BF System.Void UnityEngine.ProBuilder.MeshHandle::DrawMeshNow(System.Int32)
+// 0x000001BD System.Void UnityEngine.ProBuilder.MeshHandle::DrawMeshNow(System.Int32)
 extern void MeshHandle_DrawMeshNow_mE4AC89A69B0C3D8CCE411262CD44406595E119CF (void);
-// 0x000001C0 System.Void UnityEngine.ProBuilder.MeshHandles::CreateFaceMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh)
+// 0x000001BE System.Void UnityEngine.ProBuilder.MeshHandles::CreateFaceMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh)
 extern void MeshHandles_CreateFaceMesh_m05CACEEA0CF2EFB3078801D465FBDC266CF1311F (void);
-// 0x000001C1 System.Void UnityEngine.ProBuilder.MeshHandles::CreateFaceMeshFromFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>,UnityEngine.Mesh)
+// 0x000001BF System.Void UnityEngine.ProBuilder.MeshHandles::CreateFaceMeshFromFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>,UnityEngine.Mesh)
 extern void MeshHandles_CreateFaceMeshFromFaces_m3A080749096AAA63C8E89195E2C5828494DE5F4B (void);
-// 0x000001C2 System.Void UnityEngine.ProBuilder.MeshHandles::CreateEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh)
+// 0x000001C0 System.Void UnityEngine.ProBuilder.MeshHandles::CreateEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh)
 extern void MeshHandles_CreateEdgeMesh_mE6EDEB01D3F8F7384ACF82F484A4306614C57077 (void);
-// 0x000001C3 System.Void UnityEngine.ProBuilder.MeshHandles::CreateEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh,UnityEngine.ProBuilder.Edge[])
+// 0x000001C1 System.Void UnityEngine.ProBuilder.MeshHandles::CreateEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh,UnityEngine.ProBuilder.Edge[])
 extern void MeshHandles_CreateEdgeMesh_mABB9E67A9EB4DEF417878AE8E8CEB86D436B861C (void);
-// 0x000001C4 System.Void UnityEngine.ProBuilder.MeshHandles::CreateVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh)
+// 0x000001C2 System.Void UnityEngine.ProBuilder.MeshHandles::CreateVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh)
 extern void MeshHandles_CreateVertexMesh_mC36D1E5407681DD1BBFD37F38D3D26E742E7C22F (void);
-// 0x000001C5 System.Void UnityEngine.ProBuilder.MeshHandles::CreateVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh,System.Collections.Generic.IList`1<System.Int32>)
+// 0x000001C3 System.Void UnityEngine.ProBuilder.MeshHandles::CreateVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh,System.Collections.Generic.IList`1<System.Int32>)
 extern void MeshHandles_CreateVertexMesh_mEAFBF10650AB27108DAA17182935A4A16B29FCCF (void);
-// 0x000001C6 System.Void UnityEngine.ProBuilder.MeshHandles::CreatePointMesh(UnityEngine.Vector3[],System.Collections.Generic.IList`1<System.Int32>,UnityEngine.Mesh)
+// 0x000001C4 System.Void UnityEngine.ProBuilder.MeshHandles::CreatePointMesh(UnityEngine.Vector3[],System.Collections.Generic.IList`1<System.Int32>,UnityEngine.Mesh)
 extern void MeshHandles_CreatePointMesh_mA9545C26736129FD1CA5A0CC9346FC7CB2391AE8 (void);
-// 0x000001C7 System.Void UnityEngine.ProBuilder.MeshHandles::CreatePointBillboardMesh(System.Collections.Generic.IList`1<UnityEngine.Vector3>,UnityEngine.Mesh)
+// 0x000001C5 System.Void UnityEngine.ProBuilder.MeshHandles::CreatePointBillboardMesh(System.Collections.Generic.IList`1<UnityEngine.Vector3>,UnityEngine.Mesh)
 extern void MeshHandles_CreatePointBillboardMesh_m348C0978750F0DA195266A84AF3910C8CA24AFE9 (void);
-// 0x000001C8 System.Void UnityEngine.ProBuilder.MeshHandles::CreatePointBillboardMesh(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>,UnityEngine.Mesh)
+// 0x000001C6 System.Void UnityEngine.ProBuilder.MeshHandles::CreatePointBillboardMesh(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>,UnityEngine.Mesh)
 extern void MeshHandles_CreatePointBillboardMesh_m9252B83D1D9A9A14872A43CA7171EED8D14CEF78 (void);
-// 0x000001C9 System.Void UnityEngine.ProBuilder.MeshHandles::CreateEdgeBillboardMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh)
+// 0x000001C7 System.Void UnityEngine.ProBuilder.MeshHandles::CreateEdgeBillboardMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh)
 extern void MeshHandles_CreateEdgeBillboardMesh_m7E6C25358FAD23BAC6C6D0B528F71A1E1F2A74AD (void);
-// 0x000001CA System.Void UnityEngine.ProBuilder.MeshHandles::CreateEdgeBillboardMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh,System.Collections.Generic.ICollection`1<UnityEngine.ProBuilder.Edge>)
+// 0x000001C8 System.Void UnityEngine.ProBuilder.MeshHandles::CreateEdgeBillboardMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh,System.Collections.Generic.ICollection`1<UnityEngine.ProBuilder.Edge>)
 extern void MeshHandles_CreateEdgeBillboardMesh_mD586E8D70639FD0220075E48BBC7016FAE1883D2 (void);
-// 0x000001CB System.Void UnityEngine.ProBuilder.MeshHandles::.cctor()
+// 0x000001C9 System.Void UnityEngine.ProBuilder.MeshHandles::.cctor()
 extern void MeshHandles__cctor_m3B4897D46F94334BA57EA8EA916464BDF67278E6 (void);
-// 0x000001CC System.Void UnityEngine.ProBuilder.MeshHandles/<>c::.cctor()
+// 0x000001CA System.Void UnityEngine.ProBuilder.MeshHandles/<>c::.cctor()
 extern void U3CU3Ec__cctor_mD88659915EB0C2767D39E5D67B5A352B81ED2F78 (void);
-// 0x000001CD System.Void UnityEngine.ProBuilder.MeshHandles/<>c::.ctor()
+// 0x000001CB System.Void UnityEngine.ProBuilder.MeshHandles/<>c::.ctor()
 extern void U3CU3Ec__ctor_m2D38317EF0AD89E291D1BB7EE57AAE9F59BD75A1 (void);
-// 0x000001CE System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshHandles/<>c::<CreateFaceMesh>b__9_0(UnityEngine.ProBuilder.Face)
+// 0x000001CC System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshHandles/<>c::<CreateFaceMesh>b__9_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CCreateFaceMeshU3Eb__9_0_mFA3A649A48B9135006F2D9ED723CDF856FF7234E (void);
-// 0x000001CF System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshHandles/<>c::<CreateFaceMeshFromFaces>b__10_0(UnityEngine.ProBuilder.Face)
+// 0x000001CD System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshHandles/<>c::<CreateFaceMeshFromFaces>b__10_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CCreateFaceMeshFromFacesU3Eb__10_0_m7F2A90C655D58DE6131D37584124ED66396B9A5D (void);
-// 0x000001D0 UnityEngine.ProBuilder.Vertex[] UnityEngine.ProBuilder.MeshUtility::GeneratePerTriangleMesh(UnityEngine.Mesh)
+// 0x000001CE UnityEngine.ProBuilder.Vertex[] UnityEngine.ProBuilder.MeshUtility::GeneratePerTriangleMesh(UnityEngine.Mesh)
 extern void MeshUtility_GeneratePerTriangleMesh_m041DE33D8325BDAC5B5A3FE6445BF1DD2626C61E (void);
-// 0x000001D1 System.Void UnityEngine.ProBuilder.MeshUtility::GenerateTangent(UnityEngine.Mesh)
+// 0x000001CF System.Void UnityEngine.ProBuilder.MeshUtility::GenerateTangent(UnityEngine.Mesh)
 extern void MeshUtility_GenerateTangent_mF57C72CBBE5EC45622FDA72B82992385E5DD5FF0 (void);
-// 0x000001D2 UnityEngine.Mesh UnityEngine.ProBuilder.MeshUtility::DeepCopy(UnityEngine.Mesh)
+// 0x000001D0 UnityEngine.Mesh UnityEngine.ProBuilder.MeshUtility::DeepCopy(UnityEngine.Mesh)
 extern void MeshUtility_DeepCopy_m91EC3B2C1A2FB948E805955A6869FAC59326D48A (void);
-// 0x000001D3 System.Void UnityEngine.ProBuilder.MeshUtility::CopyTo(UnityEngine.Mesh,UnityEngine.Mesh)
+// 0x000001D1 System.Void UnityEngine.ProBuilder.MeshUtility::CopyTo(UnityEngine.Mesh,UnityEngine.Mesh)
 extern void MeshUtility_CopyTo_m2F5615B9F0A2F179FF054FEBC31778BE496E432B (void);
-// 0x000001D4 T UnityEngine.ProBuilder.MeshUtility::GetMeshChannel(UnityEngine.GameObject,System.Func`2<UnityEngine.Mesh,T>)
-// 0x000001D5 System.Void UnityEngine.ProBuilder.MeshUtility::PrintAttribute(System.Text.StringBuilder,System.String,System.Collections.Generic.IEnumerable`1<T>,System.String)
-// 0x000001D6 System.String UnityEngine.ProBuilder.MeshUtility::Print(UnityEngine.Mesh)
+// 0x000001D2 T UnityEngine.ProBuilder.MeshUtility::GetMeshChannel(UnityEngine.GameObject,System.Func`2<UnityEngine.Mesh,T>)
+// 0x000001D3 System.Void UnityEngine.ProBuilder.MeshUtility::PrintAttribute(System.Text.StringBuilder,System.String,System.Collections.Generic.IEnumerable`1<T>,System.String)
+// 0x000001D4 System.String UnityEngine.ProBuilder.MeshUtility::Print(UnityEngine.Mesh)
 extern void MeshUtility_Print_mA6EBBC96FC0C0B6694BB37A2771F4290043723AB (void);
-// 0x000001D7 System.UInt32 UnityEngine.ProBuilder.MeshUtility::GetIndexCount(UnityEngine.Mesh)
+// 0x000001D5 System.UInt32 UnityEngine.ProBuilder.MeshUtility::GetIndexCount(UnityEngine.Mesh)
 extern void MeshUtility_GetIndexCount_m409838BE8158DF010753F68AF8508977541FFE42 (void);
-// 0x000001D8 System.UInt32 UnityEngine.ProBuilder.MeshUtility::GetPrimitiveCount(UnityEngine.Mesh)
+// 0x000001D6 System.UInt32 UnityEngine.ProBuilder.MeshUtility::GetPrimitiveCount(UnityEngine.Mesh)
 extern void MeshUtility_GetPrimitiveCount_mBCDE7AFBB047D6C21713671F58EFD43A815EF19C (void);
-// 0x000001D9 System.Void UnityEngine.ProBuilder.MeshUtility::Compile(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh,UnityEngine.MeshTopology)
+// 0x000001D7 System.Void UnityEngine.ProBuilder.MeshUtility::Compile(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Mesh,UnityEngine.MeshTopology)
 extern void MeshUtility_Compile_m5C6B849AC3FF759F921D5D8A0844CCFF3EBD5547 (void);
-// 0x000001DA UnityEngine.ProBuilder.Vertex[] UnityEngine.ProBuilder.MeshUtility::GetVertices(UnityEngine.Mesh)
+// 0x000001D8 UnityEngine.ProBuilder.Vertex[] UnityEngine.ProBuilder.MeshUtility::GetVertices(UnityEngine.Mesh)
 extern void MeshUtility_GetVertices_m87EB2689D950C8B97DA216470EC5A9BDE2136841 (void);
-// 0x000001DB System.Void UnityEngine.ProBuilder.MeshUtility::CollapseSharedVertices(UnityEngine.Mesh,UnityEngine.ProBuilder.Vertex[])
+// 0x000001D9 System.Void UnityEngine.ProBuilder.MeshUtility::CollapseSharedVertices(UnityEngine.Mesh,UnityEngine.ProBuilder.Vertex[])
 extern void MeshUtility_CollapseSharedVertices_m1CDB409FF32550F0212CA51061AE34339ACDD9A2 (void);
-// 0x000001DC System.Void UnityEngine.ProBuilder.MeshUtility::FitToSize(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Bounds,UnityEngine.Vector3)
+// 0x000001DA System.Void UnityEngine.ProBuilder.MeshUtility::FitToSize(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Bounds,UnityEngine.Vector3)
 extern void MeshUtility_FitToSize_m5DC6C9EBF2859FCCEA6435D34D65787089171A09 (void);
-// 0x000001DD System.String UnityEngine.ProBuilder.MeshUtility::SanityCheck(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000001DB System.String UnityEngine.ProBuilder.MeshUtility::SanityCheck(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void MeshUtility_SanityCheck_mA5D86B39BEBE047B91031980A54FF646CCC01743 (void);
-// 0x000001DE System.String UnityEngine.ProBuilder.MeshUtility::SanityCheck(UnityEngine.Mesh)
+// 0x000001DC System.String UnityEngine.ProBuilder.MeshUtility::SanityCheck(UnityEngine.Mesh)
 extern void MeshUtility_SanityCheck_m3E90016EAFC3FACA898959E35472701819CB170E (void);
-// 0x000001DF System.String UnityEngine.ProBuilder.MeshUtility::SanityCheck(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>)
+// 0x000001DD System.String UnityEngine.ProBuilder.MeshUtility::SanityCheck(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>)
 extern void MeshUtility_SanityCheck_mC1A04217D83B4C34D3844F689E87EDAD926B7045 (void);
-// 0x000001E0 System.Boolean UnityEngine.ProBuilder.MeshUtility::IsUsedInParticleSystem(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000001DE System.Boolean UnityEngine.ProBuilder.MeshUtility::IsUsedInParticleSystem(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void MeshUtility_IsUsedInParticleSystem_mD62603F10AB14A0C79890B5BB12D61FA69044755 (void);
-// 0x000001E1 System.Void UnityEngine.ProBuilder.MeshUtility::RestoreParticleSystem(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000001DF System.Void UnityEngine.ProBuilder.MeshUtility::RestoreParticleSystem(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void MeshUtility_RestoreParticleSystem_m3DD95DD2ABDEDF132A0284F16ED4E45750A24EE7 (void);
-// 0x000001E2 UnityEngine.Bounds UnityEngine.ProBuilder.MeshUtility::GetBounds(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000001E0 UnityEngine.Bounds UnityEngine.ProBuilder.MeshUtility::GetBounds(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void MeshUtility_GetBounds_m67DF34052BD90AEF2EF6111AE2B5963A3D9F09FE (void);
-// 0x000001E3 System.Void UnityEngine.ProBuilder.MeshUtility/<>c::.cctor()
+// 0x000001E1 System.Void UnityEngine.ProBuilder.MeshUtility/<>c::.cctor()
 extern void U3CU3Ec__cctor_mD436D23CA1B86A4FCCCD0D7CFCCDF175EEFC859C (void);
-// 0x000001E4 System.Void UnityEngine.ProBuilder.MeshUtility/<>c::.ctor()
+// 0x000001E2 System.Void UnityEngine.ProBuilder.MeshUtility/<>c::.ctor()
 extern void U3CU3Ec__ctor_m7404EA8809968966FBC8BFB6816DC3C342BD5B1D (void);
-// 0x000001E5 System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Vertex> UnityEngine.ProBuilder.MeshUtility/<>c::<CollapseSharedVertices>b__11_0(System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Vertex,System.Int32>)
+// 0x000001E3 System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Vertex> UnityEngine.ProBuilder.MeshUtility/<>c::<CollapseSharedVertices>b__11_0(System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Vertex,System.Int32>)
 extern void U3CU3Ec_U3CCollapseSharedVerticesU3Eb__11_0_m614CCE1DC860CC41988A392E4D85E1194544FFFC (void);
-// 0x000001E6 UnityEngine.Vector3 UnityEngine.ProBuilder.Normal::get_normal()
+// 0x000001E4 UnityEngine.Vector3 UnityEngine.ProBuilder.Normal::get_normal()
 extern void Normal_get_normal_m4083809C8A20CBC86A6812E803BEB80DDA1440A3 (void);
-// 0x000001E7 System.Void UnityEngine.ProBuilder.Normal::set_normal(UnityEngine.Vector3)
+// 0x000001E5 System.Void UnityEngine.ProBuilder.Normal::set_normal(UnityEngine.Vector3)
 extern void Normal_set_normal_mF4445F0F39FDF6D738EFDF7D0C1C45171889C263 (void);
-// 0x000001E8 UnityEngine.Vector4 UnityEngine.ProBuilder.Normal::get_tangent()
+// 0x000001E6 UnityEngine.Vector4 UnityEngine.ProBuilder.Normal::get_tangent()
 extern void Normal_get_tangent_m340AD3696126C88DA75D100D56005E6223ED3A41 (void);
-// 0x000001E9 System.Void UnityEngine.ProBuilder.Normal::set_tangent(UnityEngine.Vector4)
+// 0x000001E7 System.Void UnityEngine.ProBuilder.Normal::set_tangent(UnityEngine.Vector4)
 extern void Normal_set_tangent_m6CAA40B1B2D101EA567BD8A4DFACDAF74CDB149E (void);
-// 0x000001EA UnityEngine.Vector3 UnityEngine.ProBuilder.Normal::get_bitangent()
+// 0x000001E8 UnityEngine.Vector3 UnityEngine.ProBuilder.Normal::get_bitangent()
 extern void Normal_get_bitangent_m73441BB36C1767DC32731305C9AD487644192DD9 (void);
-// 0x000001EB System.Void UnityEngine.ProBuilder.Normal::set_bitangent(UnityEngine.Vector3)
+// 0x000001E9 System.Void UnityEngine.ProBuilder.Normal::set_bitangent(UnityEngine.Vector3)
 extern void Normal_set_bitangent_m9BE7D4DEFC95CD5618EC597A5E9A737547E65D61 (void);
-// 0x000001EC System.Boolean UnityEngine.ProBuilder.Normal::Equals(System.Object)
+// 0x000001EA System.Boolean UnityEngine.ProBuilder.Normal::Equals(System.Object)
 extern void Normal_Equals_m22DA51F98FF9BEB601B84A40FC378E5D216A37C1 (void);
-// 0x000001ED System.Int32 UnityEngine.ProBuilder.Normal::GetHashCode()
+// 0x000001EB System.Int32 UnityEngine.ProBuilder.Normal::GetHashCode()
 extern void Normal_GetHashCode_m839B08C0DCBDA5597BFCBAFE773BF50DD2ADACB5 (void);
-// 0x000001EE System.Boolean UnityEngine.ProBuilder.Normal::Equals(UnityEngine.ProBuilder.Normal)
+// 0x000001EC System.Boolean UnityEngine.ProBuilder.Normal::Equals(UnityEngine.ProBuilder.Normal)
 extern void Normal_Equals_mC1FA67242502BF5AE278DFD25337A8341D9334E8 (void);
-// 0x000001EF System.Boolean UnityEngine.ProBuilder.Normal::op_Equality(UnityEngine.ProBuilder.Normal,UnityEngine.ProBuilder.Normal)
+// 0x000001ED System.Boolean UnityEngine.ProBuilder.Normal::op_Equality(UnityEngine.ProBuilder.Normal,UnityEngine.ProBuilder.Normal)
 extern void Normal_op_Equality_mB4DFC471D1808E5937E647876BB1C3E82432F269 (void);
-// 0x000001F0 System.Boolean UnityEngine.ProBuilder.Normal::op_Inequality(UnityEngine.ProBuilder.Normal,UnityEngine.ProBuilder.Normal)
+// 0x000001EE System.Boolean UnityEngine.ProBuilder.Normal::op_Inequality(UnityEngine.ProBuilder.Normal,UnityEngine.ProBuilder.Normal)
 extern void Normal_op_Inequality_mF1F83C2C19EA55286D656785B495BF91C37B3B74 (void);
-// 0x000001F1 System.Void UnityEngine.ProBuilder.Normals::ClearIntArray(System.Int32)
+// 0x000001EF System.Void UnityEngine.ProBuilder.Normals::ClearIntArray(System.Int32)
 extern void Normals_ClearIntArray_m0B07FF6FB3CCB3197DC764B96BB17BD91C360359 (void);
-// 0x000001F2 System.Void UnityEngine.ProBuilder.Normals::CalculateTangents(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000001F0 System.Void UnityEngine.ProBuilder.Normals::CalculateTangents(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void Normals_CalculateTangents_mF62A860BAFC934C080878CFA0A35E14472C29964 (void);
-// 0x000001F3 System.Void UnityEngine.ProBuilder.Normals::CalculateHardNormals(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000001F1 System.Void UnityEngine.ProBuilder.Normals::CalculateHardNormals(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void Normals_CalculateHardNormals_m044D4E182CA36F8908D79DBD2A089E864E8F5875 (void);
-// 0x000001F4 System.Void UnityEngine.ProBuilder.Normals::CalculateNormals(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000001F2 System.Void UnityEngine.ProBuilder.Normals::CalculateNormals(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void Normals_CalculateNormals_m01BE6E878D8E2038755F85302F13B964AEC3A385 (void);
-// 0x000001F5 System.Void UnityEngine.ProBuilder.Normals::.cctor()
+// 0x000001F3 System.Void UnityEngine.ProBuilder.Normals::.cctor()
 extern void Normals__cctor_mB51D8D0903C0DB69C030DC8FAD9C46F10DD91B49 (void);
-// 0x000001F6 System.Void UnityEngine.ProBuilder.ObjectPool`1::.ctor(System.Int32,System.Int32,System.Func`1<T>,System.Action`1<T>,System.Boolean)
-// 0x000001F7 T UnityEngine.ProBuilder.ObjectPool`1::Dequeue()
-// 0x000001F8 System.Void UnityEngine.ProBuilder.ObjectPool`1::Enqueue(T)
-// 0x000001F9 System.Void UnityEngine.ProBuilder.ObjectPool`1::Empty()
-// 0x000001FA System.Void UnityEngine.ProBuilder.ObjectPool`1::Dispose()
-// 0x000001FB System.Void UnityEngine.ProBuilder.ObjectPool`1::Dispose(System.Boolean)
-// 0x000001FC System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3> UnityEngine.ProBuilder.PolyShape::get_controlPoints()
+// 0x000001F4 System.Void UnityEngine.ProBuilder.ObjectPool`1::.ctor(System.Int32,System.Int32,System.Func`1<T>,System.Action`1<T>,System.Boolean)
+// 0x000001F5 T UnityEngine.ProBuilder.ObjectPool`1::Dequeue()
+// 0x000001F6 System.Void UnityEngine.ProBuilder.ObjectPool`1::Enqueue(T)
+// 0x000001F7 System.Void UnityEngine.ProBuilder.ObjectPool`1::Empty()
+// 0x000001F8 System.Void UnityEngine.ProBuilder.ObjectPool`1::Dispose()
+// 0x000001F9 System.Void UnityEngine.ProBuilder.ObjectPool`1::Dispose(System.Boolean)
+// 0x000001FA System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3> UnityEngine.ProBuilder.PolyShape::get_controlPoints()
 extern void PolyShape_get_controlPoints_m1C75EAD35C56976F1338FAD869C0202B3D7509FB (void);
-// 0x000001FD System.Void UnityEngine.ProBuilder.PolyShape::SetControlPoints(System.Collections.Generic.IList`1<UnityEngine.Vector3>)
+// 0x000001FB System.Void UnityEngine.ProBuilder.PolyShape::SetControlPoints(System.Collections.Generic.IList`1<UnityEngine.Vector3>)
 extern void PolyShape_SetControlPoints_m0CFDE022F133F0C4DE9B7C3C9F28981E2F4B6C7A (void);
-// 0x000001FE System.Single UnityEngine.ProBuilder.PolyShape::get_extrude()
+// 0x000001FC System.Single UnityEngine.ProBuilder.PolyShape::get_extrude()
 extern void PolyShape_get_extrude_mBAADE77AAE685EDF081182FC0FB7B4EF4FFD97C0 (void);
-// 0x000001FF System.Void UnityEngine.ProBuilder.PolyShape::set_extrude(System.Single)
+// 0x000001FD System.Void UnityEngine.ProBuilder.PolyShape::set_extrude(System.Single)
 extern void PolyShape_set_extrude_mB2056E46295317D1EF75BCF8E548D1DDD90007B9 (void);
-// 0x00000200 UnityEngine.ProBuilder.PolyShape/PolyEditMode UnityEngine.ProBuilder.PolyShape::get_polyEditMode()
+// 0x000001FE UnityEngine.ProBuilder.PolyShape/PolyEditMode UnityEngine.ProBuilder.PolyShape::get_polyEditMode()
 extern void PolyShape_get_polyEditMode_m6AA4D4D3020FE43A133D3E01FE141EB9FBC9235C (void);
-// 0x00000201 System.Void UnityEngine.ProBuilder.PolyShape::set_polyEditMode(UnityEngine.ProBuilder.PolyShape/PolyEditMode)
+// 0x000001FF System.Void UnityEngine.ProBuilder.PolyShape::set_polyEditMode(UnityEngine.ProBuilder.PolyShape/PolyEditMode)
 extern void PolyShape_set_polyEditMode_m487CB12E59554CDFAD2B046C000F82C3D80ADFB8 (void);
-// 0x00000202 System.Boolean UnityEngine.ProBuilder.PolyShape::get_flipNormals()
+// 0x00000200 System.Boolean UnityEngine.ProBuilder.PolyShape::get_flipNormals()
 extern void PolyShape_get_flipNormals_m1984777959F48F43CF115CD5653801EE79C2958F (void);
-// 0x00000203 System.Void UnityEngine.ProBuilder.PolyShape::set_flipNormals(System.Boolean)
+// 0x00000201 System.Void UnityEngine.ProBuilder.PolyShape::set_flipNormals(System.Boolean)
 extern void PolyShape_set_flipNormals_mA83339666CCCB08398EA44474D27EA76B5353E89 (void);
-// 0x00000204 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.PolyShape::get_mesh()
+// 0x00000202 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.PolyShape::get_mesh()
 extern void PolyShape_get_mesh_mAC5FF9AACE244CC60CD489A426980E5CAED64B86 (void);
-// 0x00000205 System.Void UnityEngine.ProBuilder.PolyShape::set_mesh(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x00000203 System.Void UnityEngine.ProBuilder.PolyShape::set_mesh(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void PolyShape_set_mesh_m77E9C21A819E4BE85F0618E978E12EB45BD00CF7 (void);
-// 0x00000206 System.Boolean UnityEngine.ProBuilder.PolyShape::IsSnapEnabled()
+// 0x00000204 System.Boolean UnityEngine.ProBuilder.PolyShape::IsSnapEnabled()
 extern void PolyShape_IsSnapEnabled_m49D154A63CBE810C7CB94F033C827F66B438F904 (void);
-// 0x00000207 System.Void UnityEngine.ProBuilder.PolyShape::.ctor()
+// 0x00000205 System.Void UnityEngine.ProBuilder.PolyShape::.ctor()
 extern void PolyShape__ctor_m3C752BA8FF83FED227772953DBE70D8973C44A24 (void);
-// 0x00000208 System.Void UnityEngine.ProBuilder.PreferenceDictionary::OnBeforeSerialize()
+// 0x00000206 System.Void UnityEngine.ProBuilder.PreferenceDictionary::OnBeforeSerialize()
 extern void PreferenceDictionary_OnBeforeSerialize_mBDE8C12233004417BAF6D7DCD84E90D4DFEC5811 (void);
-// 0x00000209 System.Void UnityEngine.ProBuilder.PreferenceDictionary::OnAfterDeserialize()
+// 0x00000207 System.Void UnityEngine.ProBuilder.PreferenceDictionary::OnAfterDeserialize()
 extern void PreferenceDictionary_OnAfterDeserialize_m9132A375E9E0EBA7E630D1482854AF3AD0964669 (void);
-// 0x0000020A System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetDefaultValues()
+// 0x00000208 System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetDefaultValues()
 extern void PreferenceDictionary_SetDefaultValues_mEA41B499C7BAFA26AAE50A7CF464A84EDBF5CE2E (void);
-// 0x0000020B System.Boolean UnityEngine.ProBuilder.PreferenceDictionary::HasKey(System.String)
+// 0x00000209 System.Boolean UnityEngine.ProBuilder.PreferenceDictionary::HasKey(System.String)
 extern void PreferenceDictionary_HasKey_mE0D2C3180322638C031B6D4A56EEF95A378092E6 (void);
-// 0x0000020C System.Boolean UnityEngine.ProBuilder.PreferenceDictionary::HasKey(System.String)
-// 0x0000020D System.Void UnityEngine.ProBuilder.PreferenceDictionary::DeleteKey(System.String)
+// 0x0000020A System.Boolean UnityEngine.ProBuilder.PreferenceDictionary::HasKey(System.String)
+// 0x0000020B System.Void UnityEngine.ProBuilder.PreferenceDictionary::DeleteKey(System.String)
 extern void PreferenceDictionary_DeleteKey_m7F50652A2E3ED9092D07829EA9ADA051772900D5 (void);
-// 0x0000020E T UnityEngine.ProBuilder.PreferenceDictionary::Get(System.String,T)
-// 0x0000020F System.Void UnityEngine.ProBuilder.PreferenceDictionary::Set(System.String,T)
-// 0x00000210 System.Boolean UnityEngine.ProBuilder.PreferenceDictionary::GetBool(System.String,System.Boolean)
+// 0x0000020C T UnityEngine.ProBuilder.PreferenceDictionary::Get(System.String,T)
+// 0x0000020D System.Void UnityEngine.ProBuilder.PreferenceDictionary::Set(System.String,T)
+// 0x0000020E System.Boolean UnityEngine.ProBuilder.PreferenceDictionary::GetBool(System.String,System.Boolean)
 extern void PreferenceDictionary_GetBool_m6FF8804BCCB1692F0B1D23BA3A0A88ECE076DD3C (void);
-// 0x00000211 System.Int32 UnityEngine.ProBuilder.PreferenceDictionary::GetInt(System.String,System.Int32)
+// 0x0000020F System.Int32 UnityEngine.ProBuilder.PreferenceDictionary::GetInt(System.String,System.Int32)
 extern void PreferenceDictionary_GetInt_m8DDAEBD6DAA149FBD817318E16D502DBC0AB54D7 (void);
-// 0x00000212 System.Single UnityEngine.ProBuilder.PreferenceDictionary::GetFloat(System.String,System.Single)
+// 0x00000210 System.Single UnityEngine.ProBuilder.PreferenceDictionary::GetFloat(System.String,System.Single)
 extern void PreferenceDictionary_GetFloat_m02AAD40C02E9B02E5649439DCDDE4E94CD042119 (void);
-// 0x00000213 System.String UnityEngine.ProBuilder.PreferenceDictionary::GetString(System.String,System.String)
+// 0x00000211 System.String UnityEngine.ProBuilder.PreferenceDictionary::GetString(System.String,System.String)
 extern void PreferenceDictionary_GetString_m04FB6A0DE3EC88B7573D0183F3000EBE25C7A515 (void);
-// 0x00000214 UnityEngine.Color UnityEngine.ProBuilder.PreferenceDictionary::GetColor(System.String,UnityEngine.Color)
+// 0x00000212 UnityEngine.Color UnityEngine.ProBuilder.PreferenceDictionary::GetColor(System.String,UnityEngine.Color)
 extern void PreferenceDictionary_GetColor_m550AA312B821D9B0724ED5A124161F2229A291CA (void);
-// 0x00000215 UnityEngine.Material UnityEngine.ProBuilder.PreferenceDictionary::GetMaterial(System.String,UnityEngine.Material)
+// 0x00000213 UnityEngine.Material UnityEngine.ProBuilder.PreferenceDictionary::GetMaterial(System.String,UnityEngine.Material)
 extern void PreferenceDictionary_GetMaterial_m80BA2770EB319964A7E80039B125CBE4D335BFD9 (void);
-// 0x00000216 System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetBool(System.String,System.Boolean)
+// 0x00000214 System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetBool(System.String,System.Boolean)
 extern void PreferenceDictionary_SetBool_mEE9DCAF06097CCA585941BDA42B389A2428FD5A8 (void);
-// 0x00000217 System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetInt(System.String,System.Int32)
+// 0x00000215 System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetInt(System.String,System.Int32)
 extern void PreferenceDictionary_SetInt_m428C004FC928070A81B50AC99A8758CBDCFED8A1 (void);
-// 0x00000218 System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetFloat(System.String,System.Single)
+// 0x00000216 System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetFloat(System.String,System.Single)
 extern void PreferenceDictionary_SetFloat_m55AEBB37F0F65D2975FCFF6E51A9D5E75F05F16D (void);
-// 0x00000219 System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetString(System.String,System.String)
+// 0x00000217 System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetString(System.String,System.String)
 extern void PreferenceDictionary_SetString_m3B43FEBAF8155978EA844D2575E29E10D9CF4448 (void);
-// 0x0000021A System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetColor(System.String,UnityEngine.Color)
+// 0x00000218 System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetColor(System.String,UnityEngine.Color)
 extern void PreferenceDictionary_SetColor_m4A79EDEDCB8D31B6396E3C114122AB275B1AB5DC (void);
-// 0x0000021B System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetMaterial(System.String,UnityEngine.Material)
+// 0x00000219 System.Void UnityEngine.ProBuilder.PreferenceDictionary::SetMaterial(System.String,UnityEngine.Material)
 extern void PreferenceDictionary_SetMaterial_m387B45CED063434C632E8AE55266A5C4C5F5963E (void);
-// 0x0000021C System.Collections.Generic.Dictionary`2<System.String,System.Boolean> UnityEngine.ProBuilder.PreferenceDictionary::GetBoolDictionary()
+// 0x0000021A System.Collections.Generic.Dictionary`2<System.String,System.Boolean> UnityEngine.ProBuilder.PreferenceDictionary::GetBoolDictionary()
 extern void PreferenceDictionary_GetBoolDictionary_m9A60105455B8B34D2B1B8A493510BCFE84990231 (void);
-// 0x0000021D System.Collections.Generic.Dictionary`2<System.String,System.Int32> UnityEngine.ProBuilder.PreferenceDictionary::GetIntDictionary()
+// 0x0000021B System.Collections.Generic.Dictionary`2<System.String,System.Int32> UnityEngine.ProBuilder.PreferenceDictionary::GetIntDictionary()
 extern void PreferenceDictionary_GetIntDictionary_m3E2CAC9E5BC4DCB4FC1CD79DCB7C4351DCA17C89 (void);
-// 0x0000021E System.Collections.Generic.Dictionary`2<System.String,System.Single> UnityEngine.ProBuilder.PreferenceDictionary::GetFloatDictionary()
+// 0x0000021C System.Collections.Generic.Dictionary`2<System.String,System.Single> UnityEngine.ProBuilder.PreferenceDictionary::GetFloatDictionary()
 extern void PreferenceDictionary_GetFloatDictionary_mC0019B0508EE670202DD48F95B0098F947AF7EE6 (void);
-// 0x0000021F System.Collections.Generic.Dictionary`2<System.String,System.String> UnityEngine.ProBuilder.PreferenceDictionary::GetStringDictionary()
+// 0x0000021D System.Collections.Generic.Dictionary`2<System.String,System.String> UnityEngine.ProBuilder.PreferenceDictionary::GetStringDictionary()
 extern void PreferenceDictionary_GetStringDictionary_m891E66D4C16446E9E9D573E247540D147DE68E94 (void);
-// 0x00000220 System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Color> UnityEngine.ProBuilder.PreferenceDictionary::GetColorDictionary()
+// 0x0000021E System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Color> UnityEngine.ProBuilder.PreferenceDictionary::GetColorDictionary()
 extern void PreferenceDictionary_GetColorDictionary_m3FD401B8603D3CF9C3B4E2487F350933ABA21AE3 (void);
-// 0x00000221 System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Material> UnityEngine.ProBuilder.PreferenceDictionary::GetMaterialDictionary()
+// 0x0000021F System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Material> UnityEngine.ProBuilder.PreferenceDictionary::GetMaterialDictionary()
 extern void PreferenceDictionary_GetMaterialDictionary_m83E7D6FF373163C4E13E4FD665281CAA7C11428A (void);
-// 0x00000222 System.Void UnityEngine.ProBuilder.PreferenceDictionary::Clear()
+// 0x00000220 System.Void UnityEngine.ProBuilder.PreferenceDictionary::Clear()
 extern void PreferenceDictionary_Clear_m3B7005E1602DE1660A588457B7650934B45D6802 (void);
-// 0x00000223 System.Void UnityEngine.ProBuilder.PreferenceDictionary::.ctor()
+// 0x00000221 System.Void UnityEngine.ProBuilder.PreferenceDictionary::.ctor()
 extern void PreferenceDictionary__ctor_m2A7CDA91DE2865CB46A1652AC19C0D86A2EAB48A (void);
-// 0x00000224 System.Void UnityEngine.ProBuilder.PreferenceKeys::.cctor()
+// 0x00000222 System.Void UnityEngine.ProBuilder.PreferenceKeys::.cctor()
 extern void PreferenceKeys__cctor_m48DE0A89F5F3419065B04C4B2A5749400B0F9503 (void);
-// 0x00000225 System.Boolean UnityEngine.ProBuilder.ProBuilderMesh::get_userCollisions()
+// 0x00000223 System.Boolean UnityEngine.ProBuilder.ProBuilderMesh::get_userCollisions()
 extern void ProBuilderMesh_get_userCollisions_m79C359BC3A5931EC2D89C330139612D46E489046 (void);
-// 0x00000226 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_userCollisions(System.Boolean)
+// 0x00000224 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_userCollisions(System.Boolean)
 extern void ProBuilderMesh_set_userCollisions_m8CF2D3BB4A9B359DBF661D17C36BD594315BEDB7 (void);
-// 0x00000227 UnityEngine.ProBuilder.UnwrapParameters UnityEngine.ProBuilder.ProBuilderMesh::get_unwrapParameters()
+// 0x00000225 UnityEngine.ProBuilder.UnwrapParameters UnityEngine.ProBuilder.ProBuilderMesh::get_unwrapParameters()
 extern void ProBuilderMesh_get_unwrapParameters_mD5444316ACC1A138AF7C43A0ED9E33316745B91F (void);
-// 0x00000228 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_unwrapParameters(UnityEngine.ProBuilder.UnwrapParameters)
+// 0x00000226 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_unwrapParameters(UnityEngine.ProBuilder.UnwrapParameters)
 extern void ProBuilderMesh_set_unwrapParameters_m5ED515CED51096B8BB90980F7DFF9A927448B42E (void);
-// 0x00000229 UnityEngine.MeshRenderer UnityEngine.ProBuilder.ProBuilderMesh::get_renderer()
+// 0x00000227 UnityEngine.MeshRenderer UnityEngine.ProBuilder.ProBuilderMesh::get_renderer()
 extern void ProBuilderMesh_get_renderer_m367C954C8FF1B3EA38711BA67DD5429D1EDC725B (void);
-// 0x0000022A UnityEngine.MeshFilter UnityEngine.ProBuilder.ProBuilderMesh::get_filter()
+// 0x00000228 UnityEngine.MeshFilter UnityEngine.ProBuilder.ProBuilderMesh::get_filter()
 extern void ProBuilderMesh_get_filter_mDA23FBD1E47A930467D8578A75B0C6F6C18B7D84 (void);
-// 0x0000022B System.UInt16 UnityEngine.ProBuilder.ProBuilderMesh::get_versionIndex()
+// 0x00000229 System.UInt16 UnityEngine.ProBuilder.ProBuilderMesh::get_versionIndex()
 extern void ProBuilderMesh_get_versionIndex_m1959E6C2DC1BE73440717FF959EB5B9454A730D5 (void);
-// 0x0000022C System.Boolean UnityEngine.ProBuilder.ProBuilderMesh::get_preserveMeshAssetOnDestroy()
+// 0x0000022A System.Boolean UnityEngine.ProBuilder.ProBuilderMesh::get_preserveMeshAssetOnDestroy()
 extern void ProBuilderMesh_get_preserveMeshAssetOnDestroy_m8A71DD52071E3F98EBA67ACD7D02992087A495C0 (void);
-// 0x0000022D System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_preserveMeshAssetOnDestroy(System.Boolean)
+// 0x0000022B System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_preserveMeshAssetOnDestroy(System.Boolean)
 extern void ProBuilderMesh_set_preserveMeshAssetOnDestroy_mB0B395D15291BC48A5C05DC4E54700B8C1420F3D (void);
-// 0x0000022E System.Boolean UnityEngine.ProBuilder.ProBuilderMesh::HasArrays(UnityEngine.ProBuilder.MeshArrays)
+// 0x0000022C System.Boolean UnityEngine.ProBuilder.ProBuilderMesh::HasArrays(UnityEngine.ProBuilder.MeshArrays)
 extern void ProBuilderMesh_HasArrays_mE96548766EB8DD49D85AF51F5C2C30EA752756A5 (void);
-// 0x0000022F UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.ProBuilderMesh::get_facesInternal()
+// 0x0000022D UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.ProBuilderMesh::get_facesInternal()
 extern void ProBuilderMesh_get_facesInternal_m560458D3288E5CA4B7838502970AC1E998F3F64F (void);
-// 0x00000230 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_facesInternal(UnityEngine.ProBuilder.Face[])
+// 0x0000022E System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_facesInternal(UnityEngine.ProBuilder.Face[])
 extern void ProBuilderMesh_set_facesInternal_mE5F6B77C7F5A412508EA38ED3E5B544DC33B7A49 (void);
-// 0x00000231 System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.ProBuilderMesh::get_faces()
+// 0x0000022F System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.ProBuilderMesh::get_faces()
 extern void ProBuilderMesh_get_faces_mFE1CFF57C6A65934E5C42E2334ABD771B2896A19 (void);
-// 0x00000232 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_faces(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>)
+// 0x00000230 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_faces(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>)
 extern void ProBuilderMesh_set_faces_m2F08748A2B890F7720F9AB51A21E30D923616C3D (void);
-// 0x00000233 System.Void UnityEngine.ProBuilder.ProBuilderMesh::InvalidateSharedVertexLookup()
+// 0x00000231 System.Void UnityEngine.ProBuilder.ProBuilderMesh::InvalidateSharedVertexLookup()
 extern void ProBuilderMesh_InvalidateSharedVertexLookup_m861831689A0EF7ACD2FEC091BA3FE1BBBD42F1B3 (void);
-// 0x00000234 System.Void UnityEngine.ProBuilder.ProBuilderMesh::InvalidateSharedTextureLookup()
+// 0x00000232 System.Void UnityEngine.ProBuilder.ProBuilderMesh::InvalidateSharedTextureLookup()
 extern void ProBuilderMesh_InvalidateSharedTextureLookup_m5B401D015EC21BDC8198AD3F1C2D2881BFCB5C8F (void);
-// 0x00000235 System.Void UnityEngine.ProBuilder.ProBuilderMesh::InvalidateFaces()
+// 0x00000233 System.Void UnityEngine.ProBuilder.ProBuilderMesh::InvalidateFaces()
 extern void ProBuilderMesh_InvalidateFaces_mEC9F8D28A3109CD806485968D90CAE43CFAEFE13 (void);
-// 0x00000236 System.Void UnityEngine.ProBuilder.ProBuilderMesh::InvalidateCaches()
+// 0x00000234 System.Void UnityEngine.ProBuilder.ProBuilderMesh::InvalidateCaches()
 extern void ProBuilderMesh_InvalidateCaches_mDC95E6FEC487041E375067A09A8913BC164277E7 (void);
-// 0x00000237 UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.ProBuilderMesh::get_sharedVerticesInternal()
+// 0x00000235 UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.ProBuilderMesh::get_sharedVerticesInternal()
 extern void ProBuilderMesh_get_sharedVerticesInternal_mE5921D5D68F8E0D2EFFE91844FCF018D6CA635CC (void);
-// 0x00000238 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_sharedVerticesInternal(UnityEngine.ProBuilder.SharedVertex[])
+// 0x00000236 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_sharedVerticesInternal(UnityEngine.ProBuilder.SharedVertex[])
 extern void ProBuilderMesh_set_sharedVerticesInternal_mAD96C692C6C0F2C108EF4E4BF468225E232A5A3B (void);
-// 0x00000239 System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex> UnityEngine.ProBuilder.ProBuilderMesh::get_sharedVertices()
+// 0x00000237 System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex> UnityEngine.ProBuilder.ProBuilderMesh::get_sharedVertices()
 extern void ProBuilderMesh_get_sharedVertices_m4FE2F5F4BDA1249F41821345205420FEC9B935EC (void);
-// 0x0000023A System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_sharedVertices(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex>)
+// 0x00000238 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_sharedVertices(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex>)
 extern void ProBuilderMesh_set_sharedVertices_mA0D39AE46AB81DC07520BED6746659247891BE74 (void);
-// 0x0000023B System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::get_sharedVertexLookup()
+// 0x00000239 System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::get_sharedVertexLookup()
 extern void ProBuilderMesh_get_sharedVertexLookup_m8D5AB82F38EB3B71188D94EB79DA7A8A03BAED74 (void);
-// 0x0000023C System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetSharedVertices(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>)
+// 0x0000023A System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetSharedVertices(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>)
 extern void ProBuilderMesh_SetSharedVertices_mB92A9B8974EFADC2E0215338DBFE666494255605 (void);
-// 0x0000023D UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.ProBuilderMesh::get_sharedTextures()
+// 0x0000023B UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.ProBuilderMesh::get_sharedTextures()
 extern void ProBuilderMesh_get_sharedTextures_mF2EBC09BB79B73ABCC9BB9231DF7F9FE2E761CBE (void);
-// 0x0000023E System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_sharedTextures(UnityEngine.ProBuilder.SharedVertex[])
+// 0x0000023C System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_sharedTextures(UnityEngine.ProBuilder.SharedVertex[])
 extern void ProBuilderMesh_set_sharedTextures_m3E568414463F5304E1B49C936B93BD6448673C63 (void);
-// 0x0000023F System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::get_sharedTextureLookup()
+// 0x0000023D System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::get_sharedTextureLookup()
 extern void ProBuilderMesh_get_sharedTextureLookup_m758E8F44CD2BF02BE710D4B1FF1135CDD86A8632 (void);
-// 0x00000240 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetSharedTextures(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>)
+// 0x0000023E System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetSharedTextures(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>)
 extern void ProBuilderMesh_SetSharedTextures_mD3C08F6DE889CE0CD833309F5C8CC8F0A4CDE241 (void);
-// 0x00000241 UnityEngine.Vector3[] UnityEngine.ProBuilder.ProBuilderMesh::get_positionsInternal()
+// 0x0000023F UnityEngine.Vector3[] UnityEngine.ProBuilder.ProBuilderMesh::get_positionsInternal()
 extern void ProBuilderMesh_get_positionsInternal_m73E91567C5B8A8619BEC4EAE15B3AA0AB1EA57C9 (void);
-// 0x00000242 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_positionsInternal(UnityEngine.Vector3[])
+// 0x00000240 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_positionsInternal(UnityEngine.Vector3[])
 extern void ProBuilderMesh_set_positionsInternal_m8349ABA2BB2D8983F26F6712585D1231DB010D6B (void);
-// 0x00000243 System.Collections.Generic.IList`1<UnityEngine.Vector3> UnityEngine.ProBuilder.ProBuilderMesh::get_positions()
+// 0x00000241 System.Collections.Generic.IList`1<UnityEngine.Vector3> UnityEngine.ProBuilder.ProBuilderMesh::get_positions()
 extern void ProBuilderMesh_get_positions_mBEEBBC6F7298DAD846D38CC01AE017CCDE9AAFC0 (void);
-// 0x00000244 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_positions(System.Collections.Generic.IList`1<UnityEngine.Vector3>)
+// 0x00000242 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_positions(System.Collections.Generic.IList`1<UnityEngine.Vector3>)
 extern void ProBuilderMesh_set_positions_mCB8E1FA9E40308F2BF8230AA0911C6C5B98B0733 (void);
-// 0x00000245 UnityEngine.ProBuilder.Vertex[] UnityEngine.ProBuilder.ProBuilderMesh::GetVertices(System.Collections.Generic.IList`1<System.Int32>)
+// 0x00000243 UnityEngine.ProBuilder.Vertex[] UnityEngine.ProBuilder.ProBuilderMesh::GetVertices(System.Collections.Generic.IList`1<System.Int32>)
 extern void ProBuilderMesh_GetVertices_m7575CAF60B71C486C2E6648D0DBD1F3B4122DAC1 (void);
-// 0x00000246 System.Void UnityEngine.ProBuilder.ProBuilderMesh::GetVerticesInList(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>)
+// 0x00000244 System.Void UnityEngine.ProBuilder.ProBuilderMesh::GetVerticesInList(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>)
 extern void ProBuilderMesh_GetVerticesInList_mF6EA13593DEE19B41C8FD160387F6EBFBAB5209C (void);
-// 0x00000247 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetVertices(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Boolean)
+// 0x00000245 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetVertices(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Boolean)
 extern void ProBuilderMesh_SetVertices_mC69AF4F2FBDE6063858CEED67589E944F8FCBE46 (void);
-// 0x00000248 System.Collections.Generic.IList`1<UnityEngine.Vector3> UnityEngine.ProBuilder.ProBuilderMesh::get_normals()
+// 0x00000246 System.Collections.Generic.IList`1<UnityEngine.Vector3> UnityEngine.ProBuilder.ProBuilderMesh::get_normals()
 extern void ProBuilderMesh_get_normals_mF02DFAA4462FC1D20C907DFDDC532E3160E65718 (void);
-// 0x00000249 UnityEngine.Vector3[] UnityEngine.ProBuilder.ProBuilderMesh::get_normalsInternal()
+// 0x00000247 UnityEngine.Vector3[] UnityEngine.ProBuilder.ProBuilderMesh::get_normalsInternal()
 extern void ProBuilderMesh_get_normalsInternal_m4D7731BFBA792FA5C8B4ABD713AAB465D4455391 (void);
-// 0x0000024A System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_normalsInternal(UnityEngine.Vector3[])
+// 0x00000248 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_normalsInternal(UnityEngine.Vector3[])
 extern void ProBuilderMesh_set_normalsInternal_m3950B6D940CA0307E4C488475B56E69EECEC2101 (void);
-// 0x0000024B UnityEngine.Vector3[] UnityEngine.ProBuilder.ProBuilderMesh::GetNormals()
+// 0x00000249 UnityEngine.Vector3[] UnityEngine.ProBuilder.ProBuilderMesh::GetNormals()
 extern void ProBuilderMesh_GetNormals_m4273903E92D3EB2E2FC90D4AA1E24DA0C2062D41 (void);
-// 0x0000024C UnityEngine.Color[] UnityEngine.ProBuilder.ProBuilderMesh::get_colorsInternal()
+// 0x0000024A UnityEngine.Color[] UnityEngine.ProBuilder.ProBuilderMesh::get_colorsInternal()
 extern void ProBuilderMesh_get_colorsInternal_mCAE9A2D2A9FE7E5CDD9A8F32006521DF7D122192 (void);
-// 0x0000024D System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_colorsInternal(UnityEngine.Color[])
+// 0x0000024B System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_colorsInternal(UnityEngine.Color[])
 extern void ProBuilderMesh_set_colorsInternal_m3E26BBFB68E90D40BFD6AE6A16A334EFADDE91B6 (void);
-// 0x0000024E System.Collections.Generic.IList`1<UnityEngine.Color> UnityEngine.ProBuilder.ProBuilderMesh::get_colors()
+// 0x0000024C System.Collections.Generic.IList`1<UnityEngine.Color> UnityEngine.ProBuilder.ProBuilderMesh::get_colors()
 extern void ProBuilderMesh_get_colors_mEA78DF8172BD2A35F4EB3D7223AA024CA65B47F3 (void);
-// 0x0000024F System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_colors(System.Collections.Generic.IList`1<UnityEngine.Color>)
+// 0x0000024D System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_colors(System.Collections.Generic.IList`1<UnityEngine.Color>)
 extern void ProBuilderMesh_set_colors_m384160C651C9C90DA46337EA5F798F3814656E3E (void);
-// 0x00000250 UnityEngine.Color[] UnityEngine.ProBuilder.ProBuilderMesh::GetColors()
+// 0x0000024E UnityEngine.Color[] UnityEngine.ProBuilder.ProBuilderMesh::GetColors()
 extern void ProBuilderMesh_GetColors_m33FF3A2052923F1D42AE48774D0B04B79211405B (void);
-// 0x00000251 System.Collections.Generic.IList`1<UnityEngine.Vector4> UnityEngine.ProBuilder.ProBuilderMesh::get_tangents()
+// 0x0000024F System.Collections.Generic.IList`1<UnityEngine.Vector4> UnityEngine.ProBuilder.ProBuilderMesh::get_tangents()
 extern void ProBuilderMesh_get_tangents_mEE2A95AC2B45C17157D0BAD9831914D2EEA60741 (void);
-// 0x00000252 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_tangents(System.Collections.Generic.IList`1<UnityEngine.Vector4>)
+// 0x00000250 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_tangents(System.Collections.Generic.IList`1<UnityEngine.Vector4>)
 extern void ProBuilderMesh_set_tangents_m9691EECF1F06F96C88A515228E270ABDBA8B9101 (void);
-// 0x00000253 UnityEngine.Vector4[] UnityEngine.ProBuilder.ProBuilderMesh::get_tangentsInternal()
+// 0x00000251 UnityEngine.Vector4[] UnityEngine.ProBuilder.ProBuilderMesh::get_tangentsInternal()
 extern void ProBuilderMesh_get_tangentsInternal_m1E3E2250F25DB5D27AD3D1284DD4555344077EF0 (void);
-// 0x00000254 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_tangentsInternal(UnityEngine.Vector4[])
+// 0x00000252 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_tangentsInternal(UnityEngine.Vector4[])
 extern void ProBuilderMesh_set_tangentsInternal_m38F3F861DE1CC4ED91D612EEF5504D6DD0DFA8CF (void);
-// 0x00000255 UnityEngine.Vector4[] UnityEngine.ProBuilder.ProBuilderMesh::GetTangents()
+// 0x00000253 UnityEngine.Vector4[] UnityEngine.ProBuilder.ProBuilderMesh::GetTangents()
 extern void ProBuilderMesh_GetTangents_mECCCBF65D0C81C11F430E8EACD0194D173FC736A (void);
-// 0x00000256 UnityEngine.Vector2[] UnityEngine.ProBuilder.ProBuilderMesh::get_texturesInternal()
+// 0x00000254 UnityEngine.Vector2[] UnityEngine.ProBuilder.ProBuilderMesh::get_texturesInternal()
 extern void ProBuilderMesh_get_texturesInternal_m6077FE42E7373CF7174773C6DA413979140BEB1B (void);
-// 0x00000257 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_texturesInternal(UnityEngine.Vector2[])
+// 0x00000255 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_texturesInternal(UnityEngine.Vector2[])
 extern void ProBuilderMesh_set_texturesInternal_mEFEC4D36A7C50392D5F8C94B68719312BB75512E (void);
-// 0x00000258 System.Collections.Generic.List`1<UnityEngine.Vector4> UnityEngine.ProBuilder.ProBuilderMesh::get_textures2Internal()
+// 0x00000256 System.Collections.Generic.List`1<UnityEngine.Vector4> UnityEngine.ProBuilder.ProBuilderMesh::get_textures2Internal()
 extern void ProBuilderMesh_get_textures2Internal_m273E1CC6014E77EAF99CA7463C4ADC2B9B3886A8 (void);
-// 0x00000259 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_textures2Internal(System.Collections.Generic.List`1<UnityEngine.Vector4>)
+// 0x00000257 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_textures2Internal(System.Collections.Generic.List`1<UnityEngine.Vector4>)
 extern void ProBuilderMesh_set_textures2Internal_m5B659B974C5D0A4A30E8B891D09B47B6BF5ABBBE (void);
-// 0x0000025A System.Collections.Generic.List`1<UnityEngine.Vector4> UnityEngine.ProBuilder.ProBuilderMesh::get_textures3Internal()
+// 0x00000258 System.Collections.Generic.List`1<UnityEngine.Vector4> UnityEngine.ProBuilder.ProBuilderMesh::get_textures3Internal()
 extern void ProBuilderMesh_get_textures3Internal_m2A07E10448716249105A4F14B52F7EF66C902BBD (void);
-// 0x0000025B System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_textures3Internal(System.Collections.Generic.List`1<UnityEngine.Vector4>)
+// 0x00000259 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_textures3Internal(System.Collections.Generic.List`1<UnityEngine.Vector4>)
 extern void ProBuilderMesh_set_textures3Internal_mD28C23AC5FBDDF40110F0689ED3403981F25B0E3 (void);
-// 0x0000025C System.Collections.Generic.IList`1<UnityEngine.Vector2> UnityEngine.ProBuilder.ProBuilderMesh::get_textures()
+// 0x0000025A System.Collections.Generic.IList`1<UnityEngine.Vector2> UnityEngine.ProBuilder.ProBuilderMesh::get_textures()
 extern void ProBuilderMesh_get_textures_m770BD988515D2261426C0F8161C0034F1CF1888E (void);
-// 0x0000025D System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_textures(System.Collections.Generic.IList`1<UnityEngine.Vector2>)
+// 0x0000025B System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_textures(System.Collections.Generic.IList`1<UnityEngine.Vector2>)
 extern void ProBuilderMesh_set_textures_m1BBF5801B7E6C35B8C00B596DB9B2F7BF2B09E73 (void);
-// 0x0000025E System.Void UnityEngine.ProBuilder.ProBuilderMesh::GetUVs(System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector4>)
+// 0x0000025C System.Void UnityEngine.ProBuilder.ProBuilderMesh::GetUVs(System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector4>)
 extern void ProBuilderMesh_GetUVs_mB9C5D001FDE81939D338057EE0CB463C1005728A (void);
-// 0x0000025F System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2> UnityEngine.ProBuilder.ProBuilderMesh::GetUVs(System.Int32)
+// 0x0000025D System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2> UnityEngine.ProBuilder.ProBuilderMesh::GetUVs(System.Int32)
 extern void ProBuilderMesh_GetUVs_m3A98D0E34EA134F341AD963722D01F7B43A54BA6 (void);
-// 0x00000260 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetUVs(System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector4>)
+// 0x0000025E System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetUVs(System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector4>)
 extern void ProBuilderMesh_SetUVs_m76ECDA0E7FE18D1C3F9B50BB937C0343742C5021 (void);
-// 0x00000261 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_faceCount()
+// 0x0000025F System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_faceCount()
 extern void ProBuilderMesh_get_faceCount_mC506ECBAB75EEBAD71334A88E9A4AB6B1F032E0D (void);
-// 0x00000262 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_vertexCount()
+// 0x00000260 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_vertexCount()
 extern void ProBuilderMesh_get_vertexCount_mF09D8D594787FBBC5B715C12F5DB876E376EDB58 (void);
-// 0x00000263 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_edgeCount()
+// 0x00000261 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_edgeCount()
 extern void ProBuilderMesh_get_edgeCount_m50CE0605BC53F0C6A1D09A7BD6B5914B9FA2484E (void);
-// 0x00000264 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_indexCount()
+// 0x00000262 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_indexCount()
 extern void ProBuilderMesh_get_indexCount_m73C8F1878EF55074EB480D795410C3EB9959243D (void);
-// 0x00000265 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_triangleCount()
+// 0x00000263 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_triangleCount()
 extern void ProBuilderMesh_get_triangleCount_m32D3CA1EDD68EA8A46A9506F4968B8CD75F8C52B (void);
-// 0x00000266 System.Void UnityEngine.ProBuilder.ProBuilderMesh::add_meshWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
+// 0x00000264 System.Void UnityEngine.ProBuilder.ProBuilderMesh::add_meshWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
 extern void ProBuilderMesh_add_meshWillBeDestroyed_m2802F1C59B2E8739B18B6116D825953AEB358CED (void);
-// 0x00000267 System.Void UnityEngine.ProBuilder.ProBuilderMesh::remove_meshWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
+// 0x00000265 System.Void UnityEngine.ProBuilder.ProBuilderMesh::remove_meshWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
 extern void ProBuilderMesh_remove_meshWillBeDestroyed_mECAD6317BF41232166CA4F37214A2571699A9C92 (void);
-// 0x00000268 System.Void UnityEngine.ProBuilder.ProBuilderMesh::add_meshWasInitialized(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
+// 0x00000266 System.Void UnityEngine.ProBuilder.ProBuilderMesh::add_meshWasInitialized(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
 extern void ProBuilderMesh_add_meshWasInitialized_m3AF26C217BC2E7466F495EA8F7FB72EC6358EDB1 (void);
-// 0x00000269 System.Void UnityEngine.ProBuilder.ProBuilderMesh::remove_meshWasInitialized(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
+// 0x00000267 System.Void UnityEngine.ProBuilder.ProBuilderMesh::remove_meshWasInitialized(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
 extern void ProBuilderMesh_remove_meshWasInitialized_m3F11023F2EE4CFACA5567293A4CE8F3855C116DE (void);
-// 0x0000026A System.Void UnityEngine.ProBuilder.ProBuilderMesh::add_componentWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
+// 0x00000268 System.Void UnityEngine.ProBuilder.ProBuilderMesh::add_componentWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
 extern void ProBuilderMesh_add_componentWillBeDestroyed_m11068170E2ED2DE35637CD419A9CFA969D78F7EE (void);
-// 0x0000026B System.Void UnityEngine.ProBuilder.ProBuilderMesh::remove_componentWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
+// 0x00000269 System.Void UnityEngine.ProBuilder.ProBuilderMesh::remove_componentWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
 extern void ProBuilderMesh_remove_componentWillBeDestroyed_m2B17562292FBEA01AF3C508C25FA03E38863D238 (void);
-// 0x0000026C System.Void UnityEngine.ProBuilder.ProBuilderMesh::add_componentHasBeenReset(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
+// 0x0000026A System.Void UnityEngine.ProBuilder.ProBuilderMesh::add_componentHasBeenReset(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
 extern void ProBuilderMesh_add_componentHasBeenReset_mC75273D163E8904436AE40A5CF397C32DB553220 (void);
-// 0x0000026D System.Void UnityEngine.ProBuilder.ProBuilderMesh::remove_componentHasBeenReset(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
+// 0x0000026B System.Void UnityEngine.ProBuilder.ProBuilderMesh::remove_componentHasBeenReset(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
 extern void ProBuilderMesh_remove_componentHasBeenReset_mE99EE112CB39A5986DBBD8E28C8774A56415DAB2 (void);
-// 0x0000026E System.Void UnityEngine.ProBuilder.ProBuilderMesh::add_elementSelectionChanged(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
+// 0x0000026C System.Void UnityEngine.ProBuilder.ProBuilderMesh::add_elementSelectionChanged(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
 extern void ProBuilderMesh_add_elementSelectionChanged_m24B0DA1B30E6A2078BE9DC05649CFF58BBF7141E (void);
-// 0x0000026F System.Void UnityEngine.ProBuilder.ProBuilderMesh::remove_elementSelectionChanged(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
+// 0x0000026D System.Void UnityEngine.ProBuilder.ProBuilderMesh::remove_elementSelectionChanged(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh>)
 extern void ProBuilderMesh_remove_elementSelectionChanged_m03ACE0F3B91E7D0949B7A81DC5F6EE62F6FCB9F1 (void);
-// 0x00000270 UnityEngine.Mesh UnityEngine.ProBuilder.ProBuilderMesh::get_mesh()
+// 0x0000026E UnityEngine.Mesh UnityEngine.ProBuilder.ProBuilderMesh::get_mesh()
 extern void ProBuilderMesh_get_mesh_mD88A4B3FA5FF69D3A354D8F71A3D9B67DF683A4C (void);
-// 0x00000271 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_mesh(UnityEngine.Mesh)
+// 0x0000026F System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_mesh(UnityEngine.Mesh)
 extern void ProBuilderMesh_set_mesh_m820222E5F7369C7D8AFD217E5BCD27AAFE6355D1 (void);
-// 0x00000272 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_id()
+// 0x00000270 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_id()
 extern void ProBuilderMesh_get_id_m158393D5BD98F192709ABF2D2DE4F74BC93314F8 (void);
-// 0x00000273 UnityEngine.ProBuilder.MeshSyncState UnityEngine.ProBuilder.ProBuilderMesh::get_meshSyncState()
+// 0x00000271 UnityEngine.ProBuilder.MeshSyncState UnityEngine.ProBuilder.ProBuilderMesh::get_meshSyncState()
 extern void ProBuilderMesh_get_meshSyncState_mDF1A2EFFAEF88466EB96DE46A8BACFA7B6D78DF5 (void);
-// 0x00000274 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_meshFormatVersion()
+// 0x00000272 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_meshFormatVersion()
 extern void ProBuilderMesh_get_meshFormatVersion_m5DF6666C336DA08F964CF5C194F3A08FEF5151BE (void);
-// 0x00000275 System.Void UnityEngine.ProBuilder.ProBuilderMesh::Awake()
+// 0x00000273 System.Void UnityEngine.ProBuilder.ProBuilderMesh::Awake()
 extern void ProBuilderMesh_Awake_m998F4A5046E3644CEF67A2D4143683A077F06625 (void);
-// 0x00000276 System.Void UnityEngine.ProBuilder.ProBuilderMesh::Reset()
+// 0x00000274 System.Void UnityEngine.ProBuilder.ProBuilderMesh::Reset()
 extern void ProBuilderMesh_Reset_m3DBB0D2C7F768EB7D43FB23DCB7637CC342C7DD8 (void);
-// 0x00000277 System.Void UnityEngine.ProBuilder.ProBuilderMesh::OnDestroy()
+// 0x00000275 System.Void UnityEngine.ProBuilder.ProBuilderMesh::OnDestroy()
 extern void ProBuilderMesh_OnDestroy_mC9B1A8BD910B6AEBFBF8F43511F57F6D7A879008 (void);
-// 0x00000278 System.Void UnityEngine.ProBuilder.ProBuilderMesh::IncrementVersionIndex()
+// 0x00000276 System.Void UnityEngine.ProBuilder.ProBuilderMesh::IncrementVersionIndex()
 extern void ProBuilderMesh_IncrementVersionIndex_m7CD2AF434AF3998F8ACF0045886E8A9501DA4D9F (void);
-// 0x00000279 System.Void UnityEngine.ProBuilder.ProBuilderMesh::Clear()
+// 0x00000277 System.Void UnityEngine.ProBuilder.ProBuilderMesh::Clear()
 extern void ProBuilderMesh_Clear_m224326FC31063C668F776A84AC793410C10A3A09 (void);
-// 0x0000027A System.Void UnityEngine.ProBuilder.ProBuilderMesh::EnsureMeshFilterIsAssigned()
+// 0x00000278 System.Void UnityEngine.ProBuilder.ProBuilderMesh::EnsureMeshFilterIsAssigned()
 extern void ProBuilderMesh_EnsureMeshFilterIsAssigned_mCD14BED6E925A058C570614BB5CF2256D83A1669 (void);
-// 0x0000027B UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ProBuilderMesh::CreateInstanceWithPoints(UnityEngine.Vector3[])
+// 0x00000279 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ProBuilderMesh::CreateInstanceWithPoints(UnityEngine.Vector3[])
 extern void ProBuilderMesh_CreateInstanceWithPoints_m930487398A179C22CD032F836CE648F80198D279 (void);
-// 0x0000027C UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ProBuilderMesh::Create()
+// 0x0000027A UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ProBuilderMesh::Create()
 extern void ProBuilderMesh_Create_m3C8204520B58296808117F17319A00B087C1E1A7 (void);
-// 0x0000027D UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ProBuilderMesh::Create(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x0000027B UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ProBuilderMesh::Create(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void ProBuilderMesh_Create_m7DE83B15BC84D452511E19AF630E0E9241BC7CF2 (void);
-// 0x0000027E UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ProBuilderMesh::Create(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex>,System.Collections.Generic.IList`1<UnityEngine.Material>)
+// 0x0000027C UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ProBuilderMesh::Create(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex>,System.Collections.Generic.IList`1<UnityEngine.Material>)
 extern void ProBuilderMesh_Create_m9A41C54ED622E1E3EEB89FCC2B21E6CDAF25711A (void);
-// 0x0000027F System.Void UnityEngine.ProBuilder.ProBuilderMesh::GeometryWithPoints(UnityEngine.Vector3[])
+// 0x0000027D System.Void UnityEngine.ProBuilder.ProBuilderMesh::GeometryWithPoints(UnityEngine.Vector3[])
 extern void ProBuilderMesh_GeometryWithPoints_m9C8230857E82CCA8C72367FFACE5F03205DD9672 (void);
-// 0x00000280 System.Void UnityEngine.ProBuilder.ProBuilderMesh::RebuildWithPositionsAndFaces(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x0000027E System.Void UnityEngine.ProBuilder.ProBuilderMesh::RebuildWithPositionsAndFaces(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void ProBuilderMesh_RebuildWithPositionsAndFaces_m644D048416E43F178E195F0268C8433DC346F69C (void);
-// 0x00000281 System.Void UnityEngine.ProBuilder.ProBuilderMesh::Rebuild()
+// 0x0000027F System.Void UnityEngine.ProBuilder.ProBuilderMesh::Rebuild()
 extern void ProBuilderMesh_Rebuild_mB3140D238A6D24BF9747DDE4182039D64645EDB2 (void);
-// 0x00000282 System.Void UnityEngine.ProBuilder.ProBuilderMesh::ToMesh(UnityEngine.MeshTopology)
+// 0x00000280 System.Void UnityEngine.ProBuilder.ProBuilderMesh::ToMesh(UnityEngine.MeshTopology)
 extern void ProBuilderMesh_ToMesh_mEA66342EDE7D96BA47447F3C50FF76E409898F35 (void);
-// 0x00000283 System.Void UnityEngine.ProBuilder.ProBuilderMesh::MakeUnique()
+// 0x00000281 System.Void UnityEngine.ProBuilder.ProBuilderMesh::MakeUnique()
 extern void ProBuilderMesh_MakeUnique_m010043EAD9DC2C1E44311C6DC2B372E24974C785 (void);
-// 0x00000284 System.Void UnityEngine.ProBuilder.ProBuilderMesh::CopyFrom(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x00000282 System.Void UnityEngine.ProBuilder.ProBuilderMesh::CopyFrom(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void ProBuilderMesh_CopyFrom_m65D0C681F958B618ABFA0E7B66E4096A56F4F991 (void);
-// 0x00000285 System.Void UnityEngine.ProBuilder.ProBuilderMesh::Refresh(UnityEngine.ProBuilder.RefreshMask)
+// 0x00000283 System.Void UnityEngine.ProBuilder.ProBuilderMesh::Refresh(UnityEngine.ProBuilder.RefreshMask)
 extern void ProBuilderMesh_Refresh_m6B448E13C935DFFE7424E3008CBD092DA230879A (void);
-// 0x00000286 System.Void UnityEngine.ProBuilder.ProBuilderMesh::EnsureMeshColliderIsAssigned()
+// 0x00000284 System.Void UnityEngine.ProBuilder.ProBuilderMesh::EnsureMeshColliderIsAssigned()
 extern void ProBuilderMesh_EnsureMeshColliderIsAssigned_m8E107E14DAA5680FB5FC797B4012B32DAAACF045 (void);
-// 0x00000287 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::GetUnusedTextureGroup(System.Int32)
+// 0x00000285 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::GetUnusedTextureGroup(System.Int32)
 extern void ProBuilderMesh_GetUnusedTextureGroup_m64D89F76B6C0CCB07E358A7184CB6A6A571EA8AD (void);
-// 0x00000288 System.Boolean UnityEngine.ProBuilder.ProBuilderMesh::IsValidTextureGroup(System.Int32)
+// 0x00000286 System.Boolean UnityEngine.ProBuilder.ProBuilderMesh::IsValidTextureGroup(System.Int32)
 extern void ProBuilderMesh_IsValidTextureGroup_m512839B3E8E166BE12682DC191150863F4C5C8C1 (void);
-// 0x00000289 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::UnusedElementGroup(System.Int32)
+// 0x00000287 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::UnusedElementGroup(System.Int32)
 extern void ProBuilderMesh_UnusedElementGroup_mDC1E289050B5273F55240061298262EB833391BB (void);
-// 0x0000028A System.Void UnityEngine.ProBuilder.ProBuilderMesh::RefreshUV(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x00000288 System.Void UnityEngine.ProBuilder.ProBuilderMesh::RefreshUV(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void ProBuilderMesh_RefreshUV_mF3320AE4DAFFFD2F0AF3E8ED6B737ECBC6C47132 (void);
-// 0x0000028B System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetGroupUV(UnityEngine.ProBuilder.AutoUnwrapSettings,System.Int32)
+// 0x00000289 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetGroupUV(UnityEngine.ProBuilder.AutoUnwrapSettings,System.Int32)
 extern void ProBuilderMesh_SetGroupUV_m4C2C9F94E6FEB2B59F07EDD0FED5E2DADE646378 (void);
-// 0x0000028C System.Void UnityEngine.ProBuilder.ProBuilderMesh::RefreshColors()
+// 0x0000028A System.Void UnityEngine.ProBuilder.ProBuilderMesh::RefreshColors()
 extern void ProBuilderMesh_RefreshColors_m377BED09DCE390E4E2FC499C9F41E07CF6442250 (void);
-// 0x0000028D System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetFaceColor(UnityEngine.ProBuilder.Face,UnityEngine.Color)
+// 0x0000028B System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetFaceColor(UnityEngine.ProBuilder.Face,UnityEngine.Color)
 extern void ProBuilderMesh_SetFaceColor_m48CB154D2126BCA690965C1FF7EB389C13570BDE (void);
-// 0x0000028E System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetMaterial(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,UnityEngine.Material)
+// 0x0000028C System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetMaterial(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,UnityEngine.Material)
 extern void ProBuilderMesh_SetMaterial_mD17009856B0DA21D34CAC79016331B5442B53A5E (void);
-// 0x0000028F System.Void UnityEngine.ProBuilder.ProBuilderMesh::RefreshNormals()
+// 0x0000028D System.Void UnityEngine.ProBuilder.ProBuilderMesh::RefreshNormals()
 extern void ProBuilderMesh_RefreshNormals_m3FA209F8D7324242799C6ACD72F10927653B7FCC (void);
-// 0x00000290 System.Void UnityEngine.ProBuilder.ProBuilderMesh::RefreshTangents()
+// 0x0000028E System.Void UnityEngine.ProBuilder.ProBuilderMesh::RefreshTangents()
 extern void ProBuilderMesh_RefreshTangents_m202BF34FDB5B5CAD31792918298649BCE753E1D2 (void);
-// 0x00000291 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::GetSharedVertexHandle(System.Int32)
+// 0x0000028F System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::GetSharedVertexHandle(System.Int32)
 extern void ProBuilderMesh_GetSharedVertexHandle_mEFDEEC1DF93E10E4DE6F34FE7C0D3DC2AC1AF876 (void);
-// 0x00000292 System.Collections.Generic.HashSet`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::GetSharedVertexHandles(System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x00000290 System.Collections.Generic.HashSet`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::GetSharedVertexHandles(System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void ProBuilderMesh_GetSharedVertexHandles_m5CEAB01E04662DA6166BC1EEEAFFB6A85FA70EB4 (void);
-// 0x00000293 System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::GetCoincidentVertices(System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x00000291 System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::GetCoincidentVertices(System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void ProBuilderMesh_GetCoincidentVertices_m9372F430B020146EF6F5C297C5CD096DD1B71659 (void);
-// 0x00000294 System.Void UnityEngine.ProBuilder.ProBuilderMesh::GetCoincidentVertices(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Collections.Generic.List`1<System.Int32>)
+// 0x00000292 System.Void UnityEngine.ProBuilder.ProBuilderMesh::GetCoincidentVertices(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Collections.Generic.List`1<System.Int32>)
 extern void ProBuilderMesh_GetCoincidentVertices_mF799A43FDDDFF144AA36C1CA1BFB8B2BC2A8C821 (void);
-// 0x00000295 System.Void UnityEngine.ProBuilder.ProBuilderMesh::GetCoincidentVertices(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,System.Collections.Generic.List`1<System.Int32>)
+// 0x00000293 System.Void UnityEngine.ProBuilder.ProBuilderMesh::GetCoincidentVertices(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,System.Collections.Generic.List`1<System.Int32>)
 extern void ProBuilderMesh_GetCoincidentVertices_mC51E17909DDC0C30BE5A41ACA50B046772F313B3 (void);
-// 0x00000296 System.Void UnityEngine.ProBuilder.ProBuilderMesh::GetCoincidentVertices(System.Collections.Generic.IEnumerable`1<System.Int32>,System.Collections.Generic.List`1<System.Int32>)
+// 0x00000294 System.Void UnityEngine.ProBuilder.ProBuilderMesh::GetCoincidentVertices(System.Collections.Generic.IEnumerable`1<System.Int32>,System.Collections.Generic.List`1<System.Int32>)
 extern void ProBuilderMesh_GetCoincidentVertices_m414DE9F682B128C5A68B924443392DDB2E975C5B (void);
-// 0x00000297 System.Void UnityEngine.ProBuilder.ProBuilderMesh::GetCoincidentVertices(System.Int32,System.Collections.Generic.List`1<System.Int32>)
+// 0x00000295 System.Void UnityEngine.ProBuilder.ProBuilderMesh::GetCoincidentVertices(System.Int32,System.Collections.Generic.List`1<System.Int32>)
 extern void ProBuilderMesh_GetCoincidentVertices_m4074F1306F09E1A0007A03867BD6ABAA50F451A4 (void);
-// 0x00000298 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetVerticesCoincident(System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x00000296 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetVerticesCoincident(System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void ProBuilderMesh_SetVerticesCoincident_m1700ECB59C3D313DA007B54F013539AC5A7953CA (void);
-// 0x00000299 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetTexturesCoincident(System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x00000297 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetTexturesCoincident(System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void ProBuilderMesh_SetTexturesCoincident_m9D641734256A9BEC6B992F1E74F9F80466A3EBE7 (void);
-// 0x0000029A System.Void UnityEngine.ProBuilder.ProBuilderMesh::AddToSharedVertex(System.Int32,System.Int32)
+// 0x00000298 System.Void UnityEngine.ProBuilder.ProBuilderMesh::AddToSharedVertex(System.Int32,System.Int32)
 extern void ProBuilderMesh_AddToSharedVertex_mE1FF80D8E6DBAE15092349F63FEDBF8E23F9CA94 (void);
-// 0x0000029B System.Void UnityEngine.ProBuilder.ProBuilderMesh::AddSharedVertex(UnityEngine.ProBuilder.SharedVertex)
+// 0x00000299 System.Void UnityEngine.ProBuilder.ProBuilderMesh::AddSharedVertex(UnityEngine.ProBuilder.SharedVertex)
 extern void ProBuilderMesh_AddSharedVertex_mEABB442842C4C17F618707316BF336C4FC0DB410 (void);
-// 0x0000029C System.Boolean UnityEngine.ProBuilder.ProBuilderMesh::get_selectable()
+// 0x0000029A System.Boolean UnityEngine.ProBuilder.ProBuilderMesh::get_selectable()
 extern void ProBuilderMesh_get_selectable_m7B79E9003C346FD0CE00C8663DF50AB32D71B0B1 (void);
-// 0x0000029D System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_selectable(System.Boolean)
+// 0x0000029B System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_selectable(System.Boolean)
 extern void ProBuilderMesh_set_selectable_m6A3429D46ED7991F2056AA3833FE6A6AD7CC89CA (void);
-// 0x0000029E System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_selectedFaceCount()
+// 0x0000029C System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_selectedFaceCount()
 extern void ProBuilderMesh_get_selectedFaceCount_m948EDA0465D826268D817E37CAE21B496A1D92C8 (void);
-// 0x0000029F System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_selectedVertexCount()
+// 0x0000029D System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_selectedVertexCount()
 extern void ProBuilderMesh_get_selectedVertexCount_m262DC6B2257834E011ADDCC5F91703BC0CE54CB2 (void);
-// 0x000002A0 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_selectedEdgeCount()
+// 0x0000029E System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_selectedEdgeCount()
 extern void ProBuilderMesh_get_selectedEdgeCount_mF458988F527E3A586F900E57C5B9FD72C69FC37C (void);
-// 0x000002A1 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_selectedSharedVerticesCount()
+// 0x0000029F System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_selectedSharedVerticesCount()
 extern void ProBuilderMesh_get_selectedSharedVerticesCount_mA4A3C6DBD1E339F67BEFE58ED58F82B63072FF5F (void);
-// 0x000002A2 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_selectedCoincidentVertexCount()
+// 0x000002A0 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::get_selectedCoincidentVertexCount()
 extern void ProBuilderMesh_get_selectedCoincidentVertexCount_mA715B0AC1D801D5586C4835C4FC9BF5727139EED (void);
-// 0x000002A3 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::get_selectedSharedVertices()
+// 0x000002A1 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::get_selectedSharedVertices()
 extern void ProBuilderMesh_get_selectedSharedVertices_mB48AA27E4D4C0EE67C34C4EFF082013FD4F609C0 (void);
-// 0x000002A4 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::get_selectedCoincidentVertices()
+// 0x000002A2 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::get_selectedCoincidentVertices()
 extern void ProBuilderMesh_get_selectedCoincidentVertices_m0B05A78AAF95639451230B6B824D325136524930 (void);
-// 0x000002A5 System.Void UnityEngine.ProBuilder.ProBuilderMesh::CacheSelection()
+// 0x000002A3 System.Void UnityEngine.ProBuilder.ProBuilderMesh::CacheSelection()
 extern void ProBuilderMesh_CacheSelection_mE24DB07BFD11100403B6EE43032C95EA829879EA (void);
-// 0x000002A6 UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.ProBuilderMesh::GetSelectedFaces()
+// 0x000002A4 UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.ProBuilderMesh::GetSelectedFaces()
 extern void ProBuilderMesh_GetSelectedFaces_m1FAC7A79A0D2563F12EF0D67903CF717DEE7E5C6 (void);
-// 0x000002A7 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::get_selectedFaceIndexes()
+// 0x000002A5 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::get_selectedFaceIndexes()
 extern void ProBuilderMesh_get_selectedFaceIndexes_mB0081CCBD434BA28C54732309EF4F896C8021637 (void);
-// 0x000002A8 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::get_selectedVertices()
+// 0x000002A6 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::get_selectedVertices()
 extern void ProBuilderMesh_get_selectedVertices_m141A72E9B8120FFC7E60BD51E0EBD98C71B4D174 (void);
-// 0x000002A9 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.ProBuilderMesh::get_selectedEdges()
+// 0x000002A7 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.ProBuilderMesh::get_selectedEdges()
 extern void ProBuilderMesh_get_selectedEdges_m512386D2A787E6B951981B89424D7D87AA611743 (void);
-// 0x000002AA UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.ProBuilderMesh::get_selectedFacesInternal()
+// 0x000002A8 UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.ProBuilderMesh::get_selectedFacesInternal()
 extern void ProBuilderMesh_get_selectedFacesInternal_mEE1CD0848598A2712A337937087277A956E4C469 (void);
-// 0x000002AB System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_selectedFacesInternal(UnityEngine.ProBuilder.Face[])
+// 0x000002A9 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_selectedFacesInternal(UnityEngine.ProBuilder.Face[])
 extern void ProBuilderMesh_set_selectedFacesInternal_mCECD77911004CCC0C3043A899E8A7D71B27D2866 (void);
-// 0x000002AC System.Int32[] UnityEngine.ProBuilder.ProBuilderMesh::get_selectedFaceIndicesInternal()
+// 0x000002AA System.Int32[] UnityEngine.ProBuilder.ProBuilderMesh::get_selectedFaceIndicesInternal()
 extern void ProBuilderMesh_get_selectedFaceIndicesInternal_m3FAB54CA44208F98498B9BDB6FF5D68A6ABB754F (void);
-// 0x000002AD System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_selectedFaceIndicesInternal(System.Int32[])
+// 0x000002AB System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_selectedFaceIndicesInternal(System.Int32[])
 extern void ProBuilderMesh_set_selectedFaceIndicesInternal_m7859A9E7824F4940268277718367B511F2E12D07 (void);
-// 0x000002AE UnityEngine.ProBuilder.Edge[] UnityEngine.ProBuilder.ProBuilderMesh::get_selectedEdgesInternal()
+// 0x000002AC UnityEngine.ProBuilder.Edge[] UnityEngine.ProBuilder.ProBuilderMesh::get_selectedEdgesInternal()
 extern void ProBuilderMesh_get_selectedEdgesInternal_m3A7CF45636B17E687F6D95B7CBE4A3EC4DF14DC6 (void);
-// 0x000002AF System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_selectedEdgesInternal(UnityEngine.ProBuilder.Edge[])
+// 0x000002AD System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_selectedEdgesInternal(UnityEngine.ProBuilder.Edge[])
 extern void ProBuilderMesh_set_selectedEdgesInternal_mE76DCB1BCA2E94A8D74602CFD0203E19DC697C96 (void);
-// 0x000002B0 System.Int32[] UnityEngine.ProBuilder.ProBuilderMesh::get_selectedIndexesInternal()
+// 0x000002AE System.Int32[] UnityEngine.ProBuilder.ProBuilderMesh::get_selectedIndexesInternal()
 extern void ProBuilderMesh_get_selectedIndexesInternal_m84B727572F2A72E15ADFC379F2CDB1A63288E8B9 (void);
-// 0x000002B1 System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_selectedIndexesInternal(System.Int32[])
+// 0x000002AF System.Void UnityEngine.ProBuilder.ProBuilderMesh::set_selectedIndexesInternal(System.Int32[])
 extern void ProBuilderMesh_set_selectedIndexesInternal_m77BF7A01C67F16546D2D1CB747DB6885268DDA96 (void);
-// 0x000002B2 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.ProBuilderMesh::GetActiveFace()
+// 0x000002B0 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.ProBuilderMesh::GetActiveFace()
 extern void ProBuilderMesh_GetActiveFace_mD4910580F5BE97A0F667A9218AF7460079C5CA31 (void);
-// 0x000002B3 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.ProBuilderMesh::GetActiveEdge()
+// 0x000002B1 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.ProBuilderMesh::GetActiveEdge()
 extern void ProBuilderMesh_GetActiveEdge_m0257904F285F3F73602A47C980A9A3F13A7DCC78 (void);
-// 0x000002B4 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::GetActiveVertex()
+// 0x000002B2 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::GetActiveVertex()
 extern void ProBuilderMesh_GetActiveVertex_m68AC0438175B68A9DE17FB969EC148E49AF54015 (void);
-// 0x000002B5 System.Void UnityEngine.ProBuilder.ProBuilderMesh::AddToFaceSelection(System.Int32)
+// 0x000002B3 System.Void UnityEngine.ProBuilder.ProBuilderMesh::AddToFaceSelection(System.Int32)
 extern void ProBuilderMesh_AddToFaceSelection_mFDFA9B7BF7815545F1660F334E2F5E0EC5131F15 (void);
-// 0x000002B6 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetSelectedFaces(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x000002B4 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetSelectedFaces(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void ProBuilderMesh_SetSelectedFaces_m7E04EA51E656FFC97CCF0AC89F1F8216D4AC2160 (void);
-// 0x000002B7 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetSelectedFaces(System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x000002B5 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetSelectedFaces(System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void ProBuilderMesh_SetSelectedFaces_mEEB8EAB518876E0EE007B81710DC5BF986D617F6 (void);
-// 0x000002B8 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetSelectedEdges(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>)
+// 0x000002B6 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetSelectedEdges(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>)
 extern void ProBuilderMesh_SetSelectedEdges_m4407930C8995A58178454F426E60BA68D1E021E7 (void);
-// 0x000002B9 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetSelectedVertices(System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x000002B7 System.Void UnityEngine.ProBuilder.ProBuilderMesh::SetSelectedVertices(System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void ProBuilderMesh_SetSelectedVertices_m9AAB5BB021F689D54ADC9662AE57284F56E5126F (void);
-// 0x000002BA System.Void UnityEngine.ProBuilder.ProBuilderMesh::RemoveFromFaceSelectionAtIndex(System.Int32)
+// 0x000002B8 System.Void UnityEngine.ProBuilder.ProBuilderMesh::RemoveFromFaceSelectionAtIndex(System.Int32)
 extern void ProBuilderMesh_RemoveFromFaceSelectionAtIndex_m1B0622917AD0503915A854E9F36CABB07691B8F4 (void);
-// 0x000002BB System.Void UnityEngine.ProBuilder.ProBuilderMesh::ClearSelection()
+// 0x000002B9 System.Void UnityEngine.ProBuilder.ProBuilderMesh::ClearSelection()
 extern void ProBuilderMesh_ClearSelection_m5E1B4274F6EA8BCBC0DB7D629B9056C13E7B7CED (void);
-// 0x000002BC System.Void UnityEngine.ProBuilder.ProBuilderMesh::.ctor()
+// 0x000002BA System.Void UnityEngine.ProBuilder.ProBuilderMesh::.ctor()
 extern void ProBuilderMesh__ctor_m8BF2E45C5A34E72960D475B1A0A4B4C4E0A4300C (void);
-// 0x000002BD System.Void UnityEngine.ProBuilder.ProBuilderMesh::.cctor()
+// 0x000002BB System.Void UnityEngine.ProBuilder.ProBuilderMesh::.cctor()
 extern void ProBuilderMesh__cctor_m8277A7E8317245707D1210ED26B1D4B671708694 (void);
-// 0x000002BE System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::<set_selectedFacesInternal>b__225_0(UnityEngine.ProBuilder.Face)
+// 0x000002BC System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::<set_selectedFacesInternal>b__225_0(UnityEngine.ProBuilder.Face)
 extern void ProBuilderMesh_U3Cset_selectedFacesInternalU3Eb__225_0_m842600434E9876F7F687DCC6A8EA924181C22E2B (void);
-// 0x000002BF System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::<SetSelectedFaces>b__239_0(UnityEngine.ProBuilder.Face)
+// 0x000002BD System.Int32 UnityEngine.ProBuilder.ProBuilderMesh::<SetSelectedFaces>b__239_0(UnityEngine.ProBuilder.Face)
 extern void ProBuilderMesh_U3CSetSelectedFacesU3Eb__239_0_mD1114DC11F3DBABAAFD6008137DF14EDB00C25C3 (void);
-// 0x000002C0 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::<SetSelectedFaces>b__240_0(System.Int32)
+// 0x000002BE System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.ProBuilderMesh::<SetSelectedFaces>b__240_0(System.Int32)
 extern void ProBuilderMesh_U3CSetSelectedFacesU3Eb__240_0_mC950B0BC8F877452938BACCDDD5FE170D6C62A31 (void);
-// 0x000002C1 System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.ProBuilderMesh::<SetSelectedFaces>b__240_1(System.Int32)
+// 0x000002BF System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.ProBuilderMesh::<SetSelectedFaces>b__240_1(System.Int32)
 extern void ProBuilderMesh_U3CSetSelectedFacesU3Eb__240_1_m53091E096A6407230812D78AE369133DAB1422C4 (void);
-// 0x000002C2 System.Void UnityEngine.ProBuilder.ProBuilderMesh/NonVersionedEditScope::.ctor(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000002C0 System.Void UnityEngine.ProBuilder.ProBuilderMesh/NonVersionedEditScope::.ctor(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void NonVersionedEditScope__ctor_m5925EDB7F2F7D003DD73B3651ED2C5BDC845F6CC (void);
-// 0x000002C3 System.Void UnityEngine.ProBuilder.ProBuilderMesh/NonVersionedEditScope::Dispose()
+// 0x000002C1 System.Void UnityEngine.ProBuilder.ProBuilderMesh/NonVersionedEditScope::Dispose()
 extern void NonVersionedEditScope_Dispose_m13BA38C65D7D01E114199B65409ACE0C16A9211F (void);
-// 0x000002C4 System.Void UnityEngine.ProBuilder.ProBuilderMesh/<>c::.cctor()
+// 0x000002C2 System.Void UnityEngine.ProBuilder.ProBuilderMesh/<>c::.cctor()
 extern void U3CU3Ec__cctor_mEB7855F1573667ADBEE5705ED908ACFB3C0B717C (void);
-// 0x000002C5 System.Void UnityEngine.ProBuilder.ProBuilderMesh/<>c::.ctor()
+// 0x000002C3 System.Void UnityEngine.ProBuilder.ProBuilderMesh/<>c::.ctor()
 extern void U3CU3Ec__ctor_m3056D3D68F5FD6E45AE75D5BAC4AEE858F29F651 (void);
-// 0x000002C6 UnityEngine.Vector2 UnityEngine.ProBuilder.ProBuilderMesh/<>c::<SetUVs>b__114_0(UnityEngine.Vector4)
+// 0x000002C4 UnityEngine.Vector2 UnityEngine.ProBuilder.ProBuilderMesh/<>c::<SetUVs>b__114_0(UnityEngine.Vector4)
 extern void U3CU3Ec_U3CSetUVsU3Eb__114_0_m34273AE99C66CEAB4057CCDBAA97B516DAFCC5DC (void);
-// 0x000002C7 UnityEngine.Vector2 UnityEngine.ProBuilder.ProBuilderMesh/<>c::<SetUVs>b__114_1(UnityEngine.Vector4)
+// 0x000002C5 UnityEngine.Vector2 UnityEngine.ProBuilder.ProBuilderMesh/<>c::<SetUVs>b__114_1(UnityEngine.Vector4)
 extern void U3CU3Ec_U3CSetUVsU3Eb__114_1_mBAD766752BCCE51C6B8B7D5B769967A1767C9CD2 (void);
-// 0x000002C8 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh/<>c::<get_indexCount>b__122_0(UnityEngine.ProBuilder.Face)
+// 0x000002C6 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh/<>c::<get_indexCount>b__122_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3Cget_indexCountU3Eb__122_0_m7D1ADAFE88149BBF6A69AF6764F0B7EB94045DA2 (void);
-// 0x000002C9 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh/<>c::<get_triangleCount>b__124_0(UnityEngine.ProBuilder.Face)
+// 0x000002C7 System.Int32 UnityEngine.ProBuilder.ProBuilderMesh/<>c::<get_triangleCount>b__124_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3Cget_triangleCountU3Eb__124_0_m7DE70EB091A063043C666D04762CA0D43739FEAB (void);
-// 0x000002CA UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.ProBuilderMesh/<>c::<CopyFrom>b__165_0(UnityEngine.ProBuilder.Face)
+// 0x000002C8 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.ProBuilderMesh/<>c::<CopyFrom>b__165_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CCopyFromU3Eb__165_0_mEE54A20029EAA09F47158BE555788DBDA6AE1817 (void);
-// 0x000002CB System.Void UnityEngine.ProBuilder.ProBuilderMesh/<>c__DisplayClass168_0::.ctor()
+// 0x000002C9 System.Void UnityEngine.ProBuilder.ProBuilderMesh/<>c__DisplayClass168_0::.ctor()
 extern void U3CU3Ec__DisplayClass168_0__ctor_m5A0F60E02B7984B0AC1F06DA50B92F9C50FEF3AE (void);
-// 0x000002CC System.Boolean UnityEngine.ProBuilder.ProBuilderMesh/<>c__DisplayClass168_0::<GetUnusedTextureGroup>b__0(UnityEngine.ProBuilder.Face)
+// 0x000002CA System.Boolean UnityEngine.ProBuilder.ProBuilderMesh/<>c__DisplayClass168_0::<GetUnusedTextureGroup>b__0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec__DisplayClass168_0_U3CGetUnusedTextureGroupU3Eb__0_m04B1A7A7CA8FED56F336B04E83DF5638CA5EA91B (void);
-// 0x000002CD System.Void UnityEngine.ProBuilder.ProBuilderMesh/<>c__DisplayClass170_0::.ctor()
+// 0x000002CB System.Void UnityEngine.ProBuilder.ProBuilderMesh/<>c__DisplayClass170_0::.ctor()
 extern void U3CU3Ec__DisplayClass170_0__ctor_mEEEFBCD42E1730315E4572B6CC06A2A12E6978CD (void);
-// 0x000002CE System.Boolean UnityEngine.ProBuilder.ProBuilderMesh/<>c__DisplayClass170_0::<UnusedElementGroup>b__0(UnityEngine.ProBuilder.Face)
+// 0x000002CC System.Boolean UnityEngine.ProBuilder.ProBuilderMesh/<>c__DisplayClass170_0::<UnusedElementGroup>b__0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec__DisplayClass170_0_U3CUnusedElementGroupU3Eb__0_mDC0D794B7455EF026ED20C6C338EA3303CCE595D (void);
-// 0x000002CF System.Boolean UnityEngine.ProBuilder.ProBuilderSnapping::IsCardinalDirection(UnityEngine.Vector3)
+// 0x000002CD System.Boolean UnityEngine.ProBuilder.ProBuilderSnapping::IsCardinalDirection(UnityEngine.Vector3)
 extern void ProBuilderSnapping_IsCardinalDirection_m4D14DA7BBB7C9D2582B5C30F107440A9D60E1EAF (void);
-// 0x000002D0 System.Single UnityEngine.ProBuilder.ProBuilderSnapping::Snap(System.Single,System.Single)
+// 0x000002CE System.Single UnityEngine.ProBuilder.ProBuilderSnapping::Snap(System.Single,System.Single)
 extern void ProBuilderSnapping_Snap_m04D6E530F8F63A8572C1398F820A0D04EF363EF2 (void);
-// 0x000002D1 UnityEngine.Vector3 UnityEngine.ProBuilder.ProBuilderSnapping::Snap(UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x000002CF UnityEngine.Vector3 UnityEngine.ProBuilder.ProBuilderSnapping::Snap(UnityEngine.Vector3,UnityEngine.Vector3)
 extern void ProBuilderSnapping_Snap_mB64B0F864F216C1709BEB0697248D477354C1DC1 (void);
-// 0x000002D2 System.Void UnityEngine.ProBuilder.ProBuilderSnapping::SnapVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>,UnityEngine.Vector3)
+// 0x000002D0 System.Void UnityEngine.ProBuilder.ProBuilderSnapping::SnapVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>,UnityEngine.Vector3)
 extern void ProBuilderSnapping_SnapVertices_m9742384E5A2ACFE81023514305CEE8ADAC2A16AC (void);
-// 0x000002D3 UnityEngine.Vector3 UnityEngine.ProBuilder.ProBuilderSnapping::GetSnappingMaskBasedOnNormalVector(UnityEngine.Vector3)
+// 0x000002D1 UnityEngine.Vector3 UnityEngine.ProBuilder.ProBuilderSnapping::GetSnappingMaskBasedOnNormalVector(UnityEngine.Vector3)
 extern void ProBuilderSnapping_GetSnappingMaskBasedOnNormalVector_m52926E0340A7C579B1AE45FB6EEBAAC2D8D97128 (void);
-// 0x000002D4 UnityEngine.Vector3 UnityEngine.ProBuilder.ProBuilderSnapping::SnapValueOnRay(UnityEngine.Ray,System.Single,System.Single,UnityEngine.ProBuilder.Vector3Mask)
+// 0x000002D2 UnityEngine.Vector3 UnityEngine.ProBuilder.ProBuilderSnapping::SnapValueOnRay(UnityEngine.Ray,System.Single,System.Single,UnityEngine.ProBuilder.Vector3Mask)
 extern void ProBuilderSnapping_SnapValueOnRay_m96A6470EA1D55925367AF2FCF7FA69C756AF0B09 (void);
-// 0x000002D5 System.Void UnityEngine.ProBuilder.ProGridsNoSnapAttribute::.ctor()
+// 0x000002D3 System.Void UnityEngine.ProBuilder.ProGridsNoSnapAttribute::.ctor()
 extern void ProGridsNoSnapAttribute__ctor_mD2887EC41421A43C6F85B4614A8627AE1DCF1444 (void);
-// 0x000002D6 System.Void UnityEngine.ProBuilder.ProGridsConditionalSnapAttribute::.ctor()
+// 0x000002D4 System.Void UnityEngine.ProBuilder.ProGridsConditionalSnapAttribute::.ctor()
 extern void ProGridsConditionalSnapAttribute__ctor_mF6DDB5B327FD825D19A92532344F0495CB917046 (void);
-// 0x000002D7 UnityEngine.Vector2[] UnityEngine.ProBuilder.Projection::PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>)
+// 0x000002D5 UnityEngine.Vector2[] UnityEngine.ProBuilder.Projection::PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>)
 extern void Projection_PlanarProject_mA13A556A5AF6D00AE23ACF42133C75C9455453D9 (void);
-// 0x000002D8 UnityEngine.Vector2[] UnityEngine.ProBuilder.Projection::PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>,UnityEngine.Vector3)
+// 0x000002D6 UnityEngine.Vector2[] UnityEngine.ProBuilder.Projection::PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>,UnityEngine.Vector3)
 extern void Projection_PlanarProject_mDCADC3259D8CBBB2CD6B17EE72302FF318FE9535 (void);
-// 0x000002D9 System.Void UnityEngine.ProBuilder.Projection::PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>,UnityEngine.Vector3,System.Collections.Generic.List`1<UnityEngine.Vector2>)
+// 0x000002D7 System.Void UnityEngine.ProBuilder.Projection::PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>,UnityEngine.Vector3,System.Collections.Generic.List`1<UnityEngine.Vector2>)
 extern void Projection_PlanarProject_m5C58CAC37F99CFA45268296C5DD71EDC5AC829ED (void);
-// 0x000002DA System.Void UnityEngine.ProBuilder.Projection::PlanarProject(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32,UnityEngine.ProBuilder.AutoUnwrapSettings)
+// 0x000002D8 System.Void UnityEngine.ProBuilder.Projection::PlanarProject(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32,UnityEngine.ProBuilder.AutoUnwrapSettings)
 extern void Projection_PlanarProject_m2871F88D5799A371EB437B49E2EDD795514FC03C (void);
-// 0x000002DB System.Void UnityEngine.ProBuilder.Projection::PlanarProject(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.Vector3)
+// 0x000002D9 System.Void UnityEngine.ProBuilder.Projection::PlanarProject(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.Vector3)
 extern void Projection_PlanarProject_mF35D5CA94F2BFFB87519398FADD305C5EB1C01ED (void);
-// 0x000002DC UnityEngine.Vector2[] UnityEngine.ProBuilder.Projection::SphericalProject(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>)
+// 0x000002DA UnityEngine.Vector2[] UnityEngine.ProBuilder.Projection::SphericalProject(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>)
 extern void Projection_SphericalProject_m0A3E1AAECB4E06246ECFAEFF9451480D9304CF7E (void);
-// 0x000002DD System.Collections.Generic.IList`1<UnityEngine.Vector2> UnityEngine.ProBuilder.Projection::Sort(System.Collections.Generic.IList`1<UnityEngine.Vector2>,UnityEngine.ProBuilder.SortMethod)
+// 0x000002DB System.Collections.Generic.IList`1<UnityEngine.Vector2> UnityEngine.ProBuilder.Projection::Sort(System.Collections.Generic.IList`1<UnityEngine.Vector2>,UnityEngine.ProBuilder.SortMethod)
 extern void Projection_Sort_mDC444ECE936AF4851578B2EBB6A11BD1DF55B008 (void);
-// 0x000002DE UnityEngine.Vector3 UnityEngine.ProBuilder.Projection::GetTangentToAxis(UnityEngine.ProBuilder.ProjectionAxis)
+// 0x000002DC UnityEngine.Vector3 UnityEngine.ProBuilder.Projection::GetTangentToAxis(UnityEngine.ProBuilder.ProjectionAxis)
 extern void Projection_GetTangentToAxis_mB45084C39645A34B1FF1393667CF5726D5B6CAE1 (void);
-// 0x000002DF UnityEngine.Vector3 UnityEngine.ProBuilder.Projection::ProjectionAxisToVector(UnityEngine.ProBuilder.ProjectionAxis)
+// 0x000002DD UnityEngine.Vector3 UnityEngine.ProBuilder.Projection::ProjectionAxisToVector(UnityEngine.ProBuilder.ProjectionAxis)
 extern void Projection_ProjectionAxisToVector_m01B9971D0CE5252CF2F36B50530912E9D45E9B8E (void);
-// 0x000002E0 UnityEngine.ProBuilder.ProjectionAxis UnityEngine.ProBuilder.Projection::VectorToProjectionAxis(UnityEngine.Vector3)
+// 0x000002DE UnityEngine.ProBuilder.ProjectionAxis UnityEngine.ProBuilder.Projection::VectorToProjectionAxis(UnityEngine.Vector3)
 extern void Projection_VectorToProjectionAxis_m67FD86923C6A35DE0A5E5C5117E029C5597F1355 (void);
-// 0x000002E1 UnityEngine.Plane UnityEngine.ProBuilder.Projection::FindBestPlane(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>)
+// 0x000002DF UnityEngine.Plane UnityEngine.ProBuilder.Projection::FindBestPlane(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Collections.Generic.IList`1<System.Int32>)
 extern void Projection_FindBestPlane_m344F1E3B4ECCF85BA7BD0D783B725C37D47AC99B (void);
-// 0x000002E2 UnityEngine.Plane UnityEngine.ProBuilder.Projection::FindBestPlane(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32)
+// 0x000002E0 UnityEngine.Plane UnityEngine.ProBuilder.Projection::FindBestPlane(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32)
 extern void Projection_FindBestPlane_m327026DB76804F708A64CBA94162B752E9B73515 (void);
-// 0x000002E3 System.Void UnityEngine.ProBuilder.Projection/<>c::.cctor()
+// 0x000002E1 System.Void UnityEngine.ProBuilder.Projection/<>c::.cctor()
 extern void U3CU3Ec__cctor_m16A8B0B11854454ADCE38E79EB7A0EC4E210BFDE (void);
-// 0x000002E4 System.Void UnityEngine.ProBuilder.Projection/<>c::.ctor()
+// 0x000002E2 System.Void UnityEngine.ProBuilder.Projection/<>c::.ctor()
 extern void U3CU3Ec__ctor_mC84E04610C5517ECF6811E4CAC67DB1FA91D2513 (void);
-// 0x000002E5 System.Int32 UnityEngine.ProBuilder.Projection/<>c::<Sort>b__6_0(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>,UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>)
+// 0x000002E3 System.Int32 UnityEngine.ProBuilder.Projection/<>c::<Sort>b__6_0(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>,UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>)
 extern void U3CU3Ec_U3CSortU3Eb__6_0_m6E6559910AAE63418152FAE191BBA57E3D6EF01F (void);
-// 0x000002E6 UnityEngine.Vector2 UnityEngine.ProBuilder.Projection/<>c::<Sort>b__6_1(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>)
+// 0x000002E4 UnityEngine.Vector2 UnityEngine.ProBuilder.Projection/<>c::<Sort>b__6_1(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>)
 extern void U3CU3Ec_U3CSortU3Eb__6_1_mF3FE94C6DDB9434F0944E9B65C4E5BB68264C264 (void);
-// 0x000002E7 System.Void UnityEngine.ProBuilder.RaycastHit::.ctor(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)
+// 0x000002E5 System.Void UnityEngine.ProBuilder.RaycastHit::.ctor(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)
 extern void RaycastHit__ctor_mA1223E1AF306BFEBA9538AA7FDD29C5054BE1CEA (void);
-// 0x000002E8 System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<System.Int32>> UnityEngine.ProBuilder.SelectionPicker::PickVerticesInRect(UnityEngine.Camera,UnityEngine.Rect,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,UnityEngine.ProBuilder.PickerOptions,System.Single)
+// 0x000002E6 System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<System.Int32>> UnityEngine.ProBuilder.SelectionPicker::PickVerticesInRect(UnityEngine.Camera,UnityEngine.Rect,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,UnityEngine.ProBuilder.PickerOptions,System.Single)
 extern void SelectionPicker_PickVerticesInRect_m6FB1883FA068968B2F0233EAF8A9266A3E83ABDD (void);
-// 0x000002E9 System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>> UnityEngine.ProBuilder.SelectionPicker::PickFacesInRect(UnityEngine.Camera,UnityEngine.Rect,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,UnityEngine.ProBuilder.PickerOptions,System.Single)
+// 0x000002E7 System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>> UnityEngine.ProBuilder.SelectionPicker::PickFacesInRect(UnityEngine.Camera,UnityEngine.Rect,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,UnityEngine.ProBuilder.PickerOptions,System.Single)
 extern void SelectionPicker_PickFacesInRect_m7DF006CCDF9CB3DC2EB6170C0A3AB054E6257FBD (void);
-// 0x000002EA System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Edge>> UnityEngine.ProBuilder.SelectionPicker::PickEdgesInRect(UnityEngine.Camera,UnityEngine.Rect,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,UnityEngine.ProBuilder.PickerOptions,System.Single)
+// 0x000002E8 System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Edge>> UnityEngine.ProBuilder.SelectionPicker::PickEdgesInRect(UnityEngine.Camera,UnityEngine.Rect,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,UnityEngine.ProBuilder.PickerOptions,System.Single)
 extern void SelectionPicker_PickEdgesInRect_mA347C4E75E431E6AF197123CF2E2D336EB97D31B (void);
-// 0x000002EB UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.SelectionPicker::PickFace(UnityEngine.Camera,UnityEngine.Vector3,UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000002E9 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.SelectionPicker::PickFace(UnityEngine.Camera,UnityEngine.Vector3,UnityEngine.ProBuilder.ProBuilderMesh)
 extern void SelectionPicker_PickFace_mBA4329CE7309389269AEFDB08F98713CD182476E (void);
-// 0x000002EC System.Boolean UnityEngine.ProBuilder.PickerOptions::get_depthTest()
+// 0x000002EA System.Boolean UnityEngine.ProBuilder.PickerOptions::get_depthTest()
 extern void PickerOptions_get_depthTest_mEAE532C85A6D768D9A0E9DE1680788CCD84E73B5 (void);
-// 0x000002ED System.Void UnityEngine.ProBuilder.PickerOptions::set_depthTest(System.Boolean)
+// 0x000002EB System.Void UnityEngine.ProBuilder.PickerOptions::set_depthTest(System.Boolean)
 extern void PickerOptions_set_depthTest_m8E48F0646A54689305B735A585B3968AF434AEB2 (void);
-// 0x000002EE UnityEngine.ProBuilder.RectSelectMode UnityEngine.ProBuilder.PickerOptions::get_rectSelectMode()
+// 0x000002EC UnityEngine.ProBuilder.RectSelectMode UnityEngine.ProBuilder.PickerOptions::get_rectSelectMode()
 extern void PickerOptions_get_rectSelectMode_m382321BA21B0054D1B27F5FBB9DB46882DCF037A (void);
-// 0x000002EF System.Void UnityEngine.ProBuilder.PickerOptions::set_rectSelectMode(UnityEngine.ProBuilder.RectSelectMode)
+// 0x000002ED System.Void UnityEngine.ProBuilder.PickerOptions::set_rectSelectMode(UnityEngine.ProBuilder.RectSelectMode)
 extern void PickerOptions_set_rectSelectMode_m812CA7825C5D3E4E5A02390BF183F3AD1016E0EA (void);
-// 0x000002F0 UnityEngine.ProBuilder.PickerOptions UnityEngine.ProBuilder.PickerOptions::get_Default()
+// 0x000002EE UnityEngine.ProBuilder.PickerOptions UnityEngine.ProBuilder.PickerOptions::get_Default()
 extern void PickerOptions_get_Default_m98AD70ACB688862A71BD7A39ECCCA477DEA5B344 (void);
-// 0x000002F1 System.Boolean UnityEngine.ProBuilder.PickerOptions::Equals(System.Object)
+// 0x000002EF System.Boolean UnityEngine.ProBuilder.PickerOptions::Equals(System.Object)
 extern void PickerOptions_Equals_m66998E2FBECD43FBBC9E3F710C88B72E40B0AB29 (void);
-// 0x000002F2 System.Boolean UnityEngine.ProBuilder.PickerOptions::Equals(UnityEngine.ProBuilder.PickerOptions)
+// 0x000002F0 System.Boolean UnityEngine.ProBuilder.PickerOptions::Equals(UnityEngine.ProBuilder.PickerOptions)
 extern void PickerOptions_Equals_m13B5B96228F61B983293EF70C843006834182F32 (void);
-// 0x000002F3 System.Int32 UnityEngine.ProBuilder.PickerOptions::GetHashCode()
+// 0x000002F1 System.Int32 UnityEngine.ProBuilder.PickerOptions::GetHashCode()
 extern void PickerOptions_GetHashCode_m553DA216857FFA266E96507B8BC7EA172CBB22D1 (void);
-// 0x000002F4 System.Boolean UnityEngine.ProBuilder.PickerOptions::op_Equality(UnityEngine.ProBuilder.PickerOptions,UnityEngine.ProBuilder.PickerOptions)
+// 0x000002F2 System.Boolean UnityEngine.ProBuilder.PickerOptions::op_Equality(UnityEngine.ProBuilder.PickerOptions,UnityEngine.ProBuilder.PickerOptions)
 extern void PickerOptions_op_Equality_m2DDB9CECB8A9F8537C8BC51C98B24F61616FDFFC (void);
-// 0x000002F5 System.Boolean UnityEngine.ProBuilder.PickerOptions::op_Inequality(UnityEngine.ProBuilder.PickerOptions,UnityEngine.ProBuilder.PickerOptions)
+// 0x000002F3 System.Boolean UnityEngine.ProBuilder.PickerOptions::op_Inequality(UnityEngine.ProBuilder.PickerOptions,UnityEngine.ProBuilder.PickerOptions)
 extern void PickerOptions_op_Inequality_mA57E02F652BFD836272479DC3C788394F4685114 (void);
-// 0x000002F6 System.Void UnityEngine.ProBuilder.PickerOptions::.cctor()
+// 0x000002F4 System.Void UnityEngine.ProBuilder.PickerOptions::.cctor()
 extern void PickerOptions__cctor_m348A884A30ED04D135F3D4D1F1AACCB1C3AEB485 (void);
-// 0x000002F7 UnityEngine.RenderTextureFormat UnityEngine.ProBuilder.SelectionPickerRenderer::get_renderTextureFormat()
+// 0x000002F5 UnityEngine.RenderTextureFormat UnityEngine.ProBuilder.SelectionPickerRenderer::get_renderTextureFormat()
 extern void SelectionPickerRenderer_get_renderTextureFormat_mE50047E583A6ADA9869D3E04622E67F3DAEF45C4 (void);
-// 0x000002F8 UnityEngine.TextureFormat UnityEngine.ProBuilder.SelectionPickerRenderer::get_textureFormat()
+// 0x000002F6 UnityEngine.TextureFormat UnityEngine.ProBuilder.SelectionPickerRenderer::get_textureFormat()
 extern void SelectionPickerRenderer_get_textureFormat_m3C7DFF9C89DB7CF18405F61EFEAE424892F774D2 (void);
-// 0x000002F9 UnityEngine.ProBuilder.SelectionPickerRenderer/ISelectionPickerRenderer UnityEngine.ProBuilder.SelectionPickerRenderer::get_pickerRenderer()
+// 0x000002F7 UnityEngine.ProBuilder.SelectionPickerRenderer/ISelectionPickerRenderer UnityEngine.ProBuilder.SelectionPickerRenderer::get_pickerRenderer()
 extern void SelectionPickerRenderer_get_pickerRenderer_mA024F361FB28BD70677A0C0BA44E27C3478C3FFB (void);
-// 0x000002FA System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>> UnityEngine.ProBuilder.SelectionPickerRenderer::PickFacesInRect(UnityEngine.Camera,UnityEngine.Rect,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Int32,System.Int32)
+// 0x000002F8 System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>> UnityEngine.ProBuilder.SelectionPickerRenderer::PickFacesInRect(UnityEngine.Camera,UnityEngine.Rect,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Int32,System.Int32)
 extern void SelectionPickerRenderer_PickFacesInRect_m337234EBCA3A749A5528C7B7265D7C6432BF9705 (void);
-// 0x000002FB System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<System.Int32>> UnityEngine.ProBuilder.SelectionPickerRenderer::PickVerticesInRect(UnityEngine.Camera,UnityEngine.Rect,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Boolean,System.Int32,System.Int32)
+// 0x000002F9 System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<System.Int32>> UnityEngine.ProBuilder.SelectionPickerRenderer::PickVerticesInRect(UnityEngine.Camera,UnityEngine.Rect,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Boolean,System.Int32,System.Int32)
 extern void SelectionPickerRenderer_PickVerticesInRect_mECB4406F50CCFBC2F8A73AFF5C73EF9D7A0B686C (void);
-// 0x000002FC System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Edge>> UnityEngine.ProBuilder.SelectionPickerRenderer::PickEdgesInRect(UnityEngine.Camera,UnityEngine.Rect,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Boolean,System.Int32,System.Int32)
+// 0x000002FA System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Edge>> UnityEngine.ProBuilder.SelectionPickerRenderer::PickEdgesInRect(UnityEngine.Camera,UnityEngine.Rect,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Boolean,System.Int32,System.Int32)
 extern void SelectionPickerRenderer_PickEdgesInRect_mD88797BFDA0CBEB9F636814E4DDE240279A26AEC (void);
-// 0x000002FD UnityEngine.Texture2D UnityEngine.ProBuilder.SelectionPickerRenderer::RenderSelectionPickerTexture(UnityEngine.Camera,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face>>&,System.Int32,System.Int32)
+// 0x000002FB UnityEngine.Texture2D UnityEngine.ProBuilder.SelectionPickerRenderer::RenderSelectionPickerTexture(UnityEngine.Camera,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face>>&,System.Int32,System.Int32)
 extern void SelectionPickerRenderer_RenderSelectionPickerTexture_mCB99495EE3800D3E2D7D08DECA33C10522C4FE7B (void);
-// 0x000002FE UnityEngine.Texture2D UnityEngine.ProBuilder.SelectionPickerRenderer::RenderSelectionPickerTexture(UnityEngine.Camera,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Boolean,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Int32>>&,System.Int32,System.Int32)
+// 0x000002FC UnityEngine.Texture2D UnityEngine.ProBuilder.SelectionPickerRenderer::RenderSelectionPickerTexture(UnityEngine.Camera,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Boolean,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Int32>>&,System.Int32,System.Int32)
 extern void SelectionPickerRenderer_RenderSelectionPickerTexture_mC36B6EA8DBC09157BC36CB9CB97CE92B45D0714F (void);
-// 0x000002FF UnityEngine.Texture2D UnityEngine.ProBuilder.SelectionPickerRenderer::RenderSelectionPickerTexture(UnityEngine.Camera,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Boolean,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge>>&,System.Int32,System.Int32)
+// 0x000002FD UnityEngine.Texture2D UnityEngine.ProBuilder.SelectionPickerRenderer::RenderSelectionPickerTexture(UnityEngine.Camera,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Boolean,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge>>&,System.Int32,System.Int32)
 extern void SelectionPickerRenderer_RenderSelectionPickerTexture_mCA54309B10CFF9C33CF67CFEDBA7B9D54AC8F304 (void);
-// 0x00000300 UnityEngine.GameObject[] UnityEngine.ProBuilder.SelectionPickerRenderer::GenerateFacePickingObjects(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face>>&)
+// 0x000002FE UnityEngine.GameObject[] UnityEngine.ProBuilder.SelectionPickerRenderer::GenerateFacePickingObjects(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face>>&)
 extern void SelectionPickerRenderer_GenerateFacePickingObjects_m5D2DE756A8196088E5D85677C97B862E6DFAFC70 (void);
-// 0x00000301 System.Void UnityEngine.ProBuilder.SelectionPickerRenderer::GenerateVertexPickingObjects(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Boolean,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Int32>>&,UnityEngine.GameObject[]&,UnityEngine.GameObject[]&)
+// 0x000002FF System.Void UnityEngine.ProBuilder.SelectionPickerRenderer::GenerateVertexPickingObjects(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Boolean,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Int32>>&,UnityEngine.GameObject[]&,UnityEngine.GameObject[]&)
 extern void SelectionPickerRenderer_GenerateVertexPickingObjects_mCBE9AD786F5210A9C30E8E76D7504D9E653CF19A (void);
-// 0x00000302 System.Void UnityEngine.ProBuilder.SelectionPickerRenderer::GenerateEdgePickingObjects(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Boolean,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge>>&,UnityEngine.GameObject[]&,UnityEngine.GameObject[]&)
+// 0x00000300 System.Void UnityEngine.ProBuilder.SelectionPickerRenderer::GenerateEdgePickingObjects(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Boolean,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge>>&,UnityEngine.GameObject[]&,UnityEngine.GameObject[]&)
 extern void SelectionPickerRenderer_GenerateEdgePickingObjects_m1CB02204FE3C40BBE08E3193170EF62002ACCAD2 (void);
-// 0x00000303 UnityEngine.Mesh UnityEngine.ProBuilder.SelectionPickerRenderer::BuildVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Int32>>,System.UInt32&)
+// 0x00000301 UnityEngine.Mesh UnityEngine.ProBuilder.SelectionPickerRenderer::BuildVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Int32>>,System.UInt32&)
 extern void SelectionPickerRenderer_BuildVertexMesh_m0F2DAC09CAA92B02E18B0FCDD1A6BC5E913770F9 (void);
-// 0x00000304 UnityEngine.Mesh UnityEngine.ProBuilder.SelectionPickerRenderer::BuildEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge>>,System.UInt32&)
+// 0x00000302 UnityEngine.Mesh UnityEngine.ProBuilder.SelectionPickerRenderer::BuildEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge>>,System.UInt32&)
 extern void SelectionPickerRenderer_BuildEdgeMesh_m17713585800FE7D3976CB9D1102CFAEDFD45D05E (void);
-// 0x00000305 System.UInt32 UnityEngine.ProBuilder.SelectionPickerRenderer::DecodeRGBA(UnityEngine.Color32)
+// 0x00000303 System.UInt32 UnityEngine.ProBuilder.SelectionPickerRenderer::DecodeRGBA(UnityEngine.Color32)
 extern void SelectionPickerRenderer_DecodeRGBA_m35780C5E8C283FDDD7CDCB334E1AD9182ED23548 (void);
-// 0x00000306 UnityEngine.Color32 UnityEngine.ProBuilder.SelectionPickerRenderer::EncodeRGBA(System.UInt32)
+// 0x00000304 UnityEngine.Color32 UnityEngine.ProBuilder.SelectionPickerRenderer::EncodeRGBA(System.UInt32)
 extern void SelectionPickerRenderer_EncodeRGBA_m5727D4FA2CE713EB932E78F2B0003ABDEF2CEDAD (void);
-// 0x00000307 System.Boolean UnityEngine.ProBuilder.SelectionPickerRenderer::ShouldUseHDRP()
+// 0x00000305 System.Boolean UnityEngine.ProBuilder.SelectionPickerRenderer::ShouldUseHDRP()
 extern void SelectionPickerRenderer_ShouldUseHDRP_m6F66C0E2A4C13678010547B5E9914FE963F2DF89 (void);
-// 0x00000308 System.Void UnityEngine.ProBuilder.SelectionPickerRenderer::.cctor()
+// 0x00000306 System.Void UnityEngine.ProBuilder.SelectionPickerRenderer::.cctor()
 extern void SelectionPickerRenderer__cctor_m87F9C72BB74E0BBFE03DA1986EDD857BAA0736CB (void);
-// 0x00000309 UnityEngine.Texture2D UnityEngine.ProBuilder.SelectionPickerRenderer/ISelectionPickerRenderer::RenderLookupTexture(UnityEngine.Camera,UnityEngine.Shader,System.String,System.Int32,System.Int32)
-// 0x0000030A UnityEngine.Texture2D UnityEngine.ProBuilder.SelectionPickerRenderer/SelectionPickerRendererHDRP::RenderLookupTexture(UnityEngine.Camera,UnityEngine.Shader,System.String,System.Int32,System.Int32)
+// 0x00000307 UnityEngine.Texture2D UnityEngine.ProBuilder.SelectionPickerRenderer/ISelectionPickerRenderer::RenderLookupTexture(UnityEngine.Camera,UnityEngine.Shader,System.String,System.Int32,System.Int32)
+// 0x00000308 UnityEngine.Texture2D UnityEngine.ProBuilder.SelectionPickerRenderer/SelectionPickerRendererHDRP::RenderLookupTexture(UnityEngine.Camera,UnityEngine.Shader,System.String,System.Int32,System.Int32)
 extern void SelectionPickerRendererHDRP_RenderLookupTexture_mF79A4F506DEB730A7DDF3F10B6730C673A77FE9C (void);
-// 0x0000030B System.Void UnityEngine.ProBuilder.SelectionPickerRenderer/SelectionPickerRendererHDRP::.ctor()
+// 0x00000309 System.Void UnityEngine.ProBuilder.SelectionPickerRenderer/SelectionPickerRendererHDRP::.ctor()
 extern void SelectionPickerRendererHDRP__ctor_m92D5A8EF05F1320142CA7986D845740E71A5F6CD (void);
-// 0x0000030C UnityEngine.Texture2D UnityEngine.ProBuilder.SelectionPickerRenderer/SelectionPickerRendererStandard::RenderLookupTexture(UnityEngine.Camera,UnityEngine.Shader,System.String,System.Int32,System.Int32)
+// 0x0000030A UnityEngine.Texture2D UnityEngine.ProBuilder.SelectionPickerRenderer/SelectionPickerRendererStandard::RenderLookupTexture(UnityEngine.Camera,UnityEngine.Shader,System.String,System.Int32,System.Int32)
 extern void SelectionPickerRendererStandard_RenderLookupTexture_m3A39704F3FC31943D50384F02DB53D2DED4A4D8B (void);
-// 0x0000030D System.Void UnityEngine.ProBuilder.SelectionPickerRenderer/SelectionPickerRendererStandard::.ctor()
+// 0x0000030B System.Void UnityEngine.ProBuilder.SelectionPickerRenderer/SelectionPickerRendererStandard::.ctor()
 extern void SelectionPickerRendererStandard__ctor_m3C8AA5E1B989A97EBEBB7CF964AFFA677B4B24AB (void);
-// 0x0000030E System.Void UnityEngine.ProBuilder.SelectionPickerRenderer/<>c__DisplayClass19_0::.ctor()
+// 0x0000030C System.Void UnityEngine.ProBuilder.SelectionPickerRenderer/<>c__DisplayClass19_0::.ctor()
 extern void U3CU3Ec__DisplayClass19_0__ctor_mF29D76CCF4621244E780D837D35D1568F52579D4 (void);
-// 0x0000030F System.Int32 UnityEngine.ProBuilder.SelectionPickerRenderer/<>c__DisplayClass19_0::<PickVerticesInRect>b__0(System.Int32)
+// 0x0000030D System.Int32 UnityEngine.ProBuilder.SelectionPickerRenderer/<>c__DisplayClass19_0::<PickVerticesInRect>b__0(System.Int32)
 extern void U3CU3Ec__DisplayClass19_0_U3CPickVerticesInRectU3Eb__0_m0533F5C562EA82ECA634100FE88E7AD8986C86F5 (void);
-// 0x00000310 System.Void UnityEngine.ProBuilder.SelectionPickerRenderer/<>c::.cctor()
+// 0x0000030E System.Void UnityEngine.ProBuilder.SelectionPickerRenderer/<>c::.cctor()
 extern void U3CU3Ec__cctor_m60F221F81A1EA1F43BFC31267F97CF2E0D4A7733 (void);
-// 0x00000311 System.Void UnityEngine.ProBuilder.SelectionPickerRenderer/<>c::.ctor()
+// 0x0000030F System.Void UnityEngine.ProBuilder.SelectionPickerRenderer/<>c::.ctor()
 extern void U3CU3Ec__ctor_mBC4E76938A256813CFA3EDA387D4DF770D41593C (void);
-// 0x00000312 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.SelectionPickerRenderer/<>c::<GenerateFacePickingObjects>b__24_0(UnityEngine.ProBuilder.Face)
+// 0x00000310 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.SelectionPickerRenderer/<>c::<GenerateFacePickingObjects>b__24_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CGenerateFacePickingObjectsU3Eb__24_0_mF443D2D59BF6495093737B334FB244FA5A594354 (void);
-// 0x00000313 System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.SceneSelection::get_vertexes()
+// 0x00000311 System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.SceneSelection::get_vertexes()
 extern void SceneSelection_get_vertexes_m2279044DDC283678EADFA2B5046899D9B4DB81BB (void);
-// 0x00000314 System.Void UnityEngine.ProBuilder.SceneSelection::set_vertexes(System.Collections.Generic.List`1<System.Int32>)
+// 0x00000312 System.Void UnityEngine.ProBuilder.SceneSelection::set_vertexes(System.Collections.Generic.List`1<System.Int32>)
 extern void SceneSelection_set_vertexes_m3F8BC6930E049ECF91030A56D0ABFD2B83F6AFC2 (void);
-// 0x00000315 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.SceneSelection::get_edges()
+// 0x00000313 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.SceneSelection::get_edges()
 extern void SceneSelection_get_edges_mDA94CA5EC16511E08AC208066276D14B27D9AB80 (void);
-// 0x00000316 System.Void UnityEngine.ProBuilder.SceneSelection::set_edges(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>)
+// 0x00000314 System.Void UnityEngine.ProBuilder.SceneSelection::set_edges(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>)
 extern void SceneSelection_set_edges_mD741416CEE52CBAECF3C0C016B145EE2CE96862E (void);
-// 0x00000317 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.SceneSelection::get_faces()
+// 0x00000315 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.SceneSelection::get_faces()
 extern void SceneSelection_get_faces_mCA2C1EF37A89FAB36DACAE006A81CF394BBCC498 (void);
-// 0x00000318 System.Void UnityEngine.ProBuilder.SceneSelection::set_faces(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>)
+// 0x00000316 System.Void UnityEngine.ProBuilder.SceneSelection::set_faces(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>)
 extern void SceneSelection_set_faces_mBF19FB44C1F1A60B70CEBA517F06DA301B0CB98F (void);
-// 0x00000319 System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.GameObject)
+// 0x00000317 System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.GameObject)
 extern void SceneSelection__ctor_m31EBFE0706C4FEF8C0709D1ABC19A03B5C50C3DA (void);
-// 0x0000031A System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32)
+// 0x00000318 System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32)
 extern void SceneSelection__ctor_mB9A51EB556155D54E9B2450C3E0E2B7F5708ADF7 (void);
-// 0x0000031B System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge)
+// 0x00000319 System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge)
 extern void SceneSelection__ctor_mF909CDC82B547C8469C1369AA665E616BFC67C73 (void);
-// 0x0000031C System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
+// 0x0000031A System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
 extern void SceneSelection__ctor_mE6B900455FAE605F888DA434109D964C3C00D2B6 (void);
-// 0x0000031D System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.List`1<System.Int32>)
+// 0x0000031B System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.List`1<System.Int32>)
 extern void SceneSelection__ctor_mB7E77C9A9A36015EDEF9CB023E19AEC8B1E35461 (void);
-// 0x0000031E System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>)
+// 0x0000031C System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>)
 extern void SceneSelection__ctor_mC717FD731BAE5F6A213A65235EC54646DF2385FD (void);
-// 0x0000031F System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>)
+// 0x0000031D System.Void UnityEngine.ProBuilder.SceneSelection::.ctor(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>)
 extern void SceneSelection__ctor_m326F7F5A16230BFE0DDD6C07E41C1253DA5DF2D3 (void);
-// 0x00000320 System.Void UnityEngine.ProBuilder.SceneSelection::SetSingleFace(UnityEngine.ProBuilder.Face)
+// 0x0000031E System.Void UnityEngine.ProBuilder.SceneSelection::SetSingleFace(UnityEngine.ProBuilder.Face)
 extern void SceneSelection_SetSingleFace_m57FC0DC3389B9F96CB897AA85962740FE220E61F (void);
-// 0x00000321 System.Void UnityEngine.ProBuilder.SceneSelection::SetSingleVertex(System.Int32)
+// 0x0000031F System.Void UnityEngine.ProBuilder.SceneSelection::SetSingleVertex(System.Int32)
 extern void SceneSelection_SetSingleVertex_m83A3A4ECF6AFE214484BD48AEBE4112E401F9BB0 (void);
-// 0x00000322 System.Void UnityEngine.ProBuilder.SceneSelection::SetSingleEdge(UnityEngine.ProBuilder.Edge)
+// 0x00000320 System.Void UnityEngine.ProBuilder.SceneSelection::SetSingleEdge(UnityEngine.ProBuilder.Edge)
 extern void SceneSelection_SetSingleEdge_mABB18A1BF6E37A69C4EA7F72310657DC09AA82B2 (void);
-// 0x00000323 System.Void UnityEngine.ProBuilder.SceneSelection::Clear()
+// 0x00000321 System.Void UnityEngine.ProBuilder.SceneSelection::Clear()
 extern void SceneSelection_Clear_m6D8C07DBAFA16244A27C7E9091B7CB8A99E7FDB4 (void);
-// 0x00000324 System.Void UnityEngine.ProBuilder.SceneSelection::CopyTo(UnityEngine.ProBuilder.SceneSelection)
+// 0x00000322 System.Void UnityEngine.ProBuilder.SceneSelection::CopyTo(UnityEngine.ProBuilder.SceneSelection)
 extern void SceneSelection_CopyTo_mF35E9D9447CB3B599E4996AABE92FCAA843F0AE7 (void);
-// 0x00000325 System.String UnityEngine.ProBuilder.SceneSelection::ToString()
+// 0x00000323 System.String UnityEngine.ProBuilder.SceneSelection::ToString()
 extern void SceneSelection_ToString_m8CDEDB17E772DCDAF94690AB777A07315D8C8940 (void);
-// 0x00000326 System.Boolean UnityEngine.ProBuilder.SceneSelection::Equals(UnityEngine.ProBuilder.SceneSelection)
+// 0x00000324 System.Boolean UnityEngine.ProBuilder.SceneSelection::Equals(UnityEngine.ProBuilder.SceneSelection)
 extern void SceneSelection_Equals_m5763CBBA5E2CA7B7C4B9863B4418CA2FDB038602 (void);
-// 0x00000327 System.Boolean UnityEngine.ProBuilder.SceneSelection::Equals(System.Object)
+// 0x00000325 System.Boolean UnityEngine.ProBuilder.SceneSelection::Equals(System.Object)
 extern void SceneSelection_Equals_mF766432E194D154908C5B96B9135FC47F30B0DBF (void);
-// 0x00000328 System.Int32 UnityEngine.ProBuilder.SceneSelection::GetHashCode()
+// 0x00000326 System.Int32 UnityEngine.ProBuilder.SceneSelection::GetHashCode()
 extern void SceneSelection_GetHashCode_mA3BF8BA4FEA5247DDAE665AFF0B4B01C0D687D03 (void);
-// 0x00000329 System.Boolean UnityEngine.ProBuilder.SceneSelection::op_Equality(UnityEngine.ProBuilder.SceneSelection,UnityEngine.ProBuilder.SceneSelection)
+// 0x00000327 System.Boolean UnityEngine.ProBuilder.SceneSelection::op_Equality(UnityEngine.ProBuilder.SceneSelection,UnityEngine.ProBuilder.SceneSelection)
 extern void SceneSelection_op_Equality_m717E55696BAEAC7328160856012AD050CFB2FC52 (void);
-// 0x0000032A System.Boolean UnityEngine.ProBuilder.SceneSelection::op_Inequality(UnityEngine.ProBuilder.SceneSelection,UnityEngine.ProBuilder.SceneSelection)
+// 0x00000328 System.Boolean UnityEngine.ProBuilder.SceneSelection::op_Inequality(UnityEngine.ProBuilder.SceneSelection,UnityEngine.ProBuilder.SceneSelection)
 extern void SceneSelection_op_Inequality_mDC2712347B9DC80E744783D8476359CE3622DF89 (void);
-// 0x0000032B System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.SelectPathFaces::GetPath(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32,System.Int32)
+// 0x00000329 System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.SelectPathFaces::GetPath(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32,System.Int32)
 extern void SelectPathFaces_GetPath_m163C1083CF8C5A61333BE2320634CD09626A870C (void);
-// 0x0000032C System.Int32[] UnityEngine.ProBuilder.SelectPathFaces::Dijkstra(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32)
+// 0x0000032A System.Int32[] UnityEngine.ProBuilder.SelectPathFaces::Dijkstra(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32)
 extern void SelectPathFaces_Dijkstra_m91399069D2C446B5AE4AB9152450F5678F4966EE (void);
-// 0x0000032D System.Single UnityEngine.ProBuilder.SelectPathFaces::GetWeight(System.Int32,System.Int32,UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x0000032B System.Single UnityEngine.ProBuilder.SelectPathFaces::GetWeight(System.Int32,System.Int32,UnityEngine.ProBuilder.ProBuilderMesh)
 extern void SelectPathFaces_GetWeight_m0DE262FAFDB59C1F9DC4C1E1FE77AD0F4BB95F82 (void);
-// 0x0000032E System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.SelectPathFaces::GetMinimalPath(System.Int32[],System.Int32,System.Int32)
+// 0x0000032C System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.SelectPathFaces::GetMinimalPath(System.Int32[],System.Int32,System.Int32)
 extern void SelectPathFaces_GetMinimalPath_mF8ACABCDF9470E6B4EEB0FA4C8819B6A6D4C25AC (void);
-// 0x0000032F System.Void UnityEngine.ProBuilder.SelectPathFaces::.cctor()
+// 0x0000032D System.Void UnityEngine.ProBuilder.SelectPathFaces::.cctor()
 extern void SelectPathFaces__cctor_mF2136D383F352C653B939B5407E8347D11D11E99 (void);
-// 0x00000330 System.Int32 UnityEngine.ProBuilder.SemVer::get_major()
+// 0x0000032E System.Int32 UnityEngine.ProBuilder.SemVer::get_major()
 extern void SemVer_get_major_m15112B74FA35BCAC12C55E0CBE6863EFBA41F1DA (void);
-// 0x00000331 System.Int32 UnityEngine.ProBuilder.SemVer::get_minor()
+// 0x0000032F System.Int32 UnityEngine.ProBuilder.SemVer::get_minor()
 extern void SemVer_get_minor_m29A572C7413DDF1061FD7A7620DDFB642B4F06C8 (void);
-// 0x00000332 System.Int32 UnityEngine.ProBuilder.SemVer::get_patch()
+// 0x00000330 System.Int32 UnityEngine.ProBuilder.SemVer::get_patch()
 extern void SemVer_get_patch_mD10C4192E62FA5E3C06D4FDD081BEFB2BDB1411E (void);
-// 0x00000333 System.Int32 UnityEngine.ProBuilder.SemVer::get_build()
+// 0x00000331 System.Int32 UnityEngine.ProBuilder.SemVer::get_build()
 extern void SemVer_get_build_m98308E61C3F0BCB5661F395714E2483AE66BE14D (void);
-// 0x00000334 System.String UnityEngine.ProBuilder.SemVer::get_type()
+// 0x00000332 System.String UnityEngine.ProBuilder.SemVer::get_type()
 extern void SemVer_get_type_mB37F0EF312934E1CC2BBDBAAA344DCCD8DC322FD (void);
-// 0x00000335 System.String UnityEngine.ProBuilder.SemVer::get_metadata()
+// 0x00000333 System.String UnityEngine.ProBuilder.SemVer::get_metadata()
 extern void SemVer_get_metadata_m5EC7892C095A7908CBA6FA3B24DAD25BA2EB04DF (void);
-// 0x00000336 System.String UnityEngine.ProBuilder.SemVer::get_date()
+// 0x00000334 System.String UnityEngine.ProBuilder.SemVer::get_date()
 extern void SemVer_get_date_mC1E211F4094E8892EA0520335CDE3CF79479E0CB (void);
-// 0x00000337 UnityEngine.ProBuilder.SemVer UnityEngine.ProBuilder.SemVer::get_MajorMinorPatch()
+// 0x00000335 UnityEngine.ProBuilder.SemVer UnityEngine.ProBuilder.SemVer::get_MajorMinorPatch()
 extern void SemVer_get_MajorMinorPatch_m3850EB6E36E2AE4394FCAB4BDA924E047284B6E9 (void);
-// 0x00000338 System.Void UnityEngine.ProBuilder.SemVer::.ctor()
+// 0x00000336 System.Void UnityEngine.ProBuilder.SemVer::.ctor()
 extern void SemVer__ctor_m6DEE978CD2575C58632CF8A779F1BE77B0EF453D (void);
-// 0x00000339 System.Void UnityEngine.ProBuilder.SemVer::.ctor(System.String,System.String)
+// 0x00000337 System.Void UnityEngine.ProBuilder.SemVer::.ctor(System.String,System.String)
 extern void SemVer__ctor_m9EFF69C3561E0D96F1840533B29723FB49781584 (void);
-// 0x0000033A System.Void UnityEngine.ProBuilder.SemVer::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String)
+// 0x00000338 System.Void UnityEngine.ProBuilder.SemVer::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String)
 extern void SemVer__ctor_m8DDBD8F40A73D8443064A149924FD55F327929D9 (void);
-// 0x0000033B System.Boolean UnityEngine.ProBuilder.SemVer::IsValid()
+// 0x00000339 System.Boolean UnityEngine.ProBuilder.SemVer::IsValid()
 extern void SemVer_IsValid_m856D706483182D33DD3D72EA3CBEB65FAAFFF889 (void);
-// 0x0000033C System.Boolean UnityEngine.ProBuilder.SemVer::Equals(System.Object)
+// 0x0000033A System.Boolean UnityEngine.ProBuilder.SemVer::Equals(System.Object)
 extern void SemVer_Equals_m28969C7B739AABD1DE453D43B12B390D4DFAAA50 (void);
-// 0x0000033D System.Int32 UnityEngine.ProBuilder.SemVer::GetHashCode()
+// 0x0000033B System.Int32 UnityEngine.ProBuilder.SemVer::GetHashCode()
 extern void SemVer_GetHashCode_m65C1949C633EE23285ADF721021CEE25377C20B8 (void);
-// 0x0000033E System.Boolean UnityEngine.ProBuilder.SemVer::Equals(UnityEngine.ProBuilder.SemVer)
+// 0x0000033C System.Boolean UnityEngine.ProBuilder.SemVer::Equals(UnityEngine.ProBuilder.SemVer)
 extern void SemVer_Equals_mDABBDDADAEB7E3362438C1144D4A4B3BB9D8AF0D (void);
-// 0x0000033F System.Int32 UnityEngine.ProBuilder.SemVer::CompareTo(System.Object)
+// 0x0000033D System.Int32 UnityEngine.ProBuilder.SemVer::CompareTo(System.Object)
 extern void SemVer_CompareTo_m34A020C79CE49A2B94658F94A1A9AC0087ED6413 (void);
-// 0x00000340 System.Int32 UnityEngine.ProBuilder.SemVer::WrapNoValue(System.Int32)
+// 0x0000033E System.Int32 UnityEngine.ProBuilder.SemVer::WrapNoValue(System.Int32)
 extern void SemVer_WrapNoValue_mB96DB3EC4540BC6BF4CD0C5835A6CECE8A9690A4 (void);
-// 0x00000341 System.Int32 UnityEngine.ProBuilder.SemVer::CompareTo(UnityEngine.ProBuilder.SemVer)
+// 0x0000033F System.Int32 UnityEngine.ProBuilder.SemVer::CompareTo(UnityEngine.ProBuilder.SemVer)
 extern void SemVer_CompareTo_m646E4774CD1D74E138683EF86AD8E1BA0590A8BD (void);
-// 0x00000342 System.Boolean UnityEngine.ProBuilder.SemVer::op_Equality(UnityEngine.ProBuilder.SemVer,UnityEngine.ProBuilder.SemVer)
+// 0x00000340 System.Boolean UnityEngine.ProBuilder.SemVer::op_Equality(UnityEngine.ProBuilder.SemVer,UnityEngine.ProBuilder.SemVer)
 extern void SemVer_op_Equality_m6C856D17A9A8C2A26E3D8175B9125473DE4562AF (void);
-// 0x00000343 System.Boolean UnityEngine.ProBuilder.SemVer::op_Inequality(UnityEngine.ProBuilder.SemVer,UnityEngine.ProBuilder.SemVer)
+// 0x00000341 System.Boolean UnityEngine.ProBuilder.SemVer::op_Inequality(UnityEngine.ProBuilder.SemVer,UnityEngine.ProBuilder.SemVer)
 extern void SemVer_op_Inequality_m57CC3CD850B330BC4A30B0D9741B6591A30FF97B (void);
-// 0x00000344 System.Boolean UnityEngine.ProBuilder.SemVer::op_LessThan(UnityEngine.ProBuilder.SemVer,UnityEngine.ProBuilder.SemVer)
+// 0x00000342 System.Boolean UnityEngine.ProBuilder.SemVer::op_LessThan(UnityEngine.ProBuilder.SemVer,UnityEngine.ProBuilder.SemVer)
 extern void SemVer_op_LessThan_m6A118B460E20A10A793B6D570429A59CFE8DA5FD (void);
-// 0x00000345 System.Boolean UnityEngine.ProBuilder.SemVer::op_GreaterThan(UnityEngine.ProBuilder.SemVer,UnityEngine.ProBuilder.SemVer)
+// 0x00000343 System.Boolean UnityEngine.ProBuilder.SemVer::op_GreaterThan(UnityEngine.ProBuilder.SemVer,UnityEngine.ProBuilder.SemVer)
 extern void SemVer_op_GreaterThan_m11B7B49E0738433DB58EE82FD3F726BE18B4EC77 (void);
-// 0x00000346 System.Boolean UnityEngine.ProBuilder.SemVer::op_LessThanOrEqual(UnityEngine.ProBuilder.SemVer,UnityEngine.ProBuilder.SemVer)
+// 0x00000344 System.Boolean UnityEngine.ProBuilder.SemVer::op_LessThanOrEqual(UnityEngine.ProBuilder.SemVer,UnityEngine.ProBuilder.SemVer)
 extern void SemVer_op_LessThanOrEqual_m14048A2D1017164B02DE17AC282F23AD73DA7100 (void);
-// 0x00000347 System.Boolean UnityEngine.ProBuilder.SemVer::op_GreaterThanOrEqual(UnityEngine.ProBuilder.SemVer,UnityEngine.ProBuilder.SemVer)
+// 0x00000345 System.Boolean UnityEngine.ProBuilder.SemVer::op_GreaterThanOrEqual(UnityEngine.ProBuilder.SemVer,UnityEngine.ProBuilder.SemVer)
 extern void SemVer_op_GreaterThanOrEqual_m27BED8000B94E857C2764F08A490810A2224DD97 (void);
-// 0x00000348 System.String UnityEngine.ProBuilder.SemVer::ToString(System.String)
+// 0x00000346 System.String UnityEngine.ProBuilder.SemVer::ToString(System.String)
 extern void SemVer_ToString_mE3E2E48DAAB80C1E9974E82F8F84DC1F26EB48B2 (void);
-// 0x00000349 System.String UnityEngine.ProBuilder.SemVer::ToString()
+// 0x00000347 System.String UnityEngine.ProBuilder.SemVer::ToString()
 extern void SemVer_ToString_m0885E95D66A7748980239F944A9A5C199867137B (void);
-// 0x0000034A System.Boolean UnityEngine.ProBuilder.SemVer::TryGetVersionInfo(System.String,UnityEngine.ProBuilder.SemVer&)
+// 0x00000348 System.Boolean UnityEngine.ProBuilder.SemVer::TryGetVersionInfo(System.String,UnityEngine.ProBuilder.SemVer&)
 extern void SemVer_TryGetVersionInfo_m6596F6A25BBA985930692FE1A4D708F8B557D769 (void);
-// 0x0000034B System.Int32 UnityEngine.ProBuilder.SemVer::GetBuildNumber(System.String)
+// 0x00000349 System.Int32 UnityEngine.ProBuilder.SemVer::GetBuildNumber(System.String)
 extern void SemVer_GetBuildNumber_mCC18345F3EC77811AA389635BDAF11A8E816FB14 (void);
-// 0x0000034C UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeFactory::Instantiate(UnityEngine.ProBuilder.PivotLocation)
-// 0x0000034D UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeFactory::Instantiate(System.Type,UnityEngine.ProBuilder.PivotLocation)
+// 0x0000034A UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeFactory::Instantiate(UnityEngine.ProBuilder.PivotLocation)
+// 0x0000034B UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeFactory::Instantiate(System.Type,UnityEngine.ProBuilder.PivotLocation)
 extern void ShapeFactory_Instantiate_m1CCC4FB7BB33256B8E8EF952F87361CD60D86024 (void);
-// 0x0000034E UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeFactory::Instantiate(UnityEngine.ProBuilder.Shapes.Shape,UnityEngine.ProBuilder.PivotLocation)
+// 0x0000034C UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeFactory::Instantiate(UnityEngine.ProBuilder.Shapes.Shape,UnityEngine.ProBuilder.PivotLocation)
 extern void ShapeFactory_Instantiate_m51740833F5CDB24D942B63DDBA50D18766783F10 (void);
-// 0x0000034F UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::CreateShape(UnityEngine.ProBuilder.ShapeType,UnityEngine.ProBuilder.PivotLocation)
+// 0x0000034D UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::CreateShape(UnityEngine.ProBuilder.ShapeType,UnityEngine.ProBuilder.PivotLocation)
 extern void ShapeGenerator_CreateShape_mDC5456FE32EB059A40F563B2C069EB74B69836A9 (void);
-// 0x00000350 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateStair(UnityEngine.ProBuilder.PivotLocation,UnityEngine.Vector3,System.Int32,System.Boolean)
+// 0x0000034E UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateStair(UnityEngine.ProBuilder.PivotLocation,UnityEngine.Vector3,System.Int32,System.Boolean)
 extern void ShapeGenerator_GenerateStair_mE637A6492749977E3DF00CE6616B91A380FCAE55 (void);
-// 0x00000351 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateCurvedStair(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Single,System.Single,System.Single,System.Int32,System.Boolean)
+// 0x0000034F UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateCurvedStair(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Single,System.Single,System.Single,System.Int32,System.Boolean)
 extern void ShapeGenerator_GenerateCurvedStair_mD6E33999FE640A2208FBE9FBB309771AEA38BC35 (void);
-// 0x00000352 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateStair(UnityEngine.ProBuilder.PivotLocation,System.Int32,System.Single,System.Single,System.Single,System.Boolean,System.Boolean,System.Boolean)
+// 0x00000350 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateStair(UnityEngine.ProBuilder.PivotLocation,System.Int32,System.Single,System.Single,System.Single,System.Boolean,System.Boolean,System.Boolean)
 extern void ShapeGenerator_GenerateStair_mDE22BB2704EDE4C90AFAF428BCF9BA2172568DEA (void);
-// 0x00000353 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateCube(UnityEngine.ProBuilder.PivotLocation,UnityEngine.Vector3)
+// 0x00000351 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateCube(UnityEngine.ProBuilder.PivotLocation,UnityEngine.Vector3)
 extern void ShapeGenerator_GenerateCube_m8CEF131C47A97912FCC5E7088C76F3F772FE9792 (void);
-// 0x00000354 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateCylinder(UnityEngine.ProBuilder.PivotLocation,System.Int32,System.Single,System.Single,System.Int32,System.Int32)
+// 0x00000352 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateCylinder(UnityEngine.ProBuilder.PivotLocation,System.Int32,System.Single,System.Single,System.Int32,System.Int32)
 extern void ShapeGenerator_GenerateCylinder_mAA75043AFECA77DCCF8EA2D16BC3AAE40D950ED2 (void);
-// 0x00000355 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GeneratePrism(UnityEngine.ProBuilder.PivotLocation,UnityEngine.Vector3)
+// 0x00000353 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GeneratePrism(UnityEngine.ProBuilder.PivotLocation,UnityEngine.Vector3)
 extern void ShapeGenerator_GeneratePrism_m0B5E9F1C6692476C05BACBB5A22AA8627DE3A452 (void);
-// 0x00000356 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateDoor(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Single,System.Single,System.Single,System.Single)
+// 0x00000354 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateDoor(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Single,System.Single,System.Single,System.Single)
 extern void ShapeGenerator_GenerateDoor_m747D6AF461D6B48D05A2293EC064D74B6B730A3D (void);
-// 0x00000357 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GeneratePlane(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Single,System.Int32,System.Int32,UnityEngine.ProBuilder.Axis)
+// 0x00000355 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GeneratePlane(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Single,System.Int32,System.Int32,UnityEngine.ProBuilder.Axis)
 extern void ShapeGenerator_GeneratePlane_m1CED7B62A59FB8091CF7CC675253D5D201CC01A5 (void);
-// 0x00000358 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GeneratePipe(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Single,System.Single,System.Int32,System.Int32)
+// 0x00000356 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GeneratePipe(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Single,System.Single,System.Int32,System.Int32)
 extern void ShapeGenerator_GeneratePipe_m2406F5FFD4874E55074EAE3F05E0D491E211D0EF (void);
-// 0x00000359 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateCone(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Single,System.Int32)
+// 0x00000357 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateCone(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Single,System.Int32)
 extern void ShapeGenerator_GenerateCone_m080F596AA6F619FA59C585AE7076C345A86EA3B5 (void);
-// 0x0000035A UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateArch(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Single,System.Single,System.Single,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+// 0x00000358 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateArch(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Single,System.Single,System.Single,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
 extern void ShapeGenerator_GenerateArch_mC7537790A95B543ABD823E91484B1F6D1F23F39F (void);
-// 0x0000035B UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateIcosahedron(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Int32,System.Boolean,System.Boolean)
+// 0x00000359 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateIcosahedron(UnityEngine.ProBuilder.PivotLocation,System.Single,System.Int32,System.Boolean,System.Boolean)
 extern void ShapeGenerator_GenerateIcosahedron_m149C2258F567E4EDA2A420B5C5932416C6E65943 (void);
-// 0x0000035C UnityEngine.Vector3[] UnityEngine.ProBuilder.ShapeGenerator::SubdivideIcosahedron(UnityEngine.Vector3[],System.Single)
+// 0x0000035A UnityEngine.Vector3[] UnityEngine.ProBuilder.ShapeGenerator::SubdivideIcosahedron(UnityEngine.Vector3[],System.Single)
 extern void ShapeGenerator_SubdivideIcosahedron_m49832A33755C666899A7E0ADC12B6CA7290F5BDD (void);
-// 0x0000035D UnityEngine.Vector3[] UnityEngine.ProBuilder.ShapeGenerator::GetCirclePoints(System.Int32,System.Single,System.Single,UnityEngine.Quaternion,System.Single)
+// 0x0000035B UnityEngine.Vector3[] UnityEngine.ProBuilder.ShapeGenerator::GetCirclePoints(System.Int32,System.Single,System.Single,UnityEngine.Quaternion,System.Single)
 extern void ShapeGenerator_GetCirclePoints_mF7ED555164140C20BA97CCDC069963B917752020 (void);
-// 0x0000035E UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateTorus(UnityEngine.ProBuilder.PivotLocation,System.Int32,System.Int32,System.Single,System.Single,System.Boolean,System.Single,System.Single,System.Boolean)
+// 0x0000035C UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.ShapeGenerator::GenerateTorus(UnityEngine.ProBuilder.PivotLocation,System.Int32,System.Int32,System.Single,System.Single,System.Boolean,System.Single,System.Single,System.Boolean)
 extern void ShapeGenerator_GenerateTorus_m22A1048A6DE18C202B088FA4CCE3A61626F88684 (void);
-// 0x0000035F System.Void UnityEngine.ProBuilder.ShapeGenerator::.cctor()
+// 0x0000035D System.Void UnityEngine.ProBuilder.ShapeGenerator::.cctor()
 extern void ShapeGenerator__cctor_mDDA473834AEC5243474D40CA987BEA2903E911C2 (void);
-// 0x00000360 System.Int32[] UnityEngine.ProBuilder.SharedVertex::get_arrayInternal()
+// 0x0000035E System.Int32[] UnityEngine.ProBuilder.SharedVertex::get_arrayInternal()
 extern void SharedVertex_get_arrayInternal_m417E430C3E567C4BBFEB16D8FEC99308FCBE8D28 (void);
-// 0x00000361 System.Void UnityEngine.ProBuilder.SharedVertex::.ctor(System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x0000035F System.Void UnityEngine.ProBuilder.SharedVertex::.ctor(System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void SharedVertex__ctor_m1AE91E4C0BBFA79E1EC59A689074146F8E5B7E27 (void);
-// 0x00000362 System.Void UnityEngine.ProBuilder.SharedVertex::.ctor(UnityEngine.ProBuilder.SharedVertex)
+// 0x00000360 System.Void UnityEngine.ProBuilder.SharedVertex::.ctor(UnityEngine.ProBuilder.SharedVertex)
 extern void SharedVertex__ctor_m9FC5042EDBF3B686EADB49DC4A6A3F7F07520653 (void);
-// 0x00000363 System.Int32 UnityEngine.ProBuilder.SharedVertex::get_Item(System.Int32)
+// 0x00000361 System.Int32 UnityEngine.ProBuilder.SharedVertex::get_Item(System.Int32)
 extern void SharedVertex_get_Item_m829F43C495101C0E2A0BFDC3A235F91C36C35910 (void);
-// 0x00000364 System.Void UnityEngine.ProBuilder.SharedVertex::set_Item(System.Int32,System.Int32)
+// 0x00000362 System.Void UnityEngine.ProBuilder.SharedVertex::set_Item(System.Int32,System.Int32)
 extern void SharedVertex_set_Item_mD93D986032EE456B6A961D6EC08198DEC8199884 (void);
-// 0x00000365 System.Collections.Generic.IEnumerator`1<System.Int32> UnityEngine.ProBuilder.SharedVertex::GetEnumerator()
+// 0x00000363 System.Collections.Generic.IEnumerator`1<System.Int32> UnityEngine.ProBuilder.SharedVertex::GetEnumerator()
 extern void SharedVertex_GetEnumerator_mE12396B68532207C79E081CEC8A5C044FF2FCD95 (void);
-// 0x00000366 System.String UnityEngine.ProBuilder.SharedVertex::ToString()
+// 0x00000364 System.String UnityEngine.ProBuilder.SharedVertex::ToString()
 extern void SharedVertex_ToString_m027B2A470FAA9C137B1C1F9421B3DC5396F4B5F8 (void);
-// 0x00000367 System.Collections.IEnumerator UnityEngine.ProBuilder.SharedVertex::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000365 System.Collections.IEnumerator UnityEngine.ProBuilder.SharedVertex::System.Collections.IEnumerable.GetEnumerator()
 extern void SharedVertex_System_Collections_IEnumerable_GetEnumerator_mA36BF2999E1AD1114F474BE0284A30F485747029 (void);
-// 0x00000368 System.Void UnityEngine.ProBuilder.SharedVertex::Add(System.Int32)
+// 0x00000366 System.Void UnityEngine.ProBuilder.SharedVertex::Add(System.Int32)
 extern void SharedVertex_Add_m19AAF488DD1BC07CD2124A6AA45F894A9D927C74 (void);
-// 0x00000369 System.Void UnityEngine.ProBuilder.SharedVertex::Clear()
+// 0x00000367 System.Void UnityEngine.ProBuilder.SharedVertex::Clear()
 extern void SharedVertex_Clear_mC6897A737E2A64C34D1512B85175D4F087418B15 (void);
-// 0x0000036A System.Boolean UnityEngine.ProBuilder.SharedVertex::Contains(System.Int32)
+// 0x00000368 System.Boolean UnityEngine.ProBuilder.SharedVertex::Contains(System.Int32)
 extern void SharedVertex_Contains_m5A35DC33F0FD56899E9354EFF4CAAC2F59A4A89B (void);
-// 0x0000036B System.Void UnityEngine.ProBuilder.SharedVertex::CopyTo(System.Int32[],System.Int32)
+// 0x00000369 System.Void UnityEngine.ProBuilder.SharedVertex::CopyTo(System.Int32[],System.Int32)
 extern void SharedVertex_CopyTo_m3F75C5B8E71BDD968607940D27568340A28300B4 (void);
-// 0x0000036C System.Boolean UnityEngine.ProBuilder.SharedVertex::Remove(System.Int32)
+// 0x0000036A System.Boolean UnityEngine.ProBuilder.SharedVertex::Remove(System.Int32)
 extern void SharedVertex_Remove_m2078BA63519FAB5B328CD7E84049B0173D56888A (void);
-// 0x0000036D System.Int32 UnityEngine.ProBuilder.SharedVertex::get_Count()
+// 0x0000036B System.Int32 UnityEngine.ProBuilder.SharedVertex::get_Count()
 extern void SharedVertex_get_Count_m068608A09915F7B9695DFEC6D05550F9EB2FD789 (void);
-// 0x0000036E System.Boolean UnityEngine.ProBuilder.SharedVertex::get_IsReadOnly()
+// 0x0000036C System.Boolean UnityEngine.ProBuilder.SharedVertex::get_IsReadOnly()
 extern void SharedVertex_get_IsReadOnly_mD6A32CAD68BC6445E26AFE03F5FF2BBB30FA19F3 (void);
-// 0x0000036F System.Void UnityEngine.ProBuilder.SharedVertex::GetSharedVertexLookup(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>)
+// 0x0000036D System.Void UnityEngine.ProBuilder.SharedVertex::GetSharedVertexLookup(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>)
 extern void SharedVertex_GetSharedVertexLookup_m5B543B9A93C800ED166F486C8FA7DDF94657AB7A (void);
-// 0x00000370 System.Void UnityEngine.ProBuilder.SharedVertex::ShiftIndexes(System.Int32)
+// 0x0000036E System.Void UnityEngine.ProBuilder.SharedVertex::ShiftIndexes(System.Int32)
 extern void SharedVertex_ShiftIndexes_mD2B3A799AFE09AA29AA134F7762D14E8B5A1857D (void);
-// 0x00000371 UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.SharedVertex::ToSharedVertices(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>)
+// 0x0000036F UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.SharedVertex::ToSharedVertices(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>)
 extern void SharedVertex_ToSharedVertices_mD29BD99800F55904C632B134E4551235BD2A2E51 (void);
-// 0x00000372 UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.SharedVertex::ToSharedVertices(System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.Int32>>)
+// 0x00000370 UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.SharedVertex::ToSharedVertices(System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.Int32>>)
 extern void SharedVertex_ToSharedVertices_mF27ADC2B39F988F1247EA1F0A672C9511ED2E9FE (void);
-// 0x00000373 UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.SharedVertex::GetSharedVerticesWithPositions(System.Collections.Generic.IList`1<UnityEngine.Vector3>)
+// 0x00000371 UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.SharedVertex::GetSharedVerticesWithPositions(System.Collections.Generic.IList`1<UnityEngine.Vector3>)
 extern void SharedVertex_GetSharedVerticesWithPositions_mB5C2766E7996EDFAA4016AE3261215F2BC364F3C (void);
-// 0x00000374 UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.SharedVertex::RemoveAndShift(System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>,System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x00000372 UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.SharedVertex::RemoveAndShift(System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>,System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void SharedVertex_RemoveAndShift_mF43199CB9356ADD2CE5F2BF03EA5831A9C62FF3C (void);
-// 0x00000375 UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.SharedVertex::SortedRemoveAndShift(System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>,System.Collections.Generic.List`1<System.Int32>)
+// 0x00000373 UnityEngine.ProBuilder.SharedVertex[] UnityEngine.ProBuilder.SharedVertex::SortedRemoveAndShift(System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>,System.Collections.Generic.List`1<System.Int32>)
 extern void SharedVertex_SortedRemoveAndShift_m6A93886C739141ED590553CC8F4CE9FEAB2E0D82 (void);
-// 0x00000376 System.Void UnityEngine.ProBuilder.SharedVertex::SetCoincident(System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>&,System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x00000374 System.Void UnityEngine.ProBuilder.SharedVertex::SetCoincident(System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>&,System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void SharedVertex_SetCoincident_m98A7AE289FBD57A317F3925C348667D5AFA43AFA (void);
-// 0x00000377 System.Void UnityEngine.ProBuilder.SharedVertex/<>c::.cctor()
+// 0x00000375 System.Void UnityEngine.ProBuilder.SharedVertex/<>c::.cctor()
 extern void U3CU3Ec__cctor_m21D9F25E1C4B1F9E00E087A54285120696B0AD3E (void);
-// 0x00000378 System.Void UnityEngine.ProBuilder.SharedVertex/<>c::.ctor()
+// 0x00000376 System.Void UnityEngine.ProBuilder.SharedVertex/<>c::.ctor()
 extern void U3CU3Ec__ctor_m26246A9C205CE8880CC7ABE69B6F55EC77899932 (void);
-// 0x00000379 System.Boolean UnityEngine.ProBuilder.SharedVertex/<>c::<SortedRemoveAndShift>b__26_0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
+// 0x00000377 System.Boolean UnityEngine.ProBuilder.SharedVertex/<>c::<SortedRemoveAndShift>b__26_0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
 extern void U3CU3Ec_U3CSortedRemoveAndShiftU3Eb__26_0_m8FCADE6EE3D153F022CFDA6C92E6F152D20AD705 (void);
-// 0x0000037A T1 UnityEngine.ProBuilder.SimpleTuple`2::get_item1()
-// 0x0000037B System.Void UnityEngine.ProBuilder.SimpleTuple`2::set_item1(T1)
-// 0x0000037C T2 UnityEngine.ProBuilder.SimpleTuple`2::get_item2()
-// 0x0000037D System.Void UnityEngine.ProBuilder.SimpleTuple`2::set_item2(T2)
-// 0x0000037E System.Void UnityEngine.ProBuilder.SimpleTuple`2::.ctor(T1,T2)
-// 0x0000037F System.String UnityEngine.ProBuilder.SimpleTuple`2::ToString()
-// 0x00000380 T1 UnityEngine.ProBuilder.SimpleTuple`3::get_item1()
-// 0x00000381 System.Void UnityEngine.ProBuilder.SimpleTuple`3::set_item1(T1)
-// 0x00000382 T2 UnityEngine.ProBuilder.SimpleTuple`3::get_item2()
-// 0x00000383 System.Void UnityEngine.ProBuilder.SimpleTuple`3::set_item2(T2)
-// 0x00000384 T3 UnityEngine.ProBuilder.SimpleTuple`3::get_item3()
-// 0x00000385 System.Void UnityEngine.ProBuilder.SimpleTuple`3::set_item3(T3)
-// 0x00000386 System.Void UnityEngine.ProBuilder.SimpleTuple`3::.ctor(T1,T2,T3)
-// 0x00000387 System.String UnityEngine.ProBuilder.SimpleTuple`3::ToString()
-// 0x00000388 System.Int32 UnityEngine.ProBuilder.Smoothing::GetUnusedSmoothingGroup(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x00000378 T1 UnityEngine.ProBuilder.SimpleTuple`2::get_item1()
+// 0x00000379 System.Void UnityEngine.ProBuilder.SimpleTuple`2::set_item1(T1)
+// 0x0000037A T2 UnityEngine.ProBuilder.SimpleTuple`2::get_item2()
+// 0x0000037B System.Void UnityEngine.ProBuilder.SimpleTuple`2::set_item2(T2)
+// 0x0000037C System.Void UnityEngine.ProBuilder.SimpleTuple`2::.ctor(T1,T2)
+// 0x0000037D System.String UnityEngine.ProBuilder.SimpleTuple`2::ToString()
+// 0x0000037E T1 UnityEngine.ProBuilder.SimpleTuple`3::get_item1()
+// 0x0000037F System.Void UnityEngine.ProBuilder.SimpleTuple`3::set_item1(T1)
+// 0x00000380 T2 UnityEngine.ProBuilder.SimpleTuple`3::get_item2()
+// 0x00000381 System.Void UnityEngine.ProBuilder.SimpleTuple`3::set_item2(T2)
+// 0x00000382 T3 UnityEngine.ProBuilder.SimpleTuple`3::get_item3()
+// 0x00000383 System.Void UnityEngine.ProBuilder.SimpleTuple`3::set_item3(T3)
+// 0x00000384 System.Void UnityEngine.ProBuilder.SimpleTuple`3::.ctor(T1,T2,T3)
+// 0x00000385 System.String UnityEngine.ProBuilder.SimpleTuple`3::ToString()
+// 0x00000386 System.Int32 UnityEngine.ProBuilder.Smoothing::GetUnusedSmoothingGroup(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void Smoothing_GetUnusedSmoothingGroup_mDB992CB12B316897ED1A971C88B581C711CAF873 (void);
-// 0x00000389 System.Int32 UnityEngine.ProBuilder.Smoothing::GetNextUnusedSmoothingGroup(System.Int32,System.Collections.Generic.HashSet`1<System.Int32>)
+// 0x00000387 System.Int32 UnityEngine.ProBuilder.Smoothing::GetNextUnusedSmoothingGroup(System.Int32,System.Collections.Generic.HashSet`1<System.Int32>)
 extern void Smoothing_GetNextUnusedSmoothingGroup_m5210128A3C6C761FD755D7954981F7ADBAD39DD5 (void);
-// 0x0000038A System.Boolean UnityEngine.ProBuilder.Smoothing::IsSmooth(System.Int32)
+// 0x00000388 System.Boolean UnityEngine.ProBuilder.Smoothing::IsSmooth(System.Int32)
 extern void Smoothing_IsSmooth_m2952BB86A71227FAE2EF8C624DBEB5BC9FFA256C (void);
-// 0x0000038B System.Void UnityEngine.ProBuilder.Smoothing::ApplySmoothingGroups(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Single)
+// 0x00000389 System.Void UnityEngine.ProBuilder.Smoothing::ApplySmoothingGroups(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Single)
 extern void Smoothing_ApplySmoothingGroups_mA1BD60C60121506876B02C3C8DFB26C1BD66A3A6 (void);
-// 0x0000038C System.Void UnityEngine.ProBuilder.Smoothing::ApplySmoothingGroups(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Single,UnityEngine.Vector3[])
+// 0x0000038A System.Void UnityEngine.ProBuilder.Smoothing::ApplySmoothingGroups(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Single,UnityEngine.Vector3[])
 extern void Smoothing_ApplySmoothingGroups_m79EDED49BEF77492D1B4973B3E1BCA8881B2B1E9 (void);
-// 0x0000038D System.Boolean UnityEngine.ProBuilder.Smoothing::FindSoftEdgesRecursive(UnityEngine.Vector3[],UnityEngine.ProBuilder.WingedEdge,System.Single,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>)
+// 0x0000038B System.Boolean UnityEngine.ProBuilder.Smoothing::FindSoftEdgesRecursive(UnityEngine.Vector3[],UnityEngine.ProBuilder.WingedEdge,System.Single,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>)
 extern void Smoothing_FindSoftEdgesRecursive_m707577EE0C5B47433DFB991CF01A85FD196F834B (void);
-// 0x0000038E System.Boolean UnityEngine.ProBuilder.Smoothing::IsSoftEdge(UnityEngine.Vector3[],UnityEngine.ProBuilder.EdgeLookup,UnityEngine.ProBuilder.EdgeLookup,System.Single)
+// 0x0000038C System.Boolean UnityEngine.ProBuilder.Smoothing::IsSoftEdge(UnityEngine.Vector3[],UnityEngine.ProBuilder.EdgeLookup,UnityEngine.ProBuilder.EdgeLookup,System.Single)
 extern void Smoothing_IsSoftEdge_m3FEE438033EAD87A7E8CC7E7299F85688843BBA7 (void);
-// 0x0000038F System.Void UnityEngine.ProBuilder.Smoothing/<>c::.cctor()
+// 0x0000038D System.Void UnityEngine.ProBuilder.Smoothing/<>c::.cctor()
 extern void U3CU3Ec__cctor_m299C196F304CBA4C7F7BFF84A4D6C3FD822A801D (void);
-// 0x00000390 System.Void UnityEngine.ProBuilder.Smoothing/<>c::.ctor()
+// 0x0000038E System.Void UnityEngine.ProBuilder.Smoothing/<>c::.ctor()
 extern void U3CU3Ec__ctor_m77A9856562116F165B117402B30DCBB610EE6F7E (void);
-// 0x00000391 System.Int32 UnityEngine.ProBuilder.Smoothing/<>c::<GetUnusedSmoothingGroup>b__5_0(UnityEngine.ProBuilder.Face)
+// 0x0000038F System.Int32 UnityEngine.ProBuilder.Smoothing/<>c::<GetUnusedSmoothingGroup>b__5_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CGetUnusedSmoothingGroupU3Eb__5_0_m03233F63C5231A09740FBD9BC361CE16A6D54B89 (void);
-// 0x00000392 System.Int32 UnityEngine.ProBuilder.Smoothing/<>c::<ApplySmoothingGroups>b__9_0(UnityEngine.ProBuilder.Face)
+// 0x00000390 System.Int32 UnityEngine.ProBuilder.Smoothing/<>c::<ApplySmoothingGroups>b__9_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CApplySmoothingGroupsU3Eb__9_0_m70BABDF8169E37AE12031A355284CA93CE9D2198 (void);
-// 0x00000393 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.Spline::Extrude(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint>,System.Single,System.Int32,System.Int32,System.Boolean,System.Boolean)
+// 0x00000391 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.Spline::Extrude(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint>,System.Single,System.Int32,System.Int32,System.Boolean,System.Boolean)
 extern void Spline_Extrude_m8C40CAF5288FD4A231F7115CAA98C16B2C1B5B21 (void);
-// 0x00000394 System.Void UnityEngine.ProBuilder.Spline::Extrude(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint>,System.Single,System.Int32,System.Int32,System.Boolean,System.Boolean,UnityEngine.ProBuilder.ProBuilderMesh&)
+// 0x00000392 System.Void UnityEngine.ProBuilder.Spline::Extrude(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint>,System.Single,System.Int32,System.Int32,System.Boolean,System.Boolean,UnityEngine.ProBuilder.ProBuilderMesh&)
 extern void Spline_Extrude_m106399172D3197717394BC4E3307DEEA4B36A383 (void);
-// 0x00000395 System.Collections.Generic.List`1<UnityEngine.Vector3> UnityEngine.ProBuilder.Spline::GetControlPoints(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint>,System.Int32,System.Boolean,System.Collections.Generic.List`1<UnityEngine.Quaternion>)
+// 0x00000393 System.Collections.Generic.List`1<UnityEngine.Vector3> UnityEngine.ProBuilder.Spline::GetControlPoints(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint>,System.Int32,System.Boolean,System.Collections.Generic.List`1<UnityEngine.Quaternion>)
 extern void Spline_GetControlPoints_mAB5BCA2B0AFA909BB5AAF2A9371DA52D7F18D3DC (void);
-// 0x00000396 System.Void UnityEngine.ProBuilder.Spline::Extrude(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Single,System.Int32,System.Boolean,System.Boolean,UnityEngine.ProBuilder.ProBuilderMesh&,System.Collections.Generic.IList`1<UnityEngine.Quaternion>)
+// 0x00000394 System.Void UnityEngine.ProBuilder.Spline::Extrude(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Single,System.Int32,System.Boolean,System.Boolean,UnityEngine.ProBuilder.ProBuilderMesh&,System.Collections.Generic.IList`1<UnityEngine.Quaternion>)
 extern void Spline_Extrude_mFA35EEFCBD1FC9C78E1F86D29BA6E60743229319 (void);
-// 0x00000397 UnityEngine.Quaternion UnityEngine.ProBuilder.Spline::GetRingRotation(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Int32,System.Boolean,System.Single&)
+// 0x00000395 UnityEngine.Quaternion UnityEngine.ProBuilder.Spline::GetRingRotation(System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Int32,System.Boolean,System.Single&)
 extern void Spline_GetRingRotation_m81426C20A2594AD051472CA1B652CA093FCFF29A (void);
-// 0x00000398 UnityEngine.Vector3[] UnityEngine.ProBuilder.Spline::VertexRing(UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Int32)
+// 0x00000396 UnityEngine.Vector3[] UnityEngine.ProBuilder.Spline::VertexRing(UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Int32)
 extern void Spline_VertexRing_mBAC76E054E4A8195D7DCC6BA91ADA5EB8F4A644B (void);
-// 0x00000399 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.Submesh::get_indexes()
+// 0x00000397 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.Submesh::get_indexes()
 extern void Submesh_get_indexes_mF868AAEACCA9F10C8171E2F3A4DCAD787F254E1C (void);
-// 0x0000039A System.Void UnityEngine.ProBuilder.Submesh::set_indexes(System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x00000398 System.Void UnityEngine.ProBuilder.Submesh::set_indexes(System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void Submesh_set_indexes_m079B7E1DD6F2F0896E9E99479019B21D249F5ADE (void);
-// 0x0000039B UnityEngine.MeshTopology UnityEngine.ProBuilder.Submesh::get_topology()
+// 0x00000399 UnityEngine.MeshTopology UnityEngine.ProBuilder.Submesh::get_topology()
 extern void Submesh_get_topology_m3E377CFF178FDD8E8DA1D2A2ED5CDB8D59A0CDCF (void);
-// 0x0000039C System.Void UnityEngine.ProBuilder.Submesh::set_topology(UnityEngine.MeshTopology)
+// 0x0000039A System.Void UnityEngine.ProBuilder.Submesh::set_topology(UnityEngine.MeshTopology)
 extern void Submesh_set_topology_m464F650C0B0C6FCD1DF92C0954772FA6DDBDB84A (void);
-// 0x0000039D System.Int32 UnityEngine.ProBuilder.Submesh::get_submeshIndex()
+// 0x0000039B System.Int32 UnityEngine.ProBuilder.Submesh::get_submeshIndex()
 extern void Submesh_get_submeshIndex_m5C4B1C3D53523DF1E50093AE716977975CDACC30 (void);
-// 0x0000039E System.Void UnityEngine.ProBuilder.Submesh::set_submeshIndex(System.Int32)
+// 0x0000039C System.Void UnityEngine.ProBuilder.Submesh::set_submeshIndex(System.Int32)
 extern void Submesh_set_submeshIndex_mD9F6692496E70DCFF570AE811812EC6C12606C16 (void);
-// 0x0000039F System.Void UnityEngine.ProBuilder.Submesh::.ctor(System.Int32,UnityEngine.MeshTopology,System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x0000039D System.Void UnityEngine.ProBuilder.Submesh::.ctor(System.Int32,UnityEngine.MeshTopology,System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void Submesh__ctor_mD759458DDB51FFAEBCA6E485E3D822BBA00C364A (void);
-// 0x000003A0 System.Void UnityEngine.ProBuilder.Submesh::.ctor(UnityEngine.Mesh,System.Int32)
+// 0x0000039E System.Void UnityEngine.ProBuilder.Submesh::.ctor(UnityEngine.Mesh,System.Int32)
 extern void Submesh__ctor_mE518D77A2F4A64402E9FE7A5F0911DB54BA7B37D (void);
-// 0x000003A1 System.String UnityEngine.ProBuilder.Submesh::ToString()
+// 0x0000039F System.String UnityEngine.ProBuilder.Submesh::ToString()
 extern void Submesh_ToString_mBBF5661460FFDD475C96C3E66D290DEA02843A9D (void);
-// 0x000003A2 System.Int32 UnityEngine.ProBuilder.Submesh::GetSubmeshCount(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000003A0 System.Int32 UnityEngine.ProBuilder.Submesh::GetSubmeshCount(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void Submesh_GetSubmeshCount_mB8FA6B0ABE97077F7D3116904D9CA40C82E5711E (void);
-// 0x000003A3 UnityEngine.ProBuilder.Submesh[] UnityEngine.ProBuilder.Submesh::GetSubmeshes(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Int32,UnityEngine.MeshTopology)
+// 0x000003A1 UnityEngine.ProBuilder.Submesh[] UnityEngine.ProBuilder.Submesh::GetSubmeshes(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Int32,UnityEngine.MeshTopology)
 extern void Submesh_GetSubmeshes_m65E321FED65C6378A1BF4E73CCF17339882B951B (void);
-// 0x000003A4 System.Void UnityEngine.ProBuilder.Submesh::MapFaceMaterialsToSubmeshIndex(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000003A2 System.Void UnityEngine.ProBuilder.Submesh::MapFaceMaterialsToSubmeshIndex(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void Submesh_MapFaceMaterialsToSubmeshIndex_mD8B6FAD818679A2955DB0AC54DABF90EBD5F40F8 (void);
-// 0x000003A5 System.Void UnityEngine.ProBuilder.Transform2D::.ctor(UnityEngine.Vector2,System.Single,UnityEngine.Vector2)
+// 0x000003A3 System.Void UnityEngine.ProBuilder.Transform2D::.ctor(UnityEngine.Vector2,System.Single,UnityEngine.Vector2)
 extern void Transform2D__ctor_mE7405811976B310A027969A484F4FCB5967D7CAB (void);
-// 0x000003A6 UnityEngine.Vector2 UnityEngine.ProBuilder.Transform2D::TransformPoint(UnityEngine.Vector2)
+// 0x000003A4 UnityEngine.Vector2 UnityEngine.ProBuilder.Transform2D::TransformPoint(UnityEngine.Vector2)
 extern void Transform2D_TransformPoint_m3550190A8865FC09A8909DFD0AD1A15AA8407AB5 (void);
-// 0x000003A7 System.String UnityEngine.ProBuilder.Transform2D::ToString()
+// 0x000003A5 System.String UnityEngine.ProBuilder.Transform2D::ToString()
 extern void Transform2D_ToString_m0F91BDF45F234669899F3C1DC278615EA92221F4 (void);
-// 0x000003A8 System.Void UnityEngine.ProBuilder.TransformUtility::UnparentChildren(UnityEngine.Transform)
+// 0x000003A6 System.Void UnityEngine.ProBuilder.TransformUtility::UnparentChildren(UnityEngine.Transform)
 extern void TransformUtility_UnparentChildren_mBD67F34B4D00ADCCE3BD4D193D60A0D7D3FFD3D7 (void);
-// 0x000003A9 System.Void UnityEngine.ProBuilder.TransformUtility::ReparentChildren(UnityEngine.Transform)
+// 0x000003A7 System.Void UnityEngine.ProBuilder.TransformUtility::ReparentChildren(UnityEngine.Transform)
 extern void TransformUtility_ReparentChildren_m35AB2B12B772D38A477C65F0698AC48DEE66A8B0 (void);
-// 0x000003AA UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.TransformUtility::TransformVertex(UnityEngine.Transform,UnityEngine.ProBuilder.Vertex)
+// 0x000003A8 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.TransformUtility::TransformVertex(UnityEngine.Transform,UnityEngine.ProBuilder.Vertex)
 extern void TransformUtility_TransformVertex_m5F6F882E4FB9309504D78DEA4D443132449F9B2C (void);
-// 0x000003AB UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.TransformUtility::InverseTransformVertex(UnityEngine.Transform,UnityEngine.ProBuilder.Vertex)
+// 0x000003A9 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.TransformUtility::InverseTransformVertex(UnityEngine.Transform,UnityEngine.ProBuilder.Vertex)
 extern void TransformUtility_InverseTransformVertex_mD352ED37284CDB1AA4891158E0D0DC538912BC6C (void);
-// 0x000003AC System.Void UnityEngine.ProBuilder.TransformUtility::.cctor()
+// 0x000003AA System.Void UnityEngine.ProBuilder.TransformUtility::.cctor()
 extern void TransformUtility__cctor_m696E2C34B4EF4FCAC38731EA206B79897F0197CC (void);
-// 0x000003AD System.Int32 UnityEngine.ProBuilder.Triangle::get_a()
+// 0x000003AB System.Int32 UnityEngine.ProBuilder.Triangle::get_a()
 extern void Triangle_get_a_mD601EF5D3F4E27F576E7F5C93D79EA4D3447579E (void);
-// 0x000003AE System.Int32 UnityEngine.ProBuilder.Triangle::get_b()
+// 0x000003AC System.Int32 UnityEngine.ProBuilder.Triangle::get_b()
 extern void Triangle_get_b_m32F54A45C29B6EFC2808A879396C30C6912FDFA3 (void);
-// 0x000003AF System.Int32 UnityEngine.ProBuilder.Triangle::get_c()
+// 0x000003AD System.Int32 UnityEngine.ProBuilder.Triangle::get_c()
 extern void Triangle_get_c_m938FDA07919F06DFD7444D6F08872A28A3497BD8 (void);
-// 0x000003B0 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.Triangle::get_indices()
+// 0x000003AE System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.Triangle::get_indices()
 extern void Triangle_get_indices_mCBE9446F73D2733F575367B5E06E2AA4F3F0ADD7 (void);
-// 0x000003B1 System.Void UnityEngine.ProBuilder.Triangle::.ctor(System.Int32,System.Int32,System.Int32)
+// 0x000003AF System.Void UnityEngine.ProBuilder.Triangle::.ctor(System.Int32,System.Int32,System.Int32)
 extern void Triangle__ctor_m0619160C4FFCE3F6230069A9626D15B72A6C3149 (void);
-// 0x000003B2 System.Boolean UnityEngine.ProBuilder.Triangle::Equals(UnityEngine.ProBuilder.Triangle)
+// 0x000003B0 System.Boolean UnityEngine.ProBuilder.Triangle::Equals(UnityEngine.ProBuilder.Triangle)
 extern void Triangle_Equals_mA90BBC594E7DED15B7A60A845C7DF72998E205ED (void);
-// 0x000003B3 System.Boolean UnityEngine.ProBuilder.Triangle::Equals(System.Object)
+// 0x000003B1 System.Boolean UnityEngine.ProBuilder.Triangle::Equals(System.Object)
 extern void Triangle_Equals_m35BE7090528680F9CDC91C457A94BC90279493A7 (void);
-// 0x000003B4 System.Int32 UnityEngine.ProBuilder.Triangle::GetHashCode()
+// 0x000003B2 System.Int32 UnityEngine.ProBuilder.Triangle::GetHashCode()
 extern void Triangle_GetHashCode_m1A050D5B29C6AE4DD9B9FBED798D6A6284834C53 (void);
-// 0x000003B5 System.Boolean UnityEngine.ProBuilder.Triangle::IsAdjacent(UnityEngine.ProBuilder.Triangle)
+// 0x000003B3 System.Boolean UnityEngine.ProBuilder.Triangle::IsAdjacent(UnityEngine.ProBuilder.Triangle)
 extern void Triangle_IsAdjacent_mF7AF26D47AA637C2CDEBC0F5A4DCBD9998011021 (void);
-// 0x000003B6 System.Boolean UnityEngine.ProBuilder.Triangle::ContainsEdge(UnityEngine.ProBuilder.Edge)
+// 0x000003B4 System.Boolean UnityEngine.ProBuilder.Triangle::ContainsEdge(UnityEngine.ProBuilder.Edge)
 extern void Triangle_ContainsEdge_m669A8D0B43BB41B1BD9CDE44B2AD8E6924E44025 (void);
-// 0x000003B7 System.Void UnityEngine.ProBuilder.TriggerBehaviour::Initialize()
+// 0x000003B5 System.Void UnityEngine.ProBuilder.TriggerBehaviour::Initialize()
 extern void TriggerBehaviour_Initialize_mFDDCC8844395C74B4F913B0F0423EDB82A94333A (void);
-// 0x000003B8 System.Void UnityEngine.ProBuilder.TriggerBehaviour::OnEnterPlayMode()
+// 0x000003B6 System.Void UnityEngine.ProBuilder.TriggerBehaviour::OnEnterPlayMode()
 extern void TriggerBehaviour_OnEnterPlayMode_m7FF1C1D7153F4B91352AC051871D70F35D4D705C (void);
-// 0x000003B9 System.Void UnityEngine.ProBuilder.TriggerBehaviour::OnSceneLoaded(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+// 0x000003B7 System.Void UnityEngine.ProBuilder.TriggerBehaviour::OnSceneLoaded(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
 extern void TriggerBehaviour_OnSceneLoaded_mDBA010E2B33B84E4CD4B1997B4E056F558B923B3 (void);
-// 0x000003BA System.Void UnityEngine.ProBuilder.TriggerBehaviour::.ctor()
+// 0x000003B8 System.Void UnityEngine.ProBuilder.TriggerBehaviour::.ctor()
 extern void TriggerBehaviour__ctor_mC418BC26ABFF93D4ADEE183EAD133A1CC6C187E7 (void);
-// 0x000003BB System.Single UnityEngine.ProBuilder.UnwrapParameters::get_hardAngle()
+// 0x000003B9 System.Single UnityEngine.ProBuilder.UnwrapParameters::get_hardAngle()
 extern void UnwrapParameters_get_hardAngle_mC6A2066FAA04A5BD01B70F882A5F79A4CB189A75 (void);
-// 0x000003BC System.Void UnityEngine.ProBuilder.UnwrapParameters::set_hardAngle(System.Single)
+// 0x000003BA System.Void UnityEngine.ProBuilder.UnwrapParameters::set_hardAngle(System.Single)
 extern void UnwrapParameters_set_hardAngle_mAC34343E7456BBCFFD0CF5F48B8524883E7C0148 (void);
-// 0x000003BD System.Single UnityEngine.ProBuilder.UnwrapParameters::get_packMargin()
+// 0x000003BB System.Single UnityEngine.ProBuilder.UnwrapParameters::get_packMargin()
 extern void UnwrapParameters_get_packMargin_mD850FD6ED57D21FF37F40F5C01E49D06F10A352D (void);
-// 0x000003BE System.Void UnityEngine.ProBuilder.UnwrapParameters::set_packMargin(System.Single)
+// 0x000003BC System.Void UnityEngine.ProBuilder.UnwrapParameters::set_packMargin(System.Single)
 extern void UnwrapParameters_set_packMargin_m0626D5EA49446B308F26EBBAB18DD69D055F6EDE (void);
-// 0x000003BF System.Single UnityEngine.ProBuilder.UnwrapParameters::get_angleError()
+// 0x000003BD System.Single UnityEngine.ProBuilder.UnwrapParameters::get_angleError()
 extern void UnwrapParameters_get_angleError_m8352DD4A408209190BF77D1298B45ABFA66A98B6 (void);
-// 0x000003C0 System.Void UnityEngine.ProBuilder.UnwrapParameters::set_angleError(System.Single)
+// 0x000003BE System.Void UnityEngine.ProBuilder.UnwrapParameters::set_angleError(System.Single)
 extern void UnwrapParameters_set_angleError_m4521242FEFCDEF75BDA98B578C65D1A3891890D1 (void);
-// 0x000003C1 System.Single UnityEngine.ProBuilder.UnwrapParameters::get_areaError()
+// 0x000003BF System.Single UnityEngine.ProBuilder.UnwrapParameters::get_areaError()
 extern void UnwrapParameters_get_areaError_m0FF29BB3EAAC12C87A724C73EF74FB0FF70A7B78 (void);
-// 0x000003C2 System.Void UnityEngine.ProBuilder.UnwrapParameters::set_areaError(System.Single)
+// 0x000003C0 System.Void UnityEngine.ProBuilder.UnwrapParameters::set_areaError(System.Single)
 extern void UnwrapParameters_set_areaError_m0A874C9AD37BF1BBB9EE28E41412FFA3B1670100 (void);
-// 0x000003C3 System.Void UnityEngine.ProBuilder.UnwrapParameters::.ctor()
+// 0x000003C1 System.Void UnityEngine.ProBuilder.UnwrapParameters::.ctor()
 extern void UnwrapParameters__ctor_mE76CBFD82EB47D819C2276E832D22E7F92FF2B7B (void);
-// 0x000003C4 System.Void UnityEngine.ProBuilder.UnwrapParameters::.ctor(UnityEngine.ProBuilder.UnwrapParameters)
+// 0x000003C2 System.Void UnityEngine.ProBuilder.UnwrapParameters::.ctor(UnityEngine.ProBuilder.UnwrapParameters)
 extern void UnwrapParameters__ctor_m6AE9B21B6CE1F4F30FB7675A3BFEC05A8AEE1B97 (void);
-// 0x000003C5 System.Void UnityEngine.ProBuilder.UnwrapParameters::Reset()
+// 0x000003C3 System.Void UnityEngine.ProBuilder.UnwrapParameters::Reset()
 extern void UnwrapParameters_Reset_m562EE69DE229222846F6D5C49F9DF9B0AF8CAE85 (void);
-// 0x000003C6 System.String UnityEngine.ProBuilder.UnwrapParameters::ToString()
+// 0x000003C4 System.String UnityEngine.ProBuilder.UnwrapParameters::ToString()
 extern void UnwrapParameters_ToString_mE4C456CBC39A89BF0002654668EEBFE879A0AC49 (void);
-// 0x000003C7 System.Void UnityEngine.ProBuilder.UvUnwrapping::SetAutoUV(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[],System.Boolean)
+// 0x000003C5 System.Void UnityEngine.ProBuilder.UvUnwrapping::SetAutoUV(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[],System.Boolean)
 extern void UvUnwrapping_SetAutoUV_m719AFC3D47BB2085EE65261BBAF16E611690446B (void);
-// 0x000003C8 System.Void UnityEngine.ProBuilder.UvUnwrapping::SetAutoAndAlignUnwrapParamsToUVs(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x000003C6 System.Void UnityEngine.ProBuilder.UvUnwrapping::SetAutoAndAlignUnwrapParamsToUVs(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void UvUnwrapping_SetAutoAndAlignUnwrapParamsToUVs_m00ACC1AEA33A45CEAE4D8494E054A81E57F25C56 (void);
-// 0x000003C9 UnityEngine.ProBuilder.AutoUnwrapSettings UnityEngine.ProBuilder.UvUnwrapping::GetAutoUnwrapSettings(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
+// 0x000003C7 UnityEngine.ProBuilder.AutoUnwrapSettings UnityEngine.ProBuilder.UvUnwrapping::GetAutoUnwrapSettings(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
 extern void UvUnwrapping_GetAutoUnwrapSettings_m29AE6C3A0D61790BFDC9BDC54F748DE428C7C2B5 (void);
-// 0x000003CA UnityEngine.ProBuilder.UvUnwrapping/UVTransform UnityEngine.ProBuilder.UvUnwrapping::GetUVTransform(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
+// 0x000003C8 UnityEngine.ProBuilder.UvUnwrapping/UVTransform UnityEngine.ProBuilder.UvUnwrapping::GetUVTransform(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
 extern void UvUnwrapping_GetUVTransform_m9727CC8C86DA4FAC432277F958871F9669CA88B6 (void);
-// 0x000003CB System.Int32 UnityEngine.ProBuilder.UvUnwrapping::GetIndex(System.Collections.Generic.IList`1<System.Int32>,System.Int32)
+// 0x000003C9 System.Int32 UnityEngine.ProBuilder.UvUnwrapping::GetIndex(System.Collections.Generic.IList`1<System.Int32>,System.Int32)
 extern void UvUnwrapping_GetIndex_mF1BD94A54CC22BA07F4728920EBDC00164E873DC (void);
-// 0x000003CC UnityEngine.ProBuilder.UvUnwrapping/UVTransform UnityEngine.ProBuilder.UvUnwrapping::CalculateDelta(System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.IList`1<System.Int32>,System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.IList`1<System.Int32>)
+// 0x000003CA UnityEngine.ProBuilder.UvUnwrapping/UVTransform UnityEngine.ProBuilder.UvUnwrapping::CalculateDelta(System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.IList`1<System.Int32>,System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.IList`1<System.Int32>)
 extern void UvUnwrapping_CalculateDelta_m79258E8DAACCCD590D8C194BE5A5D4388ADDED1C (void);
-// 0x000003CD UnityEngine.Vector2 UnityEngine.ProBuilder.UvUnwrapping::GetRotatedSize(System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.IList`1<System.Int32>,UnityEngine.Vector2,System.Single)
+// 0x000003CB UnityEngine.Vector2 UnityEngine.ProBuilder.UvUnwrapping::GetRotatedSize(System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.IList`1<System.Int32>,UnityEngine.Vector2,System.Single)
 extern void UvUnwrapping_GetRotatedSize_m48BB8361418900DF22AAD6FDA2B201C294502A2F (void);
-// 0x000003CE System.Void UnityEngine.ProBuilder.UvUnwrapping::Unwrap(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.Vector3)
+// 0x000003CC System.Void UnityEngine.ProBuilder.UvUnwrapping::Unwrap(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.Vector3)
 extern void UvUnwrapping_Unwrap_mC00C45D3C177BF3EAF8E6927817D1625086EBDCE (void);
-// 0x000003CF System.Void UnityEngine.ProBuilder.UvUnwrapping::CopyUVs(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face)
+// 0x000003CD System.Void UnityEngine.ProBuilder.UvUnwrapping::CopyUVs(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face)
 extern void UvUnwrapping_CopyUVs_m03F68BC73BE80831D8EFBF2E564F4BE8AA691A07 (void);
-// 0x000003D0 System.Void UnityEngine.ProBuilder.UvUnwrapping::ProjectTextureGroup(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32,UnityEngine.ProBuilder.AutoUnwrapSettings)
+// 0x000003CE System.Void UnityEngine.ProBuilder.UvUnwrapping::ProjectTextureGroup(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32,UnityEngine.ProBuilder.AutoUnwrapSettings)
 extern void UvUnwrapping_ProjectTextureGroup_mF1584287786AABCB1C2D516EB7CF0F22BB10DDBE (void);
-// 0x000003D1 System.Void UnityEngine.ProBuilder.UvUnwrapping::ApplyUVSettings(UnityEngine.Vector2[],System.Collections.Generic.IList`1<System.Int32>,UnityEngine.ProBuilder.AutoUnwrapSettings)
+// 0x000003CF System.Void UnityEngine.ProBuilder.UvUnwrapping::ApplyUVSettings(UnityEngine.Vector2[],System.Collections.Generic.IList`1<System.Int32>,UnityEngine.ProBuilder.AutoUnwrapSettings)
 extern void UvUnwrapping_ApplyUVSettings_m79653929C7917CE276AA00981BA6C0CA1F26A5D5 (void);
-// 0x000003D2 System.Void UnityEngine.ProBuilder.UvUnwrapping::ScaleUVs(UnityEngine.Vector2[],System.Collections.Generic.IList`1<System.Int32>,UnityEngine.Vector2,UnityEngine.ProBuilder.Bounds2D)
+// 0x000003D0 System.Void UnityEngine.ProBuilder.UvUnwrapping::ScaleUVs(UnityEngine.Vector2[],System.Collections.Generic.IList`1<System.Int32>,UnityEngine.Vector2,UnityEngine.ProBuilder.Bounds2D)
 extern void UvUnwrapping_ScaleUVs_m88764A605EA17764094698322B3EDAF0D0272EF0 (void);
-// 0x000003D3 System.Void UnityEngine.ProBuilder.UvUnwrapping::ApplyUVAnchor(UnityEngine.Vector2[],System.Collections.Generic.IList`1<System.Int32>,UnityEngine.ProBuilder.AutoUnwrapSettings/Anchor)
+// 0x000003D1 System.Void UnityEngine.ProBuilder.UvUnwrapping::ApplyUVAnchor(UnityEngine.Vector2[],System.Collections.Generic.IList`1<System.Int32>,UnityEngine.ProBuilder.AutoUnwrapSettings/Anchor)
 extern void UvUnwrapping_ApplyUVAnchor_mA75BD98F8DDBD81AEAE2CF9A2A508333ABE7003B (void);
-// 0x000003D4 System.Void UnityEngine.ProBuilder.UvUnwrapping::UpgradeAutoUVScaleOffset(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000003D2 System.Void UnityEngine.ProBuilder.UvUnwrapping::UpgradeAutoUVScaleOffset(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void UvUnwrapping_UpgradeAutoUVScaleOffset_m6434DB8413D9D655304AC320DF4770160EB50FDE (void);
-// 0x000003D5 System.Void UnityEngine.ProBuilder.UvUnwrapping::.cctor()
+// 0x000003D3 System.Void UnityEngine.ProBuilder.UvUnwrapping::.cctor()
 extern void UvUnwrapping__cctor_m08B885DB8FB22ACBBD54B745406808DC28884447 (void);
-// 0x000003D6 System.String UnityEngine.ProBuilder.UvUnwrapping/UVTransform::ToString()
+// 0x000003D4 System.String UnityEngine.ProBuilder.UvUnwrapping/UVTransform::ToString()
 extern void UVTransform_ToString_mDF103FE818765976B595EAB8328B351BEB8279DF (void);
-// 0x000003D7 System.Void UnityEngine.ProBuilder.UvUnwrapping/<>c::.cctor()
+// 0x000003D5 System.Void UnityEngine.ProBuilder.UvUnwrapping/<>c::.cctor()
 extern void U3CU3Ec__cctor_mC0738FB473250E3F40503E686691EBC40EC2F3E6 (void);
-// 0x000003D8 System.Void UnityEngine.ProBuilder.UvUnwrapping/<>c::.ctor()
+// 0x000003D6 System.Void UnityEngine.ProBuilder.UvUnwrapping/<>c::.ctor()
 extern void U3CU3Ec__ctor_m8B4EB9236188E7501B791F0EFEF4376666F24A37 (void);
-// 0x000003D9 System.Boolean UnityEngine.ProBuilder.UvUnwrapping/<>c::<SetAutoUV>b__0_0(UnityEngine.ProBuilder.Face)
+// 0x000003D7 System.Boolean UnityEngine.ProBuilder.UvUnwrapping/<>c::<SetAutoUV>b__0_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CSetAutoUVU3Eb__0_0_m90638D315ED8E5E2C1D0D25ECA86ED31569916E3 (void);
-// 0x000003DA System.Int32 UnityEngine.ProBuilder.VectorHash::HashFloat(System.Single)
+// 0x000003D8 System.Int32 UnityEngine.ProBuilder.VectorHash::HashFloat(System.Single)
 extern void VectorHash_HashFloat_m05DBD529A269194224B4088FBD3A3B52CDEC0002 (void);
-// 0x000003DB System.Int32 UnityEngine.ProBuilder.VectorHash::GetHashCode(UnityEngine.Vector2)
+// 0x000003D9 System.Int32 UnityEngine.ProBuilder.VectorHash::GetHashCode(UnityEngine.Vector2)
 extern void VectorHash_GetHashCode_m830BDE3FD0B95AB603759C3200FA8EEFF2BE1A4A (void);
-// 0x000003DC System.Int32 UnityEngine.ProBuilder.VectorHash::GetHashCode(UnityEngine.Vector3)
+// 0x000003DA System.Int32 UnityEngine.ProBuilder.VectorHash::GetHashCode(UnityEngine.Vector3)
 extern void VectorHash_GetHashCode_m40BA583548884EF79B51F3CC012D429372D16920 (void);
-// 0x000003DD System.Int32 UnityEngine.ProBuilder.VectorHash::GetHashCode(UnityEngine.Vector4)
+// 0x000003DB System.Int32 UnityEngine.ProBuilder.VectorHash::GetHashCode(UnityEngine.Vector4)
 extern void VectorHash_GetHashCode_m3F2FECB73A23730D1CB9E9FCC29F54B4B22A5367 (void);
-// 0x000003DE System.Single UnityEngine.ProBuilder.Vector2Mask::get_x()
+// 0x000003DC System.Single UnityEngine.ProBuilder.Vector2Mask::get_x()
 extern void Vector2Mask_get_x_m728FEA70781C62E51022AFBB1418250BA2C35D75 (void);
-// 0x000003DF System.Single UnityEngine.ProBuilder.Vector2Mask::get_y()
+// 0x000003DD System.Single UnityEngine.ProBuilder.Vector2Mask::get_y()
 extern void Vector2Mask_get_y_mAE7301E692833CBE013E600C31AF69DD4B7BFC45 (void);
-// 0x000003E0 System.Void UnityEngine.ProBuilder.Vector2Mask::.ctor(UnityEngine.Vector3,System.Single)
+// 0x000003DE System.Void UnityEngine.ProBuilder.Vector2Mask::.ctor(UnityEngine.Vector3,System.Single)
 extern void Vector2Mask__ctor_mB2BE35809815686DDA827B4B6EEF3AA1924186A0 (void);
-// 0x000003E1 System.Void UnityEngine.ProBuilder.Vector2Mask::.ctor(System.Byte)
+// 0x000003DF System.Void UnityEngine.ProBuilder.Vector2Mask::.ctor(System.Byte)
 extern void Vector2Mask__ctor_m00F035AE8E43B97F3A861EF3CBD68E55A0987F3E (void);
-// 0x000003E2 UnityEngine.Vector2 UnityEngine.ProBuilder.Vector2Mask::op_Implicit(UnityEngine.ProBuilder.Vector2Mask)
+// 0x000003E0 UnityEngine.Vector2 UnityEngine.ProBuilder.Vector2Mask::op_Implicit(UnityEngine.ProBuilder.Vector2Mask)
 extern void Vector2Mask_op_Implicit_mC92470773793702892EF79600FE6BE97FBC05408 (void);
-// 0x000003E3 UnityEngine.ProBuilder.Vector2Mask UnityEngine.ProBuilder.Vector2Mask::op_Implicit(UnityEngine.Vector2)
+// 0x000003E1 UnityEngine.ProBuilder.Vector2Mask UnityEngine.ProBuilder.Vector2Mask::op_Implicit(UnityEngine.Vector2)
 extern void Vector2Mask_op_Implicit_m484855AD2C9D4187BA33DB428F89A3C5A168DBE9 (void);
-// 0x000003E4 UnityEngine.ProBuilder.Vector2Mask UnityEngine.ProBuilder.Vector2Mask::op_BitwiseOr(UnityEngine.ProBuilder.Vector2Mask,UnityEngine.ProBuilder.Vector2Mask)
+// 0x000003E2 UnityEngine.ProBuilder.Vector2Mask UnityEngine.ProBuilder.Vector2Mask::op_BitwiseOr(UnityEngine.ProBuilder.Vector2Mask,UnityEngine.ProBuilder.Vector2Mask)
 extern void Vector2Mask_op_BitwiseOr_mF1883621602B032DF9ABE03B23C7EEAD9FDF9DB7 (void);
-// 0x000003E5 UnityEngine.ProBuilder.Vector2Mask UnityEngine.ProBuilder.Vector2Mask::op_BitwiseAnd(UnityEngine.ProBuilder.Vector2Mask,UnityEngine.ProBuilder.Vector2Mask)
+// 0x000003E3 UnityEngine.ProBuilder.Vector2Mask UnityEngine.ProBuilder.Vector2Mask::op_BitwiseAnd(UnityEngine.ProBuilder.Vector2Mask,UnityEngine.ProBuilder.Vector2Mask)
 extern void Vector2Mask_op_BitwiseAnd_mB554BBEFC398CC8AECF95EA8973D87BBA2438B5B (void);
-// 0x000003E6 UnityEngine.ProBuilder.Vector2Mask UnityEngine.ProBuilder.Vector2Mask::op_ExclusiveOr(UnityEngine.ProBuilder.Vector2Mask,UnityEngine.ProBuilder.Vector2Mask)
+// 0x000003E4 UnityEngine.ProBuilder.Vector2Mask UnityEngine.ProBuilder.Vector2Mask::op_ExclusiveOr(UnityEngine.ProBuilder.Vector2Mask,UnityEngine.ProBuilder.Vector2Mask)
 extern void Vector2Mask_op_ExclusiveOr_m6255FF7E430374387747D12ECB0F65C9935B689B (void);
-// 0x000003E7 UnityEngine.Vector2 UnityEngine.ProBuilder.Vector2Mask::op_Multiply(UnityEngine.ProBuilder.Vector2Mask,System.Single)
+// 0x000003E5 UnityEngine.Vector2 UnityEngine.ProBuilder.Vector2Mask::op_Multiply(UnityEngine.ProBuilder.Vector2Mask,System.Single)
 extern void Vector2Mask_op_Multiply_m2942CC519ED4B7B4CDA12C4E33756CF187D7ABF7 (void);
-// 0x000003E8 System.Void UnityEngine.ProBuilder.Vector2Mask::.cctor()
+// 0x000003E6 System.Void UnityEngine.ProBuilder.Vector2Mask::.cctor()
 extern void Vector2Mask__cctor_m7AE9B33BDF2E0A7374FFCA4C96200959B8F772D4 (void);
-// 0x000003E9 System.Single UnityEngine.ProBuilder.Vector3Mask::get_x()
+// 0x000003E7 System.Single UnityEngine.ProBuilder.Vector3Mask::get_x()
 extern void Vector3Mask_get_x_m746E895A75D74D0DD8EA4DF661D2BF699A2AD12C (void);
-// 0x000003EA System.Single UnityEngine.ProBuilder.Vector3Mask::get_y()
+// 0x000003E8 System.Single UnityEngine.ProBuilder.Vector3Mask::get_y()
 extern void Vector3Mask_get_y_m78543B642592256E98A3208E8F44F97FFC987073 (void);
-// 0x000003EB System.Single UnityEngine.ProBuilder.Vector3Mask::get_z()
+// 0x000003E9 System.Single UnityEngine.ProBuilder.Vector3Mask::get_z()
 extern void Vector3Mask_get_z_m52790A0F9252ED7AB780AA44337B764E5A6F669D (void);
-// 0x000003EC System.Void UnityEngine.ProBuilder.Vector3Mask::.ctor(UnityEngine.Vector3,System.Single)
+// 0x000003EA System.Void UnityEngine.ProBuilder.Vector3Mask::.ctor(UnityEngine.Vector3,System.Single)
 extern void Vector3Mask__ctor_m17873F78C929C46868B32D351E66B8D8EE1CA8FD (void);
-// 0x000003ED System.Void UnityEngine.ProBuilder.Vector3Mask::.ctor(System.Byte)
+// 0x000003EB System.Void UnityEngine.ProBuilder.Vector3Mask::.ctor(System.Byte)
 extern void Vector3Mask__ctor_m30814033DD25E43F1850D22C69D6EF2D40817A5B (void);
-// 0x000003EE System.String UnityEngine.ProBuilder.Vector3Mask::ToString()
+// 0x000003EC System.String UnityEngine.ProBuilder.Vector3Mask::ToString()
 extern void Vector3Mask_ToString_m3F6CD0D0457D563DA4A114589B500EA9F7C9D431 (void);
-// 0x000003EF System.Int32 UnityEngine.ProBuilder.Vector3Mask::get_active()
+// 0x000003ED System.Int32 UnityEngine.ProBuilder.Vector3Mask::get_active()
 extern void Vector3Mask_get_active_mF9D2A7280F4A11B62804689E487E73441B9F6850 (void);
-// 0x000003F0 UnityEngine.Vector3 UnityEngine.ProBuilder.Vector3Mask::op_Implicit(UnityEngine.ProBuilder.Vector3Mask)
+// 0x000003EE UnityEngine.Vector3 UnityEngine.ProBuilder.Vector3Mask::op_Implicit(UnityEngine.ProBuilder.Vector3Mask)
 extern void Vector3Mask_op_Implicit_m8892CD0A1256C15C5EBE4FB0715025C55881967E (void);
-// 0x000003F1 UnityEngine.ProBuilder.Vector3Mask UnityEngine.ProBuilder.Vector3Mask::op_Explicit(UnityEngine.Vector3)
+// 0x000003EF UnityEngine.ProBuilder.Vector3Mask UnityEngine.ProBuilder.Vector3Mask::op_Explicit(UnityEngine.Vector3)
 extern void Vector3Mask_op_Explicit_mDFD3E8021A8802318DB62DB99E03CF08CE8FF623 (void);
-// 0x000003F2 UnityEngine.ProBuilder.Vector3Mask UnityEngine.ProBuilder.Vector3Mask::op_BitwiseOr(UnityEngine.ProBuilder.Vector3Mask,UnityEngine.ProBuilder.Vector3Mask)
+// 0x000003F0 UnityEngine.ProBuilder.Vector3Mask UnityEngine.ProBuilder.Vector3Mask::op_BitwiseOr(UnityEngine.ProBuilder.Vector3Mask,UnityEngine.ProBuilder.Vector3Mask)
 extern void Vector3Mask_op_BitwiseOr_m310380B7052C43F22524EAE4CE6201AF0E14D21B (void);
-// 0x000003F3 UnityEngine.ProBuilder.Vector3Mask UnityEngine.ProBuilder.Vector3Mask::op_BitwiseAnd(UnityEngine.ProBuilder.Vector3Mask,UnityEngine.ProBuilder.Vector3Mask)
+// 0x000003F1 UnityEngine.ProBuilder.Vector3Mask UnityEngine.ProBuilder.Vector3Mask::op_BitwiseAnd(UnityEngine.ProBuilder.Vector3Mask,UnityEngine.ProBuilder.Vector3Mask)
 extern void Vector3Mask_op_BitwiseAnd_m794BE1A16EFC284BDB6CD6CCF224967B74A91073 (void);
-// 0x000003F4 UnityEngine.ProBuilder.Vector3Mask UnityEngine.ProBuilder.Vector3Mask::op_ExclusiveOr(UnityEngine.ProBuilder.Vector3Mask,UnityEngine.ProBuilder.Vector3Mask)
+// 0x000003F2 UnityEngine.ProBuilder.Vector3Mask UnityEngine.ProBuilder.Vector3Mask::op_ExclusiveOr(UnityEngine.ProBuilder.Vector3Mask,UnityEngine.ProBuilder.Vector3Mask)
 extern void Vector3Mask_op_ExclusiveOr_m919851BFBD912E13FFFF732F544F36DEDDD208C7 (void);
-// 0x000003F5 UnityEngine.Vector3 UnityEngine.ProBuilder.Vector3Mask::op_Multiply(UnityEngine.ProBuilder.Vector3Mask,System.Single)
+// 0x000003F3 UnityEngine.Vector3 UnityEngine.ProBuilder.Vector3Mask::op_Multiply(UnityEngine.ProBuilder.Vector3Mask,System.Single)
 extern void Vector3Mask_op_Multiply_m93F7D486F1B513FAAC5C936AB3FCBE6474679DAA (void);
-// 0x000003F6 UnityEngine.Vector3 UnityEngine.ProBuilder.Vector3Mask::op_Multiply(UnityEngine.ProBuilder.Vector3Mask,UnityEngine.Vector3)
+// 0x000003F4 UnityEngine.Vector3 UnityEngine.ProBuilder.Vector3Mask::op_Multiply(UnityEngine.ProBuilder.Vector3Mask,UnityEngine.Vector3)
 extern void Vector3Mask_op_Multiply_m09C37AF2D3B0ECAD82AA6F5BEF5B344C3BA66808 (void);
-// 0x000003F7 UnityEngine.Vector3 UnityEngine.ProBuilder.Vector3Mask::op_Multiply(UnityEngine.Quaternion,UnityEngine.ProBuilder.Vector3Mask)
+// 0x000003F5 UnityEngine.Vector3 UnityEngine.ProBuilder.Vector3Mask::op_Multiply(UnityEngine.Quaternion,UnityEngine.ProBuilder.Vector3Mask)
 extern void Vector3Mask_op_Multiply_mA49087CF8ED6FC3E1117B9DA8D48943077D6F4F8 (void);
-// 0x000003F8 System.Boolean UnityEngine.ProBuilder.Vector3Mask::op_Equality(UnityEngine.ProBuilder.Vector3Mask,UnityEngine.ProBuilder.Vector3Mask)
+// 0x000003F6 System.Boolean UnityEngine.ProBuilder.Vector3Mask::op_Equality(UnityEngine.ProBuilder.Vector3Mask,UnityEngine.ProBuilder.Vector3Mask)
 extern void Vector3Mask_op_Equality_m035A32A7B48B52D980BC299AAA6FC520D6017EBD (void);
-// 0x000003F9 System.Boolean UnityEngine.ProBuilder.Vector3Mask::op_Inequality(UnityEngine.ProBuilder.Vector3Mask,UnityEngine.ProBuilder.Vector3Mask)
+// 0x000003F7 System.Boolean UnityEngine.ProBuilder.Vector3Mask::op_Inequality(UnityEngine.ProBuilder.Vector3Mask,UnityEngine.ProBuilder.Vector3Mask)
 extern void Vector3Mask_op_Inequality_m102C846C916B3FCE60DBB1120D968AA192764144 (void);
-// 0x000003FA System.Single UnityEngine.ProBuilder.Vector3Mask::get_Item(System.Int32)
+// 0x000003F8 System.Single UnityEngine.ProBuilder.Vector3Mask::get_Item(System.Int32)
 extern void Vector3Mask_get_Item_m71EB67F4895618C5A1651005DDA686177940F1C8 (void);
-// 0x000003FB System.Void UnityEngine.ProBuilder.Vector3Mask::set_Item(System.Int32,System.Single)
+// 0x000003F9 System.Void UnityEngine.ProBuilder.Vector3Mask::set_Item(System.Int32,System.Single)
 extern void Vector3Mask_set_Item_mCA7E0DB6FAF76242A7A82656BD0613C49AC109DF (void);
-// 0x000003FC System.Boolean UnityEngine.ProBuilder.Vector3Mask::Equals(UnityEngine.ProBuilder.Vector3Mask)
+// 0x000003FA System.Boolean UnityEngine.ProBuilder.Vector3Mask::Equals(UnityEngine.ProBuilder.Vector3Mask)
 extern void Vector3Mask_Equals_mC0D8917C88CD90A9A7632DC4C839F734D0049D63 (void);
-// 0x000003FD System.Boolean UnityEngine.ProBuilder.Vector3Mask::Equals(System.Object)
+// 0x000003FB System.Boolean UnityEngine.ProBuilder.Vector3Mask::Equals(System.Object)
 extern void Vector3Mask_Equals_mA721B3010D7951A9B0CA8EB3A6211C82CA95BAA1 (void);
-// 0x000003FE System.Int32 UnityEngine.ProBuilder.Vector3Mask::GetHashCode()
+// 0x000003FC System.Int32 UnityEngine.ProBuilder.Vector3Mask::GetHashCode()
 extern void Vector3Mask_GetHashCode_mD452DFCFAE4D0798FE7D782E81BDF8F3BF26AE5F (void);
-// 0x000003FF System.Void UnityEngine.ProBuilder.Vector3Mask::.cctor()
+// 0x000003FD System.Void UnityEngine.ProBuilder.Vector3Mask::.cctor()
 extern void Vector3Mask__cctor_mEA0A7F28098741FC6639E6DBCB03591F658A8DE8 (void);
-// 0x00000400 UnityEngine.Vector3 UnityEngine.ProBuilder.Vertex::get_position()
+// 0x000003FE UnityEngine.Vector3 UnityEngine.ProBuilder.Vertex::get_position()
 extern void Vertex_get_position_mE576B39D26BF90F7E2EE3BF4047B77BC9DC3A5B9 (void);
-// 0x00000401 System.Void UnityEngine.ProBuilder.Vertex::set_position(UnityEngine.Vector3)
+// 0x000003FF System.Void UnityEngine.ProBuilder.Vertex::set_position(UnityEngine.Vector3)
 extern void Vertex_set_position_m0D7BD6B5D86A5A75C9FE7B538C47B2764AA3890E (void);
-// 0x00000402 UnityEngine.Color UnityEngine.ProBuilder.Vertex::get_color()
+// 0x00000400 UnityEngine.Color UnityEngine.ProBuilder.Vertex::get_color()
 extern void Vertex_get_color_mEF71A3E9DB05CFE79D49CCB085E709675F595AF7 (void);
-// 0x00000403 System.Void UnityEngine.ProBuilder.Vertex::set_color(UnityEngine.Color)
+// 0x00000401 System.Void UnityEngine.ProBuilder.Vertex::set_color(UnityEngine.Color)
 extern void Vertex_set_color_m808E3C22D00CE846C2106A736C89182611B55739 (void);
-// 0x00000404 UnityEngine.Vector3 UnityEngine.ProBuilder.Vertex::get_normal()
+// 0x00000402 UnityEngine.Vector3 UnityEngine.ProBuilder.Vertex::get_normal()
 extern void Vertex_get_normal_m16DC4217BAD0443BBD0BE6F7CC751349B54FA2C1 (void);
-// 0x00000405 System.Void UnityEngine.ProBuilder.Vertex::set_normal(UnityEngine.Vector3)
+// 0x00000403 System.Void UnityEngine.ProBuilder.Vertex::set_normal(UnityEngine.Vector3)
 extern void Vertex_set_normal_mB964659B3B4F062D32081E06EA6F77F1DB7E125A (void);
-// 0x00000406 UnityEngine.Vector4 UnityEngine.ProBuilder.Vertex::get_tangent()
+// 0x00000404 UnityEngine.Vector4 UnityEngine.ProBuilder.Vertex::get_tangent()
 extern void Vertex_get_tangent_m9872A9DE718CDAAFFC0BBD9456A8B9F32703BD4D (void);
-// 0x00000407 System.Void UnityEngine.ProBuilder.Vertex::set_tangent(UnityEngine.Vector4)
+// 0x00000405 System.Void UnityEngine.ProBuilder.Vertex::set_tangent(UnityEngine.Vector4)
 extern void Vertex_set_tangent_m6113E9C46D9FA1AB3E02F75018F0A67AE0D8D1BB (void);
-// 0x00000408 UnityEngine.Vector2 UnityEngine.ProBuilder.Vertex::get_uv0()
+// 0x00000406 UnityEngine.Vector2 UnityEngine.ProBuilder.Vertex::get_uv0()
 extern void Vertex_get_uv0_mE3CDFD9F21A4193F23C2E32A607E8FEBD6BDDBAB (void);
-// 0x00000409 System.Void UnityEngine.ProBuilder.Vertex::set_uv0(UnityEngine.Vector2)
+// 0x00000407 System.Void UnityEngine.ProBuilder.Vertex::set_uv0(UnityEngine.Vector2)
 extern void Vertex_set_uv0_m5E4BA12D9508DFD1C6C40F7DE6AC607C851BC0C7 (void);
-// 0x0000040A UnityEngine.Vector2 UnityEngine.ProBuilder.Vertex::get_uv2()
+// 0x00000408 UnityEngine.Vector2 UnityEngine.ProBuilder.Vertex::get_uv2()
 extern void Vertex_get_uv2_m671401D9A6E5D3091C891A437C988408873126F0 (void);
-// 0x0000040B System.Void UnityEngine.ProBuilder.Vertex::set_uv2(UnityEngine.Vector2)
+// 0x00000409 System.Void UnityEngine.ProBuilder.Vertex::set_uv2(UnityEngine.Vector2)
 extern void Vertex_set_uv2_mCB59023B7217FA4C9928F644B65AC96260651369 (void);
-// 0x0000040C UnityEngine.Vector4 UnityEngine.ProBuilder.Vertex::get_uv3()
+// 0x0000040A UnityEngine.Vector4 UnityEngine.ProBuilder.Vertex::get_uv3()
 extern void Vertex_get_uv3_mD92E29690B7F1F1F598EB484855B3BF258B53D91 (void);
-// 0x0000040D System.Void UnityEngine.ProBuilder.Vertex::set_uv3(UnityEngine.Vector4)
+// 0x0000040B System.Void UnityEngine.ProBuilder.Vertex::set_uv3(UnityEngine.Vector4)
 extern void Vertex_set_uv3_m645FF869F018E0121A579AAB7EF727ADB1670AB8 (void);
-// 0x0000040E UnityEngine.Vector4 UnityEngine.ProBuilder.Vertex::get_uv4()
+// 0x0000040C UnityEngine.Vector4 UnityEngine.ProBuilder.Vertex::get_uv4()
 extern void Vertex_get_uv4_m39C4A5C01829B495E99D1AC96A57B7E58BB815D5 (void);
-// 0x0000040F System.Void UnityEngine.ProBuilder.Vertex::set_uv4(UnityEngine.Vector4)
+// 0x0000040D System.Void UnityEngine.ProBuilder.Vertex::set_uv4(UnityEngine.Vector4)
 extern void Vertex_set_uv4_mE1E3B5AC2233F6BCAA53111462785C64C9B7B48D (void);
-// 0x00000410 UnityEngine.ProBuilder.MeshArrays UnityEngine.ProBuilder.Vertex::get_attributes()
+// 0x0000040E UnityEngine.ProBuilder.MeshArrays UnityEngine.ProBuilder.Vertex::get_attributes()
 extern void Vertex_get_attributes_m466D30BC9650D290FD5300DCFCF8EEEA5F0B6CC8 (void);
-// 0x00000411 System.Boolean UnityEngine.ProBuilder.Vertex::HasArrays(UnityEngine.ProBuilder.MeshArrays)
+// 0x0000040F System.Boolean UnityEngine.ProBuilder.Vertex::HasArrays(UnityEngine.ProBuilder.MeshArrays)
 extern void Vertex_HasArrays_m925D3C39938BF4E9CDF6CAF6E2B2FEE9FCC60093 (void);
-// 0x00000412 System.Boolean UnityEngine.ProBuilder.Vertex::get_hasPosition()
+// 0x00000410 System.Boolean UnityEngine.ProBuilder.Vertex::get_hasPosition()
 extern void Vertex_get_hasPosition_mDFE4292BEC60D4678E170E1FEB6736B8E9682DA7 (void);
-// 0x00000413 System.Void UnityEngine.ProBuilder.Vertex::set_hasPosition(System.Boolean)
+// 0x00000411 System.Void UnityEngine.ProBuilder.Vertex::set_hasPosition(System.Boolean)
 extern void Vertex_set_hasPosition_m22107D344DFE9CA71C1BB6A3612E1727C31D21DA (void);
-// 0x00000414 System.Boolean UnityEngine.ProBuilder.Vertex::get_hasColor()
+// 0x00000412 System.Boolean UnityEngine.ProBuilder.Vertex::get_hasColor()
 extern void Vertex_get_hasColor_m5B2A03F23A8D1A88E9227645EBC53CAE06386DA7 (void);
-// 0x00000415 System.Void UnityEngine.ProBuilder.Vertex::set_hasColor(System.Boolean)
+// 0x00000413 System.Void UnityEngine.ProBuilder.Vertex::set_hasColor(System.Boolean)
 extern void Vertex_set_hasColor_mB8965FF1D6656B82666C5FA4AA41EC3031487099 (void);
-// 0x00000416 System.Boolean UnityEngine.ProBuilder.Vertex::get_hasNormal()
+// 0x00000414 System.Boolean UnityEngine.ProBuilder.Vertex::get_hasNormal()
 extern void Vertex_get_hasNormal_mFBCFAC011E7E8548B9F067F6E3F99A72FCE6EA33 (void);
-// 0x00000417 System.Void UnityEngine.ProBuilder.Vertex::set_hasNormal(System.Boolean)
+// 0x00000415 System.Void UnityEngine.ProBuilder.Vertex::set_hasNormal(System.Boolean)
 extern void Vertex_set_hasNormal_m528EC8A69271568413D36ADF9A88FF0CF1495DBE (void);
-// 0x00000418 System.Boolean UnityEngine.ProBuilder.Vertex::get_hasTangent()
+// 0x00000416 System.Boolean UnityEngine.ProBuilder.Vertex::get_hasTangent()
 extern void Vertex_get_hasTangent_m671F9C926CDC3DF579221F1B523DD873C4548D36 (void);
-// 0x00000419 System.Void UnityEngine.ProBuilder.Vertex::set_hasTangent(System.Boolean)
+// 0x00000417 System.Void UnityEngine.ProBuilder.Vertex::set_hasTangent(System.Boolean)
 extern void Vertex_set_hasTangent_m9178BA92F0EF10A0B41E9770A2A3081736FB5CAC (void);
-// 0x0000041A System.Boolean UnityEngine.ProBuilder.Vertex::get_hasUV0()
+// 0x00000418 System.Boolean UnityEngine.ProBuilder.Vertex::get_hasUV0()
 extern void Vertex_get_hasUV0_m57D28B6994F400305ACAD2ADE1AA0035379515BF (void);
-// 0x0000041B System.Void UnityEngine.ProBuilder.Vertex::set_hasUV0(System.Boolean)
+// 0x00000419 System.Void UnityEngine.ProBuilder.Vertex::set_hasUV0(System.Boolean)
 extern void Vertex_set_hasUV0_m12ABA3BFF955FB49292577A6C01D2C29E436D187 (void);
-// 0x0000041C System.Boolean UnityEngine.ProBuilder.Vertex::get_hasUV2()
+// 0x0000041A System.Boolean UnityEngine.ProBuilder.Vertex::get_hasUV2()
 extern void Vertex_get_hasUV2_m15EED820D1990220389DE26827B683D9FD476CB9 (void);
-// 0x0000041D System.Void UnityEngine.ProBuilder.Vertex::set_hasUV2(System.Boolean)
+// 0x0000041B System.Void UnityEngine.ProBuilder.Vertex::set_hasUV2(System.Boolean)
 extern void Vertex_set_hasUV2_m1ADDCCCDC7F7245A8104CC13F15E60492B20D623 (void);
-// 0x0000041E System.Boolean UnityEngine.ProBuilder.Vertex::get_hasUV3()
+// 0x0000041C System.Boolean UnityEngine.ProBuilder.Vertex::get_hasUV3()
 extern void Vertex_get_hasUV3_mD99681229F04741F1C3B247AAA9DF28F25018617 (void);
-// 0x0000041F System.Void UnityEngine.ProBuilder.Vertex::set_hasUV3(System.Boolean)
+// 0x0000041D System.Void UnityEngine.ProBuilder.Vertex::set_hasUV3(System.Boolean)
 extern void Vertex_set_hasUV3_m7793C988C1FA8A135504423C41AC804A23DBC221 (void);
-// 0x00000420 System.Boolean UnityEngine.ProBuilder.Vertex::get_hasUV4()
+// 0x0000041E System.Boolean UnityEngine.ProBuilder.Vertex::get_hasUV4()
 extern void Vertex_get_hasUV4_m53853CE68CE9C64EBDB4685B1314B0D18633F7C4 (void);
-// 0x00000421 System.Void UnityEngine.ProBuilder.Vertex::set_hasUV4(System.Boolean)
+// 0x0000041F System.Void UnityEngine.ProBuilder.Vertex::set_hasUV4(System.Boolean)
 extern void Vertex_set_hasUV4_m88FDEA31213E7436DED0765D9DD93BE29E236AF1 (void);
-// 0x00000422 System.Void UnityEngine.ProBuilder.Vertex::.ctor()
+// 0x00000420 System.Void UnityEngine.ProBuilder.Vertex::.ctor()
 extern void Vertex__ctor_m2FF33088342DE631A620396C3EFA32FDF3BAE746 (void);
-// 0x00000423 System.Boolean UnityEngine.ProBuilder.Vertex::Equals(System.Object)
+// 0x00000421 System.Boolean UnityEngine.ProBuilder.Vertex::Equals(System.Object)
 extern void Vertex_Equals_m8F31DDA8F977FBC3935A87D5D9C2B5517E8A8E0C (void);
-// 0x00000424 System.Boolean UnityEngine.ProBuilder.Vertex::Equals(UnityEngine.ProBuilder.Vertex)
+// 0x00000422 System.Boolean UnityEngine.ProBuilder.Vertex::Equals(UnityEngine.ProBuilder.Vertex)
 extern void Vertex_Equals_mEA4D622BC829FCA4F9E947FCD0C9CF65014B157D (void);
-// 0x00000425 System.Boolean UnityEngine.ProBuilder.Vertex::Equals(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.MeshArrays)
+// 0x00000423 System.Boolean UnityEngine.ProBuilder.Vertex::Equals(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.MeshArrays)
 extern void Vertex_Equals_m8D484D5B5AD7507534838AFD990C94BEEBB059A8 (void);
-// 0x00000426 System.Int32 UnityEngine.ProBuilder.Vertex::GetHashCode()
+// 0x00000424 System.Int32 UnityEngine.ProBuilder.Vertex::GetHashCode()
 extern void Vertex_GetHashCode_m9D8F43ACB909B65C9F2EA14D9F4D01E3573AF7D4 (void);
-// 0x00000427 System.Void UnityEngine.ProBuilder.Vertex::.ctor(UnityEngine.ProBuilder.Vertex)
+// 0x00000425 System.Void UnityEngine.ProBuilder.Vertex::.ctor(UnityEngine.ProBuilder.Vertex)
 extern void Vertex__ctor_m1C16C4B3FC14E47AFA9C9DB288606024FCF05DC9 (void);
-// 0x00000428 System.Boolean UnityEngine.ProBuilder.Vertex::op_Equality(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex)
+// 0x00000426 System.Boolean UnityEngine.ProBuilder.Vertex::op_Equality(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex)
 extern void Vertex_op_Equality_mFCE58CEE3DEDE88D4C6A97916A9447E3311C6673 (void);
-// 0x00000429 System.Boolean UnityEngine.ProBuilder.Vertex::op_Inequality(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex)
+// 0x00000427 System.Boolean UnityEngine.ProBuilder.Vertex::op_Inequality(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex)
 extern void Vertex_op_Inequality_m83E7258E1BA3DF4DB76E292EE97423534D3615E5 (void);
-// 0x0000042A UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::op_Addition(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex)
+// 0x00000428 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::op_Addition(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex)
 extern void Vertex_op_Addition_mDFF4D0D43794DFD83A9F3113DF1750B03E9F6CA3 (void);
-// 0x0000042B UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::Add(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex)
+// 0x00000429 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::Add(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex)
 extern void Vertex_Add_m480665725DC16E9F919D2A9D8DFDAC04F4CF89BA (void);
-// 0x0000042C System.Void UnityEngine.ProBuilder.Vertex::Add(UnityEngine.ProBuilder.Vertex)
+// 0x0000042A System.Void UnityEngine.ProBuilder.Vertex::Add(UnityEngine.ProBuilder.Vertex)
 extern void Vertex_Add_mE9CA95ED872F0029442D7580A33F76F2367CEA6B (void);
-// 0x0000042D UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::op_Subtraction(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex)
+// 0x0000042B UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::op_Subtraction(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex)
 extern void Vertex_op_Subtraction_mDC03B1989B51BA9C4A75D7EB46DF156DEBBCE2CD (void);
-// 0x0000042E UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::Subtract(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex)
+// 0x0000042C UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::Subtract(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex)
 extern void Vertex_Subtract_mFCE82332DFAFA4D579565A0655FA891B98AA2BFB (void);
-// 0x0000042F System.Void UnityEngine.ProBuilder.Vertex::Subtract(UnityEngine.ProBuilder.Vertex)
+// 0x0000042D System.Void UnityEngine.ProBuilder.Vertex::Subtract(UnityEngine.ProBuilder.Vertex)
 extern void Vertex_Subtract_m755E1043287F91373C4444384B86CE84D4301466 (void);
-// 0x00000430 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::op_Multiply(UnityEngine.ProBuilder.Vertex,System.Single)
+// 0x0000042E UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::op_Multiply(UnityEngine.ProBuilder.Vertex,System.Single)
 extern void Vertex_op_Multiply_mA49C147B1244A584E93B5AB36D75960AF8AF82D2 (void);
-// 0x00000431 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::Multiply(UnityEngine.ProBuilder.Vertex,System.Single)
+// 0x0000042F UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::Multiply(UnityEngine.ProBuilder.Vertex,System.Single)
 extern void Vertex_Multiply_m01414C0915264797236788B11713A94E9AE5554E (void);
-// 0x00000432 System.Void UnityEngine.ProBuilder.Vertex::Multiply(System.Single)
+// 0x00000430 System.Void UnityEngine.ProBuilder.Vertex::Multiply(System.Single)
 extern void Vertex_Multiply_m4A92E7048129116C22D03BFCF929C72D4B1BC312 (void);
-// 0x00000433 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::op_Division(UnityEngine.ProBuilder.Vertex,System.Single)
+// 0x00000431 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::op_Division(UnityEngine.ProBuilder.Vertex,System.Single)
 extern void Vertex_op_Division_m02C56D1A13CA6D4FCB90587032BD85EA58DC282C (void);
-// 0x00000434 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::Divide(UnityEngine.ProBuilder.Vertex,System.Single)
+// 0x00000432 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::Divide(UnityEngine.ProBuilder.Vertex,System.Single)
 extern void Vertex_Divide_m2F78FD739E0AB525281DC9A9356A3DF232B6D8DD (void);
-// 0x00000435 System.Void UnityEngine.ProBuilder.Vertex::Divide(System.Single)
+// 0x00000433 System.Void UnityEngine.ProBuilder.Vertex::Divide(System.Single)
 extern void Vertex_Divide_mE98EE037CCF5AD75B41B95C4CD02580B54DD5299 (void);
-// 0x00000436 System.Void UnityEngine.ProBuilder.Vertex::Normalize()
+// 0x00000434 System.Void UnityEngine.ProBuilder.Vertex::Normalize()
 extern void Vertex_Normalize_mC60DB4E9BF6B5E0E903F4D7BBD966BE9B1250A1E (void);
-// 0x00000437 System.String UnityEngine.ProBuilder.Vertex::ToString(System.String)
+// 0x00000435 System.String UnityEngine.ProBuilder.Vertex::ToString(System.String)
 extern void Vertex_ToString_m3E0E37EDE12185ECD6ABBA06AD7DD394A5D87969 (void);
-// 0x00000438 System.Void UnityEngine.ProBuilder.Vertex::GetArrays(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,UnityEngine.Vector3[]&,UnityEngine.Color[]&,UnityEngine.Vector2[]&,UnityEngine.Vector3[]&,UnityEngine.Vector4[]&,UnityEngine.Vector2[]&,System.Collections.Generic.List`1<UnityEngine.Vector4>&,System.Collections.Generic.List`1<UnityEngine.Vector4>&)
+// 0x00000436 System.Void UnityEngine.ProBuilder.Vertex::GetArrays(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,UnityEngine.Vector3[]&,UnityEngine.Color[]&,UnityEngine.Vector2[]&,UnityEngine.Vector3[]&,UnityEngine.Vector4[]&,UnityEngine.Vector2[]&,System.Collections.Generic.List`1<UnityEngine.Vector4>&,System.Collections.Generic.List`1<UnityEngine.Vector4>&)
 extern void Vertex_GetArrays_mFDD837A753FE66814540BAA0BA8E3C8A236210F9 (void);
-// 0x00000439 System.Void UnityEngine.ProBuilder.Vertex::GetArrays(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,UnityEngine.Vector3[]&,UnityEngine.Color[]&,UnityEngine.Vector2[]&,UnityEngine.Vector3[]&,UnityEngine.Vector4[]&,UnityEngine.Vector2[]&,System.Collections.Generic.List`1<UnityEngine.Vector4>&,System.Collections.Generic.List`1<UnityEngine.Vector4>&,UnityEngine.ProBuilder.MeshArrays)
+// 0x00000437 System.Void UnityEngine.ProBuilder.Vertex::GetArrays(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,UnityEngine.Vector3[]&,UnityEngine.Color[]&,UnityEngine.Vector2[]&,UnityEngine.Vector3[]&,UnityEngine.Vector4[]&,UnityEngine.Vector2[]&,System.Collections.Generic.List`1<UnityEngine.Vector4>&,System.Collections.Generic.List`1<UnityEngine.Vector4>&,UnityEngine.ProBuilder.MeshArrays)
 extern void Vertex_GetArrays_mE9607CB20FD239D80B566A7D8573003E35CF1859 (void);
-// 0x0000043A System.Void UnityEngine.ProBuilder.Vertex::SetMesh(UnityEngine.Mesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>)
+// 0x00000438 System.Void UnityEngine.ProBuilder.Vertex::SetMesh(UnityEngine.Mesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>)
 extern void Vertex_SetMesh_m33A1A0834CEEB0B79E5518550879FCD034BE5398 (void);
-// 0x0000043B UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::Average(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.IList`1<System.Int32>)
+// 0x00000439 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::Average(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.IList`1<System.Int32>)
 extern void Vertex_Average_m0950620699C726B4393CEDF2837159154CA293D0 (void);
-// 0x0000043C UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::Mix(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex,System.Single)
+// 0x0000043A UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.Vertex::Mix(UnityEngine.ProBuilder.Vertex,UnityEngine.ProBuilder.Vertex,System.Single)
 extern void Vertex_Mix_m765AD25D2AA638956C1085B421C370C93B8AFE9A (void);
-// 0x0000043D UnityEngine.Vector3[] UnityEngine.ProBuilder.VertexPositioning::VerticesInWorldSpace(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x0000043B UnityEngine.Vector3[] UnityEngine.ProBuilder.VertexPositioning::VerticesInWorldSpace(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void VertexPositioning_VerticesInWorldSpace_mC11480685A07DB7978AAB8D02B7CEAF64CF67FC7 (void);
-// 0x0000043E System.Void UnityEngine.ProBuilder.VertexPositioning::TranslateVerticesInWorldSpace(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[],UnityEngine.Vector3)
+// 0x0000043C System.Void UnityEngine.ProBuilder.VertexPositioning::TranslateVerticesInWorldSpace(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[],UnityEngine.Vector3)
 extern void VertexPositioning_TranslateVerticesInWorldSpace_m2D76337573347E54D6DE62EA6B461E2454EC99E2 (void);
-// 0x0000043F System.Void UnityEngine.ProBuilder.VertexPositioning::TranslateVerticesInWorldSpace(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[],UnityEngine.Vector3,System.Single,System.Boolean)
+// 0x0000043D System.Void UnityEngine.ProBuilder.VertexPositioning::TranslateVerticesInWorldSpace(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[],UnityEngine.Vector3,System.Single,System.Boolean)
 extern void VertexPositioning_TranslateVerticesInWorldSpace_m8F6B51FA443C7F3CE3379C7ED3EBB986146EF41E (void);
-// 0x00000440 System.Void UnityEngine.ProBuilder.VertexPositioning::TranslateVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>,UnityEngine.Vector3)
+// 0x0000043E System.Void UnityEngine.ProBuilder.VertexPositioning::TranslateVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>,UnityEngine.Vector3)
 extern void VertexPositioning_TranslateVertices_m9B931AE9F125C3F42A63413F0FBCA534DE658C21 (void);
-// 0x00000441 System.Void UnityEngine.ProBuilder.VertexPositioning::TranslateVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,UnityEngine.Vector3)
+// 0x0000043F System.Void UnityEngine.ProBuilder.VertexPositioning::TranslateVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,UnityEngine.Vector3)
 extern void VertexPositioning_TranslateVertices_m358C60B6D3A55141583631E14E8B199F60044957 (void);
-// 0x00000442 System.Void UnityEngine.ProBuilder.VertexPositioning::TranslateVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,UnityEngine.Vector3)
+// 0x00000440 System.Void UnityEngine.ProBuilder.VertexPositioning::TranslateVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,UnityEngine.Vector3)
 extern void VertexPositioning_TranslateVertices_m2100B7834C1F4D3F23AE5AA15A249E93C934C190 (void);
-// 0x00000443 System.Void UnityEngine.ProBuilder.VertexPositioning::TranslateVerticesInternal(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>,UnityEngine.Vector3)
+// 0x00000441 System.Void UnityEngine.ProBuilder.VertexPositioning::TranslateVerticesInternal(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>,UnityEngine.Vector3)
 extern void VertexPositioning_TranslateVerticesInternal_mC01C7D3F716927B9F9F13FA6B7A7DAB9DE1B368C (void);
-// 0x00000444 System.Void UnityEngine.ProBuilder.VertexPositioning::SetSharedVertexPosition(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32,UnityEngine.Vector3)
+// 0x00000442 System.Void UnityEngine.ProBuilder.VertexPositioning::SetSharedVertexPosition(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32,UnityEngine.Vector3)
 extern void VertexPositioning_SetSharedVertexPosition_m53190194964463EAB5BF5FE912041A104504B903 (void);
-// 0x00000445 System.Void UnityEngine.ProBuilder.VertexPositioning::SetSharedVertexValues(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32,UnityEngine.ProBuilder.Vertex)
+// 0x00000443 System.Void UnityEngine.ProBuilder.VertexPositioning::SetSharedVertexValues(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32,UnityEngine.ProBuilder.Vertex)
 extern void VertexPositioning_SetSharedVertexValues_m9E68D23B35D9399AB7375530351C2C36DE63F4A5 (void);
-// 0x00000446 System.Void UnityEngine.ProBuilder.VertexPositioning::.cctor()
+// 0x00000444 System.Void UnityEngine.ProBuilder.VertexPositioning::.cctor()
 extern void VertexPositioning__cctor_mC7383684ECEBBDA6EF6FF76EA03E884BCE9CB06D (void);
-// 0x00000447 UnityEngine.ProBuilder.EdgeLookup UnityEngine.ProBuilder.WingedEdge::get_edge()
+// 0x00000445 UnityEngine.ProBuilder.EdgeLookup UnityEngine.ProBuilder.WingedEdge::get_edge()
 extern void WingedEdge_get_edge_m587F9455B50FED762A822A2F6045521CD3B8F8DE (void);
-// 0x00000448 System.Void UnityEngine.ProBuilder.WingedEdge::set_edge(UnityEngine.ProBuilder.EdgeLookup)
+// 0x00000446 System.Void UnityEngine.ProBuilder.WingedEdge::set_edge(UnityEngine.ProBuilder.EdgeLookup)
 extern void WingedEdge_set_edge_m8B5F3713450A04F2026A8992A17CA05F521F45D4 (void);
-// 0x00000449 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.WingedEdge::get_face()
+// 0x00000447 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.WingedEdge::get_face()
 extern void WingedEdge_get_face_m1CF657BD333FF5FCCABC149F2E6C8D7FDB245EFB (void);
-// 0x0000044A System.Void UnityEngine.ProBuilder.WingedEdge::set_face(UnityEngine.ProBuilder.Face)
+// 0x00000448 System.Void UnityEngine.ProBuilder.WingedEdge::set_face(UnityEngine.ProBuilder.Face)
 extern void WingedEdge_set_face_mA2E2A3F7919FD079CAEE5DE50694F4D01168AA8F (void);
-// 0x0000044B UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.WingedEdge::get_next()
+// 0x00000449 UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.WingedEdge::get_next()
 extern void WingedEdge_get_next_m8A9B36FB5BFD4251C2CAAF3F89B19B04CE1A0695 (void);
-// 0x0000044C System.Void UnityEngine.ProBuilder.WingedEdge::set_next(UnityEngine.ProBuilder.WingedEdge)
+// 0x0000044A System.Void UnityEngine.ProBuilder.WingedEdge::set_next(UnityEngine.ProBuilder.WingedEdge)
 extern void WingedEdge_set_next_m2A4CBFE8588EAD8A1412F9A500EAE98F58314994 (void);
-// 0x0000044D UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.WingedEdge::get_previous()
+// 0x0000044B UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.WingedEdge::get_previous()
 extern void WingedEdge_get_previous_mC795A07D6C0E139741BE5D8C4252C5FFDEDCC8A5 (void);
-// 0x0000044E System.Void UnityEngine.ProBuilder.WingedEdge::set_previous(UnityEngine.ProBuilder.WingedEdge)
+// 0x0000044C System.Void UnityEngine.ProBuilder.WingedEdge::set_previous(UnityEngine.ProBuilder.WingedEdge)
 extern void WingedEdge_set_previous_m066A61DD6D5FC50D3166E846C50ACB0E9AE9076C (void);
-// 0x0000044F UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.WingedEdge::get_opposite()
+// 0x0000044D UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.WingedEdge::get_opposite()
 extern void WingedEdge_get_opposite_m8BA5581C0A981A1CF6E64CC8141AD2D867885679 (void);
-// 0x00000450 System.Void UnityEngine.ProBuilder.WingedEdge::set_opposite(UnityEngine.ProBuilder.WingedEdge)
+// 0x0000044E System.Void UnityEngine.ProBuilder.WingedEdge::set_opposite(UnityEngine.ProBuilder.WingedEdge)
 extern void WingedEdge_set_opposite_mC8B6F4B1E218A7B3E4D1C33D63EEB1131C2649A6 (void);
-// 0x00000451 System.Void UnityEngine.ProBuilder.WingedEdge::.ctor()
+// 0x0000044F System.Void UnityEngine.ProBuilder.WingedEdge::.ctor()
 extern void WingedEdge__ctor_m465B8AA81A70E00FF0DF9A819D926F38DD1961CD (void);
-// 0x00000452 System.Boolean UnityEngine.ProBuilder.WingedEdge::Equals(UnityEngine.ProBuilder.WingedEdge)
+// 0x00000450 System.Boolean UnityEngine.ProBuilder.WingedEdge::Equals(UnityEngine.ProBuilder.WingedEdge)
 extern void WingedEdge_Equals_m6BDD855C64D58FEF93E323B99FAF144CBA40D501 (void);
-// 0x00000453 System.Boolean UnityEngine.ProBuilder.WingedEdge::Equals(System.Object)
+// 0x00000451 System.Boolean UnityEngine.ProBuilder.WingedEdge::Equals(System.Object)
 extern void WingedEdge_Equals_mE8EA010006A672CEF8547CDA5474412060C5C3F0 (void);
-// 0x00000454 System.Int32 UnityEngine.ProBuilder.WingedEdge::GetHashCode()
+// 0x00000452 System.Int32 UnityEngine.ProBuilder.WingedEdge::GetHashCode()
 extern void WingedEdge_GetHashCode_m03FFDC6EF9AB48E3B0FA14296B63C23CF2A2A1C1 (void);
-// 0x00000455 System.Int32 UnityEngine.ProBuilder.WingedEdge::Count()
+// 0x00000453 System.Int32 UnityEngine.ProBuilder.WingedEdge::Count()
 extern void WingedEdge_Count_m4D03A00D035C7D046CB3CB1836EB7A9E13D117F8 (void);
-// 0x00000456 System.String UnityEngine.ProBuilder.WingedEdge::ToString()
+// 0x00000454 System.String UnityEngine.ProBuilder.WingedEdge::ToString()
 extern void WingedEdge_ToString_m118A1C7ACE49904DF67F22E770E8630E314BE0A7 (void);
-// 0x00000457 System.Int32[] UnityEngine.ProBuilder.WingedEdge::MakeQuad(UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.WingedEdge)
+// 0x00000455 System.Int32[] UnityEngine.ProBuilder.WingedEdge::MakeQuad(UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.WingedEdge)
 extern void WingedEdge_MakeQuad_m2B91B816AABF3F01C742466A8E4F3B26AE4F979D (void);
-// 0x00000458 UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.WingedEdge::GetAdjacentEdgeWithCommonIndex(System.Int32)
+// 0x00000456 UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.WingedEdge::GetAdjacentEdgeWithCommonIndex(System.Int32)
 extern void WingedEdge_GetAdjacentEdgeWithCommonIndex_m3AE401312DC56DF49044F4C3A4DE77B6A371F630 (void);
-// 0x00000459 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.WingedEdge::SortEdgesByAdjacency(UnityEngine.ProBuilder.Face)
+// 0x00000457 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.WingedEdge::SortEdgesByAdjacency(UnityEngine.ProBuilder.Face)
 extern void WingedEdge_SortEdgesByAdjacency_mAB262A0FFA82020FDCDE90771459F85592887A2A (void);
-// 0x0000045A System.Void UnityEngine.ProBuilder.WingedEdge::SortEdgesByAdjacency(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>)
+// 0x00000458 System.Void UnityEngine.ProBuilder.WingedEdge::SortEdgesByAdjacency(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>)
 extern void WingedEdge_SortEdgesByAdjacency_mA52337A01EDD06CCFB4A53821DFA1984B69C6BDA (void);
-// 0x0000045B System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>> UnityEngine.ProBuilder.WingedEdge::GetSpokes(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>)
+// 0x00000459 System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>> UnityEngine.ProBuilder.WingedEdge::GetSpokes(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>)
 extern void WingedEdge_GetSpokes_m5FC97C0C9D361A9469C7F732EBFD02AB93B7D166 (void);
-// 0x0000045C System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.WingedEdge::SortCommonIndexesByAdjacency(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>,System.Collections.Generic.HashSet`1<System.Int32>)
+// 0x0000045A System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.WingedEdge::SortCommonIndexesByAdjacency(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>,System.Collections.Generic.HashSet`1<System.Int32>)
 extern void WingedEdge_SortCommonIndexesByAdjacency_mB271EB62C8812C9D0BBD10B5FA316ED63886E7B1 (void);
-// 0x0000045D System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> UnityEngine.ProBuilder.WingedEdge::GetWingedEdges(UnityEngine.ProBuilder.ProBuilderMesh,System.Boolean)
+// 0x0000045B System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> UnityEngine.ProBuilder.WingedEdge::GetWingedEdges(UnityEngine.ProBuilder.ProBuilderMesh,System.Boolean)
 extern void WingedEdge_GetWingedEdges_mCE64FB3BB451DB8956B222843E7D2EBE958EC8C4 (void);
-// 0x0000045E System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> UnityEngine.ProBuilder.WingedEdge::GetWingedEdges(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Boolean)
+// 0x0000045C System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> UnityEngine.ProBuilder.WingedEdge::GetWingedEdges(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Boolean)
 extern void WingedEdge_GetWingedEdges_m6667702A320C0FD1E60AD67D726751A4423BCE45 (void);
-// 0x0000045F System.Void UnityEngine.ProBuilder.WingedEdge::.cctor()
+// 0x0000045D System.Void UnityEngine.ProBuilder.WingedEdge::.cctor()
 extern void WingedEdge__cctor_m22D0755B46F7D73ECAFE3FDBFB8C73645FDFDC4F (void);
-// 0x00000460 System.Void UnityEngine.ProBuilder.WingedEdge/<>c__DisplayClass32_0::.ctor()
+// 0x0000045E System.Void UnityEngine.ProBuilder.WingedEdge/<>c__DisplayClass32_0::.ctor()
 extern void U3CU3Ec__DisplayClass32_0__ctor_m56621E5B6516786D5CBB0FBCBC0971DA42C0F560 (void);
-// 0x00000461 System.Boolean UnityEngine.ProBuilder.WingedEdge/<>c__DisplayClass32_0::<SortCommonIndexesByAdjacency>b__0(UnityEngine.ProBuilder.WingedEdge)
+// 0x0000045F System.Boolean UnityEngine.ProBuilder.WingedEdge/<>c__DisplayClass32_0::<SortCommonIndexesByAdjacency>b__0(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec__DisplayClass32_0_U3CSortCommonIndexesByAdjacencyU3Eb__0_m7858CABB34CB77BE6DDE155A163C23569252FDEB (void);
-// 0x00000462 System.Void UnityEngine.ProBuilder.WingedEdge/<>c::.cctor()
+// 0x00000460 System.Void UnityEngine.ProBuilder.WingedEdge/<>c::.cctor()
 extern void U3CU3Ec__cctor_mA8AF186CCF08BC7CD7F42B6FBF8EF614164D248B (void);
-// 0x00000463 System.Void UnityEngine.ProBuilder.WingedEdge/<>c::.ctor()
+// 0x00000461 System.Void UnityEngine.ProBuilder.WingedEdge/<>c::.ctor()
 extern void U3CU3Ec__ctor_m5762DE20F6EE5D0B9F24BCA38C233D18272E1512 (void);
-// 0x00000464 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.WingedEdge/<>c::<SortCommonIndexesByAdjacency>b__32_1(UnityEngine.ProBuilder.WingedEdge)
+// 0x00000462 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.WingedEdge/<>c::<SortCommonIndexesByAdjacency>b__32_1(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec_U3CSortCommonIndexesByAdjacencyU3Eb__32_1_m28817EF1022BAC3BD0ED6159CCED946DE846F182 (void);
-// 0x00000465 System.Int32 UnityEngine.ProBuilder.WingedEdge/<>c::<SortCommonIndexesByAdjacency>b__32_2(UnityEngine.ProBuilder.Edge)
+// 0x00000463 System.Int32 UnityEngine.ProBuilder.WingedEdge/<>c::<SortCommonIndexesByAdjacency>b__32_2(UnityEngine.ProBuilder.Edge)
 extern void U3CU3Ec_U3CSortCommonIndexesByAdjacencyU3Eb__32_2_mE74D9AEC7D7A782AB36264454DD8779FC2C5238F (void);
-// 0x00000466 System.Void UnityEngine.ProBuilder.WingedEdgeEnumerator::.ctor(UnityEngine.ProBuilder.WingedEdge)
+// 0x00000464 System.Void UnityEngine.ProBuilder.WingedEdgeEnumerator::.ctor(UnityEngine.ProBuilder.WingedEdge)
 extern void WingedEdgeEnumerator__ctor_m1C7BE8320E8CF03D915FAB196EF577BD9645DD87 (void);
-// 0x00000467 System.Boolean UnityEngine.ProBuilder.WingedEdgeEnumerator::MoveNext()
+// 0x00000465 System.Boolean UnityEngine.ProBuilder.WingedEdgeEnumerator::MoveNext()
 extern void WingedEdgeEnumerator_MoveNext_m3F923D8E337EBFEC720D9163C9689CAEE06CF1F4 (void);
-// 0x00000468 System.Void UnityEngine.ProBuilder.WingedEdgeEnumerator::Reset()
+// 0x00000466 System.Void UnityEngine.ProBuilder.WingedEdgeEnumerator::Reset()
 extern void WingedEdgeEnumerator_Reset_m6B6F4F48CEB0EBB3A011FD0071C7033FA50CFD68 (void);
-// 0x00000469 UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.WingedEdgeEnumerator::get_Current()
+// 0x00000467 UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.WingedEdgeEnumerator::get_Current()
 extern void WingedEdgeEnumerator_get_Current_m0C14F25D9A09B6D31D570DC0A6F02F2A943A1E40 (void);
-// 0x0000046A System.Object UnityEngine.ProBuilder.WingedEdgeEnumerator::System.Collections.IEnumerator.get_Current()
+// 0x00000468 System.Object UnityEngine.ProBuilder.WingedEdgeEnumerator::System.Collections.IEnumerator.get_Current()
 extern void WingedEdgeEnumerator_System_Collections_IEnumerator_get_Current_mEC94A8BD1A1515661B219044BE884D745DEF77FE (void);
-// 0x0000046B System.Void UnityEngine.ProBuilder.WingedEdgeEnumerator::Dispose()
+// 0x00000469 System.Void UnityEngine.ProBuilder.WingedEdgeEnumerator::Dispose()
 extern void WingedEdgeEnumerator_Dispose_m5C19E311B8B5A2E54C3B53B5EF47B392FD1B7D2B (void);
-// 0x0000046C System.Void UnityEngine.ProBuilder.Shapes.Arch::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x0000046A System.Void UnityEngine.ProBuilder.Shapes.Arch::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void Arch_CopyShape_m28E6AED5C0DD849361795987A10A2234D843CAEA (void);
-// 0x0000046D UnityEngine.Vector3[] UnityEngine.ProBuilder.Shapes.Arch::GetFace(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+// 0x0000046B UnityEngine.Vector3[] UnityEngine.ProBuilder.Shapes.Arch::GetFace(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
 extern void Arch_GetFace_m244CCFF5E854771325C2C88159385BDD482B7951 (void);
-// 0x0000046E UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Arch::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x0000046C UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Arch::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Arch_RebuildMesh_m87C7E4CB6547F9A20741AA5A83A7324B7D235FF6 (void);
-// 0x0000046F System.Void UnityEngine.ProBuilder.Shapes.Arch::.ctor()
+// 0x0000046D System.Void UnityEngine.ProBuilder.Shapes.Arch::.ctor()
 extern void Arch__ctor_m8D4C28F55CF7CB17BB4A58DC6C4671851AEB04D9 (void);
-// 0x00000470 System.Void UnityEngine.ProBuilder.Shapes.Cone::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x0000046E System.Void UnityEngine.ProBuilder.Shapes.Cone::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void Cone_CopyShape_m4AD1AAD6F2DD7F97C8E83ED90DA466A4CA7254D7 (void);
-// 0x00000471 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Cone::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
+// 0x0000046F UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Cone::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
 extern void Cone_UpdateBounds_m7A4B00A1416987C339C837FD67DE75CAC67F3959 (void);
-// 0x00000472 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Cone::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x00000470 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Cone::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Cone_RebuildMesh_mBE2B343101CD53ED9E155E2D51D8396D7231B3C3 (void);
-// 0x00000473 System.Void UnityEngine.ProBuilder.Shapes.Cone::.ctor()
+// 0x00000471 System.Void UnityEngine.ProBuilder.Shapes.Cone::.ctor()
 extern void Cone__ctor_mD0B32A9D71264B3CDABB385FE59B310F3D51A92B (void);
-// 0x00000474 System.Void UnityEngine.ProBuilder.Shapes.Cube::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x00000472 System.Void UnityEngine.ProBuilder.Shapes.Cube::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void Cube_CopyShape_m547311AB12274524195B8ACBEED981032EF36DA7 (void);
-// 0x00000475 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Cube::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x00000473 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Cube::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Cube_RebuildMesh_m58C95A8CFAD67A2BA25AAEF4C1907D5F042A14CE (void);
-// 0x00000476 System.Void UnityEngine.ProBuilder.Shapes.Cube::.ctor()
+// 0x00000474 System.Void UnityEngine.ProBuilder.Shapes.Cube::.ctor()
 extern void Cube__ctor_mB11BF2444B481E8354BB67E3915F0FC4F4F4621D (void);
-// 0x00000477 System.Void UnityEngine.ProBuilder.Shapes.Cube::.cctor()
+// 0x00000475 System.Void UnityEngine.ProBuilder.Shapes.Cube::.cctor()
 extern void Cube__cctor_m047B2C9EF6FEDBA103355784E8BBF43C3B8BACC9 (void);
-// 0x00000478 System.Void UnityEngine.ProBuilder.Shapes.Cylinder::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x00000476 System.Void UnityEngine.ProBuilder.Shapes.Cylinder::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void Cylinder_CopyShape_m53A51A6BF0E3A23FEBE415DF398C03DBF26D143F (void);
-// 0x00000479 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Cylinder::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
+// 0x00000477 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Cylinder::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
 extern void Cylinder_UpdateBounds_m5E9318A819B3F244634928757DE836A18D9BD99A (void);
-// 0x0000047A UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Cylinder::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x00000478 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Cylinder::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Cylinder_RebuildMesh_mEE56746BB13E31BD9DC0F466FEF4648956EEAF05 (void);
-// 0x0000047B System.Void UnityEngine.ProBuilder.Shapes.Cylinder::.ctor()
+// 0x00000479 System.Void UnityEngine.ProBuilder.Shapes.Cylinder::.ctor()
 extern void Cylinder__ctor_mA2133F496371DD6FF09520A995CB72A96AFD8D9F (void);
-// 0x0000047C System.Void UnityEngine.ProBuilder.Shapes.Door::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x0000047A System.Void UnityEngine.ProBuilder.Shapes.Door::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void Door_CopyShape_m45DF3DBCB4858DE450C575E31D3EAF265A531C90 (void);
-// 0x0000047D UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Door::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x0000047B UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Door::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Door_RebuildMesh_mCD9990E5907E44DA79A58B4C8F153520285F89BF (void);
-// 0x0000047E System.Void UnityEngine.ProBuilder.Shapes.Door::.ctor()
+// 0x0000047C System.Void UnityEngine.ProBuilder.Shapes.Door::.ctor()
 extern void Door__ctor_m1891900AF176AA1902071565A1DE5EDAB70897EF (void);
-// 0x0000047F System.Void UnityEngine.ProBuilder.Shapes.Pipe::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x0000047D System.Void UnityEngine.ProBuilder.Shapes.Pipe::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void Pipe_CopyShape_m25FFC5B056FB3027CD851145F8F50A5A6A62318B (void);
-// 0x00000480 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Pipe::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
+// 0x0000047E UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Pipe::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
 extern void Pipe_UpdateBounds_m2ECD5659B9E6D7584568982F2C99C5AFE3810540 (void);
-// 0x00000481 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Pipe::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x0000047F UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Pipe::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Pipe_RebuildMesh_m8C18AA53DA021A180A45BB3FC8F0F9DFFAEF57D6 (void);
-// 0x00000482 System.Void UnityEngine.ProBuilder.Shapes.Pipe::.ctor()
+// 0x00000480 System.Void UnityEngine.ProBuilder.Shapes.Pipe::.ctor()
 extern void Pipe__ctor_m9089DBBBE91806713A3B1922F492CD1370A63A25 (void);
-// 0x00000483 System.Void UnityEngine.ProBuilder.Shapes.Plane::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x00000481 System.Void UnityEngine.ProBuilder.Shapes.Plane::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void Plane_CopyShape_m2136204D08FF9205FCA4BB83E9545EE006017545 (void);
-// 0x00000484 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Plane::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x00000482 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Plane::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Plane_RebuildMesh_mC6C854025259C176DBAC53CA3D36855315A98C48 (void);
-// 0x00000485 System.Void UnityEngine.ProBuilder.Shapes.Plane::.ctor()
+// 0x00000483 System.Void UnityEngine.ProBuilder.Shapes.Plane::.ctor()
 extern void Plane__ctor_mDB6F1CC60F44DF83AE61773F04A5D02EAF92FF6A (void);
-// 0x00000486 System.Void UnityEngine.ProBuilder.Shapes.Prism::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x00000484 System.Void UnityEngine.ProBuilder.Shapes.Prism::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void Prism_CopyShape_m1B5CEDD430507353263F510A46CC1D57A21D23D3 (void);
-// 0x00000487 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Prism::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x00000485 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Prism::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Prism_RebuildMesh_m291D9B458DFFD490983D59E38EFD64A073C67F6E (void);
-// 0x00000488 System.Void UnityEngine.ProBuilder.Shapes.Prism::.ctor()
+// 0x00000486 System.Void UnityEngine.ProBuilder.Shapes.Prism::.ctor()
 extern void Prism__ctor_mB664C7FF8982794DA8F5325042DF14BA478F6AA5 (void);
-// 0x00000489 UnityEngine.ProBuilder.Shapes.Shape UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_shape()
+// 0x00000487 UnityEngine.ProBuilder.Shapes.Shape UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_shape()
 extern void ProBuilderShape_get_shape_m9742C350A8A82B49414C33965151C18A338D67A6 (void);
-// 0x0000048A System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::set_shape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x00000488 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::set_shape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void ProBuilderShape_set_shape_m14E4595F547CD07EB0DAFD8276A722D55AFE406C (void);
-// 0x0000048B UnityEngine.ProBuilder.PivotLocation UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_pivotLocation()
+// 0x00000489 UnityEngine.ProBuilder.PivotLocation UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_pivotLocation()
 extern void ProBuilderShape_get_pivotLocation_mB102D099F5017A99379E690F7DE5D9BEE86EEA88 (void);
-// 0x0000048C System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::set_pivotLocation(UnityEngine.ProBuilder.PivotLocation)
+// 0x0000048A System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::set_pivotLocation(UnityEngine.ProBuilder.PivotLocation)
 extern void ProBuilderShape_set_pivotLocation_m9DD20E8DA379A51D81B548914D021FF25173AA0C (void);
-// 0x0000048D UnityEngine.Vector3 UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_pivotLocalPosition()
+// 0x0000048B UnityEngine.Vector3 UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_pivotLocalPosition()
 extern void ProBuilderShape_get_pivotLocalPosition_mC6BF1AD7ACC16790D51CF09B5D789B40D9DAC963 (void);
-// 0x0000048E System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::set_pivotLocalPosition(UnityEngine.Vector3)
+// 0x0000048C System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::set_pivotLocalPosition(UnityEngine.Vector3)
 extern void ProBuilderShape_set_pivotLocalPosition_m3E0C7CC7870F24182EC1627808EFFA055CECD546 (void);
-// 0x0000048F UnityEngine.Vector3 UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_pivotGlobalPosition()
+// 0x0000048D UnityEngine.Vector3 UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_pivotGlobalPosition()
 extern void ProBuilderShape_get_pivotGlobalPosition_m464C6383CAB84C4BAF7FAA626286F2ACEFDCE15B (void);
-// 0x00000490 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::set_pivotGlobalPosition(UnityEngine.Vector3)
+// 0x0000048E System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::set_pivotGlobalPosition(UnityEngine.Vector3)
 extern void ProBuilderShape_set_pivotGlobalPosition_m4E7F0320696BE8AECE99D9A9B256C13C7F24DF3B (void);
-// 0x00000491 UnityEngine.Vector3 UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_size()
+// 0x0000048F UnityEngine.Vector3 UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_size()
 extern void ProBuilderShape_get_size_m566E354908E2BC423C559EBA8EBCDE82B863C08E (void);
-// 0x00000492 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::set_size(UnityEngine.Vector3)
+// 0x00000490 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::set_size(UnityEngine.Vector3)
 extern void ProBuilderShape_set_size_m96C4418AC6D66C04D80D4EFDDD1DCCE73300ACE6 (void);
-// 0x00000493 UnityEngine.Quaternion UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_rotation()
+// 0x00000491 UnityEngine.Quaternion UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_rotation()
 extern void ProBuilderShape_get_rotation_m85C90D3089970FBD8CB4D472F86C26865BEE1FFC (void);
-// 0x00000494 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::set_rotation(UnityEngine.Quaternion)
+// 0x00000492 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::set_rotation(UnityEngine.Quaternion)
 extern void ProBuilderShape_set_rotation_mE286B46D6A8498FF3CA27188ACC86260D4DE8E49 (void);
-// 0x00000495 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_editionBounds()
+// 0x00000493 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_editionBounds()
 extern void ProBuilderShape_get_editionBounds_m60BCAC629CBD0B68CB2A6DF9E10B869DD0D8925D (void);
-// 0x00000496 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_shapeBox()
+// 0x00000494 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_shapeBox()
 extern void ProBuilderShape_get_shapeBox_mF0627AAD5C5F5CD48A41B38BD10224D1D959399C (void);
-// 0x00000497 System.Boolean UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_isEditable()
+// 0x00000495 System.Boolean UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_isEditable()
 extern void ProBuilderShape_get_isEditable_mFB6B0DCBD0F09025625FBA1123C95C218A4C8B9B (void);
-// 0x00000498 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_mesh()
+// 0x00000496 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.Shapes.ProBuilderShape::get_mesh()
 extern void ProBuilderShape_get_mesh_m9799E21C3987A869E74858B7BAA967F285952CEA (void);
-// 0x00000499 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::OnValidate()
+// 0x00000497 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::OnValidate()
 extern void ProBuilderShape_OnValidate_mD58EC8A316871EAD27E849F933B7FA7D4CCDA0FF (void);
-// 0x0000049A System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::UpdateComponent()
+// 0x00000498 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::UpdateComponent()
 extern void ProBuilderShape_UpdateComponent_m082DF56E324E08A3FE6CB05871CB01092C277EB7 (void);
-// 0x0000049B System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::UpdateBounds(UnityEngine.Bounds)
+// 0x00000499 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::UpdateBounds(UnityEngine.Bounds)
 extern void ProBuilderShape_UpdateBounds_mE99A36EEEE058C0A099428A1899C4A18187B356E (void);
-// 0x0000049C System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::Rebuild(UnityEngine.Bounds,UnityEngine.Quaternion,UnityEngine.Vector3)
+// 0x0000049A System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::Rebuild(UnityEngine.Bounds,UnityEngine.Quaternion,UnityEngine.Vector3)
 extern void ProBuilderShape_Rebuild_mECA4103C340EA6D4F22DC9B09D82359CA44A0AE8 (void);
-// 0x0000049D System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::Rebuild()
+// 0x0000049B System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::Rebuild()
 extern void ProBuilderShape_Rebuild_m0D6B8E07BD44CA6D3027C3E3C8C64175F24ED931 (void);
-// 0x0000049E System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::SetShape(UnityEngine.ProBuilder.Shapes.Shape,UnityEngine.ProBuilder.PivotLocation)
+// 0x0000049C System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::SetShape(UnityEngine.ProBuilder.Shapes.Shape,UnityEngine.ProBuilder.PivotLocation)
 extern void ProBuilderShape_SetShape_m9744DCBAE3E77F248F4C03F6015AACFA84B7C249 (void);
-// 0x0000049F System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::RotateInsideBounds(UnityEngine.Quaternion)
+// 0x0000049D System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::RotateInsideBounds(UnityEngine.Quaternion)
 extern void ProBuilderShape_RotateInsideBounds_m72D5E5F1832DDA62A769DF7A2885DC92EEBCB938 (void);
-// 0x000004A0 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::ResetPivot(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x0000049E System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::ResetPivot(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void ProBuilderShape_ResetPivot_mDB93FB4368A506D5C65F3A14A7B482ED4BDB72FC (void);
-// 0x000004A1 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::RebuildPivot(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x0000049F System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::RebuildPivot(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void ProBuilderShape_RebuildPivot_mB5B0DDAE2D16F669CF868A91C46354195C943771 (void);
-// 0x000004A2 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::.ctor()
+// 0x000004A0 System.Void UnityEngine.ProBuilder.Shapes.ProBuilderShape::.ctor()
 extern void ProBuilderShape__ctor_mCC22038ABBF66C4FAF26F4661B53476496CD7F55 (void);
-// 0x000004A3 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Shape::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
+// 0x000004A1 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Shape::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
 extern void Shape_UpdateBounds_m69DEF5F56C7C2AEF934853AE70A85C3C20296EB7 (void);
-// 0x000004A4 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Shape::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
-// 0x000004A5 System.Void UnityEngine.ProBuilder.Shapes.Shape::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
-// 0x000004A6 System.Void UnityEngine.ProBuilder.Shapes.Shape::.ctor()
+// 0x000004A2 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Shape::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x000004A3 System.Void UnityEngine.ProBuilder.Shapes.Shape::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x000004A4 System.Void UnityEngine.ProBuilder.Shapes.Shape::.ctor()
 extern void Shape__ctor_mA0F7576903AFDAF3C8B57A89A6F2917C6F98F02A (void);
-// 0x000004A7 System.Void UnityEngine.ProBuilder.Shapes.ShapeAttribute::.ctor(System.String)
+// 0x000004A5 System.Void UnityEngine.ProBuilder.Shapes.ShapeAttribute::.ctor(System.String)
 extern void ShapeAttribute__ctor_mCB091FF4047C5B9AB763F50910494CBAEEAC7341 (void);
-// 0x000004A8 System.Void UnityEngine.ProBuilder.Shapes.Sphere::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x000004A6 System.Void UnityEngine.ProBuilder.Shapes.Sphere::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void Sphere_CopyShape_m93A686D0A9079E2201FBF95FFE5B1653415AB6A1 (void);
-// 0x000004A9 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Sphere::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
+// 0x000004A7 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Sphere::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
 extern void Sphere_UpdateBounds_m8ACCA9A8EADAEE37C6A89B565FA30E6461B95114 (void);
-// 0x000004AA UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Sphere::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x000004A8 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Sphere::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Sphere_RebuildMesh_m90BBEC27B7D88EFBE2FF1E0DDAED20E89FDA6B2C (void);
-// 0x000004AB UnityEngine.Vector3[] UnityEngine.ProBuilder.Shapes.Sphere::SubdivideIcosahedron(UnityEngine.Vector3[],System.Single)
+// 0x000004A9 UnityEngine.Vector3[] UnityEngine.ProBuilder.Shapes.Sphere::SubdivideIcosahedron(UnityEngine.Vector3[],System.Single)
 extern void Sphere_SubdivideIcosahedron_m7AC49D26DC2E057873C9E4C781CB18D5F5F6BE77 (void);
-// 0x000004AC System.Void UnityEngine.ProBuilder.Shapes.Sphere::.ctor()
+// 0x000004AA System.Void UnityEngine.ProBuilder.Shapes.Sphere::.ctor()
 extern void Sphere__ctor_m1AA1585CDFD9F4DD729C9E9449A28D36E71D5FE5 (void);
-// 0x000004AD System.Void UnityEngine.ProBuilder.Shapes.Sphere::.cctor()
+// 0x000004AB System.Void UnityEngine.ProBuilder.Shapes.Sphere::.cctor()
 extern void Sphere__cctor_m334D8D3D500F1611B33A3598953A41B020392C7B (void);
-// 0x000004AE System.Void UnityEngine.ProBuilder.Shapes.Sprite::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x000004AC System.Void UnityEngine.ProBuilder.Shapes.Sprite::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void Sprite_CopyShape_m0821F03CD32A15B2DEC8BCD23371F02E92F7AD52 (void);
-// 0x000004AF UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Sprite::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x000004AD UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Sprite::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Sprite_RebuildMesh_mF661D89D1E44C9425AD3FC621106EA1BDFB711F4 (void);
-// 0x000004B0 System.Void UnityEngine.ProBuilder.Shapes.Sprite::.ctor()
+// 0x000004AE System.Void UnityEngine.ProBuilder.Shapes.Sprite::.ctor()
 extern void Sprite__ctor_mF503FCF7300F41D7CC228E6E62D5889E45637FDA (void);
-// 0x000004B1 System.Boolean UnityEngine.ProBuilder.Shapes.Stairs::get_sides()
+// 0x000004AF System.Boolean UnityEngine.ProBuilder.Shapes.Stairs::get_sides()
 extern void Stairs_get_sides_mC8B158AFE80B90A64E703B4B3D1D4BCE1EFA94AD (void);
-// 0x000004B2 System.Void UnityEngine.ProBuilder.Shapes.Stairs::set_sides(System.Boolean)
+// 0x000004B0 System.Void UnityEngine.ProBuilder.Shapes.Stairs::set_sides(System.Boolean)
 extern void Stairs_set_sides_m803DE2F7348C361FF4DDBF63A0E2539F4F33E64F (void);
-// 0x000004B3 System.Void UnityEngine.ProBuilder.Shapes.Stairs::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x000004B1 System.Void UnityEngine.ProBuilder.Shapes.Stairs::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void Stairs_CopyShape_m4F93848213C4B8EFACC16ECEC3DD94B5BF04B460 (void);
-// 0x000004B4 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Stairs::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x000004B2 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Stairs::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Stairs_RebuildMesh_m647F35FB02AE3D2FC7FD12CB54D5335C7AEE4CEA (void);
-// 0x000004B5 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Stairs::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
+// 0x000004B3 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Stairs::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
 extern void Stairs_UpdateBounds_mFDF96FCA735EED2B46DDE343D7BC1F13A77BC6A5 (void);
-// 0x000004B6 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Stairs::BuildStairs(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x000004B4 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Stairs::BuildStairs(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Stairs_BuildStairs_m377D8BF8C60FA332B67C3F4F8256651DB78174FC (void);
-// 0x000004B7 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Stairs::BuildCurvedStairs(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x000004B5 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Stairs::BuildCurvedStairs(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Stairs_BuildCurvedStairs_m2C2C278C6B95F1EFC5F075C5E9B57F803604C4E4 (void);
-// 0x000004B8 System.Void UnityEngine.ProBuilder.Shapes.Stairs::.ctor()
+// 0x000004B6 System.Void UnityEngine.ProBuilder.Shapes.Stairs::.ctor()
 extern void Stairs__ctor_m3BAB65885BDBAB672101E46DDE10ACA0454CA127 (void);
-// 0x000004B9 System.Void UnityEngine.ProBuilder.Shapes.Torus::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
+// 0x000004B7 System.Void UnityEngine.ProBuilder.Shapes.Torus::CopyShape(UnityEngine.ProBuilder.Shapes.Shape)
 extern void Torus_CopyShape_m06A9EDFA82F49448F138613132515422783CF239 (void);
-// 0x000004BA UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Torus::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
+// 0x000004B8 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Torus::UpdateBounds(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Bounds)
 extern void Torus_UpdateBounds_mAB8DE1C8B7156203F4D9E357BD52DC3AEA3452BF (void);
-// 0x000004BB UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Torus::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x000004B9 UnityEngine.Bounds UnityEngine.ProBuilder.Shapes.Torus::RebuildMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void Torus_RebuildMesh_m04590D4E19B1E2629353BBE014B21D276A4121FF (void);
-// 0x000004BC UnityEngine.Vector3[] UnityEngine.ProBuilder.Shapes.Torus::GetCirclePoints(System.Int32,System.Single,System.Single,UnityEngine.Quaternion,System.Single)
+// 0x000004BA UnityEngine.Vector3[] UnityEngine.ProBuilder.Shapes.Torus::GetCirclePoints(System.Int32,System.Single,System.Single,UnityEngine.Quaternion,System.Single)
 extern void Torus_GetCirclePoints_m93DF6EBEE28CC4D71A31E86BC72F9C74468FB956 (void);
-// 0x000004BD UnityEngine.Vector3[] UnityEngine.ProBuilder.Shapes.Torus::GetCirclePoints(System.Int32,System.Single,System.Single,UnityEngine.Quaternion,UnityEngine.Vector3)
+// 0x000004BB UnityEngine.Vector3[] UnityEngine.ProBuilder.Shapes.Torus::GetCirclePoints(System.Int32,System.Single,System.Single,UnityEngine.Quaternion,UnityEngine.Vector3)
 extern void Torus_GetCirclePoints_m15F9407836F0B5BE5068E953579FBA517B0CED39 (void);
-// 0x000004BE System.Void UnityEngine.ProBuilder.Shapes.Torus::.ctor()
+// 0x000004BC System.Void UnityEngine.ProBuilder.Shapes.Torus::.ctor()
 extern void Torus__ctor_m5E8F4D3A67C1A348D009AEFF658825E3EBE03744 (void);
-// 0x000004BF UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements::AppendFace(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3[],UnityEngine.Color[],UnityEngine.Vector2[],UnityEngine.Vector4[],UnityEngine.Vector4[],UnityEngine.ProBuilder.Face,System.Int32[])
+// 0x000004BD UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements::AppendFace(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3[],UnityEngine.Color[],UnityEngine.Vector2[],UnityEngine.Vector4[],UnityEngine.Vector4[],UnityEngine.ProBuilder.Face,System.Int32[])
 extern void AppendElements_AppendFace_m016C313E723E92051167C3215DE055D6AD84AEAF (void);
-// 0x000004C0 UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.AppendElements::AppendFaces(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3[][],UnityEngine.Color[][],UnityEngine.Vector2[][],UnityEngine.ProBuilder.Face[],System.Int32[][])
+// 0x000004BE UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.AppendElements::AppendFaces(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3[][],UnityEngine.Color[][],UnityEngine.Vector2[][],UnityEngine.ProBuilder.Face[],System.Int32[][])
 extern void AppendElements_AppendFaces_mFB1CCFABE30F810EE1C74F1F15285F9E9B79D23A (void);
-// 0x000004C1 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements::CreatePolygon(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<System.Int32>,System.Boolean)
+// 0x000004BF UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements::CreatePolygon(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<System.Int32>,System.Boolean)
 extern void AppendElements_CreatePolygon_m5A20CBA38663C0C1B19CFC6D8912F2E295024FDF (void);
-// 0x000004C2 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements::CreatePolygonWithHole(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<System.Int32>,System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<System.Int32>>)
+// 0x000004C0 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements::CreatePolygonWithHole(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<System.Int32>,System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<System.Int32>>)
 extern void AppendElements_CreatePolygonWithHole_m23F55AEA66F21DBEA15BE68E0DEC719943638F50 (void);
-// 0x000004C3 UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.AppendElements::CreateShapeFromPolygon(UnityEngine.ProBuilder.PolyShape)
+// 0x000004C1 UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.AppendElements::CreateShapeFromPolygon(UnityEngine.ProBuilder.PolyShape)
 extern void AppendElements_CreateShapeFromPolygon_m3EC74FB7B22628ABB43D7A4F625BF4CC4E855C37 (void);
-// 0x000004C4 System.Void UnityEngine.ProBuilder.MeshOperations.AppendElements::ClearAndRefreshMesh(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000004C2 System.Void UnityEngine.ProBuilder.MeshOperations.AppendElements::ClearAndRefreshMesh(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void AppendElements_ClearAndRefreshMesh_m2959964A8463AE609C0DAD1F553C71A5A1FE2A76 (void);
-// 0x000004C5 UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.AppendElements::CreateShapeFromPolygon(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Single,System.Boolean)
+// 0x000004C3 UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.AppendElements::CreateShapeFromPolygon(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Single,System.Boolean)
 extern void AppendElements_CreateShapeFromPolygon_mD620FEFB0FBE9E0E52CB0C25C3720CC3293DACBD (void);
-// 0x000004C6 UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.AppendElements::CreateShapeFromPolygon(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Single,System.Boolean,UnityEngine.Vector3,System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<UnityEngine.Vector3>>)
+// 0x000004C4 UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.AppendElements::CreateShapeFromPolygon(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Single,System.Boolean,UnityEngine.Vector3,System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<UnityEngine.Vector3>>)
 extern void AppendElements_CreateShapeFromPolygon_mE75940AEEDB091D5ED17CD9FD8D9429FA1053200 (void);
-// 0x000004C7 UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.AppendElements::CreateShapeFromPolygon(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Single,System.Boolean,System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<UnityEngine.Vector3>>)
+// 0x000004C5 UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.AppendElements::CreateShapeFromPolygon(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.Vector3>,System.Single,System.Boolean,System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<UnityEngine.Vector3>>)
 extern void AppendElements_CreateShapeFromPolygon_mA6958B66F36D7550FEE62F2DC238CDE5FB7C8BD0 (void);
-// 0x000004C8 UnityEngine.ProBuilder.FaceRebuildData UnityEngine.ProBuilder.MeshOperations.AppendElements::FaceWithVertices(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,System.Boolean)
+// 0x000004C6 UnityEngine.ProBuilder.FaceRebuildData UnityEngine.ProBuilder.MeshOperations.AppendElements::FaceWithVertices(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,System.Boolean)
 extern void AppendElements_FaceWithVertices_mA047B66E9B5D328D6AC7BD05FCF830D1CF6E3EF7 (void);
-// 0x000004C9 UnityEngine.ProBuilder.FaceRebuildData UnityEngine.ProBuilder.MeshOperations.AppendElements::FaceWithVerticesAndHole(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>>)
+// 0x000004C7 UnityEngine.ProBuilder.FaceRebuildData UnityEngine.ProBuilder.MeshOperations.AppendElements::FaceWithVerticesAndHole(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>>)
 extern void AppendElements_FaceWithVerticesAndHole_mD00867BDDE634EA5DD705E676458D6FC414C33F4 (void);
-// 0x000004CA System.Collections.Generic.List`1<UnityEngine.ProBuilder.FaceRebuildData> UnityEngine.ProBuilder.MeshOperations.AppendElements::TentCapWithVertices(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>)
+// 0x000004C8 System.Collections.Generic.List`1<UnityEngine.ProBuilder.FaceRebuildData> UnityEngine.ProBuilder.MeshOperations.AppendElements::TentCapWithVertices(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>)
 extern void AppendElements_TentCapWithVertices_mC6055808B66825FFCB8AE63D7B209BE2115C0300 (void);
-// 0x000004CB System.Void UnityEngine.ProBuilder.MeshOperations.AppendElements::DuplicateAndFlip(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[])
+// 0x000004C9 System.Void UnityEngine.ProBuilder.MeshOperations.AppendElements::DuplicateAndFlip(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[])
 extern void AppendElements_DuplicateAndFlip_mA1B711C4409AB22F6191FCF0DB9163AEF13F7E37 (void);
-// 0x000004CC UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements::Bridge(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge,UnityEngine.ProBuilder.Edge,System.Boolean)
+// 0x000004CA UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements::Bridge(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge,UnityEngine.ProBuilder.Edge,System.Boolean)
 extern void AppendElements_Bridge_mA98ED777E2EA2ACEAC60FBE06516174A0947E850 (void);
-// 0x000004CD UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements::AppendVerticesToFace(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.Vector3[])
+// 0x000004CB UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements::AppendVerticesToFace(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.Vector3[])
 extern void AppendElements_AppendVerticesToFace_m610C1CF741F0F7B1E28ED529EB7B5249F753E94C (void);
-// 0x000004CE UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements::AppendVerticesToFace(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.Vector3[],System.Boolean)
+// 0x000004CC UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements::AppendVerticesToFace(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.Vector3[],System.Boolean)
 extern void AppendElements_AppendVerticesToFace_m41F44A2D1BF1F68BA1C905FAC67D2C991A11CE56 (void);
-// 0x000004CF System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.AppendElements::AppendVerticesToEdge(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge,System.Int32)
+// 0x000004CD System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.AppendElements::AppendVerticesToEdge(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge,System.Int32)
 extern void AppendElements_AppendVerticesToEdge_mFF01655EAF5D131DE99B6CE5E7029F2E65E2DE10 (void);
-// 0x000004D0 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.AppendElements::AppendVerticesToEdge(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Edge>,System.Int32)
+// 0x000004CE System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.AppendElements::AppendVerticesToEdge(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Edge>,System.Int32)
 extern void AppendElements_AppendVerticesToEdge_m783D5C5ABF4AC14C04E2512689EFB3A26BBEADBE (void);
-// 0x000004D1 UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.AppendElements::InsertVertexInFace(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.Vector3)
+// 0x000004CF UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.AppendElements::InsertVertexInFace(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.Vector3)
 extern void AppendElements_InsertVertexInFace_m2EDDD026361EE14DE4EE0A11A8529521A0ACCEC2 (void);
-// 0x000004D2 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.MeshOperations.AppendElements::InsertVertexOnEdge(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge,UnityEngine.Vector3)
+// 0x000004D0 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.MeshOperations.AppendElements::InsertVertexOnEdge(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge,UnityEngine.Vector3)
 extern void AppendElements_InsertVertexOnEdge_mB65754256BB1C8DF424731705D612175EFE336DB (void);
-// 0x000004D3 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.MeshOperations.AppendElements::InsertVertexInMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x000004D1 UnityEngine.ProBuilder.Vertex UnityEngine.ProBuilder.MeshOperations.AppendElements::InsertVertexInMesh(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3,UnityEngine.Vector3)
 extern void AppendElements_InsertVertexInMesh_mEA7859616BA66C759305C57CD72A93E7A618A110 (void);
-// 0x000004D4 System.Void UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c::.cctor()
+// 0x000004D2 System.Void UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c::.cctor()
 extern void U3CU3Ec__cctor_mAD6560C151623BFDB1D693B9E0DA9E3D49A6B6F5 (void);
-// 0x000004D5 System.Void UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c::.ctor()
+// 0x000004D3 System.Void UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c::.ctor()
 extern void U3CU3Ec__ctor_m28CCF3C919ED293C1A677D0F7A1CBD9100021FDB (void);
-// 0x000004D6 System.Int32 UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c::<CreateShapeFromPolygon>b__8_0(UnityEngine.Vector3[])
+// 0x000004D4 System.Int32 UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c::<CreateShapeFromPolygon>b__8_0(UnityEngine.Vector3[])
 extern void U3CU3Ec_U3CCreateShapeFromPolygonU3Eb__8_0_m9C1CE6D1AF0AA975356AD820B9B15DCFBB7FD12C (void);
-// 0x000004D7 UnityEngine.Vector3 UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c::<FaceWithVerticesAndHole>b__10_0(UnityEngine.ProBuilder.Vertex)
+// 0x000004D5 UnityEngine.Vector3 UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c::<FaceWithVerticesAndHole>b__10_0(UnityEngine.ProBuilder.Vertex)
 extern void U3CU3Ec_U3CFaceWithVerticesAndHoleU3Eb__10_0_m0664F4026B7C9AB1890494D50F63D44B62CDCC04 (void);
-// 0x000004D8 UnityEngine.Vector3 UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c::<FaceWithVerticesAndHole>b__10_1(UnityEngine.ProBuilder.Vertex)
+// 0x000004D6 UnityEngine.Vector3 UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c::<FaceWithVerticesAndHole>b__10_1(UnityEngine.ProBuilder.Vertex)
 extern void U3CU3Ec_U3CFaceWithVerticesAndHoleU3Eb__10_1_mC7F6A0FD8C3BBC02B7ED3CE653C2B227EBA9C654 (void);
-// 0x000004D9 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c::<InsertVertexInFace>b__18_0(UnityEngine.ProBuilder.FaceRebuildData)
+// 0x000004D7 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c::<InsertVertexInFace>b__18_0(UnityEngine.ProBuilder.FaceRebuildData)
 extern void U3CU3Ec_U3CInsertVertexInFaceU3Eb__18_0_m1D6AD90B5D7DEE6ED1895F7A824FF342CBF8F52A (void);
-// 0x000004DA System.Void UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c__DisplayClass17_0::.ctor()
+// 0x000004D8 System.Void UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c__DisplayClass17_0::.ctor()
 extern void U3CU3Ec__DisplayClass17_0__ctor_mBBCD6440E1D6C83E7FA71FD4869A098A01CD16E2 (void);
-// 0x000004DB UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c__DisplayClass17_0::<AppendVerticesToEdge>b__0(UnityEngine.ProBuilder.EdgeLookup)
+// 0x000004D9 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c__DisplayClass17_0::<AppendVerticesToEdge>b__0(UnityEngine.ProBuilder.EdgeLookup)
 extern void U3CU3Ec__DisplayClass17_0_U3CAppendVerticesToEdgeU3Eb__0_m8BFF049A240456E5495F0FFF60C8EDD60A8DC0E8 (void);
-// 0x000004DC System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.Bevel::BevelEdges(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Edge>,System.Single)
+// 0x000004DA System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.Bevel::BevelEdges(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Edge>,System.Single)
 extern void Bevel_BevelEdges_m27E9BBBB9A14D68239EF35286D69E458A581830A (void);
-// 0x000004DD System.Collections.Generic.List`1<UnityEngine.ProBuilder.FaceRebuildData> UnityEngine.ProBuilder.MeshOperations.Bevel::GetBridgeFaces(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.WingedEdge,System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.FaceRebuildData,System.Collections.Generic.List`1<System.Int32>>>>)
+// 0x000004DB System.Collections.Generic.List`1<UnityEngine.ProBuilder.FaceRebuildData> UnityEngine.ProBuilder.MeshOperations.Bevel::GetBridgeFaces(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.WingedEdge,System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.FaceRebuildData,System.Collections.Generic.List`1<System.Int32>>>>)
 extern void Bevel_GetBridgeFaces_m2213EEC9DC4264F53FEDCAE9D80CC9FC0E5E0C81 (void);
-// 0x000004DE System.Void UnityEngine.ProBuilder.MeshOperations.Bevel::SlideEdge(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,UnityEngine.ProBuilder.WingedEdge,System.Single)
+// 0x000004DC System.Void UnityEngine.ProBuilder.MeshOperations.Bevel::SlideEdge(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,UnityEngine.ProBuilder.WingedEdge,System.Single)
 extern void Bevel_SlideEdge_m04B18B294DEF523A9FEC162835AB8F9D890A24B0 (void);
-// 0x000004DF UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.Bevel::GetLeadingEdge(UnityEngine.ProBuilder.WingedEdge,System.Int32)
+// 0x000004DD UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.Bevel::GetLeadingEdge(UnityEngine.ProBuilder.WingedEdge,System.Int32)
 extern void Bevel_GetLeadingEdge_m8108B7AA736F13FF68F0E3B276F645A11285EDF0 (void);
-// 0x000004E0 System.Void UnityEngine.ProBuilder.MeshOperations.Bevel::.cctor()
+// 0x000004DE System.Void UnityEngine.ProBuilder.MeshOperations.Bevel::.cctor()
 extern void Bevel__cctor_m2C9A1344BA0DE2E145B86C5AEDBBE452FF893D15 (void);
-// 0x000004E1 System.Void UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_0::.ctor()
+// 0x000004DF System.Void UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_0::.ctor()
 extern void U3CU3Ec__DisplayClass0_0__ctor_m552EED7131983A1AB3B89295C5D41C5E95D4D6A3 (void);
-// 0x000004E2 System.Int32 UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_0::<BevelEdges>b__7(System.Int32)
+// 0x000004E0 System.Int32 UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_0::<BevelEdges>b__7(System.Int32)
 extern void U3CU3Ec__DisplayClass0_0_U3CBevelEdgesU3Eb__7_mB0A33AD9935DC6273A534E2BEA3306512D912559 (void);
-// 0x000004E3 System.Int32 UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_0::<BevelEdges>b__8(System.Int32)
+// 0x000004E1 System.Int32 UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_0::<BevelEdges>b__8(System.Int32)
 extern void U3CU3Ec__DisplayClass0_0_U3CBevelEdgesU3Eb__8_mD1C33BA6C6B43BAD5BE2B148384C6AACD8CF8B42 (void);
-// 0x000004E4 System.Void UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_1::.ctor()
+// 0x000004E2 System.Void UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_1::.ctor()
 extern void U3CU3Ec__DisplayClass0_1__ctor_mFDCB91966DE8C952FB2641C06B224E4D8CC2243C (void);
-// 0x000004E5 System.Boolean UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_1::<BevelEdges>b__4(UnityEngine.ProBuilder.WingedEdge)
+// 0x000004E3 System.Boolean UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_1::<BevelEdges>b__4(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec__DisplayClass0_1_U3CBevelEdgesU3Eb__4_m1B275929B841D986D5A20A047AC58FF61E77DC02 (void);
-// 0x000004E6 System.Void UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_2::.ctor()
+// 0x000004E4 System.Void UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_2::.ctor()
 extern void U3CU3Ec__DisplayClass0_2__ctor_m415B8F26F7F3C1F499F8D6FC4D8C837DF1BB9A42 (void);
-// 0x000004E7 System.Boolean UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_2::<BevelEdges>b__5(UnityEngine.ProBuilder.WingedEdge)
+// 0x000004E5 System.Boolean UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_2::<BevelEdges>b__5(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec__DisplayClass0_2_U3CBevelEdgesU3Eb__5_m5D058EA63F8E427B8351E5A96AD2E36DFAA9FBFB (void);
-// 0x000004E8 System.Void UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::.cctor()
+// 0x000004E6 System.Void UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::.cctor()
 extern void U3CU3Ec__cctor_m9A8914E59FA5F935E627DA5AA7860E9EE15FAC1A (void);
-// 0x000004E9 System.Void UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::.ctor()
+// 0x000004E7 System.Void UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::.ctor()
 extern void U3CU3Ec__ctor_m47FEBFFD477BA89B63369BF16F260E5AB3958A77 (void);
-// 0x000004EA UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::<BevelEdges>b__0_0(UnityEngine.ProBuilder.FaceRebuildData)
+// 0x000004E8 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::<BevelEdges>b__0_0(UnityEngine.ProBuilder.FaceRebuildData)
 extern void U3CU3Ec_U3CBevelEdgesU3Eb__0_0_mEE4BBD7DC905ACDD831AE926BB705F5FBA0EFC42 (void);
-// 0x000004EB System.Int32 UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::<BevelEdges>b__0_6(UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.FaceRebuildData,System.Collections.Generic.List`1<System.Int32>>)
+// 0x000004E9 System.Int32 UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::<BevelEdges>b__0_6(UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.FaceRebuildData,System.Collections.Generic.List`1<System.Int32>>)
 extern void U3CU3Ec_U3CBevelEdgesU3Eb__0_6_m97132F42AAA5F3CC569DB7B7CC8C25895C0680C9 (void);
-// 0x000004EC UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::<BevelEdges>b__0_1(UnityEngine.ProBuilder.FaceRebuildData)
+// 0x000004EA UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::<BevelEdges>b__0_1(UnityEngine.ProBuilder.FaceRebuildData)
 extern void U3CU3Ec_U3CBevelEdgesU3Eb__0_1_m46AF59CFEA262813E6D44661575CB7E57BC8E85B (void);
-// 0x000004ED UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::<BevelEdges>b__0_2(UnityEngine.ProBuilder.FaceRebuildData)
+// 0x000004EB UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::<BevelEdges>b__0_2(UnityEngine.ProBuilder.FaceRebuildData)
 extern void U3CU3Ec_U3CBevelEdgesU3Eb__0_2_mC212F44D7AA45FC5B181E6677EB4ECDCBA889515 (void);
-// 0x000004EE UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::<BevelEdges>b__0_3(UnityEngine.ProBuilder.FaceRebuildData)
+// 0x000004EC UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.Bevel/<>c::<BevelEdges>b__0_3(UnityEngine.ProBuilder.FaceRebuildData)
 extern void U3CU3Ec_U3CBevelEdgesU3Eb__0_3_m0EA9287574FD4E8A7318C4BBB06AEC48EA505762 (void);
-// 0x000004EF System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> UnityEngine.ProBuilder.MeshOperations.CombineMeshes::Combine(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh>)
+// 0x000004ED System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> UnityEngine.ProBuilder.MeshOperations.CombineMeshes::Combine(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh>)
 extern void CombineMeshes_Combine_m4B8A21A2DAD973B8ACB5AF63E5B63B88E75B1649 (void);
-// 0x000004F0 System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> UnityEngine.ProBuilder.MeshOperations.CombineMeshes::Combine(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh>,UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000004EE System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> UnityEngine.ProBuilder.MeshOperations.CombineMeshes::Combine(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh>,UnityEngine.ProBuilder.ProBuilderMesh)
 extern void CombineMeshes_Combine_m638C541B48C97FEB9B53DDEEAE93C6D2141F8924 (void);
-// 0x000004F1 System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> UnityEngine.ProBuilder.MeshOperations.CombineMeshes::CombineToNewMeshes(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh>)
+// 0x000004EF System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> UnityEngine.ProBuilder.MeshOperations.CombineMeshes::CombineToNewMeshes(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh>)
 extern void CombineMeshes_CombineToNewMeshes_m3B28A059B3D47E1A545D0EC64106DA874C8CA165 (void);
-// 0x000004F2 System.Void UnityEngine.ProBuilder.MeshOperations.CombineMeshes::AccumulateMeshesInfo(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>&,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>&,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>&,System.Collections.Generic.List`1<UnityEngine.ProBuilder.SharedVertex>&,System.Collections.Generic.List`1<UnityEngine.ProBuilder.SharedVertex>&,System.Collections.Generic.List`1<UnityEngine.Material>&,UnityEngine.Transform)
+// 0x000004F0 System.Void UnityEngine.ProBuilder.MeshOperations.CombineMeshes::AccumulateMeshesInfo(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh>,System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>&,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>&,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>&,System.Collections.Generic.List`1<UnityEngine.ProBuilder.SharedVertex>&,System.Collections.Generic.List`1<UnityEngine.ProBuilder.SharedVertex>&,System.Collections.Generic.List`1<UnityEngine.Material>&,UnityEngine.Transform)
 extern void CombineMeshes_AccumulateMeshesInfo_m5396824968D8C6C2E058AAAB728B694E1DA82462 (void);
-// 0x000004F3 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.MeshOperations.CombineMeshes::CreateMeshFromSplit(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>,UnityEngine.Material[])
+// 0x000004F1 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.MeshOperations.CombineMeshes::CreateMeshFromSplit(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>,UnityEngine.Material[])
 extern void CombineMeshes_CreateMeshFromSplit_mB412C03EC64540E0BBEB06B9F2F64B154CEF6E3B (void);
-// 0x000004F4 System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> UnityEngine.ProBuilder.MeshOperations.CombineMeshes::SplitByMaxVertexCount(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex>,System.UInt32)
+// 0x000004F2 System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> UnityEngine.ProBuilder.MeshOperations.CombineMeshes::SplitByMaxVertexCount(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex>,System.UInt32)
 extern void CombineMeshes_SplitByMaxVertexCount_m83A7040DB7394A926DD4121406444462462F0C23 (void);
-// 0x000004F5 System.Void UnityEngine.ProBuilder.MeshOperations.CombineMeshes/<>c::.cctor()
+// 0x000004F3 System.Void UnityEngine.ProBuilder.MeshOperations.CombineMeshes/<>c::.cctor()
 extern void U3CU3Ec__cctor_mB7361AA65827D978B5932AFB0D46830F70261E00 (void);
-// 0x000004F6 System.Void UnityEngine.ProBuilder.MeshOperations.CombineMeshes/<>c::.ctor()
+// 0x000004F4 System.Void UnityEngine.ProBuilder.MeshOperations.CombineMeshes/<>c::.ctor()
 extern void U3CU3Ec__ctor_mC978006C0C19FECE3DA55D3FA30F918AB11AED4B (void);
-// 0x000004F7 System.Int32 UnityEngine.ProBuilder.MeshOperations.CombineMeshes/<>c::<SplitByMaxVertexCount>b__5_0(UnityEngine.ProBuilder.Face)
+// 0x000004F5 System.Int32 UnityEngine.ProBuilder.MeshOperations.CombineMeshes/<>c::<SplitByMaxVertexCount>b__5_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CSplitByMaxVertexCountU3Eb__5_0_m2B3E6550944C0B579C57AF53CBEE1721FE4D3EE3 (void);
-// 0x000004F8 System.Void UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData::.ctor(UnityEngine.ProBuilder.FaceRebuildData,System.Collections.Generic.List`1<System.Int32>)
+// 0x000004F6 System.Void UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData::.ctor(UnityEngine.ProBuilder.FaceRebuildData,System.Collections.Generic.List`1<System.Int32>)
 extern void ConnectFaceRebuildData__ctor_mEE32B9A7387E315E813CA7C9CA603CD84AD78177 (void);
-// 0x000004F9 UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.ConnectElements::Connect(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x000004F7 UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.ConnectElements::Connect(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void ConnectElements_Connect_m6CA5C848EF9CB2B8FF4E87A66E14BED35E18F29E (void);
-// 0x000004FA UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face[],UnityEngine.ProBuilder.Edge[]> UnityEngine.ProBuilder.MeshOperations.ConnectElements::Connect(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>)
+// 0x000004F8 UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face[],UnityEngine.ProBuilder.Edge[]> UnityEngine.ProBuilder.MeshOperations.ConnectElements::Connect(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>)
 extern void ConnectElements_Connect_m13D9DF05AC5F16F76770E69A2EAF8DA683E89687 (void);
-// 0x000004FB System.Int32[] UnityEngine.ProBuilder.MeshOperations.ConnectElements::Connect(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<System.Int32>)
+// 0x000004F9 System.Int32[] UnityEngine.ProBuilder.MeshOperations.ConnectElements::Connect(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<System.Int32>)
 extern void ConnectElements_Connect_mA226404897FEBDC0F574A3C466860F77452EF163 (void);
-// 0x000004FC UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.ConnectElements::Connect(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,UnityEngine.ProBuilder.Face[]&,UnityEngine.ProBuilder.Edge[]&,System.Boolean,System.Boolean,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>)
+// 0x000004FA UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.ConnectElements::Connect(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,UnityEngine.ProBuilder.Face[]&,UnityEngine.ProBuilder.Edge[]&,System.Boolean,System.Boolean,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>)
 extern void ConnectElements_Connect_m2A4BEDE9552737B1C3090955E7D55ED949E9D76A (void);
-// 0x000004FD System.Collections.Generic.List`1<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData> UnityEngine.ProBuilder.MeshOperations.ConnectElements::ConnectEdgesInFace(UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.WingedEdge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>)
+// 0x000004FB System.Collections.Generic.List`1<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData> UnityEngine.ProBuilder.MeshOperations.ConnectElements::ConnectEdgesInFace(UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.WingedEdge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>)
 extern void ConnectElements_ConnectEdgesInFace_mCEC7EE8E3C7A83005B82E3DC4EF7F61736A6A4B0 (void);
-// 0x000004FE System.Collections.Generic.List`1<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData> UnityEngine.ProBuilder.MeshOperations.ConnectElements::ConnectEdgesInFace(UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>)
+// 0x000004FC System.Collections.Generic.List`1<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData> UnityEngine.ProBuilder.MeshOperations.ConnectElements::ConnectEdgesInFace(UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>)
 extern void ConnectElements_ConnectEdgesInFace_mBA9DA6852DD4FC7846C556D56A3161DCE2FFE1FD (void);
-// 0x000004FF System.Boolean UnityEngine.ProBuilder.MeshOperations.ConnectElements::InsertVertices(UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData&)
+// 0x000004FD System.Boolean UnityEngine.ProBuilder.MeshOperations.ConnectElements::InsertVertices(UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData&)
 extern void ConnectElements_InsertVertices_m57488095BEE83FC891BF983577E9ED626C90EECE (void);
-// 0x00000500 System.Collections.Generic.List`1<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData> UnityEngine.ProBuilder.MeshOperations.ConnectElements::ConnectIndexesPerFace(UnityEngine.ProBuilder.Face,System.Int32,System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>)
+// 0x000004FE System.Collections.Generic.List`1<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData> UnityEngine.ProBuilder.MeshOperations.ConnectElements::ConnectIndexesPerFace(UnityEngine.ProBuilder.Face,System.Int32,System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>)
 extern void ConnectElements_ConnectIndexesPerFace_mB24D6E4694F104000B46C51A07D757DEFCD1D137 (void);
-// 0x00000501 System.Collections.Generic.List`1<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData> UnityEngine.ProBuilder.MeshOperations.ConnectElements::ConnectIndexesPerFace(UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<System.Int32>,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>,System.Int32)
+// 0x000004FF System.Collections.Generic.List`1<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData> UnityEngine.ProBuilder.MeshOperations.ConnectElements::ConnectIndexesPerFace(UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<System.Int32>,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>,System.Int32)
 extern void ConnectElements_ConnectIndexesPerFace_m1A53430E5B8D375E9D430F3D5080F9B233A7603D (void);
-// 0x00000502 System.Void UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::.cctor()
+// 0x00000500 System.Void UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::.cctor()
 extern void U3CU3Ec__cctor_m7D2B64861E4F2E1ACFA0539AE91366678AD298E5 (void);
-// 0x00000503 System.Void UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::.ctor()
+// 0x00000501 System.Void UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::.ctor()
 extern void U3CU3Ec__ctor_mAF2AC749CBDD69E8C3E36788AD65B08D7A172315 (void);
-// 0x00000504 System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__0_0(UnityEngine.ProBuilder.Face)
+// 0x00000502 System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__0_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CConnectU3Eb__0_0_m9DA3E14B655C7F47A25DBED74374CC5BC2ABB294 (void);
-// 0x00000505 System.Int32 UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__2_1(UnityEngine.ProBuilder.Face)
+// 0x00000503 System.Int32 UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__2_1(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CConnectU3Eb__2_1_mBA3E0ECED44C237ED9C2C42046234FE9E9CD4145 (void);
-// 0x00000506 UnityEngine.ProBuilder.FaceRebuildData UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__2_2(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData)
+// 0x00000504 UnityEngine.ProBuilder.FaceRebuildData UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__2_2(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData)
 extern void U3CU3Ec_U3CConnectU3Eb__2_2_mBDCA6477A24BFD72589FF9FCB258CE537ABBADD3 (void);
-// 0x00000507 System.Int32 UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__3_0(UnityEngine.ProBuilder.Face)
+// 0x00000505 System.Int32 UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__3_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CConnectU3Eb__3_0_mE1CFCC5F402FCE0C56BB71C3F8B3F96628484529 (void);
-// 0x00000508 UnityEngine.ProBuilder.FaceRebuildData UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__3_1(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData)
+// 0x00000506 UnityEngine.ProBuilder.FaceRebuildData UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__3_1(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData)
 extern void U3CU3Ec_U3CConnectU3Eb__3_1_m4E81FAE95309F91E9FC5342D14B0D6A02A926B0C (void);
-// 0x00000509 System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__3_2(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData)
+// 0x00000507 System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__3_2(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData)
 extern void U3CU3Ec_U3CConnectU3Eb__3_2_m346A30DCA3BF0A11FC47981D00AE642DD92A170B (void);
-// 0x0000050A UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__3_4(UnityEngine.ProBuilder.EdgeLookup)
+// 0x00000508 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<Connect>b__3_4(UnityEngine.ProBuilder.EdgeLookup)
 extern void U3CU3Ec_U3CConnectU3Eb__3_4_mB42E209AB6B9FC18D0F6A82EC8E914AC485266C5 (void);
-// 0x0000050B System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<ConnectEdgesInFace>b__5_0(System.Int32)
+// 0x00000509 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<ConnectEdgesInFace>b__5_0(System.Int32)
 extern void U3CU3Ec_U3CConnectEdgesInFaceU3Eb__5_0_m31437D6E6FFFBE3099401AD16F211590EACE5738 (void);
-// 0x0000050C System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<ConnectEdgesInFace>b__5_1(System.Int32)
+// 0x0000050A System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<ConnectEdgesInFace>b__5_1(System.Int32)
 extern void U3CU3Ec_U3CConnectEdgesInFaceU3Eb__5_1_mADEB5F3D5272BFCA2ED6A9D8443C912FEAEF2976 (void);
-// 0x0000050D UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<ConnectEdgesInFace>b__5_2(UnityEngine.ProBuilder.WingedEdge)
+// 0x0000050B UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<ConnectEdgesInFace>b__5_2(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec_U3CConnectEdgesInFaceU3Eb__5_2_m784E1443F232D1F2FEAE6B30DB742A40A3A5870B (void);
-// 0x0000050E UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<InsertVertices>b__6_0(UnityEngine.ProBuilder.WingedEdge)
+// 0x0000050C UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<InsertVertices>b__6_0(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec_U3CInsertVerticesU3Eb__6_0_mCBF9F6E16229929673A5B091E779C3817FB61F66 (void);
-// 0x0000050F System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<ConnectIndexesPerFace>b__8_0(System.Int32)
+// 0x0000050D System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<ConnectIndexesPerFace>b__8_0(System.Int32)
 extern void U3CU3Ec_U3CConnectIndexesPerFaceU3Eb__8_0_m810E165CC7A5D71E2DC5B76287937029558E0E84 (void);
-// 0x00000510 System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<ConnectIndexesPerFace>b__8_1(System.Int32)
+// 0x0000050E System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<ConnectIndexesPerFace>b__8_1(System.Int32)
 extern void U3CU3Ec_U3CConnectIndexesPerFaceU3Eb__8_1_mD733FE708ED3C4ADCCFC323A7E120080EFA21647 (void);
-// 0x00000511 System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<ConnectIndexesPerFace>b__8_2(System.Int32)
+// 0x0000050F System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c::<ConnectIndexesPerFace>b__8_2(System.Int32)
 extern void U3CU3Ec_U3CConnectIndexesPerFaceU3Eb__8_2_m3DCAFDAB249D1D83A20A1967C4A10878FBCFB3D0 (void);
-// 0x00000512 System.Void UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass2_0::.ctor()
+// 0x00000510 System.Void UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass2_0::.ctor()
 extern void U3CU3Ec__DisplayClass2_0__ctor_m9A2612146BEE43C12DBE56DD934178CE7A769982 (void);
-// 0x00000513 System.Int32 UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass2_0::<Connect>b__0(System.Int32)
+// 0x00000511 System.Int32 UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass2_0::<Connect>b__0(System.Int32)
 extern void U3CU3Ec__DisplayClass2_0_U3CConnectU3Eb__0_m30BC91CDFB68C749E92F1ECC90FD3118C613F286 (void);
-// 0x00000514 System.Int32 UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass2_0::<Connect>b__3(System.Int32)
+// 0x00000512 System.Int32 UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass2_0::<Connect>b__3(System.Int32)
 extern void U3CU3Ec__DisplayClass2_0_U3CConnectU3Eb__3_mA9D49C26F6BC065CA4445891954F24360C67010D (void);
-// 0x00000515 System.Void UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass3_0::.ctor()
+// 0x00000513 System.Void UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass3_0::.ctor()
 extern void U3CU3Ec__DisplayClass3_0__ctor_mC24E865688ED1666E5DF35D09642E2009DAF6EEF (void);
-// 0x00000516 System.Boolean UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass3_0::<Connect>b__3(UnityEngine.ProBuilder.Edge)
+// 0x00000514 System.Boolean UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass3_0::<Connect>b__3(UnityEngine.ProBuilder.Edge)
 extern void U3CU3Ec__DisplayClass3_0_U3CConnectU3Eb__3_m1F4E70A49AEF6D2D141F1F08E6718D497B185EF9 (void);
-// 0x00000517 System.Void UnityEngine.ProBuilder.MeshOperations.DeleteElements::DeleteVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x00000515 System.Void UnityEngine.ProBuilder.MeshOperations.DeleteElements::DeleteVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void DeleteElements_DeleteVertices_m39C19E53211803E344C386243F4C168C1964E7B9 (void);
-// 0x00000518 System.Int32[] UnityEngine.ProBuilder.MeshOperations.DeleteElements::DeleteFace(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
+// 0x00000516 System.Int32[] UnityEngine.ProBuilder.MeshOperations.DeleteElements::DeleteFace(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
 extern void DeleteElements_DeleteFace_mCB56CB527AC469A8711F18C4C424AF4E84F1779A (void);
-// 0x00000519 System.Int32[] UnityEngine.ProBuilder.MeshOperations.DeleteElements::DeleteFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x00000517 System.Int32[] UnityEngine.ProBuilder.MeshOperations.DeleteElements::DeleteFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void DeleteElements_DeleteFaces_mF3F4146009E7920E1A0390645663769F32009E97 (void);
-// 0x0000051A System.Int32[] UnityEngine.ProBuilder.MeshOperations.DeleteElements::DeleteFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<System.Int32>)
+// 0x00000518 System.Int32[] UnityEngine.ProBuilder.MeshOperations.DeleteElements::DeleteFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<System.Int32>)
 extern void DeleteElements_DeleteFaces_mC4A2976615A82FDBA18E4998DA3616FCB0BAEEDF (void);
-// 0x0000051B System.Int32[] UnityEngine.ProBuilder.MeshOperations.DeleteElements::RemoveDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x00000519 System.Int32[] UnityEngine.ProBuilder.MeshOperations.DeleteElements::RemoveDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void DeleteElements_RemoveDegenerateTriangles_m184090B74A831F7947ACD044BFDD42B22E015C39 (void);
-// 0x0000051C System.Int32[] UnityEngine.ProBuilder.MeshOperations.DeleteElements::RemoveUnusedVertices(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x0000051A System.Int32[] UnityEngine.ProBuilder.MeshOperations.DeleteElements::RemoveUnusedVertices(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void DeleteElements_RemoveUnusedVertices_m2B5BABFDADA30984BF39B82F808D89C30FDCC4EA (void);
-// 0x0000051D System.Void UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass0_0::.ctor()
+// 0x0000051B System.Void UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass0_0::.ctor()
 extern void U3CU3Ec__DisplayClass0_0__ctor_m7E2A97B9AFC6A3F1EA406760DE0273FDE59C89D8 (void);
-// 0x0000051E System.Boolean UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass0_0::<DeleteVertices>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
+// 0x0000051C System.Boolean UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass0_0::<DeleteVertices>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
 extern void U3CU3Ec__DisplayClass0_0_U3CDeleteVerticesU3Eb__0_m84E0477DDA13F7A706023BBD2631FDF10351A69B (void);
-// 0x0000051F System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass0_0::<DeleteVertices>b__1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
+// 0x0000051D System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass0_0::<DeleteVertices>b__1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
 extern void U3CU3Ec__DisplayClass0_0_U3CDeleteVerticesU3Eb__1_m6304086F69A129FFED39D5625E14004B9F8225BB (void);
-// 0x00000520 System.Boolean UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass0_0::<DeleteVertices>b__2(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
+// 0x0000051E System.Boolean UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass0_0::<DeleteVertices>b__2(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
 extern void U3CU3Ec__DisplayClass0_0_U3CDeleteVerticesU3Eb__2_m76A05C9953BD8C956C78DA3862D31EB108464EBE (void);
-// 0x00000521 System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass0_0::<DeleteVertices>b__3(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
+// 0x0000051F System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass0_0::<DeleteVertices>b__3(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
 extern void U3CU3Ec__DisplayClass0_0_U3CDeleteVerticesU3Eb__3_mE8C421C5AB8B9173E8AC31F4A49BF534DE86CFF4 (void);
-// 0x00000522 System.Void UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass2_0::.ctor()
+// 0x00000520 System.Void UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass2_0::.ctor()
 extern void U3CU3Ec__DisplayClass2_0__ctor_mCCB93D3132CD479192BAFF3900B864873DBB9C49 (void);
-// 0x00000523 System.Int32 UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass2_0::<DeleteFaces>b__0(UnityEngine.ProBuilder.Face)
+// 0x00000521 System.Int32 UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass2_0::<DeleteFaces>b__0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec__DisplayClass2_0_U3CDeleteFacesU3Eb__0_mB7712B5BC1E9CD9C57B628C5691665EBEB0B4499 (void);
-// 0x00000524 System.Void UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c::.cctor()
+// 0x00000522 System.Void UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c::.cctor()
 extern void U3CU3Ec__cctor_m3D8D334BA8F81572004A935C321BB9593EB01DA2 (void);
-// 0x00000525 System.Void UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c::.ctor()
+// 0x00000523 System.Void UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c::.ctor()
 extern void U3CU3Ec__ctor_m13D73DA3DF0A297D7BDB378B61D72B2F5B291055 (void);
-// 0x00000526 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c::<DeleteFaces>b__3_0(UnityEngine.ProBuilder.Face)
+// 0x00000524 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c::<DeleteFaces>b__3_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CDeleteFacesU3Eb__3_0_mCB5B9BA5C0CEC71BC65C168D5BAEAAF8D443F4AD (void);
-// 0x00000527 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetNeighborFaces(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>)
+// 0x00000525 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetNeighborFaces(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>)
 extern void ElementSelection_GetNeighborFaces_mEE1C72BE6038EF3A2B141F4FBEC8EF24C6699428 (void);
-// 0x00000528 System.Collections.Generic.List`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Edge>> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetNeighborFaces(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge)
+// 0x00000526 System.Collections.Generic.List`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Edge>> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetNeighborFaces(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge)
 extern void ElementSelection_GetNeighborFaces_m620D57C1E7809AECE84915D430F1A20C3B2A9894 (void);
-// 0x00000529 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetNeighborFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[])
+// 0x00000527 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetNeighborFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[])
 extern void ElementSelection_GetNeighborFaces_m0584B61E17B43BA3AD75CC0ACBA6D18E51F16D2A (void);
-// 0x0000052A UnityEngine.ProBuilder.Edge[] UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetConnectedEdges(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[])
+// 0x00000528 UnityEngine.ProBuilder.Edge[] UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetConnectedEdges(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[])
 extern void ElementSelection_GetConnectedEdges_mBD4CE232298F713966D6AEE16544A22EFAF4E3D7 (void);
-// 0x0000052B System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetPerimeterEdges(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x00000529 System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetPerimeterEdges(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void ElementSelection_GetPerimeterEdges_m1A62722A0AEF0D90697370FE3AF97BD5F0B5CB8B (void);
-// 0x0000052C System.Int32[] UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetPerimeterEdges(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Edge>)
+// 0x0000052A System.Int32[] UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetPerimeterEdges(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Edge>)
 extern void ElementSelection_GetPerimeterEdges_mB9097FEC5D6A1AFC03AAA9B91EA41C9AC8B99D69 (void);
-// 0x0000052D System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetPerimeterFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x0000052B System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetPerimeterFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void ElementSelection_GetPerimeterFaces_mD5656CC7C203D3CD684880A2FB1347C7010BF25E (void);
-// 0x0000052E System.Int32[] UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetPerimeterVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[],UnityEngine.ProBuilder.Edge[])
+// 0x0000052C System.Int32[] UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetPerimeterVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[],UnityEngine.ProBuilder.Edge[])
 extern void ElementSelection_GetPerimeterVertices_m67D5EDD7EFE4E78D6CB0A27F8168225341F29B5D (void);
-// 0x0000052F UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.MeshOperations.ElementSelection::EdgeRingNext(UnityEngine.ProBuilder.WingedEdge)
+// 0x0000052D UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.MeshOperations.ElementSelection::EdgeRingNext(UnityEngine.ProBuilder.WingedEdge)
 extern void ElementSelection_EdgeRingNext_mBDB229E5C7F86FFDAA152F036E18C39B15D75A4C (void);
-// 0x00000530 System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetEdgeRing(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>)
+// 0x0000052E System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetEdgeRing(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>)
 extern void ElementSelection_GetEdgeRing_m7B3A800EF080C1A0A456056F47D6F4BE3B801151 (void);
-// 0x00000531 System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetEdgeRingIterative(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>)
+// 0x0000052F System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetEdgeRingIterative(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>)
 extern void ElementSelection_GetEdgeRingIterative_mE3C2B5CEBF3EF16C0E5D250FF1AE0DCBA68CDCA6 (void);
-// 0x00000532 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetEdgeLoop(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,UnityEngine.ProBuilder.Edge[]&)
+// 0x00000530 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetEdgeLoop(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,UnityEngine.ProBuilder.Edge[]&)
 extern void ElementSelection_GetEdgeLoop_mDE09C3CB3CA9351398465F40BA0CAD89F0732D57 (void);
-// 0x00000533 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetEdgeLoopIterative(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,UnityEngine.ProBuilder.Edge[]&)
+// 0x00000531 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetEdgeLoopIterative(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,UnityEngine.ProBuilder.Edge[]&)
 extern void ElementSelection_GetEdgeLoopIterative_m65E791DFE60818085EADE47AB2A85E1C106E8AC0 (void);
-// 0x00000534 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetEdgeLoopInternal(UnityEngine.ProBuilder.WingedEdge,System.Int32,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.EdgeLookup>)
+// 0x00000532 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetEdgeLoopInternal(UnityEngine.ProBuilder.WingedEdge,System.Int32,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.EdgeLookup>)
 extern void ElementSelection_GetEdgeLoopInternal_mFA08B0075C1900E5B1A7E30C3AAC587D29FF70C5 (void);
-// 0x00000535 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetEdgeLoopInternalIterative(UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.Edge,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.EdgeLookup>)
+// 0x00000533 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetEdgeLoopInternalIterative(UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.Edge,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.EdgeLookup>)
 extern void ElementSelection_GetEdgeLoopInternalIterative_m59830D7CA6A00D01617DEEDC7154861697698001 (void);
-// 0x00000536 UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.MeshOperations.ElementSelection::NextSpoke(UnityEngine.ProBuilder.WingedEdge,System.Int32,System.Boolean)
+// 0x00000534 UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.MeshOperations.ElementSelection::NextSpoke(UnityEngine.ProBuilder.WingedEdge,System.Int32,System.Boolean)
 extern void ElementSelection_NextSpoke_mA27F0FE98C7CDFD5405109060AB883FDE9F69928 (void);
-// 0x00000537 System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetSpokes(UnityEngine.ProBuilder.WingedEdge,System.Int32,System.Boolean)
+// 0x00000535 System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetSpokes(UnityEngine.ProBuilder.WingedEdge,System.Int32,System.Boolean)
 extern void ElementSelection_GetSpokes_mE47B6743E5EC2281AC80EB8A340E01A44BE16A05 (void);
-// 0x00000538 System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GrowSelection(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Single)
+// 0x00000536 System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GrowSelection(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Single)
 extern void ElementSelection_GrowSelection_m2A3BA103A9FD120F636E4344562C6F9B4D93FF16 (void);
-// 0x00000539 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection::Flood(UnityEngine.ProBuilder.WingedEdge,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>)
+// 0x00000537 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection::Flood(UnityEngine.ProBuilder.WingedEdge,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>)
 extern void ElementSelection_Flood_m532E835486E85B14EDD49C6B71DC4B371C8ADBFB (void);
-// 0x0000053A System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection::Flood(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.WingedEdge,UnityEngine.Vector3,System.Single,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>)
+// 0x00000538 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection::Flood(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.WingedEdge,UnityEngine.Vector3,System.Single,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>)
 extern void ElementSelection_Flood_m8CC093B78A723BB2DD03497108AA0E8D7D5DF860 (void);
-// 0x0000053B System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::FloodSelection(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>,System.Single)
+// 0x00000539 System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::FloodSelection(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>,System.Single)
 extern void ElementSelection_FloodSelection_mFE6867A22F9681440734EE0872C34D2587E933C5 (void);
-// 0x0000053C System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetFaceLoop(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[],System.Boolean)
+// 0x0000053A System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetFaceLoop(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[],System.Boolean)
 extern void ElementSelection_GetFaceLoop_mB95FD121082301539665449F87FD2E14873C58BC (void);
-// 0x0000053D System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetFaceRingAndLoop(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[])
+// 0x0000053B System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetFaceRingAndLoop(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[])
 extern void ElementSelection_GetFaceRingAndLoop_m6D9DE5C49D187CF4D7491B39BD511495E06BEA28 (void);
-// 0x0000053E System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetFaceLoop(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>,UnityEngine.ProBuilder.Face,System.Boolean)
+// 0x0000053C System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ElementSelection::GetFaceLoop(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>,UnityEngine.ProBuilder.Face,System.Boolean)
 extern void ElementSelection_GetFaceLoop_m020DBA3852572D66CCC5E3223047E0D28A4DC769 (void);
-// 0x0000053F System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>> UnityEngine.ProBuilder.MeshOperations.ElementSelection::FindHoles(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x0000053D System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>> UnityEngine.ProBuilder.MeshOperations.ElementSelection::FindHoles(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void ElementSelection_FindHoles_m94C93B280ED63C66B4F853C5B1EA83C75FC228A9 (void);
-// 0x00000540 System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>> UnityEngine.ProBuilder.MeshOperations.ElementSelection::FindHoles(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>,System.Collections.Generic.HashSet`1<System.Int32>)
+// 0x0000053E System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>> UnityEngine.ProBuilder.MeshOperations.ElementSelection::FindHoles(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>,System.Collections.Generic.HashSet`1<System.Int32>)
 extern void ElementSelection_FindHoles_m37B34EA9A95BEE3656CAC54897A76E1E63980105 (void);
-// 0x00000541 UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.MeshOperations.ElementSelection::FindNextEdgeInHole(UnityEngine.ProBuilder.WingedEdge,System.Int32)
+// 0x0000053F UnityEngine.ProBuilder.WingedEdge UnityEngine.ProBuilder.MeshOperations.ElementSelection::FindNextEdgeInHole(UnityEngine.ProBuilder.WingedEdge,System.Int32)
 extern void ElementSelection_FindNextEdgeInHole_m4FFD96BB2B3675FDB41D6FBBB2EB3F33A98348B2 (void);
-// 0x00000542 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection::.cctor()
+// 0x00000540 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection::.cctor()
 extern void ElementSelection__cctor_m048B5A3D05A221D636B783B8432EC21B6A56ED90 (void);
-// 0x00000543 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::.cctor()
+// 0x00000541 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::.cctor()
 extern void U3CU3Ec__cctor_m2E74D6F1F42C270D42F8FFAF9B70230F75BFF4DB (void);
-// 0x00000544 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::.ctor()
+// 0x00000542 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::.ctor()
 extern void U3CU3Ec__ctor_m1DCDFD2804FF864DFD5B9D1CB5687821817080C5 (void);
-// 0x00000545 System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetPerimeterEdges>b__5_0(UnityEngine.ProBuilder.Face)
+// 0x00000543 System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetPerimeterEdges>b__5_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CGetPerimeterEdgesU3Eb__5_0_m05D21D6F0B98A392A1E42E0EFFFF5DC8CA348659 (void);
-// 0x00000546 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetPerimeterEdges>b__5_1(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>>)
+// 0x00000544 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetPerimeterEdges>b__5_1(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>>)
 extern void U3CU3Ec_U3CGetPerimeterEdgesU3Eb__5_1_m1510D6A5E3AE7F7D8770E57FD5CBD8805C17E4E8 (void);
-// 0x00000547 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetPerimeterEdges>b__5_2(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>>)
+// 0x00000545 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetPerimeterEdges>b__5_2(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>>)
 extern void U3CU3Ec_U3CGetPerimeterEdgesU3Eb__5_2_m11DE13E8A945B373EB09876B229661D5EA7E027E (void);
-// 0x00000548 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetPerimeterFaces>b__7_0(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>>)
+// 0x00000546 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetPerimeterFaces>b__7_0(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>>)
 extern void U3CU3Ec_U3CGetPerimeterFacesU3Eb__7_0_m02DEF3B109B769F1C421E82B777A3F8D1B287EB1 (void);
-// 0x00000549 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetPerimeterFaces>b__7_1(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>>)
+// 0x00000547 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetPerimeterFaces>b__7_1(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>>)
 extern void U3CU3Ec_U3CGetPerimeterFacesU3Eb__7_1_m61586548608C869AB343ABEDBDAE5F319FAB0C43 (void);
-// 0x0000054A UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeRing>b__10_0(UnityEngine.ProBuilder.EdgeLookup)
+// 0x00000548 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeRing>b__10_0(UnityEngine.ProBuilder.EdgeLookup)
 extern void U3CU3Ec_U3CGetEdgeRingU3Eb__10_0_m039119F377BC260F654178C99599813FDB7D4317 (void);
-// 0x0000054B UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeRingIterative>b__11_0(UnityEngine.ProBuilder.EdgeLookup)
+// 0x00000549 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeRingIterative>b__11_0(UnityEngine.ProBuilder.EdgeLookup)
 extern void U3CU3Ec_U3CGetEdgeRingIterativeU3Eb__11_0_mCE7F5629105E2937F336E683B614FA01F68E6425 (void);
-// 0x0000054C UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeLoop>b__12_0(UnityEngine.ProBuilder.EdgeLookup)
+// 0x0000054A UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeLoop>b__12_0(UnityEngine.ProBuilder.EdgeLookup)
 extern void U3CU3Ec_U3CGetEdgeLoopU3Eb__12_0_mA602DE6BD432A5357BE4F34F9CD1CEA9CDD830AA (void);
-// 0x0000054D UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeLoopIterative>b__13_0(UnityEngine.ProBuilder.EdgeLookup)
+// 0x0000054B UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeLoopIterative>b__13_0(UnityEngine.ProBuilder.EdgeLookup)
 extern void U3CU3Ec_U3CGetEdgeLoopIterativeU3Eb__13_0_m683049900D2456D7DC532EB242BB7528DCA3A6A6 (void);
-// 0x0000054E UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeLoopInternal>b__14_0(UnityEngine.ProBuilder.WingedEdge)
+// 0x0000054C UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeLoopInternal>b__14_0(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec_U3CGetEdgeLoopInternalU3Eb__14_0_m3AC3E5E697C5DEDD0DB37956BC8F512F32BD5FD2 (void);
-// 0x0000054F UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeLoopInternalIterative>b__15_0(UnityEngine.ProBuilder.WingedEdge)
+// 0x0000054D UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeLoopInternalIterative>b__15_0(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec_U3CGetEdgeLoopInternalIterativeU3Eb__15_0_mE6BE13BE979C82D12E5EC938445E47A88312BA9D (void);
-// 0x00000550 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeLoopInternalIterative>b__15_1(UnityEngine.ProBuilder.WingedEdge)
+// 0x0000054E UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<GetEdgeLoopInternalIterative>b__15_1(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec_U3CGetEdgeLoopInternalIterativeU3Eb__15_1_m6BA4C5673E8E9C52F6A62D95E8B3851EFF1F82EE (void);
-// 0x00000551 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<FindHoles>b__26_0(UnityEngine.ProBuilder.WingedEdge)
+// 0x0000054F UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<FindHoles>b__26_0(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec_U3CFindHolesU3Eb__26_0_m794B7DF1981FAEFB88A10138ADD70807E75AA19B (void);
-// 0x00000552 System.Int32 UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<FindHoles>b__27_0(UnityEngine.ProBuilder.SimpleTuple`2<System.Int32,System.Int32>,UnityEngine.ProBuilder.SimpleTuple`2<System.Int32,System.Int32>)
+// 0x00000550 System.Int32 UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c::<FindHoles>b__27_0(UnityEngine.ProBuilder.SimpleTuple`2<System.Int32,System.Int32>,UnityEngine.ProBuilder.SimpleTuple`2<System.Int32,System.Int32>)
 extern void U3CU3Ec_U3CFindHolesU3Eb__27_0_mAFFF82C128CF82A1E65F71D871852B9974FA7D47 (void);
-// 0x00000553 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass25_0::.ctor()
+// 0x00000551 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass25_0::.ctor()
 extern void U3CU3Ec__DisplayClass25_0__ctor_mFCA8A12A3E47F0610290D7C4F2B5C59E90A934DD (void);
-// 0x00000554 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass25_0::<GetFaceLoop>b__0(UnityEngine.ProBuilder.WingedEdge)
+// 0x00000552 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass25_0::<GetFaceLoop>b__0(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec__DisplayClass25_0_U3CGetFaceLoopU3Eb__0_m56D3AAF8717BD0898176ACB32F844897C2199522 (void);
-// 0x00000555 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass27_0::.ctor()
+// 0x00000553 System.Void UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass27_0::.ctor()
 extern void U3CU3Ec__DisplayClass27_0__ctor_m57921033D79B4FECB31CDA01F4252D499AEB5DC4 (void);
-// 0x00000556 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass27_0::<FindHoles>b__1(UnityEngine.ProBuilder.WingedEdge)
+// 0x00000554 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass27_0::<FindHoles>b__1(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec__DisplayClass27_0_U3CFindHolesU3Eb__1_mECC5A0442B596DD1BBF1F548E098F83C68DE0011 (void);
-// 0x00000557 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass27_0::<FindHoles>b__2(UnityEngine.ProBuilder.WingedEdge)
+// 0x00000555 System.Boolean UnityEngine.ProBuilder.MeshOperations.ElementSelection/<>c__DisplayClass27_0::<FindHoles>b__2(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec__DisplayClass27_0_U3CFindHolesU3Eb__2_mBAA72201BDFB0C09791A9A552B27E1E946BBFF99 (void);
-// 0x00000558 UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::Extrude(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,UnityEngine.ProBuilder.ExtrudeMethod,System.Single)
+// 0x00000556 UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::Extrude(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,UnityEngine.ProBuilder.ExtrudeMethod,System.Single)
 extern void ExtrudeElements_Extrude_m85D046AB98C0284596841B14B8515FD1FC0C7BAA (void);
-// 0x00000559 UnityEngine.ProBuilder.Edge[] UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::Extrude(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,System.Single,System.Boolean,System.Boolean)
+// 0x00000557 UnityEngine.ProBuilder.Edge[] UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::Extrude(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,System.Single,System.Boolean,System.Boolean)
 extern void ExtrudeElements_Extrude_m0CAC77155B34A8038F522936A4863649AA82331C (void);
-// 0x0000055A System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::DetachFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x00000558 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::DetachFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void ExtrudeElements_DetachFaces_m4EACFFA0D750A40D3A3C8B7091C0B40199C74F03 (void);
-// 0x0000055B System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::DetachFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Boolean)
+// 0x00000559 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::DetachFaces(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Boolean)
 extern void ExtrudeElements_DetachFaces_mA6835F833DB73FF9156E977BF166F904EFF60B52 (void);
-// 0x0000055C UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::ExtrudePerFace(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Single)
+// 0x0000055A UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::ExtrudePerFace(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Single)
 extern void ExtrudeElements_ExtrudePerFace_m2D7931041F8E28D3F62EDFC985080BBB3D9FEF96 (void);
-// 0x0000055D UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::ExtrudeAsGroups(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Boolean,System.Single)
+// 0x0000055B UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::ExtrudeAsGroups(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>,System.Boolean,System.Single)
 extern void ExtrudeElements_ExtrudeAsGroups_m6E0F25774B0939688747443223EDCBFB07A47CBF (void);
-// 0x0000055E System.Collections.Generic.List`1<System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>> UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::GetFaceGroups(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>)
+// 0x0000055C System.Collections.Generic.List`1<System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>> UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::GetFaceGroups(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>)
 extern void ExtrudeElements_GetFaceGroups_m0564D8373B880A84E08640690E0CDD870BC7B99C (void);
-// 0x0000055F System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.EdgeLookup,UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::GetPerimeterEdges(System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>)
+// 0x0000055D System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.EdgeLookup,UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.ExtrudeElements::GetPerimeterEdges(System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>)
 extern void ExtrudeElements_GetPerimeterEdges_mAD1DA4DA739BB36D1D70AD2E311E954BF25B5DE9 (void);
-// 0x00000560 System.Void UnityEngine.ProBuilder.MeshOperations.ExtrudeElements/<>c::.cctor()
+// 0x0000055E System.Void UnityEngine.ProBuilder.MeshOperations.ExtrudeElements/<>c::.cctor()
 extern void U3CU3Ec__cctor_m42373924DE400E4F747541930992ED9E8AB54371 (void);
-// 0x00000561 System.Void UnityEngine.ProBuilder.MeshOperations.ExtrudeElements/<>c::.ctor()
+// 0x0000055F System.Void UnityEngine.ProBuilder.MeshOperations.ExtrudeElements/<>c::.ctor()
 extern void U3CU3Ec__ctor_m6EA3B2CA5845B7E5E7ED3701D82CAA54C254A718 (void);
-// 0x00000562 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.ExtrudeElements/<>c::<DetachFaces>b__3_0(UnityEngine.ProBuilder.FaceRebuildData)
+// 0x00000560 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.ExtrudeElements/<>c::<DetachFaces>b__3_0(UnityEngine.ProBuilder.FaceRebuildData)
 extern void U3CU3Ec_U3CDetachFacesU3Eb__3_0_m4FE85B64EA73ED332651262A2BAAC155516F091E (void);
-// 0x00000563 System.Int32 UnityEngine.ProBuilder.MeshOperations.ExtrudeElements/<>c::<ExtrudePerFace>b__4_0(UnityEngine.ProBuilder.Face)
+// 0x00000561 System.Int32 UnityEngine.ProBuilder.MeshOperations.ExtrudeElements/<>c::<ExtrudePerFace>b__4_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CExtrudePerFaceU3Eb__4_0_mB086A02341301AFD75762F17D56A802046A4FF5C (void);
-// 0x00000564 UnityEngine.Vector3 UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility::AverageNormalWithIndexes(UnityEngine.ProBuilder.SharedVertex,System.Int32[],System.Collections.Generic.IList`1<UnityEngine.Vector3>)
+// 0x00000562 UnityEngine.Vector3 UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility::AverageNormalWithIndexes(UnityEngine.ProBuilder.SharedVertex,System.Int32[],System.Collections.Generic.IList`1<UnityEngine.Vector3>)
 extern void InternalMeshUtility_AverageNormalWithIndexes_mD7E79567CB3C57BDF4B15F6BB404AD2BDBAA9780 (void);
-// 0x00000565 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility::CreateMeshWithTransform(UnityEngine.Transform,System.Boolean)
+// 0x00000563 UnityEngine.ProBuilder.ProBuilderMesh UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility::CreateMeshWithTransform(UnityEngine.Transform,System.Boolean)
 extern void InternalMeshUtility_CreateMeshWithTransform_m8BF067D7805720DC44EF896C27A2150BB7BED44F (void);
-// 0x00000566 System.Boolean UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility::ResetPbObjectWithMeshFilter(UnityEngine.ProBuilder.ProBuilderMesh,System.Boolean)
+// 0x00000564 System.Boolean UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility::ResetPbObjectWithMeshFilter(UnityEngine.ProBuilder.ProBuilderMesh,System.Boolean)
 extern void InternalMeshUtility_ResetPbObjectWithMeshFilter_mB8DBDB4E9202301F866A66D9D59B25C9A1A67C40 (void);
-// 0x00000567 System.Void UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility::FilterUnusedSubmeshIndexes(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x00000565 System.Void UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility::FilterUnusedSubmeshIndexes(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void InternalMeshUtility_FilterUnusedSubmeshIndexes_m8E5184D262B167BE6A902E20980FF2D62C272CEA (void);
-// 0x00000568 System.Void UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::.cctor()
+// 0x00000566 System.Void UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::.cctor()
 extern void U3CU3Ec__cctor_mB7BAFB44A62D270E28662486E5CBC5584416C093 (void);
-// 0x00000569 System.Void UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::.ctor()
+// 0x00000567 System.Void UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::.ctor()
 extern void U3CU3Ec__ctor_m8D21A3456B0BC6234DC5E06F6C02903CB25AA0D0 (void);
-// 0x0000056A UnityEngine.Vector3[] UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<CreateMeshWithTransform>b__1_0(UnityEngine.Mesh)
+// 0x00000568 UnityEngine.Vector3[] UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<CreateMeshWithTransform>b__1_0(UnityEngine.Mesh)
 extern void U3CU3Ec_U3CCreateMeshWithTransformU3Eb__1_0_m7B8CE2F99E67D62868132E7734EA3F1A9E11909C (void);
-// 0x0000056B UnityEngine.Color[] UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<CreateMeshWithTransform>b__1_1(UnityEngine.Mesh)
+// 0x00000569 UnityEngine.Color[] UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<CreateMeshWithTransform>b__1_1(UnityEngine.Mesh)
 extern void U3CU3Ec_U3CCreateMeshWithTransformU3Eb__1_1_m60C77A525A9EAE9AC3CF6FBC3EBC5602D42BF083 (void);
-// 0x0000056C UnityEngine.Vector2[] UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<CreateMeshWithTransform>b__1_2(UnityEngine.Mesh)
+// 0x0000056A UnityEngine.Vector2[] UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<CreateMeshWithTransform>b__1_2(UnityEngine.Mesh)
 extern void U3CU3Ec_U3CCreateMeshWithTransformU3Eb__1_2_m62AF8CFF4C56E3992C863E33D3510CA831AA9278 (void);
-// 0x0000056D UnityEngine.Vector3[] UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<ResetPbObjectWithMeshFilter>b__2_0(UnityEngine.Mesh)
+// 0x0000056B UnityEngine.Vector3[] UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<ResetPbObjectWithMeshFilter>b__2_0(UnityEngine.Mesh)
 extern void U3CU3Ec_U3CResetPbObjectWithMeshFilterU3Eb__2_0_m19FBB2172D95CD0D673DB6A5D822908F2B55C433 (void);
-// 0x0000056E UnityEngine.Color[] UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<ResetPbObjectWithMeshFilter>b__2_1(UnityEngine.Mesh)
+// 0x0000056C UnityEngine.Color[] UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<ResetPbObjectWithMeshFilter>b__2_1(UnityEngine.Mesh)
 extern void U3CU3Ec_U3CResetPbObjectWithMeshFilterU3Eb__2_1_m548FC17223488D50D89307F31337079D3FCF3418 (void);
-// 0x0000056F UnityEngine.Vector2[] UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<ResetPbObjectWithMeshFilter>b__2_2(UnityEngine.Mesh)
+// 0x0000056D UnityEngine.Vector2[] UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<ResetPbObjectWithMeshFilter>b__2_2(UnityEngine.Mesh)
 extern void U3CU3Ec_U3CResetPbObjectWithMeshFilterU3Eb__2_2_m357B01A662CB5DAB8A6F348693951A4C7A367453 (void);
-// 0x00000570 System.Boolean UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<FilterUnusedSubmeshIndexes>b__3_0(System.Boolean)
+// 0x0000056E System.Boolean UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c::<FilterUnusedSubmeshIndexes>b__3_0(System.Boolean)
 extern void U3CU3Ec_U3CFilterUnusedSubmeshIndexesU3Eb__3_0_mC937C301A800301D74B3B56C1109D47C48E6D169 (void);
-// 0x00000571 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.MergeElements::MergePairs(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face>>,System.Boolean)
+// 0x0000056F System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.MergeElements::MergePairs(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face>>,System.Boolean)
 extern void MergeElements_MergePairs_mD23E978DA130805C06384DF13A6D205A4CB8EF4D (void);
-// 0x00000572 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.MergeElements::Merge(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x00000570 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.MergeElements::Merge(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void MergeElements_Merge_m67B0A19A12B0F4CFCD4193146AC75FCEB2861C9D (void);
-// 0x00000573 System.Void UnityEngine.ProBuilder.MeshOperations.MergeElements::CollapseCoincidentVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x00000571 System.Void UnityEngine.ProBuilder.MeshOperations.MergeElements::CollapseCoincidentVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void MergeElements_CollapseCoincidentVertices_m011320E8ABECE5F79248420426C7D357B6EDCC82 (void);
-// 0x00000574 System.Void UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c__DisplayClass0_0::.ctor()
+// 0x00000572 System.Void UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c__DisplayClass0_0::.ctor()
 extern void U3CU3Ec__DisplayClass0_0__ctor_m1199A1DA5C017AB7CDBCDC7145F97C146E0CA355 (void);
-// 0x00000575 System.Boolean UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c__DisplayClass0_0::<MergePairs>b__0(UnityEngine.ProBuilder.Face)
+// 0x00000573 System.Boolean UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c__DisplayClass0_0::<MergePairs>b__0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec__DisplayClass0_0_U3CMergePairsU3Eb__0_m63D482BD5825A9D461A56A1B105F34811D5D4793 (void);
-// 0x00000576 System.Void UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c::.cctor()
+// 0x00000574 System.Void UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c::.cctor()
 extern void U3CU3Ec__cctor_m091A4F88203341451650A18B6C0E9CA488FD3B7B (void);
-// 0x00000577 System.Void UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c::.ctor()
+// 0x00000575 System.Void UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c::.ctor()
 extern void U3CU3Ec__ctor_m398AACFAFC6BB8B8873661488DBCF94BC043A093 (void);
-// 0x00000578 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c::<Merge>b__1_0(UnityEngine.ProBuilder.Face)
+// 0x00000576 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c::<Merge>b__1_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CMergeU3Eb__1_0_m7EFACA99F65A4FCF2801ECD3F72EDDAE152776F1 (void);
-// 0x00000579 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::get_quads()
+// 0x00000577 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::get_quads()
 extern void MeshImportSettings_get_quads_mC6D4EB2849A56947776B95E14A127F55FFD8CBC4 (void);
-// 0x0000057A System.Void UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::set_quads(System.Boolean)
+// 0x00000578 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::set_quads(System.Boolean)
 extern void MeshImportSettings_set_quads_mBFDA13454F23E7E2116F16E013419D1E672B64BC (void);
-// 0x0000057B System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::get_smoothing()
+// 0x00000579 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::get_smoothing()
 extern void MeshImportSettings_get_smoothing_m5FC8BFC33BC85377684EBA82BE3A27B2658A29F6 (void);
-// 0x0000057C System.Void UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::set_smoothing(System.Boolean)
+// 0x0000057A System.Void UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::set_smoothing(System.Boolean)
 extern void MeshImportSettings_set_smoothing_mD03909AB9AEDDC4DC22400A44861CB470DED0795 (void);
-// 0x0000057D System.Single UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::get_smoothingAngle()
+// 0x0000057B System.Single UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::get_smoothingAngle()
 extern void MeshImportSettings_get_smoothingAngle_mCB7A75D62A6F1BE9CF39D38B79204D623B4F2579 (void);
-// 0x0000057E System.Void UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::set_smoothingAngle(System.Single)
+// 0x0000057C System.Void UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::set_smoothingAngle(System.Single)
 extern void MeshImportSettings_set_smoothingAngle_m93454C604D04FB3F650A158C911A313892858ABA (void);
-// 0x0000057F System.String UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::ToString()
+// 0x0000057D System.String UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::ToString()
 extern void MeshImportSettings_ToString_m928271AE90E87280B6A8A76594090D09D1599216 (void);
-// 0x00000580 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::.ctor()
+// 0x0000057E System.Void UnityEngine.ProBuilder.MeshOperations.MeshImportSettings::.ctor()
 extern void MeshImportSettings__ctor_m09C4C9642522837CAFAE0971C49855439F8942DE (void);
-// 0x00000581 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter::.ctor(UnityEngine.GameObject)
+// 0x0000057F System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter::.ctor(UnityEngine.GameObject)
 extern void MeshImporter__ctor_m53E5E35239A4F2A47D06B15A4AA87E427F6C7AEA (void);
-// 0x00000582 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter::.ctor(UnityEngine.Mesh,UnityEngine.Material[],UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x00000580 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter::.ctor(UnityEngine.Mesh,UnityEngine.Material[],UnityEngine.ProBuilder.ProBuilderMesh)
 extern void MeshImporter__ctor_m73830DC133B3055E48596D18B8D48863584BF55D (void);
-// 0x00000583 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter::.ctor(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x00000581 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter::.ctor(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void MeshImporter__ctor_mDA29FFD6485F68CFEFD6E54D08AC01110A1F0E16 (void);
-// 0x00000584 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshImporter::Import(UnityEngine.GameObject,UnityEngine.ProBuilder.MeshOperations.MeshImportSettings)
+// 0x00000582 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshImporter::Import(UnityEngine.GameObject,UnityEngine.ProBuilder.MeshOperations.MeshImportSettings)
 extern void MeshImporter_Import_m2DF4943D447D2EF8F52DCA2FA3F1CE3E0FF56E02 (void);
-// 0x00000585 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter::Import(UnityEngine.ProBuilder.MeshOperations.MeshImportSettings)
+// 0x00000583 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter::Import(UnityEngine.ProBuilder.MeshOperations.MeshImportSettings)
 extern void MeshImporter_Import_mED0A17AE9CE3FA7D40DB58BAA34D3C4AF3C49A9B (void);
-// 0x00000586 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter::.cctor()
+// 0x00000584 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter::.cctor()
 extern void MeshImporter__cctor_m630E7945A33FACAA0DD3837E1CF9D0A26912FCBA (void);
-// 0x00000587 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter/<>c::.cctor()
+// 0x00000585 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter/<>c::.cctor()
 extern void U3CU3Ec__cctor_mBE31DBBBD8B7E8F40735588DB3C14673C3576E92 (void);
-// 0x00000588 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter/<>c::.ctor()
+// 0x00000586 System.Void UnityEngine.ProBuilder.MeshOperations.MeshImporter/<>c::.ctor()
 extern void U3CU3Ec__ctor_m704F84227488BCA6E2DF82720F2A47AB601AA9E2 (void);
-// 0x00000589 UnityEngine.Vector3 UnityEngine.ProBuilder.MeshOperations.MeshImporter/<>c::<Import>b__9_0(UnityEngine.ProBuilder.Vertex)
+// 0x00000587 UnityEngine.Vector3 UnityEngine.ProBuilder.MeshOperations.MeshImporter/<>c::<Import>b__9_0(UnityEngine.ProBuilder.Vertex)
 extern void U3CU3Ec_U3CImportU3Eb__9_0_mF3A96AF4115281340B6C12DA5D2E9192382FA69F (void);
-// 0x0000058A System.Void UnityEngine.ProBuilder.MeshOperations.MeshTransform::SetPivot(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.PivotLocation)
+// 0x00000588 System.Void UnityEngine.ProBuilder.MeshOperations.MeshTransform::SetPivot(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.PivotLocation)
 extern void MeshTransform_SetPivot_m58C51D08712AB08AEABFED3729A489AEE84C847C (void);
-// 0x0000058B System.Void UnityEngine.ProBuilder.MeshOperations.MeshTransform::CenterPivot(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[])
+// 0x00000589 System.Void UnityEngine.ProBuilder.MeshOperations.MeshTransform::CenterPivot(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[])
 extern void MeshTransform_CenterPivot_mECEE9F3316162BEFE0664694FDD278555CBC57EB (void);
-// 0x0000058C System.Void UnityEngine.ProBuilder.MeshOperations.MeshTransform::SetPivot(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3)
+// 0x0000058A System.Void UnityEngine.ProBuilder.MeshOperations.MeshTransform::SetPivot(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector3)
 extern void MeshTransform_SetPivot_mC094F35CD7E16F8BFA8ACE5DA270B85DB0C4140B (void);
-// 0x0000058D System.Void UnityEngine.ProBuilder.MeshOperations.MeshTransform::FreezeScaleTransform(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x0000058B System.Void UnityEngine.ProBuilder.MeshOperations.MeshTransform::FreezeScaleTransform(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void MeshTransform_FreezeScaleTransform_mDFF01FBE53A6CEA1BD816949CD52E8BDCB8958F4 (void);
-// 0x0000058E System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::ContainsDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x0000058C System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::ContainsDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void MeshValidation_ContainsDegenerateTriangles_m6AF8758811E58D72570F7C636710F87791100D47 (void);
-// 0x0000058F System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::ContainsDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>)
+// 0x0000058D System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::ContainsDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>)
 extern void MeshValidation_ContainsDegenerateTriangles_mF5B7F41BD03D3AD814DD1EE9238C2550CC37C4B3 (void);
-// 0x00000590 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::ContainsDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
+// 0x0000058E System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::ContainsDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
 extern void MeshValidation_ContainsDegenerateTriangles_m47B46EDC18BC5C87C78DFF335BFDE5AF49D07F14 (void);
-// 0x00000591 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::ContainsNonContiguousTriangles(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
+// 0x0000058F System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::ContainsNonContiguousTriangles(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
 extern void MeshValidation_ContainsNonContiguousTriangles_mEABB8A5294074C22CBE7345C60868C816074F718 (void);
-// 0x00000592 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureFacesAreComposedOfContiguousTriangles(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x00000590 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureFacesAreComposedOfContiguousTriangles(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void MeshValidation_EnsureFacesAreComposedOfContiguousTriangles_m1F2F874A1728978C69F64B3BC0A46A08F68FAA2A (void);
-// 0x00000593 System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.Triangle>> UnityEngine.ProBuilder.MeshOperations.MeshValidation::CollectFaceGroups(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
+// 0x00000591 System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.Triangle>> UnityEngine.ProBuilder.MeshOperations.MeshValidation::CollectFaceGroups(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
 extern void MeshValidation_CollectFaceGroups_mDAB0A3D44D8DAFFFBFFD5EC4A997C05D20615B8A (void);
-// 0x00000594 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::RemoveDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.List`1<System.Int32>)
+// 0x00000592 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::RemoveDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.List`1<System.Int32>)
 extern void MeshValidation_RemoveDegenerateTriangles_m2A71BA8CB89081C9CD34EDB7322509638DCB9BFF (void);
-// 0x00000595 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::RemoveUnusedVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.List`1<System.Int32>)
+// 0x00000593 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::RemoveUnusedVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.List`1<System.Int32>)
 extern void MeshValidation_RemoveUnusedVertices_mFFE0E706AE9B440547556DB2C00EC07E24E30294 (void);
-// 0x00000596 System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.MeshValidation::RebuildIndexes(System.Collections.Generic.IEnumerable`1<System.Int32>,System.Collections.Generic.List`1<System.Int32>)
+// 0x00000594 System.Collections.Generic.List`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.MeshValidation::RebuildIndexes(System.Collections.Generic.IEnumerable`1<System.Int32>,System.Collections.Generic.List`1<System.Int32>)
 extern void MeshValidation_RebuildIndexes_m15A64B5162CC48814E72C607B393D7AC3919FC5D (void);
-// 0x00000597 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.MeshValidation::RebuildEdges(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,System.Collections.Generic.List`1<System.Int32>)
+// 0x00000595 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> UnityEngine.ProBuilder.MeshOperations.MeshValidation::RebuildEdges(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>,System.Collections.Generic.List`1<System.Int32>)
 extern void MeshValidation_RebuildEdges_m474C550E79455872C1FF84311CE3690159366B8A (void);
-// 0x00000598 System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::RebuildSelectionIndexes(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[]&,UnityEngine.ProBuilder.Edge[]&,System.Int32[]&,System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x00000596 System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::RebuildSelectionIndexes(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[]&,UnityEngine.ProBuilder.Edge[]&,System.Int32[]&,System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void MeshValidation_RebuildSelectionIndexes_m17DB948F0807C23A95557C2ED7265EF5CFE13702 (void);
-// 0x00000599 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureMeshIsValid(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32&)
+// 0x00000597 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureMeshIsValid(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32&)
 extern void MeshValidation_EnsureMeshIsValid_mB6D03357D7C6742DE15304A74F83BECB92536999 (void);
-// 0x0000059A System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureRealNumbers(System.Collections.Generic.IList`1<UnityEngine.Vector2>)
+// 0x00000598 System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureRealNumbers(System.Collections.Generic.IList`1<UnityEngine.Vector2>)
 extern void MeshValidation_EnsureRealNumbers_m1F3E7CF9E7189B5364C4A2450EE025AFCE55EECD (void);
-// 0x0000059B System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureRealNumbers(System.Collections.Generic.IList`1<UnityEngine.Vector3>)
+// 0x00000599 System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureRealNumbers(System.Collections.Generic.IList`1<UnityEngine.Vector3>)
 extern void MeshValidation_EnsureRealNumbers_m44F5E1BF472381171D642FF9F89667E421B39C9D (void);
-// 0x0000059C System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureRealNumbers(System.Collections.Generic.IList`1<UnityEngine.Vector4>)
+// 0x0000059A System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureRealNumbers(System.Collections.Generic.IList`1<UnityEngine.Vector4>)
 extern void MeshValidation_EnsureRealNumbers_mD985F7394A0BF51BC198F5E3D894C9232BD57FA3 (void);
-// 0x0000059D System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureArraySize(T[]&,System.Int32,UnityEngine.ProBuilder.MeshOperations.MeshValidation/AttributeValidationStrategy,T)
-// 0x0000059E System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureListSize(System.Collections.Generic.List`1<T>&,System.Int32,UnityEngine.ProBuilder.MeshOperations.MeshValidation/AttributeValidationStrategy,T)
-// 0x0000059F System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureValidAttributes(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x0000059B System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureArraySize(T[]&,System.Int32,UnityEngine.ProBuilder.MeshOperations.MeshValidation/AttributeValidationStrategy,T)
+// 0x0000059C System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureListSize(System.Collections.Generic.List`1<T>&,System.Int32,UnityEngine.ProBuilder.MeshOperations.MeshValidation/AttributeValidationStrategy,T)
+// 0x0000059D System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation::EnsureValidAttributes(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void MeshValidation_EnsureValidAttributes_mD05873E5E8A147210A2C4B4C30EDE1EECC453FDF (void);
-// 0x000005A0 System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c::.cctor()
+// 0x0000059E System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c::.cctor()
 extern void U3CU3Ec__cctor_mF618EFB13B012EC6F5F6D55F08F987EEC0077C8B (void);
-// 0x000005A1 System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c::.ctor()
+// 0x0000059F System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c::.ctor()
 extern void U3CU3Ec__ctor_m8D8ADCDA06CE574F9D5953DAF99D20C35EFB8079 (void);
-// 0x000005A2 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c::<EnsureFacesAreComposedOfContiguousTriangles>b__4_0(UnityEngine.ProBuilder.Triangle)
+// 0x000005A0 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c::<EnsureFacesAreComposedOfContiguousTriangles>b__4_0(UnityEngine.ProBuilder.Triangle)
 extern void U3CU3Ec_U3CEnsureFacesAreComposedOfContiguousTrianglesU3Eb__4_0_mD8AF58F9A24F351D670BD0C5058F3AF1279AD637 (void);
-// 0x000005A3 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c::<EnsureFacesAreComposedOfContiguousTriangles>b__4_1(UnityEngine.ProBuilder.Triangle)
+// 0x000005A1 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c::<EnsureFacesAreComposedOfContiguousTriangles>b__4_1(UnityEngine.ProBuilder.Triangle)
 extern void U3CU3Ec_U3CEnsureFacesAreComposedOfContiguousTrianglesU3Eb__4_1_m06248AAFD7D68B7514C0CDF62B7D2B201342ACB1 (void);
-// 0x000005A4 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c::<RemoveUnusedVertices>b__7_0(UnityEngine.ProBuilder.Face)
+// 0x000005A2 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c::<RemoveUnusedVertices>b__7_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CRemoveUnusedVerticesU3Eb__7_0_m2046017B12C6860107ACA50194258BB60C083A7E (void);
-// 0x000005A5 System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c__DisplayClass5_0::.ctor()
+// 0x000005A3 System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c__DisplayClass5_0::.ctor()
 extern void U3CU3Ec__DisplayClass5_0__ctor_m47A127E9AFDA629D9DA74BBB11586A35E0F03D5D (void);
-// 0x000005A6 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c__DisplayClass5_0::<CollectFaceGroups>b__0(UnityEngine.ProBuilder.Triangle)
+// 0x000005A4 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c__DisplayClass5_0::<CollectFaceGroups>b__0(UnityEngine.ProBuilder.Triangle)
 extern void U3CU3Ec__DisplayClass5_0_U3CCollectFaceGroupsU3Eb__0_mDFAE07FF58A05F2D893BE8BFA0FE3B220557C221 (void);
-// 0x000005A7 System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c__DisplayClass10_0::.ctor()
+// 0x000005A5 System.Void UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c__DisplayClass10_0::.ctor()
 extern void U3CU3Ec__DisplayClass10_0__ctor_m9F52615076FB2A3BD444746110E3B14B7B7F9B4C (void);
-// 0x000005A8 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c__DisplayClass10_0::<RebuildSelectionIndexes>b__0(UnityEngine.ProBuilder.Face)
+// 0x000005A6 System.Boolean UnityEngine.ProBuilder.MeshOperations.MeshValidation/<>c__DisplayClass10_0::<RebuildSelectionIndexes>b__0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec__DisplayClass10_0_U3CRebuildSelectionIndexesU3Eb__0_m1CD5E307C8575F315A71AC2924A2B9EE540EFBDE (void);
-// 0x000005A9 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.QuadUtility::ToQuads(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>,System.Boolean)
+// 0x000005A7 System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> UnityEngine.ProBuilder.MeshOperations.QuadUtility::ToQuads(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>,System.Boolean)
 extern void QuadUtility_ToQuads_m46E97F0EA4EBB75D4F4F16A9AB542C7F6A76E64E (void);
-// 0x000005AA UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.QuadUtility::GetBestQuadConnection(UnityEngine.ProBuilder.WingedEdge,System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.EdgeLookup,System.Single>)
+// 0x000005A8 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.QuadUtility::GetBestQuadConnection(UnityEngine.ProBuilder.WingedEdge,System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.EdgeLookup,System.Single>)
 extern void QuadUtility_GetBestQuadConnection_m18158E77326946FB1B3303496B0B3931C63FCF81 (void);
-// 0x000005AB System.Single UnityEngine.ProBuilder.MeshOperations.QuadUtility::GetQuadScore(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.WingedEdge,System.Single)
+// 0x000005A9 System.Single UnityEngine.ProBuilder.MeshOperations.QuadUtility::GetQuadScore(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.WingedEdge,System.Single)
 extern void QuadUtility_GetQuadScore_mFEA9D6FBF0860A5F0F0ACE95E8CA82E7B1D7FDB0 (void);
-// 0x000005AC UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.Subdivision::Subdivide(UnityEngine.ProBuilder.ProBuilderMesh)
+// 0x000005AA UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.Subdivision::Subdivide(UnityEngine.ProBuilder.ProBuilderMesh)
 extern void Subdivision_Subdivide_m52A3491A1ED9BBBBCEAC99B7FD9C349EF108D9BA (void);
-// 0x000005AD UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.Subdivision::Subdivide(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>)
+// 0x000005AB UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.Subdivision::Subdivide(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>)
 extern void Subdivision_Subdivide_mF0C8B3E022302BCB503447CA9C1C6ECAD5F8CC7C (void);
-// 0x000005AE UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::ToTriangles(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>)
+// 0x000005AC UnityEngine.ProBuilder.Face[] UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::ToTriangles(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face>)
 extern void SurfaceTopology_ToTriangles_mA4C17A268F31B45ACCF38D45672DC41B0488D387 (void);
-// 0x000005AF System.Collections.Generic.List`1<UnityEngine.ProBuilder.FaceRebuildData> UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::BreakFaceIntoTris(UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>)
+// 0x000005AD System.Collections.Generic.List`1<UnityEngine.ProBuilder.FaceRebuildData> UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::BreakFaceIntoTris(UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>)
 extern void SurfaceTopology_BreakFaceIntoTris_m6F1D3E97EA5D9B599B257003C173CBA6ACA8FA0B (void);
-// 0x000005B0 UnityEngine.ProBuilder.WindingOrder UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::GetWindingOrder(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
+// 0x000005AE UnityEngine.ProBuilder.WindingOrder UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::GetWindingOrder(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
 extern void SurfaceTopology_GetWindingOrder_mCD1357E7705C04BBB8BB196E4DC876BD1FCCA447 (void);
-// 0x000005B1 UnityEngine.ProBuilder.WindingOrder UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::GetWindingOrder(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.IList`1<System.Int32>)
+// 0x000005AF UnityEngine.ProBuilder.WindingOrder UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::GetWindingOrder(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.IList`1<System.Int32>)
 extern void SurfaceTopology_GetWindingOrder_m5EBBC2E603D8DA0A65A92AF9953220B4E0611076 (void);
-// 0x000005B2 UnityEngine.ProBuilder.WindingOrder UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::GetWindingOrder(System.Collections.Generic.IList`1<UnityEngine.Vector2>)
+// 0x000005B0 UnityEngine.ProBuilder.WindingOrder UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::GetWindingOrder(System.Collections.Generic.IList`1<UnityEngine.Vector2>)
 extern void SurfaceTopology_GetWindingOrder_m158BED326B0318649EB92EA5908531BDAE1DE4EA (void);
-// 0x000005B3 System.Boolean UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::FlipEdge(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
+// 0x000005B1 System.Boolean UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::FlipEdge(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face)
 extern void SurfaceTopology_FlipEdge_mB97D67A86730C39D228DF92A052BF4CB2C6BDDAC (void);
-// 0x000005B4 UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::ConformNormals(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x000005B2 UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::ConformNormals(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void SurfaceTopology_ConformNormals_m927DDE024B898A3057C33819E118685CF60DA913 (void);
-// 0x000005B5 System.Void UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::GetWindingFlags(UnityEngine.ProBuilder.WingedEdge,System.Boolean,System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Boolean>)
+// 0x000005B3 System.Void UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::GetWindingFlags(UnityEngine.ProBuilder.WingedEdge,System.Boolean,System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Boolean>)
 extern void SurfaceTopology_GetWindingFlags_m263EF6E01365BF9F5D263D82ACE1C89F00D28807 (void);
-// 0x000005B6 UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::ConformOppositeNormal(UnityEngine.ProBuilder.WingedEdge)
+// 0x000005B4 UnityEngine.ProBuilder.ActionResult UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::ConformOppositeNormal(UnityEngine.ProBuilder.WingedEdge)
 extern void SurfaceTopology_ConformOppositeNormal_m585AA7E3F598251485FAFB581D9FF237D56653A5 (void);
-// 0x000005B7 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::GetCommonEdgeInWindingOrder(UnityEngine.ProBuilder.WingedEdge)
+// 0x000005B5 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::GetCommonEdgeInWindingOrder(UnityEngine.ProBuilder.WingedEdge)
 extern void SurfaceTopology_GetCommonEdgeInWindingOrder_mA562538501FBC28AAB3B74178115041CB54194D3 (void);
-// 0x000005B8 System.Void UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::MatchNormal(UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>)
+// 0x000005B6 System.Void UnityEngine.ProBuilder.MeshOperations.SurfaceTopology::MatchNormal(UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>)
 extern void SurfaceTopology_MatchNormal_m1144A78859EB349503CF7ACA0A9EBE3720EAC627 (void);
-// 0x000005B9 System.Void UnityEngine.ProBuilder.MeshOperations.SurfaceTopology/<>c::.cctor()
+// 0x000005B7 System.Void UnityEngine.ProBuilder.MeshOperations.SurfaceTopology/<>c::.cctor()
 extern void U3CU3Ec__cctor_mB84488AE094426C3CDD9FAC3BA57ED6B0498104D (void);
-// 0x000005BA System.Void UnityEngine.ProBuilder.MeshOperations.SurfaceTopology/<>c::.ctor()
+// 0x000005B8 System.Void UnityEngine.ProBuilder.MeshOperations.SurfaceTopology/<>c::.ctor()
 extern void U3CU3Ec__ctor_m0B77B53886EB2874712309BB0019DA1E09E20FFF (void);
-// 0x000005BB UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.SurfaceTopology/<>c::<ToTriangles>b__0_0(UnityEngine.ProBuilder.FaceRebuildData)
+// 0x000005B9 UnityEngine.ProBuilder.Face UnityEngine.ProBuilder.MeshOperations.SurfaceTopology/<>c::<ToTriangles>b__0_0(UnityEngine.ProBuilder.FaceRebuildData)
 extern void U3CU3Ec_U3CToTrianglesU3Eb__0_0_m53BC5FB69BB6EDB41CFA40DC846FC28CAFA032ED (void);
-// 0x000005BC UnityEngine.Vector3 UnityEngine.ProBuilder.MeshOperations.SurfaceTopology/<>c::<GetWindingOrder>b__3_0(UnityEngine.ProBuilder.Vertex)
+// 0x000005BA UnityEngine.Vector3 UnityEngine.ProBuilder.MeshOperations.SurfaceTopology/<>c::<GetWindingOrder>b__3_0(UnityEngine.ProBuilder.Vertex)
 extern void U3CU3Ec_U3CGetWindingOrderU3Eb__3_0_mDFD03413924A96A42189E1FE77A06254143092F4 (void);
-// 0x000005BD UnityEngine.ProBuilder.Poly2Tri.TriangulationContext UnityEngine.ProBuilder.MeshOperations.Triangulation::get_triangulationContext()
+// 0x000005BB UnityEngine.ProBuilder.Poly2Tri.TriangulationContext UnityEngine.ProBuilder.MeshOperations.Triangulation::get_triangulationContext()
 extern void Triangulation_get_triangulationContext_m1B455ECDABBE7F7EDB2F1127C7B5D59CDE6ED740 (void);
-// 0x000005BE System.Boolean UnityEngine.ProBuilder.MeshOperations.Triangulation::SortAndTriangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<System.Int32>&,System.Boolean)
+// 0x000005BC System.Boolean UnityEngine.ProBuilder.MeshOperations.Triangulation::SortAndTriangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<System.Int32>&,System.Boolean)
 extern void Triangulation_SortAndTriangulate_mFA74A6E965E8094535A47BF8DE478DBD5CF7A9C4 (void);
-// 0x000005BF System.Boolean UnityEngine.ProBuilder.MeshOperations.Triangulation::TriangulateVertices(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.List`1<System.Int32>&,System.Boolean,System.Boolean)
+// 0x000005BD System.Boolean UnityEngine.ProBuilder.MeshOperations.Triangulation::TriangulateVertices(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.List`1<System.Int32>&,System.Boolean,System.Boolean)
 extern void Triangulation_TriangulateVertices_mF461615975F309E1C41909C85E7E3D5F5CD2C380 (void);
-// 0x000005C0 System.Boolean UnityEngine.ProBuilder.MeshOperations.Triangulation::TriangulateVertices(UnityEngine.Vector3[],System.Collections.Generic.List`1<System.Int32>&,UnityEngine.Vector3[][])
+// 0x000005BE System.Boolean UnityEngine.ProBuilder.MeshOperations.Triangulation::TriangulateVertices(UnityEngine.Vector3[],System.Collections.Generic.List`1<System.Int32>&,UnityEngine.Vector3[][])
 extern void Triangulation_TriangulateVertices_m2DFB22B6F2338D036E0824341D4CA342A01569FE (void);
-// 0x000005C1 System.Boolean UnityEngine.ProBuilder.MeshOperations.Triangulation::TriangulateVertices(UnityEngine.Vector3[],System.Collections.Generic.List`1<System.Int32>&,System.Boolean,System.Boolean)
+// 0x000005BF System.Boolean UnityEngine.ProBuilder.MeshOperations.Triangulation::TriangulateVertices(UnityEngine.Vector3[],System.Collections.Generic.List`1<System.Int32>&,System.Boolean,System.Boolean)
 extern void Triangulation_TriangulateVertices_m9A29D960F6DD1C681D127C8B4D8FA7D5B85DC9AE (void);
-// 0x000005C2 System.Boolean UnityEngine.ProBuilder.MeshOperations.Triangulation::Triangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<System.Int32>&,System.Boolean)
+// 0x000005C0 System.Boolean UnityEngine.ProBuilder.MeshOperations.Triangulation::Triangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<System.Int32>&,System.Boolean)
 extern void Triangulation_Triangulate_m8220D40E3E3BC77A4C27EEF98B0C788928E7EA80 (void);
-// 0x000005C3 System.Boolean UnityEngine.ProBuilder.MeshOperations.Triangulation::Triangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<UnityEngine.Vector2>>,System.Collections.Generic.List`1<System.Int32>&)
+// 0x000005C1 System.Boolean UnityEngine.ProBuilder.MeshOperations.Triangulation::Triangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2>,System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<UnityEngine.Vector2>>,System.Collections.Generic.List`1<System.Int32>&)
 extern void Triangulation_Triangulate_m9E1F74B69DA7EE4475D8AB2121448A8C77B7E46C (void);
-// 0x000005C4 System.Void UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass7_0::.ctor()
+// 0x000005C2 System.Void UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass7_0::.ctor()
 extern void U3CU3Ec__DisplayClass7_0__ctor_mAAFA4D3C5A8C88BAD9E6B190E5AC8053C9908F61 (void);
-// 0x000005C5 UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass7_0::<Triangulate>b__0(UnityEngine.Vector2)
+// 0x000005C3 UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass7_0::<Triangulate>b__0(UnityEngine.Vector2)
 extern void U3CU3Ec__DisplayClass7_0_U3CTriangulateU3Eb__0_m6720CB0AF937F411E134241EDD1E0EE775D8809B (void);
-// 0x000005C6 UnityEngine.ProBuilder.Poly2Tri.PolygonPoint UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass7_0::<Triangulate>b__1(UnityEngine.Vector2)
+// 0x000005C4 UnityEngine.ProBuilder.Poly2Tri.PolygonPoint UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass7_0::<Triangulate>b__1(UnityEngine.Vector2)
 extern void U3CU3Ec__DisplayClass7_0_U3CTriangulateU3Eb__1_m9BF7FC9C5CD62CC6DC9AB1729AE0A39EA09B7E24 (void);
-// 0x000005C7 System.Void UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass8_0::.ctor()
+// 0x000005C5 System.Void UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass8_0::.ctor()
 extern void U3CU3Ec__DisplayClass8_0__ctor_mC480C5B05A5F7EF767773C48188BCDF4308D9850 (void);
-// 0x000005C8 UnityEngine.ProBuilder.Poly2Tri.PolygonPoint UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass8_0::<Triangulate>b__0(UnityEngine.Vector2)
+// 0x000005C6 UnityEngine.ProBuilder.Poly2Tri.PolygonPoint UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass8_0::<Triangulate>b__0(UnityEngine.Vector2)
 extern void U3CU3Ec__DisplayClass8_0_U3CTriangulateU3Eb__0_mEDC72C41B91CAD082208057FDA9354FE7CA04C22 (void);
-// 0x000005C9 UnityEngine.ProBuilder.Poly2Tri.PolygonPoint UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass8_0::<Triangulate>b__1(UnityEngine.Vector2)
+// 0x000005C7 UnityEngine.ProBuilder.Poly2Tri.PolygonPoint UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass8_0::<Triangulate>b__1(UnityEngine.Vector2)
 extern void U3CU3Ec__DisplayClass8_0_U3CTriangulateU3Eb__1_m2E08B081C6BD99B884F8B5E2C4A0868BF23E1CF2 (void);
-// 0x000005CA System.Boolean UnityEngine.ProBuilder.MeshOperations.UVEditing::AutoStitch(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face,System.Int32)
+// 0x000005C8 System.Boolean UnityEngine.ProBuilder.MeshOperations.UVEditing::AutoStitch(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face,System.Int32)
 extern void UVEditing_AutoStitch_mF6201836590F92FA8F2E872E01F583CF8FCB9B4E (void);
-// 0x000005CB System.Boolean UnityEngine.ProBuilder.MeshOperations.UVEditing::AlignEdges(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Edge,UnityEngine.ProBuilder.Edge,System.Int32)
+// 0x000005C9 System.Boolean UnityEngine.ProBuilder.MeshOperations.UVEditing::AlignEdges(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Edge,UnityEngine.ProBuilder.Edge,System.Int32)
 extern void UVEditing_AlignEdges_m3F7D5375DF92A52D51E8C117E5E482466080283F (void);
-// 0x000005CC UnityEngine.Vector2[] UnityEngine.ProBuilder.MeshOperations.UVEditing::GetUVs(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32)
+// 0x000005CA UnityEngine.Vector2[] UnityEngine.ProBuilder.MeshOperations.UVEditing::GetUVs(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32)
 extern void UVEditing_GetUVs_mA0D67B42D8853EFE1BEE284A373C0B296E7FDCD9 (void);
-// 0x000005CD System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::ApplyUVs(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector2[],System.Int32,System.Boolean)
+// 0x000005CB System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::ApplyUVs(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.Vector2[],System.Int32,System.Boolean)
 extern void UVEditing_ApplyUVs_mF4A41B96910730EA8D258C68602E2348E12D5D1A (void);
-// 0x000005CE System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::SewUVs(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[],System.Single)
+// 0x000005CC System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::SewUVs(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[],System.Single)
 extern void UVEditing_SewUVs_m68FD3EB297FB37769D138DD24A548BCAE1C981FB (void);
-// 0x000005CF System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::CollapseUVs(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[])
+// 0x000005CD System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::CollapseUVs(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[])
 extern void UVEditing_CollapseUVs_m1F8ED03879D37E5BADE923436CFD5CE212653235 (void);
-// 0x000005D0 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::SplitUVs(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x000005CE System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::SplitUVs(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void UVEditing_SplitUVs_m8E1A09FA5F2109CD229B4C5934BA16551B27050C (void);
-// 0x000005D1 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::SplitUVs(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
+// 0x000005CF System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::SplitUVs(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face>)
 extern void UVEditing_SplitUVs_mD96D20A149DCB2AB48173AAD53AEEE66F4A439EA (void);
-// 0x000005D2 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::ProjectFacesAuto(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[],System.Int32)
+// 0x000005D0 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::ProjectFacesAuto(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[],System.Int32)
 extern void UVEditing_ProjectFacesAuto_m77F6060313AF354310DE7B384F4A030E194CBDB1 (void);
-// 0x000005D3 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::ProjectFacesBox(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[],System.Int32)
+// 0x000005D1 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::ProjectFacesBox(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[],System.Int32)
 extern void UVEditing_ProjectFacesBox_mBABB7BEBB3E7E971D660B8FE5C8E02619723324D (void);
-// 0x000005D4 UnityEngine.Vector2 UnityEngine.ProBuilder.MeshOperations.UVEditing::FindMinimalUV(UnityEngine.Vector2[],System.Int32[],System.Single,System.Single)
+// 0x000005D2 UnityEngine.Vector2 UnityEngine.ProBuilder.MeshOperations.UVEditing::FindMinimalUV(UnityEngine.Vector2[],System.Int32[],System.Single,System.Single)
 extern void UVEditing_FindMinimalUV_m1D67C836B1DEF3F324AA57119625D72EE938803A (void);
-// 0x000005D5 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::ProjectFacesBox(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[],UnityEngine.Vector2,System.Int32)
+// 0x000005D3 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::ProjectFacesBox(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face[],UnityEngine.Vector2,System.Int32)
 extern void UVEditing_ProjectFacesBox_mC6AD80A8A810B3923A2F484E43BF882D5521110B (void);
-// 0x000005D6 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::ProjectFacesSphere(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[],System.Int32)
+// 0x000005D4 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing::ProjectFacesSphere(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[],System.Int32)
 extern void UVEditing_ProjectFacesSphere_m22CC3860B457206D2F041172E91E5D1D624F1149 (void);
-// 0x000005D7 UnityEngine.Vector2[] UnityEngine.ProBuilder.MeshOperations.UVEditing::FitUVs(UnityEngine.Vector2[])
+// 0x000005D5 UnityEngine.Vector2[] UnityEngine.ProBuilder.MeshOperations.UVEditing::FitUVs(UnityEngine.Vector2[])
 extern void UVEditing_FitUVs_m5763A9CBD993039EDAFCFB93FBBB2288A7BFECAB (void);
-// 0x000005D8 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c__DisplayClass0_0::.ctor()
+// 0x000005D6 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c__DisplayClass0_0::.ctor()
 extern void U3CU3Ec__DisplayClass0_0__ctor_mEE1226748BB924C4D51FFE11C9A4CE40025DB7BD (void);
-// 0x000005D9 System.Boolean UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c__DisplayClass0_0::<AutoStitch>b__0(UnityEngine.ProBuilder.WingedEdge)
+// 0x000005D7 System.Boolean UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c__DisplayClass0_0::<AutoStitch>b__0(UnityEngine.ProBuilder.WingedEdge)
 extern void U3CU3Ec__DisplayClass0_0_U3CAutoStitchU3Eb__0_m0D07BD8F9F21980AB570F54626D3178BDB9DCD65 (void);
-// 0x000005DA System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::.cctor()
+// 0x000005D8 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::.cctor()
 extern void U3CU3Ec__cctor_m1140B28EA252C04CF74E1E4DFC928EB990931AAC (void);
-// 0x000005DB System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::.ctor()
+// 0x000005D9 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::.ctor()
 extern void U3CU3Ec__ctor_m97B6AF38F93B2327BF70CBB1355AC7BD61E228D5 (void);
-// 0x000005DC UnityEngine.Vector2 UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::<GetUVs>b__2_0(UnityEngine.Vector4)
+// 0x000005DA UnityEngine.Vector2 UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::<GetUVs>b__2_0(UnityEngine.Vector4)
 extern void U3CU3Ec_U3CGetUVsU3Eb__2_0_m041F7CA7E3B32621670851FE9EEC0B45F726D0AC (void);
-// 0x000005DD System.Int32 UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::<SewUVs>b__4_1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
+// 0x000005DB System.Int32 UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::<SewUVs>b__4_1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
 extern void U3CU3Ec_U3CSewUVsU3Eb__4_1_mB44770438E0EAB83A2B2DF120F998F9E6493B59A (void);
-// 0x000005DE System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::<ProjectFacesAuto>b__8_0(UnityEngine.ProBuilder.Face)
+// 0x000005DC System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::<ProjectFacesAuto>b__8_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CProjectFacesAutoU3Eb__8_0_m09405A01163DA9633A139980BAAF2BF049B5AEB0 (void);
-// 0x000005DF System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::<ProjectFacesAuto>b__8_1(UnityEngine.ProBuilder.Face)
+// 0x000005DD System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::<ProjectFacesAuto>b__8_1(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CProjectFacesAutoU3Eb__8_1_m0B2E623D91243D8B877BE3AF9C817E468CE48E68 (void);
-// 0x000005E0 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::<ProjectFacesBox>b__9_0(UnityEngine.ProBuilder.Face)
+// 0x000005DE System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::<ProjectFacesBox>b__9_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CProjectFacesBoxU3Eb__9_0_mE27E3BDD647B9CAA042B12D969326688E315CC01 (void);
-// 0x000005E1 System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::<ProjectFacesBox>b__11_0(UnityEngine.ProBuilder.Face)
+// 0x000005DF System.Collections.Generic.IEnumerable`1<System.Int32> UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c::<ProjectFacesBox>b__11_0(UnityEngine.ProBuilder.Face)
 extern void U3CU3Ec_U3CProjectFacesBoxU3Eb__11_0_mC8E9EA1E9AE5A8C323114A0C47C17C824DD61C3E (void);
-// 0x000005E2 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c__DisplayClass4_0::.ctor()
+// 0x000005E0 System.Void UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c__DisplayClass4_0::.ctor()
 extern void U3CU3Ec__DisplayClass4_0__ctor_m885F504D6C9E2E2BCB225E4DC27FCDD933A53349 (void);
-// 0x000005E3 System.Boolean UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c__DisplayClass4_0::<SewUVs>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
+// 0x000005E1 System.Boolean UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c__DisplayClass4_0::<SewUVs>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>)
 extern void U3CU3Ec__DisplayClass4_0_U3CSewUVsU3Eb__0_mDF26BB19C76CD7AFFA07748A9D1134BE994BBD3A (void);
-// 0x000005E4 System.Int32 UnityEngine.ProBuilder.MeshOperations.VertexEditing::MergeVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[],System.Boolean)
+// 0x000005E2 System.Int32 UnityEngine.ProBuilder.MeshOperations.VertexEditing::MergeVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Int32[],System.Boolean)
 extern void VertexEditing_MergeVertices_mBDE75AAD39250A5EF8FE0194D17749AE75D99E4C (void);
-// 0x000005E5 System.Void UnityEngine.ProBuilder.MeshOperations.VertexEditing::SplitVertices(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge)
+// 0x000005E3 System.Void UnityEngine.ProBuilder.MeshOperations.VertexEditing::SplitVertices(UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge)
 extern void VertexEditing_SplitVertices_m1890B9794FCD4CF8D5E78A3E90CAB06C86031100 (void);
-// 0x000005E6 System.Void UnityEngine.ProBuilder.MeshOperations.VertexEditing::SplitVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>)
+// 0x000005E4 System.Void UnityEngine.ProBuilder.MeshOperations.VertexEditing::SplitVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>)
 extern void VertexEditing_SplitVertices_mCEC08AD738EAE165723BB111AEA4EC69CC9654F9 (void);
-// 0x000005E7 System.Int32[] UnityEngine.ProBuilder.MeshOperations.VertexEditing::WeldVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>,System.Single)
+// 0x000005E5 System.Int32[] UnityEngine.ProBuilder.MeshOperations.VertexEditing::WeldVertices(UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.IEnumerable`1<System.Int32>,System.Single)
 extern void VertexEditing_WeldVertices_mDD97BA05872CA5EDBE42164F8548DF956430A6C5 (void);
-// 0x000005E8 UnityEngine.ProBuilder.FaceRebuildData UnityEngine.ProBuilder.MeshOperations.VertexEditing::ExplodeVertex(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.WingedEdge,System.Int32>>,System.Single,System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.Int32>>&)
+// 0x000005E6 UnityEngine.ProBuilder.FaceRebuildData UnityEngine.ProBuilder.MeshOperations.VertexEditing::ExplodeVertex(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex>,System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.WingedEdge,System.Int32>>,System.Single,System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.Int32>>&)
 extern void VertexEditing_ExplodeVertex_m55BF56079C0306FF5948814D9241B949FB7FC682 (void);
-// 0x000005E9 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.VertexEditing::AlignEdgeWithDirection(UnityEngine.ProBuilder.EdgeLookup,System.Int32)
+// 0x000005E7 UnityEngine.ProBuilder.Edge UnityEngine.ProBuilder.MeshOperations.VertexEditing::AlignEdgeWithDirection(UnityEngine.ProBuilder.EdgeLookup,System.Int32)
 extern void VertexEditing_AlignEdgeWithDirection_mA2D607620B107D74A3C4B882948B3060C0156119 (void);
-static Il2CppMethodPointer s_methodPointers[1513] = 
+static Il2CppMethodPointer s_methodPointers[1511] = 
 {
 	ActionResult_get_status_mB74EDAF4E5757EA5631A25DC0B470B8473EC38CF,
 	ActionResult_set_status_m4170FBC11AFB856BDEF63DD3C420AD6CA01C7E88,
@@ -3266,17 +3263,15 @@ static Il2CppMethodPointer s_methodPointers[1513] =
 	NULL,
 	NULL,
 	NULL,
-	NULL,
 	InternalUtility_EmptyGameObjectWithTransform_mD09D2FA5108AEA98BEF49A5FBCD779A404FCA5E6,
 	InternalUtility_MeshGameObjectWithTransform_m766A1282E2F87FC8634745097F58E29613E0987E,
 	NULL,
 	InternalUtility_ControlKeyString_m5DEB2C2F1FAA73C6D63DA0EEDEF2A43E6203E919,
 	InternalUtility_TryParseColor_m8446054B6BE8E74435C1EB9C3BDAD19F5B395170,
-	InternalUtility_StringToVector3Array_mC3D87D249522D2CF9B46DC195D9EB5756869CE3B,
 	NULL,
 	NULL,
-	U3CU3Ec__DisplayClass7_0__ctor_m2D67A706749D68623D53E900C988A66132561DB5,
-	U3CU3Ec__DisplayClass7_0_U3CTryParseColorU3Eb__0_m862F4FE82E27C463E888FF126298D599240D023D,
+	U3CU3Ec__DisplayClass6_0__ctor_m96579B97C8F85B3AB1C930C6466245B90C58C9D3,
+	U3CU3Ec__DisplayClass6_0_U3CTryParseColorU3Eb__0_m7E59514A3AC5F3A03356BF94065E97AB309BF2D8,
 	IntVec2_get_x_m79581DDC7A013BDD1CD9394A499F7405FC306FB7,
 	IntVec2_get_y_mBD67CADAAA249E7EBC359499220C81DE15D06737,
 	IntVec2__ctor_mCB5D4292D4EF0DA45B4B61E1C7D16C08A813D85E,
@@ -4654,1602 +4649,1600 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[122] =
 	{ 0x060000C2, EdgeLookup_Equals_m4681CEFEC709F104530F35A881CB8210A8ED636A_AdjustorThunk },
 	{ 0x060000C3, EdgeLookup_GetHashCode_m5469BC7305707814F4C42121B0B4B90DD3E87556_AdjustorThunk },
 	{ 0x060000C6, EdgeLookup_ToString_mDEBBF0BD311B51EAC1C67A30AF493DA95E307BE5_AdjustorThunk },
-	{ 0x06000138, IntVec2_get_x_m79581DDC7A013BDD1CD9394A499F7405FC306FB7_AdjustorThunk },
-	{ 0x06000139, IntVec2_get_y_mBD67CADAAA249E7EBC359499220C81DE15D06737_AdjustorThunk },
-	{ 0x0600013A, IntVec2__ctor_mCB5D4292D4EF0DA45B4B61E1C7D16C08A813D85E_AdjustorThunk },
-	{ 0x0600013B, IntVec2_ToString_mBB72FE4972F8D1AE9E656C8EDE169C15E1F1546A_AdjustorThunk },
-	{ 0x0600013E, IntVec2_Equals_m1BC65C9305EC7C56693192464FCE6C9F2D8CF1CC_AdjustorThunk },
-	{ 0x0600013F, IntVec2_Equals_m8F0B662B957850BBE6B13D65436C50BDDE2D5BF7_AdjustorThunk },
-	{ 0x06000140, IntVec2_Equals_mD058BC9F9DF39F334379AB23B9CF41C659778D20_AdjustorThunk },
-	{ 0x06000141, IntVec2_GetHashCode_m51666461CA34C1B128C25041F435DCA6A13AF11D_AdjustorThunk },
-	{ 0x06000145, IntVec3_get_x_m2C949AD63ECCE822DB77D68CB17504A3D3DCBE62_AdjustorThunk },
-	{ 0x06000146, IntVec3_get_y_m62A7A2D520B1F812AA0E62DAC3E11790BBC05B12_AdjustorThunk },
-	{ 0x06000147, IntVec3_get_z_m2661B9BEADBF05B0135B7C41644FC1A20657A230_AdjustorThunk },
-	{ 0x06000148, IntVec3__ctor_mDA453337AB52841AE90BCFABBB23B3E5FCC51610_AdjustorThunk },
-	{ 0x06000149, IntVec3_ToString_mAB15BA3CBBB6F4B63869DBF719492990A2D35193_AdjustorThunk },
-	{ 0x0600014C, IntVec3_Equals_mAF7F74B4BAD904872AD2C1ED19C20F7232AA0664_AdjustorThunk },
-	{ 0x0600014D, IntVec3_Equals_mAB470F8176D9F99EFC7A64C03E06530857C10A2D_AdjustorThunk },
-	{ 0x0600014E, IntVec3_Equals_m3A72301F6F81A01A0474E9FBCF7397698B670BA1_AdjustorThunk },
-	{ 0x0600014F, IntVec3_GetHashCode_m89C25171D84306179F2250A21E4DF9A6CBC820DC_AdjustorThunk },
-	{ 0x06000153, IntVec4_get_x_m8D7822F797641BEB2B9535B12DA6AAAC010A7FE4_AdjustorThunk },
-	{ 0x06000154, IntVec4_get_y_m06CEE03B15ECD0BD1ED3FF604E50B4E65D080912_AdjustorThunk },
-	{ 0x06000155, IntVec4_get_z_mD2AFC4ADA8B8944C76477535B492CFDA1664E395_AdjustorThunk },
-	{ 0x06000156, IntVec4_get_w_m9D4372A202E650815E1A7588B8A3382C6A40980C_AdjustorThunk },
-	{ 0x06000157, IntVec4__ctor_mE3A830E253E9363DCC32E8D6B103E166FFD735A5_AdjustorThunk },
-	{ 0x06000158, IntVec4_ToString_m6C4D2A91287B241EFEFA3B7130049A364E8289E1_AdjustorThunk },
-	{ 0x0600015B, IntVec4_Equals_mD46D2E243CB68ABC24E0C73A144866676D5B041B_AdjustorThunk },
-	{ 0x0600015C, IntVec4_Equals_mFF28097E54D1E90E8F9387265CD9020CE081AA75_AdjustorThunk },
-	{ 0x0600015D, IntVec4_Equals_mA26655B2514A6C084A8A7A17DFF9495B7DAAD52D_AdjustorThunk },
-	{ 0x0600015E, IntVec4_GetHashCode_m4A9C0C7033244EFD9865A50EC848ADE274F2A633_AdjustorThunk },
-	{ 0x060001E6, Normal_get_normal_m4083809C8A20CBC86A6812E803BEB80DDA1440A3_AdjustorThunk },
-	{ 0x060001E7, Normal_set_normal_mF4445F0F39FDF6D738EFDF7D0C1C45171889C263_AdjustorThunk },
-	{ 0x060001E8, Normal_get_tangent_m340AD3696126C88DA75D100D56005E6223ED3A41_AdjustorThunk },
-	{ 0x060001E9, Normal_set_tangent_m6CAA40B1B2D101EA567BD8A4DFACDAF74CDB149E_AdjustorThunk },
-	{ 0x060001EA, Normal_get_bitangent_m73441BB36C1767DC32731305C9AD487644192DD9_AdjustorThunk },
-	{ 0x060001EB, Normal_set_bitangent_m9BE7D4DEFC95CD5618EC597A5E9A737547E65D61_AdjustorThunk },
-	{ 0x060001EC, Normal_Equals_m22DA51F98FF9BEB601B84A40FC378E5D216A37C1_AdjustorThunk },
-	{ 0x060001ED, Normal_GetHashCode_m839B08C0DCBDA5597BFCBAFE773BF50DD2ADACB5_AdjustorThunk },
-	{ 0x060001EE, Normal_Equals_mC1FA67242502BF5AE278DFD25337A8341D9334E8_AdjustorThunk },
-	{ 0x060002C2, NonVersionedEditScope__ctor_m5925EDB7F2F7D003DD73B3651ED2C5BDC845F6CC_AdjustorThunk },
-	{ 0x060002C3, NonVersionedEditScope_Dispose_m13BA38C65D7D01E114199B65409ACE0C16A9211F_AdjustorThunk },
-	{ 0x060002EC, PickerOptions_get_depthTest_mEAE532C85A6D768D9A0E9DE1680788CCD84E73B5_AdjustorThunk },
-	{ 0x060002ED, PickerOptions_set_depthTest_m8E48F0646A54689305B735A585B3968AF434AEB2_AdjustorThunk },
-	{ 0x060002EE, PickerOptions_get_rectSelectMode_m382321BA21B0054D1B27F5FBB9DB46882DCF037A_AdjustorThunk },
-	{ 0x060002EF, PickerOptions_set_rectSelectMode_m812CA7825C5D3E4E5A02390BF183F3AD1016E0EA_AdjustorThunk },
-	{ 0x060002F1, PickerOptions_Equals_m66998E2FBECD43FBBC9E3F710C88B72E40B0AB29_AdjustorThunk },
-	{ 0x060002F2, PickerOptions_Equals_m13B5B96228F61B983293EF70C843006834182F32_AdjustorThunk },
-	{ 0x060002F3, PickerOptions_GetHashCode_m553DA216857FFA266E96507B8BC7EA172CBB22D1_AdjustorThunk },
-	{ 0x060003AD, Triangle_get_a_mD601EF5D3F4E27F576E7F5C93D79EA4D3447579E_AdjustorThunk },
-	{ 0x060003AE, Triangle_get_b_m32F54A45C29B6EFC2808A879396C30C6912FDFA3_AdjustorThunk },
-	{ 0x060003AF, Triangle_get_c_m938FDA07919F06DFD7444D6F08872A28A3497BD8_AdjustorThunk },
-	{ 0x060003B0, Triangle_get_indices_mCBE9446F73D2733F575367B5E06E2AA4F3F0ADD7_AdjustorThunk },
-	{ 0x060003B1, Triangle__ctor_m0619160C4FFCE3F6230069A9626D15B72A6C3149_AdjustorThunk },
-	{ 0x060003B2, Triangle_Equals_mA90BBC594E7DED15B7A60A845C7DF72998E205ED_AdjustorThunk },
-	{ 0x060003B3, Triangle_Equals_m35BE7090528680F9CDC91C457A94BC90279493A7_AdjustorThunk },
-	{ 0x060003B4, Triangle_GetHashCode_m1A050D5B29C6AE4DD9B9FBED798D6A6284834C53_AdjustorThunk },
-	{ 0x060003B5, Triangle_IsAdjacent_mF7AF26D47AA637C2CDEBC0F5A4DCBD9998011021_AdjustorThunk },
-	{ 0x060003B6, Triangle_ContainsEdge_m669A8D0B43BB41B1BD9CDE44B2AD8E6924E44025_AdjustorThunk },
-	{ 0x060003D6, UVTransform_ToString_mDF103FE818765976B595EAB8328B351BEB8279DF_AdjustorThunk },
-	{ 0x060003DE, Vector2Mask_get_x_m728FEA70781C62E51022AFBB1418250BA2C35D75_AdjustorThunk },
-	{ 0x060003DF, Vector2Mask_get_y_mAE7301E692833CBE013E600C31AF69DD4B7BFC45_AdjustorThunk },
-	{ 0x060003E0, Vector2Mask__ctor_mB2BE35809815686DDA827B4B6EEF3AA1924186A0_AdjustorThunk },
-	{ 0x060003E1, Vector2Mask__ctor_m00F035AE8E43B97F3A861EF3CBD68E55A0987F3E_AdjustorThunk },
-	{ 0x060003E9, Vector3Mask_get_x_m746E895A75D74D0DD8EA4DF661D2BF699A2AD12C_AdjustorThunk },
-	{ 0x060003EA, Vector3Mask_get_y_m78543B642592256E98A3208E8F44F97FFC987073_AdjustorThunk },
-	{ 0x060003EB, Vector3Mask_get_z_m52790A0F9252ED7AB780AA44337B764E5A6F669D_AdjustorThunk },
-	{ 0x060003EC, Vector3Mask__ctor_m17873F78C929C46868B32D351E66B8D8EE1CA8FD_AdjustorThunk },
-	{ 0x060003ED, Vector3Mask__ctor_m30814033DD25E43F1850D22C69D6EF2D40817A5B_AdjustorThunk },
-	{ 0x060003EE, Vector3Mask_ToString_m3F6CD0D0457D563DA4A114589B500EA9F7C9D431_AdjustorThunk },
-	{ 0x060003EF, Vector3Mask_get_active_mF9D2A7280F4A11B62804689E487E73441B9F6850_AdjustorThunk },
-	{ 0x060003FA, Vector3Mask_get_Item_m71EB67F4895618C5A1651005DDA686177940F1C8_AdjustorThunk },
-	{ 0x060003FB, Vector3Mask_set_Item_mCA7E0DB6FAF76242A7A82656BD0613C49AC109DF_AdjustorThunk },
-	{ 0x060003FC, Vector3Mask_Equals_mC0D8917C88CD90A9A7632DC4C839F734D0049D63_AdjustorThunk },
-	{ 0x060003FD, Vector3Mask_Equals_mA721B3010D7951A9B0CA8EB3A6211C82CA95BAA1_AdjustorThunk },
-	{ 0x060003FE, Vector3Mask_GetHashCode_mD452DFCFAE4D0798FE7D782E81BDF8F3BF26AE5F_AdjustorThunk },
+	{ 0x06000136, IntVec2_get_x_m79581DDC7A013BDD1CD9394A499F7405FC306FB7_AdjustorThunk },
+	{ 0x06000137, IntVec2_get_y_mBD67CADAAA249E7EBC359499220C81DE15D06737_AdjustorThunk },
+	{ 0x06000138, IntVec2__ctor_mCB5D4292D4EF0DA45B4B61E1C7D16C08A813D85E_AdjustorThunk },
+	{ 0x06000139, IntVec2_ToString_mBB72FE4972F8D1AE9E656C8EDE169C15E1F1546A_AdjustorThunk },
+	{ 0x0600013C, IntVec2_Equals_m1BC65C9305EC7C56693192464FCE6C9F2D8CF1CC_AdjustorThunk },
+	{ 0x0600013D, IntVec2_Equals_m8F0B662B957850BBE6B13D65436C50BDDE2D5BF7_AdjustorThunk },
+	{ 0x0600013E, IntVec2_Equals_mD058BC9F9DF39F334379AB23B9CF41C659778D20_AdjustorThunk },
+	{ 0x0600013F, IntVec2_GetHashCode_m51666461CA34C1B128C25041F435DCA6A13AF11D_AdjustorThunk },
+	{ 0x06000143, IntVec3_get_x_m2C949AD63ECCE822DB77D68CB17504A3D3DCBE62_AdjustorThunk },
+	{ 0x06000144, IntVec3_get_y_m62A7A2D520B1F812AA0E62DAC3E11790BBC05B12_AdjustorThunk },
+	{ 0x06000145, IntVec3_get_z_m2661B9BEADBF05B0135B7C41644FC1A20657A230_AdjustorThunk },
+	{ 0x06000146, IntVec3__ctor_mDA453337AB52841AE90BCFABBB23B3E5FCC51610_AdjustorThunk },
+	{ 0x06000147, IntVec3_ToString_mAB15BA3CBBB6F4B63869DBF719492990A2D35193_AdjustorThunk },
+	{ 0x0600014A, IntVec3_Equals_mAF7F74B4BAD904872AD2C1ED19C20F7232AA0664_AdjustorThunk },
+	{ 0x0600014B, IntVec3_Equals_mAB470F8176D9F99EFC7A64C03E06530857C10A2D_AdjustorThunk },
+	{ 0x0600014C, IntVec3_Equals_m3A72301F6F81A01A0474E9FBCF7397698B670BA1_AdjustorThunk },
+	{ 0x0600014D, IntVec3_GetHashCode_m89C25171D84306179F2250A21E4DF9A6CBC820DC_AdjustorThunk },
+	{ 0x06000151, IntVec4_get_x_m8D7822F797641BEB2B9535B12DA6AAAC010A7FE4_AdjustorThunk },
+	{ 0x06000152, IntVec4_get_y_m06CEE03B15ECD0BD1ED3FF604E50B4E65D080912_AdjustorThunk },
+	{ 0x06000153, IntVec4_get_z_mD2AFC4ADA8B8944C76477535B492CFDA1664E395_AdjustorThunk },
+	{ 0x06000154, IntVec4_get_w_m9D4372A202E650815E1A7588B8A3382C6A40980C_AdjustorThunk },
+	{ 0x06000155, IntVec4__ctor_mE3A830E253E9363DCC32E8D6B103E166FFD735A5_AdjustorThunk },
+	{ 0x06000156, IntVec4_ToString_m6C4D2A91287B241EFEFA3B7130049A364E8289E1_AdjustorThunk },
+	{ 0x06000159, IntVec4_Equals_mD46D2E243CB68ABC24E0C73A144866676D5B041B_AdjustorThunk },
+	{ 0x0600015A, IntVec4_Equals_mFF28097E54D1E90E8F9387265CD9020CE081AA75_AdjustorThunk },
+	{ 0x0600015B, IntVec4_Equals_mA26655B2514A6C084A8A7A17DFF9495B7DAAD52D_AdjustorThunk },
+	{ 0x0600015C, IntVec4_GetHashCode_m4A9C0C7033244EFD9865A50EC848ADE274F2A633_AdjustorThunk },
+	{ 0x060001E4, Normal_get_normal_m4083809C8A20CBC86A6812E803BEB80DDA1440A3_AdjustorThunk },
+	{ 0x060001E5, Normal_set_normal_mF4445F0F39FDF6D738EFDF7D0C1C45171889C263_AdjustorThunk },
+	{ 0x060001E6, Normal_get_tangent_m340AD3696126C88DA75D100D56005E6223ED3A41_AdjustorThunk },
+	{ 0x060001E7, Normal_set_tangent_m6CAA40B1B2D101EA567BD8A4DFACDAF74CDB149E_AdjustorThunk },
+	{ 0x060001E8, Normal_get_bitangent_m73441BB36C1767DC32731305C9AD487644192DD9_AdjustorThunk },
+	{ 0x060001E9, Normal_set_bitangent_m9BE7D4DEFC95CD5618EC597A5E9A737547E65D61_AdjustorThunk },
+	{ 0x060001EA, Normal_Equals_m22DA51F98FF9BEB601B84A40FC378E5D216A37C1_AdjustorThunk },
+	{ 0x060001EB, Normal_GetHashCode_m839B08C0DCBDA5597BFCBAFE773BF50DD2ADACB5_AdjustorThunk },
+	{ 0x060001EC, Normal_Equals_mC1FA67242502BF5AE278DFD25337A8341D9334E8_AdjustorThunk },
+	{ 0x060002C0, NonVersionedEditScope__ctor_m5925EDB7F2F7D003DD73B3651ED2C5BDC845F6CC_AdjustorThunk },
+	{ 0x060002C1, NonVersionedEditScope_Dispose_m13BA38C65D7D01E114199B65409ACE0C16A9211F_AdjustorThunk },
+	{ 0x060002EA, PickerOptions_get_depthTest_mEAE532C85A6D768D9A0E9DE1680788CCD84E73B5_AdjustorThunk },
+	{ 0x060002EB, PickerOptions_set_depthTest_m8E48F0646A54689305B735A585B3968AF434AEB2_AdjustorThunk },
+	{ 0x060002EC, PickerOptions_get_rectSelectMode_m382321BA21B0054D1B27F5FBB9DB46882DCF037A_AdjustorThunk },
+	{ 0x060002ED, PickerOptions_set_rectSelectMode_m812CA7825C5D3E4E5A02390BF183F3AD1016E0EA_AdjustorThunk },
+	{ 0x060002EF, PickerOptions_Equals_m66998E2FBECD43FBBC9E3F710C88B72E40B0AB29_AdjustorThunk },
+	{ 0x060002F0, PickerOptions_Equals_m13B5B96228F61B983293EF70C843006834182F32_AdjustorThunk },
+	{ 0x060002F1, PickerOptions_GetHashCode_m553DA216857FFA266E96507B8BC7EA172CBB22D1_AdjustorThunk },
+	{ 0x060003AB, Triangle_get_a_mD601EF5D3F4E27F576E7F5C93D79EA4D3447579E_AdjustorThunk },
+	{ 0x060003AC, Triangle_get_b_m32F54A45C29B6EFC2808A879396C30C6912FDFA3_AdjustorThunk },
+	{ 0x060003AD, Triangle_get_c_m938FDA07919F06DFD7444D6F08872A28A3497BD8_AdjustorThunk },
+	{ 0x060003AE, Triangle_get_indices_mCBE9446F73D2733F575367B5E06E2AA4F3F0ADD7_AdjustorThunk },
+	{ 0x060003AF, Triangle__ctor_m0619160C4FFCE3F6230069A9626D15B72A6C3149_AdjustorThunk },
+	{ 0x060003B0, Triangle_Equals_mA90BBC594E7DED15B7A60A845C7DF72998E205ED_AdjustorThunk },
+	{ 0x060003B1, Triangle_Equals_m35BE7090528680F9CDC91C457A94BC90279493A7_AdjustorThunk },
+	{ 0x060003B2, Triangle_GetHashCode_m1A050D5B29C6AE4DD9B9FBED798D6A6284834C53_AdjustorThunk },
+	{ 0x060003B3, Triangle_IsAdjacent_mF7AF26D47AA637C2CDEBC0F5A4DCBD9998011021_AdjustorThunk },
+	{ 0x060003B4, Triangle_ContainsEdge_m669A8D0B43BB41B1BD9CDE44B2AD8E6924E44025_AdjustorThunk },
+	{ 0x060003D4, UVTransform_ToString_mDF103FE818765976B595EAB8328B351BEB8279DF_AdjustorThunk },
+	{ 0x060003DC, Vector2Mask_get_x_m728FEA70781C62E51022AFBB1418250BA2C35D75_AdjustorThunk },
+	{ 0x060003DD, Vector2Mask_get_y_mAE7301E692833CBE013E600C31AF69DD4B7BFC45_AdjustorThunk },
+	{ 0x060003DE, Vector2Mask__ctor_mB2BE35809815686DDA827B4B6EEF3AA1924186A0_AdjustorThunk },
+	{ 0x060003DF, Vector2Mask__ctor_m00F035AE8E43B97F3A861EF3CBD68E55A0987F3E_AdjustorThunk },
+	{ 0x060003E7, Vector3Mask_get_x_m746E895A75D74D0DD8EA4DF661D2BF699A2AD12C_AdjustorThunk },
+	{ 0x060003E8, Vector3Mask_get_y_m78543B642592256E98A3208E8F44F97FFC987073_AdjustorThunk },
+	{ 0x060003E9, Vector3Mask_get_z_m52790A0F9252ED7AB780AA44337B764E5A6F669D_AdjustorThunk },
+	{ 0x060003EA, Vector3Mask__ctor_m17873F78C929C46868B32D351E66B8D8EE1CA8FD_AdjustorThunk },
+	{ 0x060003EB, Vector3Mask__ctor_m30814033DD25E43F1850D22C69D6EF2D40817A5B_AdjustorThunk },
+	{ 0x060003EC, Vector3Mask_ToString_m3F6CD0D0457D563DA4A114589B500EA9F7C9D431_AdjustorThunk },
+	{ 0x060003ED, Vector3Mask_get_active_mF9D2A7280F4A11B62804689E487E73441B9F6850_AdjustorThunk },
+	{ 0x060003F8, Vector3Mask_get_Item_m71EB67F4895618C5A1651005DDA686177940F1C8_AdjustorThunk },
+	{ 0x060003F9, Vector3Mask_set_Item_mCA7E0DB6FAF76242A7A82656BD0613C49AC109DF_AdjustorThunk },
+	{ 0x060003FA, Vector3Mask_Equals_mC0D8917C88CD90A9A7632DC4C839F734D0049D63_AdjustorThunk },
+	{ 0x060003FB, Vector3Mask_Equals_mA721B3010D7951A9B0CA8EB3A6211C82CA95BAA1_AdjustorThunk },
+	{ 0x060003FC, Vector3Mask_GetHashCode_mD452DFCFAE4D0798FE7D782E81BDF8F3BF26AE5F_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[1513] = 
+static const int32_t s_InvokerIndices[1511] = 
 {
-	3863,
-	3236,
-	3884,
-	3255,
-	1632,
-	5567,
-	3821,
-	5560,
-	5940,
-	5940,
-	5940,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	1614,
-	3821,
-	3863,
-	3884,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5918,
-	3821,
-	3189,
-	3821,
-	3189,
-	3821,
-	3189,
-	3821,
-	3189,
-	3863,
-	3236,
-	3967,
-	3328,
-	3967,
-	3328,
-	3920,
-	3286,
-	3863,
-	3236,
-	3183,
-	5918,
-	5918,
-	5918,
-	3977,
-	3884,
-	674,
-	1614,
-	3330,
-	1817,
-	1817,
-	4956,
-	4956,
-	4625,
-	3821,
-	3189,
-	3884,
-	3255,
-	3977,
-	3977,
-	3977,
-	3967,
-	3328,
-	3967,
-	3884,
-	3977,
-	1816,
-	3255,
-	1762,
-	1762,
-	1758,
-	2385,
-	1129,
-	2300,
-	2318,
-	3255,
-	1762,
-	5833,
-	5392,
-	5392,
-	5392,
-	3884,
-	5967,
-	5920,
-	5940,
-	5940,
-	5940,
-	5940,
-	5940,
-	5940,
-	5940,
-	5940,
-	5940,
-	5940,
-	5940,
-	5940,
-	5967,
-	3884,
-	3884,
-	1762,
-	3884,
-	3884,
-	3255,
-	1357,
-	4843,
-	4235,
-	3977,
-	3977,
-	1786,
-	3977,
-	3823,
-	3192,
-	3884,
-	3255,
-	3977,
-	2448,
-	1587,
-	3863,
-	3977,
-	953,
-	665,
-	5703,
-	3884,
-	2914,
-	953,
-	5703,
-	4903,
-	3884,
-	953,
-	5711,
-	5703,
-	3884,
-	5157,
-	5586,
-	5703,
-	4903,
-	5711,
-	5356,
-	5584,
-	4787,
-	5703,
-	5703,
-	4605,
-	5967,
-	1614,
-	3821,
-	3884,
-	2258,
-	2300,
-	3863,
-	5221,
-	5221,
-	5222,
-	5222,
-	5119,
-	5119,
-	5221,
-	5221,
-	1026,
-	2276,
-	2258,
-	1045,
-	5463,
-	5967,
-	3840,
-	3212,
-	3840,
-	3212,
-	1428,
-	587,
-	2259,
-	2300,
-	3863,
-	5120,
-	5120,
-	3884,
-	5304,
-	5304,
-	3977,
-	2491,
-	5304,
-	5224,
-	5224,
-	4755,
-	5142,
-	4758,
-	4832,
-	5711,
-	5298,
-	3977,
-	2484,
-	3863,
-	3977,
-	3236,
-	3977,
-	0,
-	0,
-	0,
-	3255,
-	3977,
-	3821,
-	3189,
-	3863,
-	3236,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3884,
-	3884,
-	3884,
-	3863,
-	3236,
-	3884,
-	3255,
-	3863,
-	3236,
-	3815,
-	3183,
-	2699,
-	3977,
-	3255,
-	100,
-	95,
-	3255,
-	3255,
-	3977,
-	3884,
-	3884,
-	696,
-	3821,
-	3884,
-	3884,
-	3236,
-	3863,
-	3977,
-	3977,
-	5463,
-	5463,
-	346,
-	3863,
-	3884,
-	4689,
-	4393,
-	3977,
-	1614,
-	3884,
-	2986,
-	2986,
-	5144,
-	5144,
-	3863,
-	2300,
-	3884,
-	5967,
-	4958,
-	4445,
-	4143,
-	4444,
-	4233,
-	5339,
-	4446,
-	4234,
-	4765,
-	5335,
-	4912,
-	5335,
-	4912,
-	5333,
-	4912,
-	5334,
-	5406,
-	5406,
-	5406,
-	0,
-	0,
-	0,
-	0,
-	5711,
-	4344,
-	0,
-	5719,
-	5140,
-	5711,
-	0,
-	0,
-	3977,
-	2380,
-	3920,
-	3920,
-	3328,
-	3884,
-	5133,
-	5133,
-	2279,
-	2385,
-	2300,
-	3863,
-	5649,
-	5832,
-	5677,
-	3920,
-	3920,
-	3920,
-	3330,
-	3884,
-	5134,
-	5134,
-	2280,
-	2387,
-	2300,
-	3863,
-	5649,
-	5842,
-	5678,
-	3920,
-	3920,
-	3920,
-	3920,
-	3331,
-	3884,
-	5135,
-	5135,
-	2281,
-	2389,
-	2300,
-	3863,
-	5649,
-	5849,
-	5679,
-	5858,
-	5967,
-	5858,
-	5858,
-	5862,
-	0,
-	5862,
-	5463,
-	5463,
-	5862,
-	5463,
-	5862,
-	5463,
-	5862,
-	0,
-	5459,
-	5463,
-	5967,
-	5459,
-	0,
-	5967,
-	5648,
-	5300,
-	5967,
-	4950,
-	4363,
-	4363,
-	4959,
-	5362,
-	5363,
-	4932,
-	5356,
-	4953,
-	4954,
-	5834,
-	4954,
-	5359,
-	4931,
-	4932,
-	5410,
-	4627,
-	4241,
-	4454,
-	4766,
-	4439,
-	4439,
-	4773,
-	4774,
-	4144,
-	4102,
-	5760,
-	4961,
-	5406,
-	5406,
-	5278,
-	5188,
-	5401,
-	5413,
-	0,
-	0,
-	5766,
-	5765,
-	5833,
-	5392,
-	5833,
-	5392,
-	5073,
-	5392,
-	5406,
-	5419,
-	5844,
-	4780,
-	4783,
-	4784,
-	4747,
-	4775,
-	4820,
-	5844,
-	5844,
-	5766,
-	5050,
-	5050,
-	5571,
-	5578,
-	5579,
-	5580,
-	5361,
-	5853,
-	5834,
-	5844,
-	5853,
-	3884,
-	1762,
-	3236,
-	5463,
-	5036,
-	5463,
-	5036,
-	5463,
-	5036,
-	5036,
-	5463,
-	5036,
-	5463,
-	5036,
-	5967,
-	5967,
-	3977,
-	2863,
-	2863,
-	5711,
-	5862,
-	5711,
-	5463,
-	0,
-	0,
-	5711,
-	5811,
-	5811,
-	5034,
-	5711,
-	5463,
-	5010,
-	5711,
-	5711,
-	5711,
-	5567,
-	5862,
-	5555,
-	5967,
-	3977,
-	2863,
-	3969,
-	3330,
-	3970,
-	3331,
-	3969,
-	3330,
-	2300,
-	3863,
-	2299,
-	5139,
-	5139,
-	5858,
-	5862,
-	5862,
-	5862,
-	5967,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	3884,
-	3255,
-	3920,
-	3286,
-	3863,
-	3236,
-	3821,
-	3189,
-	3884,
-	3255,
-	3821,
-	3977,
-	3977,
-	3977,
-	3977,
-	2300,
-	0,
-	3255,
-	0,
-	0,
-	1067,
-	1236,
-	1375,
-	1357,
-	1170,
-	1357,
-	1750,
-	1758,
-	1765,
-	1762,
-	1752,
-	1762,
-	3884,
-	3884,
-	3884,
-	3884,
-	3884,
-	3884,
-	3977,
-	3977,
-	5967,
-	3821,
-	3189,
-	3884,
-	3255,
-	3884,
-	3884,
-	3964,
-	3821,
-	3189,
-	2276,
-	3884,
-	3255,
-	3884,
-	3255,
-	3977,
-	3977,
-	3977,
-	3977,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3255,
-	2863,
-	3255,
-	1750,
-	3884,
-	3884,
-	3255,
-	3884,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3255,
-	1632,
-	2860,
-	1632,
-	3863,
-	3863,
-	3863,
-	3863,
-	3863,
-	5862,
-	5862,
-	5862,
-	5862,
-	5862,
-	5862,
-	5862,
-	5862,
-	5862,
-	5862,
-	3884,
-	3255,
-	3863,
-	3863,
-	3863,
-	3977,
-	3977,
-	3977,
-	3977,
-	3977,
-	3977,
-	5711,
-	5940,
-	5304,
-	4346,
-	3255,
-	1762,
-	3977,
-	3236,
-	3977,
-	3255,
-	3236,
-	3977,
-	2699,
-	5564,
-	2699,
-	3255,
-	1413,
-	3977,
-	1752,
-	1762,
-	3977,
-	3977,
-	2699,
-	2863,
-	2863,
-	1762,
-	1762,
-	1762,
-	1632,
-	3255,
-	3255,
-	1614,
-	3255,
-	3821,
-	3189,
-	3863,
-	3863,
-	3863,
-	3863,
-	3863,
-	3884,
-	3884,
-	3977,
-	3884,
-	3884,
-	3884,
-	3884,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3840,
-	3863,
-	3236,
-	3255,
-	3255,
-	3255,
-	3255,
-	3236,
-	3977,
-	3977,
-	5967,
-	2717,
-	2717,
-	2860,
-	2860,
-	3255,
-	3977,
-	5967,
-	3977,
-	2987,
-	2987,
-	2717,
-	2717,
-	2863,
-	3977,
-	2300,
-	3977,
-	2300,
-	5579,
-	5361,
-	5413,
-	5040,
-	5844,
-	4626,
-	3977,
-	3977,
-	5304,
-	4893,
-	4696,
-	5019,
-	5040,
-	5304,
-	5300,
-	5841,
-	5841,
-	5655,
-	5332,
-	5331,
-	5967,
-	3977,
-	1200,
-	2982,
-	666,
-	4353,
-	4353,
-	4353,
-	4898,
-	3821,
-	3189,
-	3863,
-	3236,
-	5942,
-	2300,
-	2304,
-	3863,
-	5146,
-	5146,
-	5967,
-	5933,
-	5933,
-	5940,
-	4352,
-	4172,
-	4172,
-	4341,
-	4165,
-	4165,
-	5295,
-	4379,
-	4379,
-	4887,
-	4887,
-	5805,
-	5589,
-	5920,
-	5967,
-	0,
-	285,
-	3977,
-	285,
-	3977,
-	3977,
-	2699,
-	5967,
-	3977,
-	2863,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3255,
-	3255,
-	1758,
-	1756,
-	1762,
-	1762,
-	1762,
-	1762,
-	3255,
-	3236,
-	3212,
-	3977,
-	3255,
-	3884,
-	2300,
-	2300,
-	3863,
-	5144,
-	5144,
-	4884,
-	5300,
-	4923,
-	4884,
-	5967,
-	3863,
-	3863,
-	3863,
-	3863,
-	3884,
-	3884,
-	3884,
-	3884,
-	3977,
-	1762,
-	92,
-	3821,
-	2300,
-	3863,
-	2300,
-	2717,
-	5644,
-	2717,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	2863,
-	3884,
-	5140,
-	5648,
-	0,
-	5300,
-	5300,
-	5290,
-	4574,
-	4106,
-	4079,
-	5292,
-	4157,
-	5292,
-	4160,
-	4158,
-	4159,
-	4573,
-	4046,
-	4332,
-	5306,
-	4333,
-	4059,
-	5967,
-	3884,
-	3255,
-	3255,
-	2699,
-	1614,
-	3884,
-	3884,
-	3884,
-	3236,
-	3977,
-	2276,
-	1758,
-	2276,
-	3863,
-	3821,
-	5463,
-	3236,
-	5711,
-	5711,
-	5711,
-	5304,
-	5304,
-	5431,
-	5967,
-	3977,
-	2090,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5648,
-	5245,
-	5564,
-	5037,
-	4691,
-	4440,
-	4428,
-	5967,
-	3977,
-	2717,
-	2717,
-	4173,
-	4127,
-	4583,
-	4126,
+	4587,
+	3813,
 	4610,
-	4603,
-	3884,
-	3255,
-	3863,
-	3236,
-	3863,
-	3236,
-	887,
-	1758,
-	3884,
-	5648,
-	4884,
-	5862,
-	964,
-	2986,
-	3884,
-	5862,
-	5862,
-	5304,
-	5304,
-	5967,
-	3863,
-	3863,
-	3863,
-	3884,
-	886,
-	2376,
-	2300,
-	3863,
-	2376,
-	2258,
-	3977,
-	3977,
-	1786,
-	3977,
-	3920,
-	3286,
-	3920,
-	3286,
-	3920,
-	3286,
-	3920,
-	3286,
-	3977,
-	3255,
-	3977,
-	3884,
-	5033,
-	5463,
-	5070,
-	5488,
-	5250,
-	4709,
-	4622,
-	5040,
-	5036,
-	5019,
-	5032,
-	4695,
-	5034,
-	5862,
-	5967,
-	3884,
-	5967,
-	3977,
-	2300,
-	5649,
-	5654,
-	5655,
+	3834,
+	1970,
+	6441,
+	4540,
+	6434,
+	6836,
+	6836,
+	6836,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	1950,
+	4540,
+	4587,
+	4610,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6814,
+	4540,
+	3759,
+	4540,
+	3759,
+	4540,
+	3759,
+	4540,
+	3759,
+	4587,
+	3813,
+	4697,
+	3910,
+	4697,
+	3910,
+	4650,
+	3868,
+	4587,
+	3813,
+	3753,
+	6814,
+	6814,
+	6814,
+	4707,
+	4610,
+	757,
+	1950,
+	3912,
+	2174,
+	2174,
+	5785,
+	5785,
+	5433,
+	4540,
+	3759,
+	4610,
+	3834,
+	4707,
+	4707,
+	4707,
+	4697,
+	3910,
+	4697,
+	4610,
+	4707,
+	2173,
+	3834,
+	2116,
+	2116,
+	2112,
+	2829,
+	1273,
+	2739,
+	2759,
+	3834,
+	2116,
+	6724,
+	6247,
+	6247,
+	6247,
+	4610,
+	6865,
+	6816,
+	6836,
+	6836,
+	6836,
+	6836,
+	6836,
+	6836,
+	6836,
+	6836,
+	6836,
+	6836,
+	6836,
+	6836,
+	6865,
+	4610,
+	4610,
+	2116,
+	4610,
+	4610,
+	3834,
+	1596,
+	5668,
+	4996,
+	4707,
+	4707,
+	2142,
+	4707,
+	4542,
+	3762,
+	4610,
+	3834,
+	4707,
+	2900,
+	1918,
+	4587,
+	4707,
+	1067,
+	747,
+	6590,
+	4610,
+	3444,
+	1067,
+	6590,
+	5731,
+	4610,
+	1067,
+	6599,
+	6590,
+	4610,
+	6003,
+	6463,
+	6590,
+	5731,
+	6599,
+	6209,
+	6461,
+	5609,
+	6590,
+	6590,
+	5412,
+	6865,
+	1950,
+	4540,
+	4610,
+	2692,
+	2739,
+	4587,
+	6069,
+	6069,
+	6070,
+	6070,
+	5958,
+	5958,
+	6069,
+	6069,
+	1156,
+	2713,
+	2692,
+	1180,
+	6326,
+	6865,
+	4560,
+	3784,
+	4560,
+	3784,
+	1733,
+	663,
+	2693,
+	2739,
+	4587,
+	5959,
+	5959,
+	4610,
+	6154,
+	6154,
+	4707,
+	2946,
+	6154,
+	6072,
+	6072,
+	5576,
+	5985,
+	5579,
 	5656,
-	3920,
-	3920,
-	1818,
-	3189,
-	5836,
-	5840,
-	5405,
-	5405,
-	5405,
-	5402,
-	5967,
-	3920,
-	3920,
-	3920,
-	1818,
-	3189,
-	3884,
-	3863,
-	5845,
-	5847,
-	5416,
-	5416,
-	5416,
-	5414,
-	5415,
-	5409,
-	5190,
-	5190,
-	2913,
-	1653,
-	2388,
-	2300,
-	3863,
-	5967,
-	3969,
-	3330,
-	3823,
+	6599,
+	6148,
+	4707,
+	2939,
+	4587,
+	4707,
+	3813,
+	4707,
+	0,
+	0,
+	0,
+	3834,
+	4707,
+	4540,
+	3759,
+	4587,
+	3813,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	4610,
+	4610,
+	4610,
+	4587,
+	3813,
+	4610,
+	3834,
+	4587,
+	3813,
+	4534,
+	3753,
 	3192,
-	3969,
-	3330,
-	3970,
-	3331,
-	3967,
-	3328,
-	3967,
-	3328,
-	3970,
-	3331,
-	3970,
-	3331,
-	3863,
-	2276,
-	3821,
-	3189,
-	3821,
-	3189,
-	3821,
-	3189,
-	3821,
-	3189,
-	3821,
-	3189,
-	3821,
-	3189,
-	3821,
-	3189,
-	3821,
-	3189,
-	3977,
-	2300,
-	2300,
-	1071,
-	3863,
-	3255,
-	5144,
-	5144,
-	5304,
-	5304,
-	3255,
-	5304,
-	5304,
-	3255,
-	5306,
-	5306,
-	3286,
-	5306,
-	5306,
-	3286,
-	3977,
-	2863,
-	4067,
-	4053,
-	5463,
-	5304,
+	4707,
+	3834,
+	119,
+	114,
+	3834,
+	3834,
+	4707,
+	4610,
+	4610,
+	790,
+	4540,
+	4610,
+	4610,
+	3813,
+	4587,
+	4707,
+	4707,
+	6326,
+	6326,
+	383,
+	4587,
+	4610,
+	5505,
+	5180,
+	4707,
+	1950,
+	4610,
+	3520,
+	3520,
+	5987,
+	5987,
+	4587,
+	2739,
+	4610,
+	6865,
+	5787,
+	5235,
 	4892,
-	5711,
-	5040,
-	4396,
-	5040,
-	5040,
-	5040,
-	5040,
-	5024,
-	5022,
-	5967,
-	3841,
-	3213,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3255,
-	3884,
-	3255,
-	3977,
-	2300,
-	2300,
-	3863,
-	3863,
-	3884,
-	5304,
-	2860,
-	5711,
-	5862,
-	5711,
-	5304,
-	5296,
-	4888,
-	5967,
-	3977,
-	2300,
-	5967,
-	3977,
-	2487,
-	2686,
-	3255,
-	3821,
-	3977,
-	3884,
-	3884,
-	3977,
-	3255,
-	804,
-	679,
-	3977,
-	3255,
-	340,
-	679,
-	3977,
-	3255,
-	679,
-	3977,
-	5967,
-	3255,
-	340,
-	679,
-	3977,
-	3255,
-	679,
-	3977,
-	3255,
-	340,
-	679,
-	3977,
-	3255,
-	679,
-	3977,
-	3255,
-	679,
-	3977,
-	3884,
-	3255,
-	3863,
-	3236,
-	3969,
-	3330,
-	3969,
-	3330,
-	3969,
-	3330,
-	3895,
-	3266,
-	3820,
-	3820,
-	3821,
-	3884,
-	3977,
-	3977,
-	3188,
-	840,
-	3977,
-	1758,
-	3266,
-	946,
-	946,
-	3977,
-	340,
+	5234,
+	4994,
+	6190,
+	5236,
+	4995,
+	5586,
+	6186,
+	5740,
+	6186,
+	5740,
+	6184,
+	5740,
+	6185,
+	6261,
+	6261,
+	6261,
 	0,
 	0,
-	3977,
-	3255,
-	3255,
-	340,
-	679,
-	5306,
-	3977,
-	5967,
-	3255,
-	679,
-	3977,
-	3821,
-	3189,
-	3255,
-	679,
-	340,
-	679,
-	679,
-	3977,
-	3255,
-	340,
-	679,
-	4333,
-	4334,
-	3977,
-	4082,
-	4169,
-	4888,
-	4890,
-	5711,
-	5862,
-	4596,
-	4170,
-	4350,
-	5296,
-	5304,
-	5711,
-	5463,
-	4579,
-	4890,
-	4593,
-	4881,
-	4889,
+	0,
+	6599,
+	5124,
+	0,
+	6608,
+	5983,
+	0,
+	0,
+	4707,
+	2824,
+	4650,
+	4650,
+	3910,
+	4610,
+	5973,
+	5973,
+	2716,
+	2829,
+	2739,
+	4587,
+	6529,
+	6723,
+	6558,
+	4650,
+	4650,
+	4650,
+	3912,
+	4610,
+	5974,
+	5974,
+	2717,
+	2831,
+	2739,
+	4587,
+	6529,
+	6733,
+	6559,
+	4650,
+	4650,
+	4650,
+	4650,
+	3913,
+	4610,
+	5975,
+	5975,
+	2718,
+	2833,
+	2739,
+	4587,
+	6529,
+	6741,
+	6560,
+	6751,
+	6865,
+	6751,
+	6751,
+	6755,
+	0,
+	6755,
+	6326,
+	6326,
+	6755,
+	6326,
+	6755,
+	6326,
+	6755,
+	0,
+	6322,
+	6326,
+	6865,
+	6322,
+	0,
+	6865,
+	6528,
+	6150,
+	6865,
+	5779,
+	5146,
+	5146,
+	5788,
+	6215,
+	6216,
+	5761,
+	6209,
+	5782,
+	5783,
+	6725,
+	5783,
+	6212,
+	5760,
+	5761,
+	6265,
+	5435,
+	5002,
+	5244,
+	5588,
+	5229,
+	5229,
+	5595,
+	5596,
 	4893,
-	4882,
-	4900,
-	5967,
-	3977,
-	2717,
-	2990,
-	2990,
-	2863,
-	3977,
-	2485,
-	4892,
-	4594,
-	5037,
-	5225,
-	5967,
-	3977,
-	2699,
-	2699,
-	3977,
-	2300,
-	3977,
-	2300,
-	5967,
-	3977,
-	2863,
-	2608,
-	2863,
-	2863,
-	2863,
-	5711,
-	5304,
-	5711,
-	4068,
-	4169,
-	4347,
-	5967,
-	3977,
-	2717,
-	1762,
-	5304,
-	5063,
-	5304,
-	4109,
-	4594,
-	4890,
-	4436,
-	4339,
-	4345,
-	5967,
-	3977,
-	2863,
-	2717,
-	2863,
-	2717,
-	2863,
-	2863,
-	2485,
-	2860,
-	2860,
-	2487,
-	2487,
-	2860,
-	2860,
-	2860,
-	3977,
-	2699,
-	2699,
-	3977,
-	2258,
-	5463,
-	5304,
-	5304,
-	5304,
-	5711,
-	5711,
-	3977,
-	2090,
-	1893,
-	2090,
-	1893,
-	3977,
-	2717,
-	5967,
-	3977,
-	2863,
-	5014,
-	5298,
-	5304,
-	5304,
-	5304,
-	5304,
-	5304,
-	4890,
-	5711,
-	5304,
-	5304,
-	4761,
-	4761,
-	4759,
-	5014,
-	4883,
-	4883,
-	4892,
-	5463,
-	4397,
-	4892,
-	4888,
-	5304,
-	4888,
-	5304,
-	5304,
-	5300,
-	5967,
-	5967,
-	3977,
-	2863,
-	2082,
-	2482,
-	2083,
-	2844,
-	2485,
-	2485,
-	2485,
-	2485,
-	2487,
-	2487,
-	2487,
-	2487,
-	1192,
-	3977,
-	2300,
-	3977,
-	2300,
-	2300,
-	4590,
-	4349,
-	5304,
-	4888,
-	4892,
-	4588,
-	5711,
-	5304,
-	5967,
-	3977,
-	2863,
-	2717,
-	4957,
-	5296,
-	5141,
-	5862,
-	5967,
-	3977,
-	2863,
-	2863,
-	2863,
-	2863,
-	2863,
-	2863,
-	2235,
-	4888,
-	5304,
-	5463,
-	3977,
-	2300,
-	5967,
-	3977,
-	2863,
-	3821,
-	3189,
-	3821,
-	3189,
-	3920,
-	3286,
-	3884,
-	3977,
-	3255,
-	936,
-	3255,
-	1072,
-	3255,
-	5967,
-	5967,
-	3977,
-	2990,
-	5459,
-	5463,
-	5468,
-	5862,
+	4848,
+	6651,
+	5790,
+	6261,
+	6261,
+	6129,
+	6034,
+	6256,
+	6268,
+	0,
+	0,
+	6657,
+	6656,
+	6724,
+	6247,
+	6724,
+	6247,
+	5911,
+	6247,
+	6261,
+	6274,
+	6736,
+	5602,
+	5605,
+	5606,
 	5567,
-	5144,
-	5144,
-	5144,
-	5304,
-	5304,
-	5144,
-	5144,
-	5304,
-	5304,
-	4378,
-	5140,
-	5862,
-	5862,
-	5862,
+	5597,
+	5644,
+	6736,
+	6736,
+	6657,
+	5887,
+	5887,
+	6447,
+	6454,
+	6455,
+	6456,
+	6214,
+	6745,
+	6725,
+	6736,
+	6745,
+	4610,
+	2116,
+	3813,
+	6326,
+	5870,
+	6326,
+	5870,
+	6326,
+	5870,
+	5870,
+	6326,
+	5870,
+	6326,
+	5870,
+	6865,
+	6865,
+	4707,
+	3380,
+	3380,
+	6599,
+	6755,
+	6599,
+	6326,
 	0,
 	0,
-	5862,
-	5967,
-	3977,
-	2870,
-	2870,
-	2863,
-	3977,
-	2376,
-	3977,
-	2300,
-	4888,
-	5304,
-	4615,
-	5711,
-	5304,
-	5304,
-	4890,
-	5251,
-	5251,
-	5648,
-	5144,
-	5304,
-	5013,
-	5711,
-	5619,
-	5036,
-	5967,
-	3977,
-	2863,
-	2990,
-	5940,
-	4753,
-	4426,
-	4754,
-	4426,
-	4753,
-	4761,
-	3977,
-	2873,
-	2873,
-	3977,
-	2873,
-	2873,
-	4437,
-	4229,
-	5300,
-	4685,
-	5037,
-	5463,
-	5463,
-	5463,
-	5034,
-	5034,
-	4621,
+	6599,
+	6702,
+	6702,
+	5868,
+	6599,
+	6326,
+	5843,
+	6599,
+	6599,
+	6599,
+	6441,
+	6755,
+	6428,
+	6865,
+	4707,
+	3380,
+	4699,
+	3912,
+	4700,
+	3913,
+	4699,
+	3912,
+	2739,
+	4587,
+	2738,
+	5981,
+	5981,
+	6751,
+	6755,
+	6755,
+	6755,
+	6865,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	4610,
+	3834,
+	4650,
+	3868,
+	4587,
+	3813,
+	4540,
+	3759,
+	4610,
+	3834,
+	4540,
+	4707,
+	4707,
+	4707,
+	4707,
+	2739,
+	0,
+	3834,
+	0,
+	0,
+	1204,
+	1405,
+	1667,
+	1596,
+	1333,
+	1596,
+	2101,
+	2112,
+	2119,
+	2116,
+	2103,
+	2116,
+	4610,
+	4610,
+	4610,
+	4610,
+	4610,
+	4610,
+	4707,
+	4707,
+	6865,
+	4540,
+	3759,
+	4610,
+	3834,
+	4610,
+	4610,
 	4694,
-	5034,
+	4540,
+	3759,
+	2713,
+	4610,
+	3834,
+	4610,
+	3834,
+	4707,
+	4707,
+	4707,
+	4707,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	3834,
+	3380,
+	3834,
+	2101,
+	4610,
+	4610,
+	3834,
+	4610,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	3834,
+	1970,
+	3377,
+	1970,
+	4587,
+	4587,
+	4587,
+	4587,
+	4587,
+	6755,
+	6755,
+	6755,
+	6755,
+	6755,
+	6755,
+	6755,
+	6755,
+	6755,
+	6755,
+	4610,
+	3834,
+	4587,
+	4587,
+	4587,
+	4707,
+	4707,
+	4707,
+	4707,
+	4707,
+	4707,
+	6599,
+	6836,
+	6154,
+	5126,
+	3834,
+	2116,
+	4707,
+	3813,
+	4707,
+	3834,
+	3813,
+	4707,
+	3192,
+	6438,
+	3192,
+	3834,
+	1720,
+	4707,
+	2103,
+	2116,
+	4707,
+	4707,
+	3192,
+	3380,
+	3380,
+	2116,
+	2116,
+	2116,
+	1970,
+	3834,
+	3834,
+	1950,
+	3834,
+	4540,
+	3759,
+	4587,
+	4587,
+	4587,
+	4587,
+	4587,
+	4610,
+	4610,
+	4707,
+	4610,
+	4610,
+	4610,
+	4610,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	4560,
+	4587,
+	3813,
+	3834,
+	3834,
+	3834,
+	3834,
+	3813,
+	4707,
+	4707,
+	6865,
+	3213,
+	3213,
+	3377,
+	3377,
+	3834,
+	4707,
+	6865,
+	4707,
+	3522,
+	3522,
+	3213,
+	3213,
+	3380,
+	4707,
+	2739,
+	4707,
+	2739,
+	6455,
+	6214,
+	6268,
+	5875,
+	6736,
+	5434,
+	4707,
+	4707,
+	6154,
+	5721,
+	5512,
+	5852,
+	5875,
+	6154,
+	6150,
+	6732,
+	6732,
+	6535,
+	6183,
+	6182,
+	6865,
+	4707,
+	1366,
+	3515,
+	748,
+	5133,
+	5133,
+	5133,
+	5726,
+	4540,
+	3759,
+	4587,
+	3813,
+	6839,
+	2739,
+	2745,
+	4587,
+	5990,
+	5990,
+	6865,
+	6829,
+	6829,
+	6836,
+	5132,
+	4928,
+	4928,
+	5119,
+	4921,
+	4921,
+	6145,
+	5163,
+	5163,
+	5714,
+	5714,
+	6696,
+	6466,
+	6816,
+	6865,
+	0,
+	319,
+	4707,
+	319,
+	4707,
+	4707,
+	3192,
+	6865,
+	4707,
+	3380,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	3834,
+	3834,
+	2112,
+	2108,
+	2116,
+	2116,
+	2116,
+	2116,
+	3834,
+	3813,
+	3784,
+	4707,
+	3834,
+	4610,
+	2739,
+	2739,
+	4587,
+	5987,
+	5987,
 	5711,
-	3977,
-	2300,
-	5967,
-	3977,
-	2987,
-	2571,
-	2863,
-	2863,
-	2863,
-	2863,
-	3977,
-	2090,
-	4831,
-	5457,
-	5463,
-	4892,
-	4595,
-	5223,
+	6150,
+	5752,
+	5711,
+	6865,
+	4587,
+	4587,
+	4587,
+	4587,
+	4610,
+	4610,
+	4610,
+	4610,
+	4707,
+	2116,
+	111,
+	4540,
+	2739,
+	4587,
+	2739,
+	3213,
+	6524,
+	3213,
+	5987,
+	5987,
+	5987,
+	5987,
+	5987,
+	5987,
+	3380,
+	4610,
+	5983,
+	6528,
+	0,
+	6150,
+	6150,
+	6139,
+	5379,
+	4852,
+	4822,
+	6141,
+	4910,
+	6141,
+	4915,
+	4913,
+	4914,
+	5378,
+	4788,
+	5109,
+	6156,
+	5110,
+	4801,
+	6865,
+	4610,
+	3834,
+	3834,
+	3192,
+	1950,
+	4610,
+	4610,
+	4610,
+	3813,
+	4707,
+	2713,
+	2112,
+	2713,
+	4587,
+	4540,
+	6326,
+	3813,
+	6599,
+	6599,
+	6599,
+	6154,
+	6154,
+	6287,
+	6865,
+	4707,
+	2510,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6528,
+	6093,
+	6438,
+	5871,
+	5507,
+	5230,
+	5215,
+	6865,
+	4707,
+	3213,
+	3213,
+	4929,
+	4876,
+	5388,
+	4875,
+	5417,
+	5410,
+	4610,
+	3834,
+	4587,
+	3813,
+	4587,
+	3813,
+	1000,
+	2112,
+	4610,
+	6528,
+	5711,
+	6755,
+	1079,
+	3520,
+	4610,
+	6755,
+	6755,
+	6154,
+	6154,
+	6865,
+	4587,
+	4587,
+	4587,
+	4610,
+	999,
+	2820,
+	2739,
+	4587,
+	2820,
+	2692,
+	4707,
+	4707,
+	2142,
+	4707,
+	4650,
+	3868,
+	4650,
+	3868,
+	4650,
+	3868,
+	4650,
+	3868,
+	4707,
+	3834,
+	4707,
+	4610,
+	5866,
+	6326,
+	5908,
+	6354,
+	6099,
+	5527,
+	5430,
+	5875,
+	5870,
+	5852,
+	5865,
+	5511,
+	5868,
+	6755,
+	6865,
+	4610,
+	6865,
+	4707,
+	2739,
+	6529,
+	6534,
+	6535,
+	6536,
+	4650,
+	4650,
+	2175,
+	3759,
+	6727,
+	6731,
+	6260,
+	6260,
+	6260,
+	6257,
+	6865,
+	4650,
+	4650,
+	4650,
+	2175,
+	3759,
+	4610,
+	4587,
+	6737,
+	6739,
+	6271,
+	6271,
+	6271,
+	6269,
+	6270,
+	6264,
+	6036,
+	6036,
+	3443,
+	1994,
+	2832,
+	2739,
+	4587,
+	6865,
+	4699,
+	3912,
+	4542,
+	3762,
+	4699,
+	3912,
+	4700,
+	3913,
+	4697,
+	3910,
+	4697,
+	3910,
+	4700,
+	3913,
+	4700,
+	3913,
+	4587,
+	2713,
+	4540,
+	3759,
+	4540,
+	3759,
+	4540,
+	3759,
+	4540,
+	3759,
+	4540,
+	3759,
+	4540,
+	3759,
+	4540,
+	3759,
+	4540,
+	3759,
+	4707,
+	2739,
+	2739,
+	1210,
+	4587,
+	3834,
+	5987,
+	5987,
+	6154,
+	6154,
+	3834,
+	6154,
+	6154,
+	3834,
+	6156,
+	6156,
+	3868,
+	6156,
+	6156,
+	3868,
+	4707,
+	3380,
+	4809,
+	4795,
+	6326,
+	6154,
+	5719,
+	6599,
+	5875,
+	5183,
+	5875,
+	5875,
+	5875,
+	5875,
+	5857,
+	5855,
+	6865,
+	4561,
+	3785,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	3834,
+	4610,
+	3834,
+	4707,
+	2739,
+	2739,
+	4587,
+	4587,
+	4610,
+	6154,
+	3377,
+	6599,
+	6755,
+	6599,
+	6154,
+	6146,
+	5715,
+	6865,
+	4707,
+	2739,
+	6865,
+	4707,
+	2942,
+	3176,
+	3834,
+	4540,
+	4707,
+	4610,
+	4610,
+	4707,
+	3834,
+	910,
+	770,
+	4707,
+	3834,
+	377,
+	770,
+	4707,
+	3834,
+	770,
+	4707,
+	6865,
+	3834,
+	377,
+	770,
+	4707,
+	3834,
+	770,
+	4707,
+	3834,
+	377,
+	770,
+	4707,
+	3834,
+	770,
+	4707,
+	3834,
+	770,
+	4707,
+	4610,
+	3834,
+	4587,
+	3813,
+	4699,
+	3912,
+	4699,
+	3912,
+	4699,
+	3912,
+	4622,
+	3846,
+	4539,
+	4539,
+	4540,
+	4610,
+	4707,
+	4707,
+	3758,
+	952,
+	4707,
+	2112,
+	3846,
+	1060,
+	1060,
+	4707,
+	377,
+	0,
+	0,
+	4707,
+	3834,
+	3834,
+	377,
+	770,
+	6156,
+	4707,
+	6865,
+	3834,
+	770,
+	4707,
+	4540,
+	3759,
+	3834,
+	770,
+	377,
+	770,
+	770,
+	4707,
+	3834,
+	377,
+	770,
+	5110,
+	5111,
+	4707,
+	4825,
+	4925,
+	5715,
+	5717,
+	6599,
+	6755,
+	5403,
+	4926,
+	5130,
+	6146,
+	6154,
+	6599,
+	6326,
+	5384,
+	5717,
+	5399,
+	5708,
+	5716,
+	5721,
+	5709,
+	5728,
+	6865,
+	4707,
+	3213,
+	3526,
+	3526,
+	3380,
+	4707,
+	2940,
+	5719,
+	5401,
+	5871,
+	6073,
+	6865,
+	4707,
+	3192,
+	3192,
+	4707,
+	2739,
+	4707,
+	2739,
+	6865,
+	4707,
+	3380,
+	3093,
+	3380,
+	3380,
+	3380,
+	6599,
+	6154,
+	6599,
+	4810,
+	4925,
+	5127,
+	6865,
+	4707,
+	3213,
+	2116,
+	6154,
+	5901,
+	6154,
+	4856,
+	5401,
+	5717,
+	5225,
+	5117,
+	5125,
+	6865,
+	4707,
+	3380,
+	3213,
+	3380,
+	3213,
+	3380,
+	3380,
+	2940,
+	3377,
+	3377,
+	2942,
+	2942,
+	3377,
+	3377,
+	3377,
+	4707,
+	3192,
+	3192,
+	4707,
+	2692,
+	6326,
+	6154,
+	6154,
+	6154,
+	6599,
+	6599,
+	4707,
+	2510,
+	2279,
+	2510,
+	2279,
+	4707,
+	3213,
+	6865,
+	4707,
+	3380,
+	5847,
+	6148,
+	6154,
+	6154,
+	6154,
+	6154,
+	6154,
+	5717,
+	6599,
+	6154,
+	6154,
+	5582,
+	5582,
+	5580,
+	5847,
+	5710,
+	5710,
+	5719,
+	6326,
+	5184,
+	5719,
+	5715,
+	6154,
+	5715,
+	6154,
+	6154,
+	6150,
+	6865,
+	6865,
+	4707,
+	3380,
+	2500,
+	2936,
+	2501,
+	3356,
+	2940,
+	2940,
+	2940,
+	2940,
+	2942,
+	2942,
+	2942,
+	2942,
+	1358,
+	4707,
+	2739,
+	4707,
+	2739,
+	2739,
+	5396,
+	5129,
+	6154,
+	5715,
+	5719,
+	5394,
+	6599,
+	6154,
+	6865,
+	4707,
+	3380,
+	3213,
+	5786,
+	6146,
+	5984,
+	6755,
+	6865,
+	4707,
+	3380,
+	3380,
+	3380,
+	3380,
+	3380,
+	3380,
+	2668,
+	5715,
+	6154,
+	6326,
+	4707,
+	2739,
+	6865,
+	4707,
+	3380,
+	4540,
+	3759,
+	4540,
+	3759,
+	4650,
+	3868,
+	4610,
+	4707,
+	3834,
+	1050,
+	3834,
+	1211,
+	3834,
+	6865,
+	6865,
+	4707,
+	3526,
+	6322,
+	6326,
+	6332,
+	6755,
+	6441,
+	5987,
+	5987,
+	5987,
+	6154,
+	6154,
+	5987,
+	5987,
+	6154,
+	6154,
+	5161,
+	5983,
+	6755,
+	6755,
+	6755,
+	0,
+	0,
+	6755,
+	6865,
+	4707,
+	3389,
+	3389,
+	3380,
+	4707,
+	2820,
+	4707,
+	2739,
+	5715,
+	6154,
+	5423,
+	6599,
+	6154,
+	6154,
+	5717,
+	6100,
+	6100,
+	6528,
+	5987,
+	6154,
+	5846,
+	6599,
+	6498,
+	5870,
+	6865,
+	4707,
+	3380,
+	3526,
+	6836,
+	5574,
+	5213,
+	5575,
+	5213,
+	5574,
+	5582,
+	4707,
+	3393,
+	3393,
+	4707,
+	3393,
+	3393,
+	5227,
+	4989,
+	6150,
+	5499,
+	5871,
+	6326,
+	6326,
+	6326,
+	5868,
+	5868,
+	5429,
+	5510,
+	5868,
+	6599,
+	4707,
+	2739,
+	6865,
+	4707,
+	3522,
+	3048,
+	3380,
+	3380,
+	3380,
+	3380,
+	4707,
+	2510,
+	5655,
+	6320,
+	6326,
+	5719,
+	5402,
+	6071,
 };
-static const Il2CppTokenRangePair s_rgctxIndices[46] = 
+static const Il2CppTokenRangePair s_rgctxIndices[45] = 
 {
 	{ 0x02000006, { 87, 4 } },
 	{ 0x02000007, { 91, 5 } },
-	{ 0x02000039, { 134, 11 } },
-	{ 0x0200006F, { 152, 6 } },
-	{ 0x02000070, { 158, 9 } },
+	{ 0x02000039, { 129, 11 } },
+	{ 0x0200006F, { 147, 6 } },
+	{ 0x02000070, { 153, 9 } },
 	{ 0x0600000C, { 0, 1 } },
 	{ 0x0600000D, { 1, 4 } },
 	{ 0x0600000E, { 5, 6 } },
@@ -6273,24 +6266,23 @@ static const Il2CppTokenRangePair s_rgctxIndices[46] =
 	{ 0x06000020, { 64, 8 } },
 	{ 0x06000021, { 72, 10 } },
 	{ 0x06000022, { 82, 5 } },
-	{ 0x0600012B, { 96, 5 } },
-	{ 0x0600012C, { 101, 1 } },
-	{ 0x0600012D, { 102, 5 } },
-	{ 0x06000130, { 107, 3 } },
-	{ 0x06000134, { 110, 1 } },
-	{ 0x06000135, { 111, 2 } },
-	{ 0x06000170, { 113, 4 } },
-	{ 0x06000175, { 117, 1 } },
-	{ 0x0600019C, { 118, 3 } },
-	{ 0x0600019D, { 121, 3 } },
-	{ 0x060001D4, { 124, 4 } },
-	{ 0x060001D5, { 128, 6 } },
-	{ 0x0600020C, { 145, 1 } },
-	{ 0x0600020E, { 146, 2 } },
-	{ 0x0600020F, { 148, 3 } },
-	{ 0x0600034C, { 151, 1 } },
-	{ 0x0600059D, { 167, 1 } },
-	{ 0x0600059E, { 168, 5 } },
+	{ 0x0600012B, { 96, 1 } },
+	{ 0x0600012C, { 97, 5 } },
+	{ 0x0600012F, { 102, 3 } },
+	{ 0x06000132, { 105, 1 } },
+	{ 0x06000133, { 106, 2 } },
+	{ 0x0600016E, { 108, 4 } },
+	{ 0x06000173, { 112, 1 } },
+	{ 0x0600019A, { 113, 3 } },
+	{ 0x0600019B, { 116, 3 } },
+	{ 0x060001D2, { 119, 4 } },
+	{ 0x060001D3, { 123, 6 } },
+	{ 0x0600020A, { 140, 1 } },
+	{ 0x0600020C, { 141, 2 } },
+	{ 0x0600020D, { 143, 3 } },
+	{ 0x0600034A, { 146, 1 } },
+	{ 0x0600059B, { 162, 1 } },
+	{ 0x0600059C, { 163, 5 } },
 };
 extern const uint32_t g_rgctx_TU5BU5D_tE9659ADBDE1038292E31243BCC079EDEDF68EE9D;
 extern const uint32_t g_rgctx_List_1_tEF201070F62F841FC8B2DDA3269EB20B86A3F40F;
@@ -6388,11 +6380,6 @@ extern const uint32_t g_rgctx_U3CU3Ec__23_1__ctor_mC4BE49D19210C97F6F82A5A2E0506
 extern const uint32_t g_rgctx_U3CU3Ec__23_1_t8572B9AE82877D184F9A977A530397C1D1C19290;
 extern const uint32_t g_rgctx_T_t155B35CC8BF644DE8C15BE170D7DE3B45D5B979C;
 extern const Il2CppRGCTXConstrainedData g_rgctx_T_t155B35CC8BF644DE8C15BE170D7DE3B45D5B979C_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
-extern const uint32_t g_rgctx_List_1_t3FD7A337FB12DE47C8DF0E872E013D4EFFD95530;
-extern const uint32_t g_rgctx_List_1__ctor_mABC7F44FDDFD4867424626252929FE3A566EC035;
-extern const uint32_t g_rgctx_Component_GetComponentsInChildren_TisT_tB1E1E62ED9D6EEEE07AAFC272A0DA3895A6B1503_m4321366286B691787EC619F66FBB0839DEF7C239;
-extern const uint32_t g_rgctx_List_1_AddRange_mDAB54F8F5423BB522DCF3299A14A0BEB488CA9B9;
-extern const uint32_t g_rgctx_List_1_ToArray_m02FDCBCA360A78357C967EE1D6411AFFB3053AB4;
 extern const uint32_t g_rgctx_Component_GetComponentsInChildren_TisT_t2C5EF66EF91F1CA701E1F8636C81861967CB6198_m256D6AA997AFA642CAD6E6AA838B8B46E5925C62;
 extern const uint32_t g_rgctx_List_1_tD18CA11085B9AEC7A8351BB4DC8F189A40734B64;
 extern const uint32_t g_rgctx_List_1__ctor_mDADB2D17CD057653DAFD49646B39797140B55139;
@@ -6465,7 +6452,7 @@ extern const uint32_t g_rgctx_List_1_get_Count_mEEFA807C074DD408FB35D7BA5C5C3B75
 extern const uint32_t g_rgctx_List_1__ctor_mB111BF479419B6BAE84CB93F9B854206EBAAD188;
 extern const uint32_t g_rgctx_List_1_get_Item_m4F38E6C628A8B10B9B2432C90D85CB4510FE1A6D;
 extern const uint32_t g_rgctx_List_1_Add_m28AB87A7D50F78C5295B014D0FEE851FEE982FA2;
-static const Il2CppRGCTXDefinition s_rgctxValues[173] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[168] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_tE9659ADBDE1038292E31243BCC079EDEDF68EE9D },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_tEF201070F62F841FC8B2DDA3269EB20B86A3F40F },
@@ -6563,11 +6550,6 @@ static const Il2CppRGCTXDefinition s_rgctxValues[173] =
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__23_1_t8572B9AE82877D184F9A977A530397C1D1C19290 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t155B35CC8BF644DE8C15BE170D7DE3B45D5B979C },
 	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_T_t155B35CC8BF644DE8C15BE170D7DE3B45D5B979C_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t3FD7A337FB12DE47C8DF0E872E013D4EFFD95530 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1__ctor_mABC7F44FDDFD4867424626252929FE3A566EC035 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Component_GetComponentsInChildren_TisT_tB1E1E62ED9D6EEEE07AAFC272A0DA3895A6B1503_m4321366286B691787EC619F66FBB0839DEF7C239 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_AddRange_mDAB54F8F5423BB522DCF3299A14A0BEB488CA9B9 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_ToArray_m02FDCBCA360A78357C967EE1D6411AFFB3053AB4 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Component_GetComponentsInChildren_TisT_t2C5EF66EF91F1CA701E1F8636C81861967CB6198_m256D6AA997AFA642CAD6E6AA838B8B46E5925C62 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_tD18CA11085B9AEC7A8351BB4DC8F189A40734B64 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1__ctor_mDADB2D17CD057653DAFD49646B39797140B55139 },
@@ -6645,16 +6627,16 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_ProBuilder_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_ProBuilder_CodeGenModule = 
 {
 	"Unity.ProBuilder.dll",
-	1513,
+	1511,
 	s_methodPointers,
 	122,
 	s_adjustorThunks,
 	s_InvokerIndices,
 	0,
 	NULL,
-	46,
+	45,
 	s_rgctxIndices,
-	173,
+	168,
 	s_rgctxValues,
 	NULL,
 	NULL, // module initializer,

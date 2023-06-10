@@ -33,20 +33,14 @@ struct VirtualFuncInvoker2
 	}
 };
 
-// UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Double>
-struct TypeMath_1_tA70C827C34790519061D14D03CB647F1E9E810CA;
 // UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>
 struct TypeMath_1_t374542BEE524710C9BA480A81AC2EE178825C8EA;
-// System.Double[]
-struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE;
 // System.IntPtr[]
 struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
 // System.Single[]
 struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
 // System.Diagnostics.StackTrace[]
 struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
-// UnityEngine.ProBuilder.KdTree.Math.DoubleMath
-struct DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121;
 // UnityEngine.ProBuilder.KdTree.DuplicateNodeError
 struct DuplicateNodeError_t4A9B34F399C5EBE08FEA96DF411E61062A9521F4;
 // System.Exception
@@ -65,11 +59,9 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral789F6EB390935724E847FEF78009D7D062260AE4;
 IL2CPP_EXTERN_C const RuntimeMethod* TypeMath_1__ctor_mA445FFD5A52D2BDB507C64E5B51667EC0A8A83C4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TypeMath_1__ctor_mE43048F8D2F2A57E4E66B24F8D7D670EAE06B10F_RuntimeMethod_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
-struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE;
 struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
 
 IL2CPP_EXTERN_C_BEGIN
@@ -83,11 +75,6 @@ IL2CPP_EXTERN_C_END
 
 // <Module>
 struct U3CModuleU3E_t2A9C2A017FBA5FACDB71BAA91E084385EB479C81 
-{
-};
-
-// UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Double>
-struct TypeMath_1_tA70C827C34790519061D14D03CB647F1E9E810CA  : public RuntimeObject
 {
 };
 
@@ -123,18 +110,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 {
 	// System.Boolean System.Boolean::m_value
 	bool ___m_value_0;
-};
-
-// System.Double
-struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
-{
-	// System.Double System.Double::m_value
-	double ___m_value_0;
-};
-
-// UnityEngine.ProBuilder.KdTree.Math.DoubleMath
-struct DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121  : public TypeMath_1_tA70C827C34790519061D14D03CB647F1E9E810CA
-{
 };
 
 // UnityEngine.ProBuilder.KdTree.Math.FloatMath
@@ -261,10 +236,6 @@ struct DuplicateNodeError_t4A9B34F399C5EBE08FEA96DF411E61062A9521F4  : public Ex
 
 // <Module>
 
-// UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Double>
-
-// UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Double>
-
 // UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>
 
 // UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>
@@ -278,10 +249,6 @@ struct String_t_StaticFields
 
 // System.String
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
@@ -293,14 +260,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 
 // System.Boolean
 
-// System.Double
-
-// System.Double
-
-// UnityEngine.ProBuilder.KdTree.Math.DoubleMath
-
-// UnityEngine.ProBuilder.KdTree.Math.DoubleMath
-
 // UnityEngine.ProBuilder.KdTree.Math.FloatMath
 
 // UnityEngine.ProBuilder.KdTree.Math.FloatMath
@@ -308,15 +267,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 // System.Int32
 
 // System.Int32
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // System.Single
 
@@ -341,39 +291,6 @@ struct Exception_t_StaticFields
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// System.Double[]
-struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE  : public RuntimeArray
-{
-	ALIGN_FIELD (8) double m_Items[1];
-
-	inline double GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline double* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, double value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline double GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline double* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, double value)
-	{
-		m_Items[index] = value;
-	}
-};
 // System.Single[]
 struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
 {
@@ -409,20 +326,11 @@ struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeA
 };
 
 
-// System.Void UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Double>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeMath_1__ctor_mE43048F8D2F2A57E4E66B24F8D7D670EAE06B10F_gshared (TypeMath_1_tA70C827C34790519061D14D03CB647F1E9E810CA* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeMath_1__ctor_mA445FFD5A52D2BDB507C64E5B51667EC0A8A83C4_gshared (TypeMath_1_t374542BEE524710C9BA480A81AC2EE178825C8EA* __this, const RuntimeMethod* method) ;
 
 // System.Void System.Exception::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F (Exception_t* __this, String_t* ___0_message, const RuntimeMethod* method) ;
-// System.Int32 System.Double::CompareTo(System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Double_CompareTo_m40FD7CA33B178CCFA4B6755267DC67841092CCFC (double* __this, double ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Double>::.ctor()
-inline void TypeMath_1__ctor_mE43048F8D2F2A57E4E66B24F8D7D670EAE06B10F (TypeMath_1_tA70C827C34790519061D14D03CB647F1E9E810CA* __this, const RuntimeMethod* method)
-{
-	((  void (*) (TypeMath_1_tA70C827C34790519061D14D03CB647F1E9E810CA*, const RuntimeMethod*))TypeMath_1__ctor_mE43048F8D2F2A57E4E66B24F8D7D670EAE06B10F_gshared)(__this, method);
-}
 // System.Int32 System.Single::CompareTo(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F (float* __this, float ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>::.ctor()
@@ -469,187 +377,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DuplicateNodeError__ctor_m8D8D65F500D5C5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Int32 UnityEngine.ProBuilder.KdTree.Math.DoubleMath::Compare(System.Double,System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DoubleMath_Compare_mE3E45E1D92D3D59D72396E2E81AA36F7DF69B3CC (DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121* __this, double ___0_a, double ___1_b, const RuntimeMethod* method) 
-{
-	{
-		// return a.CompareTo(b);
-		double L_0 = ___1_b;
-		int32_t L_1;
-		L_1 = Double_CompareTo_m40FD7CA33B178CCFA4B6755267DC67841092CCFC((&___0_a), L_0, NULL);
-		return L_1;
-	}
-}
-// System.Boolean UnityEngine.ProBuilder.KdTree.Math.DoubleMath::AreEqual(System.Double,System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DoubleMath_AreEqual_mF4B15D9915AA030D483B178038A069AC6552FD14 (DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121* __this, double ___0_a, double ___1_b, const RuntimeMethod* method) 
-{
-	{
-		// return a == b;
-		double L_0 = ___0_a;
-		double L_1 = ___1_b;
-		return (bool)((((double)L_0) == ((double)L_1))? 1 : 0);
-	}
-}
-// System.Double UnityEngine.ProBuilder.KdTree.Math.DoubleMath::get_MinValue()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double DoubleMath_get_MinValue_m1E47FC09B8CAB7EE1B7544C327E55131287595CA (DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121* __this, const RuntimeMethod* method) 
-{
-	{
-		// get { return double.MinValue; }
-		return (-1.7976931348623157E+308);
-	}
-}
-// System.Double UnityEngine.ProBuilder.KdTree.Math.DoubleMath::get_MaxValue()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double DoubleMath_get_MaxValue_m1046CFAB1483B8DC61D713CB53AB14926BAD9F88 (DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121* __this, const RuntimeMethod* method) 
-{
-	{
-		// get { return double.MaxValue; }
-		return (1.7976931348623157E+308);
-	}
-}
-// System.Double UnityEngine.ProBuilder.KdTree.Math.DoubleMath::get_Zero()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double DoubleMath_get_Zero_m618690D4ABEE8D156F5A701634DCF5B6B79840DF (DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121* __this, const RuntimeMethod* method) 
-{
-	{
-		// get { return 0; }
-		return (0.0);
-	}
-}
-// System.Double UnityEngine.ProBuilder.KdTree.Math.DoubleMath::get_NegativeInfinity()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double DoubleMath_get_NegativeInfinity_mCBD27050EA52A9BDBDC4D2B600743DD765D47C21 (DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121* __this, const RuntimeMethod* method) 
-{
-	{
-		// public override double NegativeInfinity { get { return double.NegativeInfinity; } }
-		return (-std::numeric_limits<double>::infinity());
-	}
-}
-// System.Double UnityEngine.ProBuilder.KdTree.Math.DoubleMath::get_PositiveInfinity()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double DoubleMath_get_PositiveInfinity_mFF2385241F529C96777F57EE5DF7B73FBF964299 (DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121* __this, const RuntimeMethod* method) 
-{
-	{
-		// public override double PositiveInfinity { get { return double.PositiveInfinity; } }
-		return (std::numeric_limits<double>::infinity());
-	}
-}
-// System.Double UnityEngine.ProBuilder.KdTree.Math.DoubleMath::Add(System.Double,System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double DoubleMath_Add_m9EB25BB3E6BF460C73296D6FAAC04967D84C9A4D (DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121* __this, double ___0_a, double ___1_b, const RuntimeMethod* method) 
-{
-	{
-		// return a + b;
-		double L_0 = ___0_a;
-		double L_1 = ___1_b;
-		return ((double)il2cpp_codegen_add(L_0, L_1));
-	}
-}
-// System.Double UnityEngine.ProBuilder.KdTree.Math.DoubleMath::Subtract(System.Double,System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double DoubleMath_Subtract_m033458EC190E74B04465E050B197C70032AE4D9A (DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121* __this, double ___0_a, double ___1_b, const RuntimeMethod* method) 
-{
-	{
-		// return a - b;
-		double L_0 = ___0_a;
-		double L_1 = ___1_b;
-		return ((double)il2cpp_codegen_subtract(L_0, L_1));
-	}
-}
-// System.Double UnityEngine.ProBuilder.KdTree.Math.DoubleMath::Multiply(System.Double,System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double DoubleMath_Multiply_m7765833C67DA11A222950DCC01BCD6A7BD04FF8C (DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121* __this, double ___0_a, double ___1_b, const RuntimeMethod* method) 
-{
-	{
-		// return a * b;
-		double L_0 = ___0_a;
-		double L_1 = ___1_b;
-		return ((double)il2cpp_codegen_multiply(L_0, L_1));
-	}
-}
-// System.Double UnityEngine.ProBuilder.KdTree.Math.DoubleMath::DistanceSquaredBetweenPoints(System.Double[],System.Double[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double DoubleMath_DistanceSquaredBetweenPoints_m6484CF4C6EA79FCA691CFDBAEECD0A4A4A1E3BC5 (DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121* __this, DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___0_a, DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___1_b, const RuntimeMethod* method) 
-{
-	double V_0 = 0.0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	double V_3 = 0.0;
-	double V_4 = 0.0;
-	{
-		// double distance = Zero;
-		double L_0;
-		L_0 = VirtualFuncInvoker0< double >::Invoke(23 /* T UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Double>::get_Zero() */, __this);
-		V_0 = L_0;
-		// int dimensions = a.Length;
-		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_1 = ___0_a;
-		V_1 = ((int32_t)(((RuntimeArray*)L_1)->max_length));
-		// for (var dimension = 0; dimension < dimensions; dimension++)
-		V_2 = 0;
-		goto IL_0034;
-	}
-
-IL_000f:
-	{
-		// double distOnThisAxis = Subtract(a[dimension], b[dimension]);
-		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_2 = ___0_a;
-		int32_t L_3 = V_2;
-		int32_t L_4 = L_3;
-		double L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
-		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_6 = ___1_b;
-		int32_t L_7 = V_2;
-		int32_t L_8 = L_7;
-		double L_9 = (L_6)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_8));
-		double L_10;
-		L_10 = VirtualFuncInvoker2< double, double, double >::Invoke(27 /* T UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Double>::Subtract(T,T) */, __this, L_5, L_9);
-		V_3 = L_10;
-		// double distOnThisAxisSquared = Multiply(distOnThisAxis, distOnThisAxis);
-		double L_11 = V_3;
-		double L_12 = V_3;
-		double L_13;
-		L_13 = VirtualFuncInvoker2< double, double, double >::Invoke(28 /* T UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Double>::Multiply(T,T) */, __this, L_11, L_12);
-		V_4 = L_13;
-		// distance = Add(distance, distOnThisAxisSquared);
-		double L_14 = V_0;
-		double L_15 = V_4;
-		double L_16;
-		L_16 = VirtualFuncInvoker2< double, double, double >::Invoke(26 /* T UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Double>::Add(T,T) */, __this, L_14, L_15);
-		V_0 = L_16;
-		// for (var dimension = 0; dimension < dimensions; dimension++)
-		int32_t L_17 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add(L_17, 1));
-	}
-
-IL_0034:
-	{
-		// for (var dimension = 0; dimension < dimensions; dimension++)
-		int32_t L_18 = V_2;
-		int32_t L_19 = V_1;
-		if ((((int32_t)L_18) < ((int32_t)L_19)))
-		{
-			goto IL_000f;
-		}
-	}
-	{
-		// return distance;
-		double L_20 = V_0;
-		return L_20;
-	}
-}
-// System.Void UnityEngine.ProBuilder.KdTree.Math.DoubleMath::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DoubleMath__ctor_m383444BEB0AC8E3FDD6BD45E7E7A4E1AF08836E9 (DoubleMath_t20836CBA4AF7AC861816CB8A892B61DB3EE68121* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeMath_1__ctor_mE43048F8D2F2A57E4E66B24F8D7D670EAE06B10F_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		TypeMath_1__ctor_mE43048F8D2F2A57E4E66B24F8D7D670EAE06B10F(__this, TypeMath_1__ctor_mE43048F8D2F2A57E4E66B24F8D7D670EAE06B10F_RuntimeMethod_var);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Int32 UnityEngine.ProBuilder.KdTree.Math.FloatMath::Compare(System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FloatMath_Compare_m7C257C05C46C30E54D9386E55477F117E4222143 (FloatMath_t1BDE422EA353FD3D0A987EFE5267722060210472* __this, float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
@@ -677,14 +404,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FloatMath_get_MinValue_mAF23F78D3EC9CA8
 	{
 		// get { return float.MinValue; }
 		return (-(std::numeric_limits<float>::max)());
-	}
-}
-// System.Single UnityEngine.ProBuilder.KdTree.Math.FloatMath::get_MaxValue()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FloatMath_get_MaxValue_mE0077EB44C4F5E72D75A66A553E2E98896EFBE75 (FloatMath_t1BDE422EA353FD3D0A987EFE5267722060210472* __this, const RuntimeMethod* method) 
-{
-	{
-		// get { return float.MaxValue; }
-		return ((std::numeric_limits<float>::max)());
 	}
 }
 // System.Single UnityEngine.ProBuilder.KdTree.Math.FloatMath::get_Zero()
@@ -752,7 +471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FloatMath_DistanceSquaredBetweenPoints_
 	{
 		// float distance = Zero;
 		float L_0;
-		L_0 = VirtualFuncInvoker0< float >::Invoke(23 /* T UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>::get_Zero() */, __this);
+		L_0 = VirtualFuncInvoker0< float >::Invoke(15 /* T UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>::get_Zero() */, __this);
 		V_0 = L_0;
 		// int dimensions = a.Length;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ___0_a;
@@ -774,19 +493,19 @@ IL_000f:
 		int32_t L_8 = L_7;
 		float L_9 = (L_6)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_8));
 		float L_10;
-		L_10 = VirtualFuncInvoker2< float, float, float >::Invoke(27 /* T UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>::Subtract(T,T) */, __this, L_5, L_9);
+		L_10 = VirtualFuncInvoker2< float, float, float >::Invoke(19 /* T UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>::Subtract(T,T) */, __this, L_5, L_9);
 		V_3 = L_10;
 		// float distOnThisAxisSquared = Multiply(distOnThisAxis, distOnThisAxis);
 		float L_11 = V_3;
 		float L_12 = V_3;
 		float L_13;
-		L_13 = VirtualFuncInvoker2< float, float, float >::Invoke(28 /* T UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>::Multiply(T,T) */, __this, L_11, L_12);
+		L_13 = VirtualFuncInvoker2< float, float, float >::Invoke(20 /* T UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>::Multiply(T,T) */, __this, L_11, L_12);
 		V_4 = L_13;
 		// distance = Add(distance, distOnThisAxisSquared);
 		float L_14 = V_0;
 		float L_15 = V_4;
 		float L_16;
-		L_16 = VirtualFuncInvoker2< float, float, float >::Invoke(26 /* T UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>::Add(T,T) */, __this, L_14, L_15);
+		L_16 = VirtualFuncInvoker2< float, float, float >::Invoke(18 /* T UnityEngine.ProBuilder.KdTree.Math.TypeMath`1<System.Single>::Add(T,T) */, __this, L_14, L_15);
 		V_0 = L_16;
 		// for (var dimension = 0; dimension < dimensions; dimension++)
 		int32_t L_17 = V_2;

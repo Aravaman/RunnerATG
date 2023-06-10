@@ -1319,10 +1319,6 @@ struct String_t_StaticFields
 
 // System.String
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Single
 
 // System.Single
